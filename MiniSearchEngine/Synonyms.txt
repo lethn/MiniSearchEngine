@@ -34,13 +34,12 @@ true, right, accurate, proper, precise, exact, valid, genuine, real, actual, tru
 fast, quick, rapid, speedy, fleet, hasty, snappy, mercurial, swiftly, rapidly, quickly, snappily, speedily, lickety-split, posthaste, hastily, expeditiously, like a flash
 slow, unhurried, gradual, leisurely, late, behind, tedious, slack
 cool, chilly, cold, frosty, wintry, icy, frigid
-hot, feverish, warm, heated, sweltering, torrid, equatorial, tropical, erotic, passionate, spicy, peppery, pungent, sharp tangy, tart, fiery, flaming, sizzling, charged, burning, seared, chafed´, inflamed, irritated, red, smarting, stinging
+hot, feverish, warm, heated, sweltering, torrid, equatorial, tropical, erotic, passionate, spicy, peppery, pungent, sharp tangy, tart, fiery, flaming, sizzling, charged, burning, seared, inflamed, irritated, red, smarting, stinging
 quiet, silent, still, soundless, mute, tranquil, peaceful, calm, restful, hushed, inaudible
 reticent, reserved, taciturn, secretive, uncommunicative, tightlipped
 noisy, loudly, earsplitting, stentorian, strident, clamorous, boisterous, clangorous, deafening, roisterous, uproarious, pandemoniac
 all, complete, entire, full, gross, outright, perfect, total, utter, whole, any, complete, every, sum, totality, each and every, every bit of, bar none, every single, everything, everyone
-none, nothing, nobody, no one, zero, zilch, no one at all, no part, not a bit, not a soul, not a thing, not any, not anyone, not anything, not one, nonexistent, null
-nadir, nil, naught, void, nada, blank, nix
+none, nothing, nobody, zero, zilch, nonexistent, null
 normal, daily, traditional, familiar, routine, proper, ordinary, typical, everyday, usual, commonplace, natural, classic, standard, general, bona fide, established, habitual, orthodox, prevalent, run-of-the-mill, time-honored, unvarying, average, conventional, customary, common, regular, garden-variety, household, plain, simple, balanced
 strange, abnormal, aberrant, anomalous, bent, bizarre, deviant, queer, eccentric, freakish, fanatical, odd, eerie, peculiar, weird, unorthodox, nonstandard, atypical, different, irregular, nonconforming, offbeat, unusual, extraordinary, insane, irrational, disorderly, rare, exceptional, extreme, outlandish
 describe, portray, characterize, picture, narrate, relate, recount, represent, report, record
@@ -80,7 +79,7 @@ beautiful, pretty, lovely, handsome, attractive, gorgeous, dazzling, splendid, m
 brave, courageous, fearless, dauntless, intrepid, plucky, daring, heroic, valorous, audacious, bold, gallant, valiant, doughty, mettlesome
 bright, shining, shiny, gleaming, brilliant, sparkling, shimmering, radiant, vivid, colorful, lustrous, luminous, incandescent, intelligent, knowing, quick-witted, smart, intellectual
 delicious, savory, delectable, appetizing, luscious, scrumptious, palatable, delightful, enjoyable, toothsome, exquisite
-enjoy, appreciate, delight in, be pleased, indulge in, luxuriate in, bask in, relish, devour, savor, like
+enjoy, appreciate, relish, devour, savor, like
 famous, well-known, renowned, celebrated, famed, eminent, illustrious, distinguished, noted, notorious
 funny, humorous, amusing, droll, comic, comical, laughable, silly
 good, excellent, fine, superior, wonderful, marvelous, qualified, suited, suitable, apt, proper, capable, generous, kindly, friendly, gracious, obliging, pleasant, agreeable, pleasurable, satisfactory, well-behaved, obedient, honorable, reliable, trustworthy, safe, favorable, profitable, advantageous, righteous, expedient, helpful, valid, genuine, ample, salubrious, estimable, beneficial, splendid, great, noble, worthy, first-rate, top-notch, grand, sterling, superb, respectable, edifying
@@ -89,14 +88,12 @@ mischievous, prankish, playful, naughty, roguish, waggish, impish, sportive
 neat, clean, orderly, tidy, trim, dapper, natty, smart, elegant, well-organized, super, desirable, spruce, shipshape, well-kept, shapely
 popular, well-liked, approved, accepted, favorite, celebrated, common, current
 answer, reply, respond, retort, acknowledge
-ask, question, inquire of, seek information from, put a question to, demand, request, expect, inquire, query, interrogate, examine, quiz
+ask, question, inquire of, demand, request, expect, inquire, query, interrogate, examine, quiz
 cry, shout, yell, yowl, scream, roar, bellow, weep, wail, sob, bawl
-say/tell, inform, notify, advise, relate, recount, narrate, explain, reveal, disclose, divulge, declare, command, order, bid, enlighten, instruct, insist, teach, train, direct, issue, remark, converse, speak, affirm, suppose, utter, negate, express, verbalize, voice, articulate, pronounce, deliver, convey, impart, assert, state, allege, mutter, mumble, whisper, sigh, exclaim, yell, sing, yelp, snarl, hiss, grunt, snort, roar, bellow, thunder, boom, scream, shriek, screech, squawk, whine, philosophize, stammer, stutter, lisp, drawl, jabber, protest, announce, swear, vow, content, assure, deny, dispute
-mean (something), add up to, affect, be important, be of value, be substantive, carry weight, connote, count, denote, express, imply, intend, involve, signify, spell, stand for, suggest, value, weigh in,
-somewhat, a little, sort of, kind of, a bit, relatively, slightly, moderately, to some extent / degree , reasonably, partially, more or less, not much
-rather, quite, fairly, by a long shot, by far, rather, significantly, well
-somehow, in a way, virtually, to a certain extent, in some measure, to some extent, to a certain degree, quasi , in a manner of speaking, effectively
-anyhow, anyway, anywise, by hook or by crook, another, howsoever, in any way, somehow or other, someway, by some means
+say, tell, inform, notify, advise, relate, recount, narrate, explain, reveal, disclose, divulge, declare, command, order, bid, enlighten, instruct, insist, teach, train, direct, issue, remark, converse, speak, affirm, suppose, utter, negate, express, verbalize, voice, articulate, pronounce, deliver, convey, impart, assert, state, allege, mutter, mumble, whisper, sigh, exclaim, yell, sing, yelp, snarl, hiss, grunt, snort, roar, bellow, thunder, boom, scream, shriek, screech, squawk, whine, philosophize, stammer, stutter, lisp, drawl, jabber, protest, announce, swear, vow, content, assure, deny, dispute
+mean, affect, connote, count, denote, express, imply, intend, involve, signify, spell, stand for, suggest
+somewhat, relatively, slightly, moderately, reasonably, partially
+somehow, virtually, effectively, anyhow, anyway, anywise, another, howsoever, someway
 definite, certain, sure, positive, determined, clear, distinct, obvious
 fair, just, impartial, unbiased, objective, unprejudiced, honest
 important, necessary, vital, critical, indispensable, valuable, essential, significant, primary, principal, considerable, famous, distinguished, notable, well-known
