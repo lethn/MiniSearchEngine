@@ -1,5 +1,5 @@
 # Mini-Search-Engine
-	Love Wjbu ( ͡° ͜ʖ ͡°)
+	Poro ( ͡° ͜ʖ ͡°)
 # Group 1
   + Lê Minh Hoàng
   + Hà Thiên Lộc
