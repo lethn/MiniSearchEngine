@@ -8,6 +8,14 @@ class Poro {	// save global variables
 	vector <int> operators;
 	vector <vector <Node*>> synonyms;
 	vector <string> file_names;
+	void load_data(char* indexfile);
+	void menu();
+	void input();	// real-time input, mỗi ký tự input vào gọi hàm recommend()
+	void updateResults();
+	void output();
+	void recommend(int& called = 0, int& found = 0);
+	// search history
+	// called == 10^5 || found == 5 => return hết;
 };
 
 class File{
@@ -39,7 +47,9 @@ class Trie {
 				 // nếu là operator thì set cái operator về type đó (somehow?)
 				 // enter thì gọi hàm updateResult()
 				 // “ thì set exact_match = true, check lúc enter có ”
-
+	void deallocate(Trie trie);
+	void insert(string& s, Data* data, Trie* trie);
+	Node* search(string& s); // run loop
 };
 
 class  Node{
