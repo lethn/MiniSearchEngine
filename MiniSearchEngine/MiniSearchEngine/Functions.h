@@ -11,8 +11,7 @@ Normal Search Ranking:
 */
 
 // UTILS (namespace)
-bool CompareOR(File A, File B);		// dùng cho hàm sort();
-bool CompareAND(File A, File B);
+bool CompareFiles(File A, File B);		// dùng cho hàm sort();
 vector <Data> AND(vector <Data>& A, vector <Data>& B);
 vector <Data> OR(vector <Data>& A, vector <Data>& B);
-
+void search_recommendations(vector < string >& recommendations, Node* pCur, string& s, int& called, int& found);
