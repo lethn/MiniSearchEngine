@@ -1,16 +1,8 @@
 ﻿#include "Functions.h"
-void createUniqMap()
-{
-	int c[14] = { '"',',','.','◼',')','(',':',';','“','”','—','-','_','\'' };
-	for (int i = 0; i < 14; i++)
-	{
-		mapU[c[i]] = true;
-	}
-}
+
 void Poro::load_data(string indexfile)
 {
-	
-	createUniqMap();
+
 	ifstream file;
 	file.open("source\\" + indexfile);
 	string tmp;
@@ -36,7 +28,7 @@ void Poro::load_data(string indexfile)
 			fin >> strtmp;
 			for (int i = 0; i < strtmp.size(); i++)
 			{
-				if (mapU[strtmp[i]] || (strtmp[i] < 0 && strtmp[i] != -44))
+				if (special_characters.find(strtmp[i]) != special_characters.end() || (strtmp[i] < 0 && strtmp[i] != -44))
 				{
 					continue;
 				}
@@ -93,7 +85,7 @@ void Poro::load_data(string indexfile)
 		string str = "";
 		for (int i = 0; i < strtmp.size(); i++)
 		{
-			if (mapU[strtmp[i]])
+			if (special_characters.find(strtmp[i]) != special_characters.end())
 				continue;
 			else
 				str += strtmp[i];

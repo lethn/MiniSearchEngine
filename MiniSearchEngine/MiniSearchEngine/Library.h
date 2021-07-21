@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 #include <iostream>
 #include <vector>
 #include <unordered_map>
@@ -8,8 +8,10 @@
 #include <conio.h>
 #include <fstream>
 #include <string>
+#include <set>
 using namespace std;
-unordered_map<int, bool> mapU;
+const int c[14] = { '"',',','.','◼',')','(',':',';','“','”','—','-','_','\'' };
+const set <int> special_characters(c, c + sizeof(c) / sizeof(int));
 #define CALL_LIMIT 100000
 #define NUM_OF_RECOMMENDATION 5
 #define SEARCH_SIZE_LIMIT 55
