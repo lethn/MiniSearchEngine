@@ -16,7 +16,7 @@ struct Poro {	// save global variables
 	vector <string> file_names;
 	vector < string > recommendations;
 
-	void load_data(char* indexfile);
+	void load_data(string indexfile);
 	void menu();
 	void input();	// real-time input, mỗi ký tự input vào gọi hàm recommend()
 	void processInput();

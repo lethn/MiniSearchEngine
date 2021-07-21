@@ -6,6 +6,8 @@
 #include <algorithm>
 #include <windows.h>
 #include <conio.h>
+#include <fstream>
+#include <string>
 using namespace std;
 
 #define CALL_LIMIT 100000
