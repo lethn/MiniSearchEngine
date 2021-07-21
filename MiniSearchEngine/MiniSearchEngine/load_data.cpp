@@ -7,7 +7,7 @@ void createUniqMap(unordered_map<int, bool> mapU)
 		mapU[c[i]] = true;
 	}
 }
-void load_data(string indexfile)
+void Poro::load_data(string indexfile)
 {
 	Poro poro;
 	unordered_map<int, bool> mapU;
