@@ -57,7 +57,7 @@ struct Trie {
 				 // enter thì gọi hàm updateResult()
 				 // “ thì set exact_match = true, check lúc enter có ”
 	void deallocate(Node*& root);
-	void insert(string& s, Data data);
+	void insert(string& s, int index, int position);
 	Node* newNode(string& s);
 	Node* search(string& s);	// run loop
 };
