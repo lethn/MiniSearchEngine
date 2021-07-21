@@ -9,7 +9,7 @@
 #include <fstream>
 #include <string>
 using namespace std;
-
+unordered_map<int, bool> mapU;
 #define CALL_LIMIT 100000
 #define NUM_OF_RECOMMENDATION 5
 #define SEARCH_SIZE_LIMIT 55

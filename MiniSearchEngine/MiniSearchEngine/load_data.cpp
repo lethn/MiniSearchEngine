@@ -1,5 +1,5 @@
 ﻿#include "Functions.h"
-void createUniqMap(unordered_map<int, bool> mapU)
+void createUniqMap()
 {
 	int c[14] = { '"',',','.','◼',')','(',':',';','“','”','—','-','_','\'' };
 	for (int i = 0; i < 14; i++)
@@ -9,8 +9,8 @@ void createUniqMap(unordered_map<int, bool> mapU)
 }
 void Poro::load_data(string indexfile)
 {
-	unordered_map<int, bool> mapU;
-	createUniqMap(mapU);
+	
+	createUniqMap();
 	ifstream file;
 	file.open("source\\" + indexfile);
 	string tmp;
