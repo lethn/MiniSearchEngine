@@ -9,7 +9,6 @@ void createUniqMap(unordered_map<int, bool> mapU)
 }
 void Poro::load_data(string indexfile)
 {
-	Poro poro;
 	unordered_map<int, bool> mapU;
 	createUniqMap(mapU);
 	ifstream file;
@@ -20,56 +19,56 @@ void Poro::load_data(string indexfile)
 	{
 		getline(file, tmp);
 		cout << "data: " + tmp << endl;
-		poro.file_names.push_back(tmp);
-		ifstream fout;
-		fout.open("source\\" + tmp);
-		if (fout.fail())
+		Poro::file_names.push_back(tmp);
+		ifstream fin;
+		fin.open("source\\" + tmp);
+		if (fin.fail())
 		{
-			fout.close();
+			fin.close();
 			continue;
 		}
-		int i = 1;
-		while (!fout.eof())
+		int index = 1;
+		while (!fin.eof())
 		{
 
 			string strtmp;
 			string str = "";
-			fout >> strtmp;
+			fin >> strtmp;
 			for (int i = 0; i < strtmp.size(); i++)
 			{
 				if (mapU[strtmp[i]] || (strtmp[i] < 0 && strtmp[i] != -44))
 				{
 					continue;
 				}
-				str += towlower(strtmp[i]);
+				str += tolower(strtmp[i]);
 			}
-			//insert(str, j, i);/j index file,i//position
-			i++;
+			//insert(str, j, index);//j index file,index position
+			index++;
 		}
 		j++;
-		fout.close();
+		fin.close();
 		cout << endl;
 	}
 	file.close();
-	ifstream fout;
-	fout.open("Synonyms.txt");
+	ifstream fin;
+	fin.open("Synonyms.txt");
 	string str;
 	int i = 1;
-	cout << i << " ";
-	while (!fout.eof())
+	while (!fin.eof())
 	{
-		getline(fout, str, '\n');
+		getline(fin, str, '\n');
 		string strtmp = "";
+		vector<Node*> newVec;
 		for (int j = 0; j < str.size(); j++)
 		{
 			if (str[j] == ',' || str[j] == '\n')
 			{
-				//Node* searchTmp = search_trie->root.search(strtmp);
-				//if (searchTmp != nullptr)
-				//{
-				//	searchTmp->synonym_root = i;
-				//	synonyms[i].push_back(searchTmp);
-				//}
+				Node* searchTmp = search_trie->search(strtmp);
+				if (searchTmp != nullptr)
+				{
+					searchTmp->synonym_root = i;
+					newVec.push_back(searchTmp);
+				}
 				j++;
 				strtmp = "";
 			}
@@ -82,14 +81,15 @@ void Poro::load_data(string indexfile)
 				strtmp += str[j];
 			}
 		}
+		Poro::synonyms.push_back(newVec);
 		i++;
 	}
-	fout.close();
-	fout.open("Stopwords.txt");
+	fin.close();
+	fin.open("Stopwords.txt");
 	string strtmp;
-	while (!fout.eof())
+	while (!fin.eof())
 	{
-		fout >> strtmp;
+		fin >> strtmp;
 		string str = "";
 		for (int i = 0; i < strtmp.size(); i++)
 		{
@@ -98,11 +98,12 @@ void Poro::load_data(string indexfile)
 			else
 				str += strtmp[i];
 		}
-		//Node* searchTmp = search_trie->root.search(str);
-			//if (searchTmp != nullptr)
-			//{
-			//	searchTmp->isStopWord = true;
-			//}
+		Node* searchTmp = search_trie->search(str);
+		if (searchTmp != nullptr)
+		{
+			searchTmp->isStopword = true;
+		}
 	}
-	fout.close();
+	fin.close();
 }
+
