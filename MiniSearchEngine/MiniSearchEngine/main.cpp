@@ -1,14 +1,10 @@
-#include "Menu.h"
+#include "Functions.h"
 
 
 int main() {
-	resizeConsole(1010, 600);
-	int called = 0;
-	int found = 0;
-	char wordType[55];
-	int size = 0;
-
-	mainMenu(wordType, size);
-
+	UserInterface UI;
+	Poro PoroPoro;
+	UI.resizeConsole(1010, 600);
+	UI.mainMenu(PoroPoro);
 	return 0;
 }

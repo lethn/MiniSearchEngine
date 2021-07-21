@@ -6,6 +6,21 @@ struct Data;
 struct Trie;
 struct Node;
 
+struct UserInterface {
+	void resizeConsole(int width, int height);
+	void Nocursortype();
+	void UnNocursortype();
+	void txtColor(int color);
+	void logo();
+	void inputBoard();
+	void input(Poro& PoroPoro);	// real-time input, mỗi ký tự input vào gọi hàm recommend()
+	void keywordBoard();
+	void straightLine();
+	void backBorder();
+	void subMenu(Poro& PoroPoro);
+	void mainMenu(Poro& PoroPoro);
+};
+
 struct Poro {	// save global variables
 	Trie* search_trie;
 	Trie* history_trie;
@@ -17,12 +32,9 @@ struct Poro {	// save global variables
 	vector < string > recommendations;
 
 	void load_data(string indexfile);
-	void menu();
-	void input();	// real-time input, mỗi ký tự input vào gọi hàm recommend()
 	void processInput(char input, vector < int >& invalids, int& history_invalids);
-	void updateResults();
-	void output();
-	void recommend();
+	void updateOutput();
+	void recommend(vector<int>& invalids, int history_invalids);
 	// search history
 	// called == 10^5 || found == 5 => return hết;
 

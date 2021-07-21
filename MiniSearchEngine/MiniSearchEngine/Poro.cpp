@@ -16,13 +16,15 @@ void search_recommendations(vector < string >& recommendations,
 	}
 }
 
-void Poro::recommend() {
+void Poro::recommend(vector<int>& invalids, int history_invalids) {
 	int called = 0, found = 0;
 	string s = search_words;
 	recommendations.empty();
-	search_recommendations(recommendations, history_trie->pNode, s, called, found);
+	if (!history_invalids)
+		search_recommendations(recommendations, history_trie->pNode, s, called, found);
 	if (called > CALL_LIMIT || found > NUM_OF_RECOMMENDATIONS) return;
-	search_recommendations(recommendations, search_trie->pNode, s, called, found);
+	if (!invalids.back())
+		search_recommendations(recommendations, search_trie->pNode, s, called, found);
 }
 
 void Poro::processInput(char input, vector < int >& invalids, int& history_invalids) {
@@ -37,11 +39,13 @@ void Poro::processInput(char input, vector < int >& invalids, int& history_inval
 		search_words.pop_back();
 		cout << "\b \b";
 
-		if (invalids.back()) --invalids.back();
+		if (invalids.back() > 0) --invalids.back();
 		else if (search_trie->pNode == search_trie->root){
+			if (invalids.size() > 1)
+				invalids.pop_back();
 			search_trie->partial_results.pop_back();
-			invalids.pop_back();
-			search_trie->pNode = search_trie->partial_results.back();
+			if (search_trie->partial_results.empty()) search_trie->pNode = search_trie->root;
+			else search_trie->pNode = search_trie->partial_results.back();
 		}
 		else search_trie->pNode = search_trie->pNode->parent;
 
@@ -50,15 +54,17 @@ void Poro::processInput(char input, vector < int >& invalids, int& history_inval
 		break;
 	}
 	default: {
-		search_words.push_back(input);
-		cout << input;
-
+		if (search_words.size() >= SEARCH_SIZE_LIMIT) return;
 		if (input == SPACE){
-			if (!invalids.empty() && invalids.back() != 0)
-				search_trie->partial_results.push_back(search_trie->pNode);
+			if (search_words.empty() || search_words.back() == SPACE) return;
+			search_words.push_back(input);
+			cout << input;
+			search_trie->partial_results.push_back(search_trie->pNode);
 			search_trie->pNode = search_trie->root;
 		}
 		else{
+			search_words.push_back(input);
+			cout << input;
 			if (search_trie->pNode->children.count(input)) {
 				search_trie->pNode = search_trie->pNode->children[input];
 			}

@@ -1,6 +1,6 @@
-#include "Menu.h"
+#include "Functions.h"
 
-void resizeConsole(int width, int height)
+void UserInterface::resizeConsole(int width, int height)
 {
 	HWND console = GetConsoleWindow();
 	RECT r;
@@ -8,34 +8,26 @@ void resizeConsole(int width, int height)
 	MoveWindow(console, r.left, r.top, width, height, TRUE);
 }
 
-void Nocursortype() {
+void UserInterface::Nocursortype() {
 	CONSOLE_CURSOR_INFO Info;
 	Info.bVisible = FALSE;
 	Info.dwSize = 20;
 	SetConsoleCursorInfo(GetStdHandle(STD_OUTPUT_HANDLE), &Info);
 }
 
-void UnNocursortype() {
+void UserInterface::UnNocursortype() {
 	CONSOLE_CURSOR_INFO Info;
 	Info.bVisible = TRUE;
 	Info.dwSize = 20;
 	SetConsoleCursorInfo(GetStdHandle(STD_OUTPUT_HANDLE), &Info);
 }
 
-void gotoxy(int x, int y) {
-	static HANDLE h = NULL;
-	if (!h)
-		h = GetStdHandle(STD_OUTPUT_HANDLE);
-	COORD c = { x, y };
-	SetConsoleCursorPosition(h, c);
-}
-
-void txtColor(int color) {
+void UserInterface::txtColor(int color) {
 	HANDLE hConsoleColor;
 	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), color);
 }
 
-void logo() {
+void UserInterface::logo() {
 	txtColor(15);
 	gotoxy(48, 4);	cout << " _______  _______  ______    _______ " << endl;
 	gotoxy(48, 5);	cout << "|       ||       ||    _ |  |       |" << endl;
@@ -90,7 +82,7 @@ void logo() {
 	}
 }
 
-void inputBoard() {
+void UserInterface::inputBoard() {
 	txtColor(15);
 	// Search Board
 	gotoxy(34, 19);
@@ -147,19 +139,33 @@ void inputBoard() {
 	cout << char(186);
 }
 
-void Poro::input() {
+void UserInterface::input(Poro& PoroPoro) {
 	char ch;
+	const int X = 45, Y = 19;
 	vector < int > invalids;
+	invalids.push_back(0);
 	int history_invalids = 0;
-	gotoxy(45, 19);
-	int i = 22;
+	string* search_words = &PoroPoro.search_words;
+	vector < string >* recommendations = &PoroPoro.recommendations;
+	gotoxy(X, Y);
+	int i = 0;
 	while (true) {
+		i = search_words->size();
+		gotoxy(X + i, Y);
 		ch = _getch();
-		processInput(ch, invalids, history_invalids);
+		if (ch == ESC) return;
+		int tmp = search_words->size();
+		PoroPoro.processInput(ch, invalids, history_invalids);
+		if (tmp == PoroPoro.search_words.size()) continue;
+		PoroPoro.recommend(invalids, history_invalids);
+		for (int j = 0; j < recommendations->size(); ++j) {
+			gotoxy(X, Y+1+j);
+			cout << (*recommendations)[j];
+		}
 	}
 }
 
-void keywordBoard() {
+void UserInterface::keywordBoard() {
 	txtColor(15);
 	gotoxy(34, 3);
 	cout << "Keyword:";
@@ -188,7 +194,7 @@ void keywordBoard() {
 	cout << char(186);
 }
 
-void straightLine() {
+void UserInterface::straightLine() {
 	txtColor(15);
 	for (int i = 6; i < 30; ++i) {
 		gotoxy(15, i);
@@ -200,7 +206,7 @@ void straightLine() {
 	}
 }
 
-void backBorder() {
+void UserInterface::backBorder() {
 	txtColor(15);
 	gotoxy(14, 32);
 	cout << "BACK";
@@ -226,19 +232,11 @@ void backBorder() {
 	cout << char(186);
 }
 
-string convertToString(char* a, int size) {
-	int i;
-	string s = "";
-	for (i = 0; i < size; i++)
-		s = s + a[i];
-	return s;
-}
-
-void subMenu(char wordType[], int size) {
+void UserInterface::subMenu(Poro& PoroPoro) {
 	system("cls");
 	Nocursortype();
 	keywordBoard();
-	string keyword = convertToString(wordType, size);
+	string keyword = PoroPoro.search_words;
 	gotoxy(43, 3); cout << keyword;
 	straightLine();
 	backBorder();
@@ -321,19 +319,19 @@ void subMenu(char wordType[], int size) {
 			txtColor(240);
 			gotoxy(13, 32); cout << " BACK ";
 			if (choice == ENTER) {
-				mainMenu(wordType, size);
+				mainMenu(PoroPoro);
 			}
 		}
 	}
 
 }
 
-void mainMenu(char wordType[], int size) {
+void UserInterface::mainMenu(Poro& PoroPoro) {
 	txtColor(15);
 	system("cls");
 	UnNocursortype();
 	logo();
 	inputBoard();
-	// input(wordType, size);
-	subMenu(wordType, size);
+	input(PoroPoro);
+	subMenu(PoroPoro);
 }
