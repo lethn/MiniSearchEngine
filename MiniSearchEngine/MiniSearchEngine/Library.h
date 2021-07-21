@@ -10,7 +10,8 @@
 #include <string>
 #include <set>
 using namespace std;
-
+const int c[14] = { '"',',','.','◼',')','(',':',';','“','”','—','-','_','\'' };
+const set <int> special_characters(c, c + sizeof(c) / sizeof(int));
 #define CALL_LIMIT 100000
 #define NUM_OF_RECOMMENDATIONS 5
 #define SEARCH_SIZE_LIMIT 55

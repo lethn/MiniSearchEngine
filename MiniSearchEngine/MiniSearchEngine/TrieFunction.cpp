@@ -8,7 +8,7 @@ void Trie::deallocate(Node*& root) {
 	delete root;
 }
 
-void Trie::insert(string& s, Data data) {
+void Trie::insert(string& s, int index, int position) {
 	Node* cur = root;
 	for (int i = 0; i < s.size(); i++) {
 		if (cur->children.find(s[i]) == cur->children.end()) {
@@ -17,7 +17,15 @@ void Trie::insert(string& s, Data data) {
 		}
 		cur = cur->children[s[i]];
 	}
-	cur->files.push_back(data);
+	if (cur->files.back().index == index) {
+		cur->files.back().positions.push_back(position);
+	}
+	else {
+		Data data;
+		data.index = index;
+		data.positions.push_back(position);
+		cur->files.push_back(data);
+	}
 }
 
 Node* Trie::newNode(string& s) {

@@ -18,6 +18,9 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Functions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="Menu.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -31,9 +34,10 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="load_data.cpp">
+    <ClCompile Include="TrieFunction.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="TrieFunction.cpp">
+    <ClCompile Include="load_data.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
