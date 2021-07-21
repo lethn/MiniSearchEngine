@@ -1,4 +1,4 @@
-#include "Class.h"
+#include "Struct.h"
 
 void search_recommendations(vector < string >& recommendations, 
 	Node* pCur, string& s, int& called, int& found){
