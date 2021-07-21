@@ -27,6 +27,9 @@
     <ClCompile Include="UTILS.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Constructor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="load_data.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>

@@ -6,13 +6,13 @@ void search_recommendations(vector < string >& recommendations,
 	if (pCur->files.size() != 0) {
 		recommendations.push_back(s);
 		++found;
-		if (called > CALL_LIMIT || found > NUM_OF_RECOMMENDATION) return;
+		if (called > CALL_LIMIT || found > NUM_OF_RECOMMENDATIONS) return;
 	}
 	for (auto child : pCur->children) {
 		s.push_back(child.first);
 		search_recommendations(recommendations, child.second, s, ++called, found);
 		s.pop_back();
-		if (called > CALL_LIMIT || found > NUM_OF_RECOMMENDATION) return;
+		if (called > CALL_LIMIT || found > NUM_OF_RECOMMENDATIONS) return;
 	}
 }
 
@@ -21,15 +21,15 @@ void Poro::recommend() {
 	string s = search_words;
 	recommendations.empty();
 	search_recommendations(recommendations, history_trie->pNode, s, called, found);
-	if (called > CALL_LIMIT || found > NUM_OF_RECOMMENDATION) return;
+	if (called > CALL_LIMIT || found > NUM_OF_RECOMMENDATIONS) return;
 	search_recommendations(recommendations, search_trie->pNode, s, called, found);
 }
 
 void Poro::processInput(char input, vector < int >& invalids, int& history_invalids) {
 	switch (input) {
 	case ENTER: {
-		updateResults();
-		output();
+		// updateResults();
+		// output();
 		break;
 	}
 	case BACKSPACE: {

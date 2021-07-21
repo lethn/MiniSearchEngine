@@ -88,6 +88,10 @@ struct Node{
 	Node();
 	Node(Node* _parent);
 	Node(Node* _parent, int _synonym_root, int _isOperator, int _isStopword);
+
+	bool isWord() {
+		return !files.empty();
+	}
 };
 
 

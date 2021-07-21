@@ -334,6 +334,6 @@ void mainMenu(char wordType[], int size) {
 	UnNocursortype();
 	logo();
 	inputBoard();
-	input(wordType, size);
+	// input(wordType, size);
 	subMenu(wordType, size);
 }
