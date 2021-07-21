@@ -12,6 +12,7 @@ using namespace std;
 
 #define CALL_LIMIT 100000
 #define NUM_OF_RECOMMENDATION 5
+#define SEARCH_SIZE_LIMIT 55
 #define BACKSPACE 8
 #define ENTER 13
 #define SPACE 32

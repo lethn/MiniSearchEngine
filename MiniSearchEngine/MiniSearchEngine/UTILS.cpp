@@ -16,7 +16,7 @@ vector <Data> AND(vector <Data>& A, vector <Data>& B) {
 		if (A[i].index < B[j].index) ++i;
 		else if (A[i].index > B[j].index) ++j;
 		else {
-			result.push_back({A[i].index, vector<int>(0)});
+			result.push_back(Data(A[i].index));
 			vector < int >* X = &A[i].positions,* Y = &B[j].positions;
 			vector < int >* V = &result.back().positions;
 			int N = (*X).size(),
@@ -47,7 +47,7 @@ vector <Data> OR(vector <Data>& A, vector <Data>& B) {
 			++j;
 		}
 		else {
-			result.push_back({A[i].index, vector<int>(0)});
+			result.push_back(Data(A[i].index));
 			vector < int >* X = &A[i].positions,* Y = &B[j].positions;
 			vector < int >* V = &result.back().positions;
 			int N = (*X).size(),

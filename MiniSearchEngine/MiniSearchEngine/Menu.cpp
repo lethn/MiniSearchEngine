@@ -148,39 +148,16 @@ void inputBoard() {
 
 }
 
-void input(char wordType[], int& size) {
-	size = 0;
-	string user;
-	char x;
-
+void Poro::input() {
+	char ch;
+	vector < int > invalids;
+	int history_invalids = 0;
 	gotoxy(45, 19);
 	int i = 22;
 	while (true) {
-		x = _getch();
-		if (size == 55) {
-			while (true) {
-				x = _getch();
-				if (x == 8 || x == 13)
-					break;
-			}
-		}
-		if (x == 13) {
-			break;
-		}
-		if (x == 8) {
-			if (size != 0) {
-				wordType[size] = '\0';
-				size--;
-				cout << "\b \b";
-			}
-		}
-		else {
-			cout << x;
-			wordType[size] = x;
-			size++;
-		}
+		ch = _getch();
+		processInput(ch, invalids, history_invalids);
 	}
-	wordType[size] = '\0';
 }
 
 void keywordBoard() {

@@ -19,23 +19,32 @@ struct Poro {	// save global variables
 	void load_data(string indexfile);
 	void menu();
 	void input();	// real-time input, mỗi ký tự input vào gọi hàm recommend()
-	void processInput();
+	void processInput(char input, vector < int >& invalids, int& history_invalids);
 	void updateResults();
 	void output();
 	void recommend();
 	// search history
 	// called == 10^5 || found == 5 => return hết;
+
+	Poro();
 };
 
 struct File{
 	int index;
 	int noExacts; 	// number of exact matches
 	int noMatches;	// number of matches
+
+	File();
+	File(int _index, int _noExacts, int _noMatches);
 };
 
 struct Data {
 	int index;
 	vector <int> positions;
+
+	Data();
+	Data(int _index);
+	Data(int _index, int pos);
 };
 
 struct Trie {
@@ -56,10 +65,13 @@ struct Trie {
 				 // nếu là operator thì set cái operator về type đó (somehow?)
 				 // enter thì gọi hàm updateResult()
 				 // “ thì set exact_match = true, check lúc enter có ”
+
 	void deallocate(Node*& root);
 	void insert(string& s, Data data);
 	Node* newNode(string& s);
 	Node* search(string& s);	// run loop
+
+	Trie();
 };
 
 struct Node{
@@ -69,9 +81,13 @@ struct Node{
 							//	vị trí xài trong cái tìm 8, 9 ấy
 	unordered_map <char, Node*> children;
 	// History ko có cái này
-	int synonym_root = -1;	// 0, 1, 2 … = hàng của từ đó -1;
-	bool isOperator = false;
-	bool isStopword = false;
+	int synonym_root;	// 0, 1, 2 … = hàng của từ đó -1;
+	bool isOperator;
+	bool isStopword;
+
+	Node();
+	Node(Node* _parent);
+	Node(Node* _parent, int _synonym_root, int _isOperator, int _isStopword);
 };
 
 
