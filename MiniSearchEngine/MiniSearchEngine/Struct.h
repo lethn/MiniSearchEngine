@@ -56,8 +56,9 @@ struct Trie {
 				 // nếu là operator thì set cái operator về type đó (somehow?)
 				 // enter thì gọi hàm updateResult()
 				 // “ thì set exact_match = true, check lúc enter có ”
-	void deallocate();
-	void insert(string& s, Data* data);
+	void deallocate(Node*& root);
+	void insert(string& s, Data data);
+	Node* newNode(string& s);
 	Node* search(string& s);	// run loop
 };
 
@@ -66,7 +67,7 @@ struct Node{
 	vector <Data> files;	//	Data[0..n].first = file nào
 							// 	Data[0..n].second[0..n] = vị trí nào trong file
 							//	vị trí xài trong cái tìm 8, 9 ấy
-	unordered_map <wchar_t, Node*> children;
+	unordered_map <char, Node*> children;
 	// History ko có cái này
 	int synonym_root = -1;	// 0, 1, 2 … = hàng của từ đó -1;
 	bool isOperator = false;
