@@ -55,7 +55,7 @@ void Poro::load_data(string indexfile)
 		{
 			if (str[j] == ',' || str[j] == '\n')
 			{
-				Node* searchTmp = search_trie->search(strtmp);
+				Node* searchTmp = Poro::search_trie->search(strtmp);
 				if (searchTmp != nullptr)
 				{
 					searchTmp->synonym_root = i;
@@ -90,7 +90,7 @@ void Poro::load_data(string indexfile)
 			else
 				str += strtmp[i];
 		}
-		Node* searchTmp = search_trie->search(str);
+		Node* searchTmp = Poro::search_trie->search(str);
 		if (searchTmp != nullptr)
 		{
 			searchTmp->isStopword = true;

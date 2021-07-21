@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="load_data.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Functions.cpp" />
     <ClCompile Include="Menu.cpp" />
