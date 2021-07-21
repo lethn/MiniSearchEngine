@@ -4,6 +4,8 @@
 #include <unordered_map>
 #include <list>
 #include <algorithm>
+#include <windows.h>
+#include <conio.h>
 using namespace std;
 
 #define CALL_LIMIT 100000

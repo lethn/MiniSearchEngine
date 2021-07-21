@@ -1,5 +1,4 @@
-﻿#include "Class.h"
-
+﻿#include "Struct.h"
 /*
 Normal Search Ranking:
 	Exact Match
