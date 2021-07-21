@@ -16,3 +16,6 @@ using namespace std;
 #define BACKSPACE 8
 #define ENTER 13
 #define SPACE 32
+#define UP 72
+#define DOWN 80
+#define ESC 27

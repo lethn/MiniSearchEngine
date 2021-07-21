@@ -27,6 +27,12 @@
     <ClCompile Include="UTILS.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="load_data.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TrieFunction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Struct.h">
