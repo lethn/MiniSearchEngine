@@ -17,7 +17,7 @@ void Trie::insert(string& s, int index, int position) {
 		}
 		cur = cur->children[s[i]];
 	}
-	if (cur->files.back().index == index) {
+	if (!cur->files.empty() && cur->files.back().index == index) {
 		cur->files.back().positions.push_back(position);
 	}
 	else {
