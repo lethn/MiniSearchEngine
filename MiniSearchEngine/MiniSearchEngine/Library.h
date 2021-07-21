@@ -21,6 +21,3 @@ const set <int> special_characters(c, c + sizeof(c) / sizeof(int));
 #define UP 72
 #define DOWN 80
 #define ESC 27
-
-const int c[14] = { '"',',','.','◼',')','(',':',';','“','”','—','-','_','\'' };
-const set <int> special_characters(c, c+sizeof(c)/sizeof(int));
