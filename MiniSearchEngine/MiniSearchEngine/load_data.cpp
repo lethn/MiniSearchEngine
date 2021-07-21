@@ -19,7 +19,7 @@ void Poro::load_data(string indexfile)
 			fin.close();
 			continue;
 		}
-		int index = 1;
+		int index = 0;
 		while (!fin.eof())
 		{
 
@@ -34,7 +34,7 @@ void Poro::load_data(string indexfile)
 				}
 				str += tolower(strtmp[i]);
 			}
-			//insert(str, j, index);//j index file,index position
+			Poro::search_trie->insert(str, j, index);
 			index++;
 		}
 		j++;
