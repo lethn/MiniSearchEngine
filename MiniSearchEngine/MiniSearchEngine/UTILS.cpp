@@ -8,25 +8,38 @@ bool CompareFiles(File A, File B) {
 	return A.index < B.index;
 }
 
-vector <Data> AND(vector <Data>& A, vector <Data>& B, int d = 0) {
-	// spaghetti
+vector <Data> EXACTMATCHES(vector <Data>& A, vector <Data>& B, int& d) { // chua xong 
 	vector <Data> result;
 	int n = A.size(), m = B.size(), i = 0, j = 0;
 	while (i < n && j < m) {
 		if (A[i].index < B[j].index) ++i;
-		else if (A[i].index > B[j].index) ++j;	
+		else if (A[i].index > B[j].index) ++j;
 		else {
-			result.push_back(
-				Data(A[i].index, AND(A[i].positions, B[i].positions, d))
-			);
-			++i, ++j;
+			result.push_back(Data(A[i].index, AND_INT(A[i].positions, B[i].positions, d)));
+			++i;
+			++j;
 		}
 	}
 	return result;
 }
 
-vector < int >& AND(vector < int >& A, vector < int >& B, int d = 0) {
-	vector < int > result;
+vector <Data> AND_DATA(vector <Data>& A, vector <Data>& B, int d = 0) {
+	vector <Data> result;
+	int n = A.size(), m = B.size(), i = 0, j = 0;
+	while (i < n && j < m) {
+		if (A[i].index < B[j].index) ++i;
+		else if (A[i].index > B[j].index) ++j;
+		else {
+			result.push_back(Data(A[i].index, OR_INT(A[i].positions, B[i].positions)));
+			++i;
+			++j;
+		}
+	}
+	return result;
+}
+
+vector <int>& AND_INT(vector <int>& A, vector <int>& B, int d = 0) {
+	vector <int> result;
 	int n = A.size(),
 		m = B.size(),
 		i = 0, j = 0;
@@ -38,7 +51,7 @@ vector < int >& AND(vector < int >& A, vector < int >& B, int d = 0) {
 	return result;
 }
 
-vector <Data> OR(vector <Data>& A, vector <Data>& B) {
+vector <Data> OR_DATA(vector <Data>& A, vector <Data>& B) {
 	// spaghetti
 	vector <Data> result;
 	int n = A.size(), m = B.size(), i = 0, j = 0;
@@ -52,10 +65,9 @@ vector <Data> OR(vector <Data>& A, vector <Data>& B) {
 			++j;
 		}
 		else {
-			result.push_back(
-				Data(A[i].index, OR(A[i].positions, B[j].positions))
-			);
-			++i, ++j;
+			result.push_back(Data(A[i].index, OR_INT(A[i].positions, B[j].positions)));
+			++i;
+			++j;
 		}
 	}
 	while(i < n) result.push_back(A[i]), ++i;
@@ -63,8 +75,8 @@ vector <Data> OR(vector <Data>& A, vector <Data>& B) {
 	return result;
 }
 
-vector < int >& OR(vector < int >& A, vector < int >& B) {
-	vector < int > result;
+vector <int>& OR_INT(vector <int>& A, vector <int>& B) {
+	vector <int> result;
 	int n = A.size(),
 		m = B.size(),
 		i = 0, j = 0;
