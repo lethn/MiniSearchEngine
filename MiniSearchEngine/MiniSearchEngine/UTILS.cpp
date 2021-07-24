@@ -8,27 +8,32 @@ bool CompareFiles(File A, File B) {
 	return A.index < B.index;
 }
 
-vector <Data> AND(vector <Data>& A, vector <Data>& B) {
+vector <Data> AND(vector <Data>& A, vector <Data>& B, int d = 0) {
 	// spaghetti
 	vector <Data> result;
 	int n = A.size(), m = B.size(), i = 0, j = 0;
 	while (i < n && j < m) {
 		if (A[i].index < B[j].index) ++i;
-		else if (A[i].index > B[j].index) ++j;
+		else if (A[i].index > B[j].index) ++j;	
 		else {
-			result.push_back(Data(A[i].index));
-			vector < int >* X = &A[i].positions,* Y = &B[j].positions;
-			vector < int >* V = &result.back().positions;
-			int N = (*X).size(),
-				M = (*Y).size(),
-				x = 0, y = 0;
-			while (x < N && y < M) {
-				if ((*X)[x] < (*Y)[y]) ++x;
-				else if ((*X)[x] > (*Y)[y]) ++y;
-				else (*V).push_back((*X)[x]), ++x, ++y;
-			}
+			result.push_back(
+				Data(A[i].index, AND(A[i].positions, B[i].positions, d))
+			);
 			++i, ++j;
 		}
+	}
+	return result;
+}
+
+vector < int >& AND(vector < int >& A, vector < int >& B, int d = 0) {
+	vector < int > result;
+	int n = A.size(),
+		m = B.size(),
+		i = 0, j = 0;
+	while (i < n && j < m) {
+		if (A[i] + d < B[j]) ++i;
+		else if (A[i] + d > B[j]) ++j;
+		else result.push_back(A[i]), ++i, ++j;
 	}
 	return result;
 }
@@ -47,26 +52,35 @@ vector <Data> OR(vector <Data>& A, vector <Data>& B) {
 			++j;
 		}
 		else {
-			result.push_back(Data(A[i].index));
-			vector < int >* X = &A[i].positions,* Y = &B[j].positions;
-			vector < int >* V = &result.back().positions;
-			int N = (*X).size(),
-				M = (*Y).size(),
-				x = 0, y = 0;
-			while (x < N && y < M) {
-				if ((*X)[x] < (*Y)[y]){
-					(*V).push_back((*X)[x]);
-					++x;
-				}
-				else if ((*X)[x] > (*Y)[y]){
-					(*V).push_back((*Y)[y]);
-					++y;
-				}
-				else (*V).push_back((*X)[x]), ++x, ++y;
-			}
+			result.push_back(
+				Data(A[i].index, OR(A[i].positions, B[j].positions))
+			);
 			++i, ++j;
 		}
 	}
+	while(i < n) result.push_back(A[i]), ++i;
+	while(j < n) result.push_back(B[i]), ++j;
+	return result;
+}
+
+vector < int >& OR(vector < int >& A, vector < int >& B) {
+	vector < int > result;
+	int n = A.size(),
+		m = B.size(),
+		i = 0, j = 0;
+	while (i < n && j < m) {
+		if (A[i] < B[j]){
+			result.push_back(A[i]);
+			++i;
+		}
+		else if (A[i] > B[j]){
+			result.push_back(B[j]);
+			++j;
+		}
+		else result.push_back(A[i]), ++i, ++j;
+	}
+	while (i < n) result.push_back(A[i]), ++i;
+	while (j < m) result.push_back(B[j]), ++j;
 	return result;
 }
 

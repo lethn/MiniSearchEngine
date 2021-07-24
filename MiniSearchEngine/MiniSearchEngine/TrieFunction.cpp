@@ -12,8 +12,7 @@ void Trie::insert(string& s, int index, int position) {
 	Node* cur = root;
 	for (int i = 0; i < s.size(); i++) {
 		if (cur->children.find(s[i]) == cur->children.end()) {
-			cur->children[s[i]] = new Node;
-			cur->children[s[i]]->parent = cur;
+			cur->children[s[i]] = new Node(s[i], cur);
 		}
 		cur = cur->children[s[i]];
 	}
@@ -21,10 +20,7 @@ void Trie::insert(string& s, int index, int position) {
 		cur->files.back().positions.push_back(position);
 	}
 	else {
-		Data data;
-		data.index = index;
-		data.positions.push_back(position);
-		cur->files.push_back(data);
+		cur->files.push_back(Data(index, position));
 	}
 }
 
@@ -32,8 +28,7 @@ Node* Trie::newNode(string& s) {
 	Node* cur = root;
 	for (int i = 0; i < s.size(); i++) {
 		if (cur->children.find(s[i]) == cur->children.end()) {
-			cur->children[s[i]] = new Node;
-			cur->children[s[i]]->parent = cur;
+			cur->children[s[i]] = new Node(s[i], cur);
 		}
 		cur = cur->children[s[i]];
 	}
@@ -47,7 +42,20 @@ Node* Trie::search(string& s) {
 			return nullptr;
 		cur = cur->children[s[i]];
 	}
-	if (cur->files.empty())
+	if (!cur->isWord());
 		return nullptr;
 	return cur;
+}
+
+void Node::getString(string& s, Node* root) {
+	Node* pCur = this;
+	while (pCur != root) {
+		s.push_back(pCur->value);
+		pCur = pCur->parent;
+	}
+	for(int l=0, r=s.size()-1; l<r; ++l, --r) swap(s[l], s[r]);
+}
+
+bool Node::isWord() {
+	return !files.empty();
 }

@@ -142,23 +142,23 @@ void UserInterface::inputBoard() {
 void UserInterface::input(Poro& PoroPoro) {
 	char ch;
 	const int X = 45, Y = 19;
-	vector < int > invalids;
-	invalids.push_back(0);
-	int history_invalids = 0;
+	// PoroPoro.reset();
 	string* search_words = &PoroPoro.search_words;
 	vector < string >* recommendations = &PoroPoro.recommendations;
 	gotoxy(X, Y);
 	int i = 0;
 	while (true) {
-		i = search_words->size();
-		gotoxy(X + i, Y);
+		gotoxy(X + search_words->size(), Y);
 		ch = _getch();
-		if (ch == ESC) return;
+		if (ch == ESC){
+			// PoroPoro.reset();
+			return;
+		}
 		int tmp = search_words->size();
-		PoroPoro.processInput(ch, invalids, history_invalids);
-		if (tmp == PoroPoro.search_words.size()) continue;
-		PoroPoro.recommend(invalids, history_invalids);
-		for (int j = 0; j < recommendations->size(); ++j) {
+		PoroPoro.processInput(ch);
+		if (tmp == (int) search_words->size()) continue;
+		PoroPoro.recommend();
+		for (int j = 0; j < (int) recommendations->size(); ++j) {
 			gotoxy(X, Y+1+j);
 			cout << (*recommendations)[j];
 		}

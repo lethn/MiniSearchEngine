@@ -3,7 +3,7 @@
 void search_recommendations(vector < string >& recommendations, 
 	Node* pCur, string& s, int& called, int& found){
 	if (pCur == nullptr) return;
-	if (pCur->files.size() != 0) {
+	if (pCur->isWord()) {
 		recommendations.push_back(s);
 		++found;
 		if (called > CALL_LIMIT || found > NUM_OF_RECOMMENDATIONS) return;
@@ -16,7 +16,7 @@ void search_recommendations(vector < string >& recommendations,
 	}
 }
 
-void Poro::recommend(vector<int>& invalids, int history_invalids) {
+void Poro::recommend() {
 	int called = 0, found = 0;
 	string s = search_words;
 	recommendations.empty();
@@ -27,7 +27,8 @@ void Poro::recommend(vector<int>& invalids, int history_invalids) {
 		search_recommendations(recommendations, search_trie->pNode, s, called, found);
 }
 
-void Poro::processInput(char input, vector < int >& invalids, int& history_invalids) {
+void Poro::processInput(char input) {
+	// regret doing real-time input-output
 	switch (input) {
 	case ENTER: {
 		// updateResults();
@@ -44,7 +45,8 @@ void Poro::processInput(char input, vector < int >& invalids, int& history_inval
 			if (invalids.size() > 1)
 				invalids.pop_back();
 			search_trie->partial_results.pop_back();
-			if (search_trie->partial_results.empty()) search_trie->pNode = search_trie->root;
+			if (search_trie->partial_results.empty())
+				search_trie->pNode = search_trie->root;
 			else search_trie->pNode = search_trie->partial_results.back();
 		}
 		else search_trie->pNode = search_trie->pNode->parent;
@@ -55,14 +57,25 @@ void Poro::processInput(char input, vector < int >& invalids, int& history_inval
 	}
 	default: {
 		if (search_words.size() >= SEARCH_SIZE_LIMIT) return;
-		if (input == SPACE){
-			if (search_words.empty() || search_words.back() == SPACE) return;
+		switch(input){
+		case SPACE:{
+			if (search_words.empty() || search_trie->pNode == search_trie->root) return;
 			search_words.push_back(input);
 			cout << input;
 			search_trie->partial_results.push_back(search_trie->pNode);
 			search_trie->pNode = search_trie->root;
+			break;
 		}
-		else{
+		case QUOTATION:{
+			if (openQuotation) {
+				openQuotation = false;
+			}
+			else {
+				openQuotation = true;
+			}
+			break;
+		}
+		default:{
 			search_words.push_back(input);
 			cout << input;
 			if (search_trie->pNode->children.count(input)) {
@@ -70,11 +83,16 @@ void Poro::processInput(char input, vector < int >& invalids, int& history_inval
 			}
 			else ++invalids.back();
 		}
-
 		if (history_trie->pNode->children.count(input)) {
 			history_trie->pNode = history_trie->pNode->children[input];
 		}
 		else ++history_invalids;
+		break;
+		}
 	}
-	}
+}
+}
+
+void Poro::resetData(){
+	search_words.empty();
 }

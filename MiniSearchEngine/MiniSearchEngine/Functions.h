@@ -11,7 +11,7 @@ Normal Search Ranking:
 
 // Utility Functions
 bool CompareFiles(File A, File B);		// dùng cho hàm sort();
-vector <Data> AND(vector <Data>& A, vector <Data>& B);
+vector <Data> AND(vector <Data>& A, vector <Data>& B, int d = 0);
 vector <Data> OR(vector <Data>& A, vector <Data>& B);
 void search_recommendations(vector < string >& recommendations, Node* pCur, string& s, int& called, int& found);
 void gotoxy(int x, int y);

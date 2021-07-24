@@ -3,6 +3,9 @@
 Poro::Poro() {
 	search_trie = new Trie();
 	history_trie = new Trie();
+	history_invalids = 0;
+	openQuotation = false;
+	invalids.push_back(0);
 }
 
 File::File() {
@@ -23,9 +26,14 @@ Data::Data(int _index) {
 	index = _index;
 }
 
-Data::Data(int _index, int pos){
+Data::Data(int _index, int _pos){
 	index = _index;
-	positions.push_back(pos);
+	positions.push_back(_pos);
+}
+
+Data::Data(int _index, vector < int >& _positions) 
+	: positions(_positions) {
+	index = _index;
 }
 
 Trie::Trie() {
@@ -34,22 +42,25 @@ Trie::Trie() {
 }
 
 Node::Node(){
+	value = 0;
 	parent = nullptr;
 	synonym_root = -1;
-	isOperator = false;
+	operator_type = 0;
 	isStopword = false;
 }
 
-Node::Node(Node* _parent) {
+Node::Node(char _value, Node* _parent) {
+	value = _value;
 	parent = _parent;
 	synonym_root = -1;
-	isOperator = false;
+	operator_type = 0;
 	isStopword = false;
 }
 
-Node::Node(Node* _parent, int _synonym_root, int _isOperator, int _isStopword) {
+Node::Node(char _value, Node* _parent, int _synonym_root, int _operator_type, int _isStopword) {
+	value = _value;
 	parent = _parent;
 	synonym_root = _synonym_root;
-	isOperator = _isOperator;
+	operator_type = _operator_type;
 	isStopword = _isStopword;
 }
