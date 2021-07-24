@@ -43,7 +43,16 @@ void Poro::load_data(string indexfile)
 		for (int i = 0; i < tmp.size(); i++)
 		{
 			if (tmp[i] == '.')
+			{
+				insertTitle(title,j);
 				break;
+			}
+			if (tmp[i] == SPACE)
+			{
+				insertTitle(title,j);
+				title = "";
+				continue;
+			}
 			if (special_characters.find(tmp[i]) != special_characters.end() || (tmp[i] < 0 && tmp[i] != -44))
 			{
 				continue;
@@ -60,8 +69,7 @@ void Poro::load_data(string indexfile)
 		{
 			swap(extension[i], extension[extension.size() - 1 - i]);
 		}
-		//insertTitle(title,j);
-		//insertExtention(extension,j);
+		insertExtension(extension,j);
 		j++;
 		fin.close();
 		cout << endl;
