@@ -1,4 +1,4 @@
-#include "Functions.h"
+﻿#include "Functions.h"
 
 bool CompareFiles(File A, File B) {
 	if (A.noExacts != B.noExacts)
@@ -6,6 +6,24 @@ bool CompareFiles(File A, File B) {
 	if (A.noMatches != B.noMatches)
 		return A.noMatches < B.noMatches;
 	return A.index < B.index;
+}
+
+vector <Data> EXCEPT(vector <Data>& A, vector <Data>& B) { // A: lấy   B: bỏ
+	vector <Data> result;
+	int n = A.size(), m = B.size(), i = 0, j = 0;
+	while (i < n && j < m) {
+		if (A[i].index != B[j].index) 
+			result.push_back(Data(A[i].index, A[i].positions));
+		else {
+			i++;
+			j++;
+		}
+	}
+	while (i < n) {
+		result.push_back(Data(A[i].index, A[i].positions));
+		++i;
+	}
+	return result;
 }
 
 vector <Data> EXACT_MATCHES(vector <Data>& A, vector <Data>& B, int d) {
