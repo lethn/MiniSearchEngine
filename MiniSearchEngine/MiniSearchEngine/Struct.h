@@ -65,6 +65,8 @@ struct Trie {
 
 	void deallocate(Node*& root);
 	void insert(string& s, int index, int position);
+	void insertTitle(string& title, int index);
+	void insertExtention(string& extention, int index);
 	Node* newNode(string& s);
 	Node* search(string& s);	// run loop
 
