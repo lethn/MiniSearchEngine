@@ -8,7 +8,7 @@ bool CompareFiles(File A, File B) {
 	return A.index < B.index;
 }
 
-vector <Data> EXACTMATCHES(vector <Data>& A, vector <Data>& B, int d) {
+vector <Data> EXACT_MATCHES(vector <Data>& A, vector <Data>& B, int d) {
 	vector <Data> result;
 	int n = A.size(), m = B.size(), i = 0, j = 0;
 	while (i < n && j < m) {
