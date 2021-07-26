@@ -26,6 +26,7 @@ void Poro::load_data(string indexfile)
 			// load word in file
 			string strtmp;
 			string str = "";
+			string num = "";
 			fin >> strtmp;
 			for (int i = 0; i < strtmp.size(); i++)
 			{
@@ -33,9 +34,13 @@ void Poro::load_data(string indexfile)
 				{
 					continue;
 				}
+				if (strtmp[i] >= '0' && strtmp[i] <= '9')
+					num += strtmp[i];
 				str += tolower(strtmp[i]);
 			}
-			Poro::search_trie->insert(str, j, index);
+
+			search_trie->insertNumber(stoi(num), j, index);
+			search_trie->insert(str, j, index);
 			index++;
 		}
 		// load titles and extension

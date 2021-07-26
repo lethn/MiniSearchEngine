@@ -47,6 +47,7 @@ struct Trie {
 	Node* root;
 	vector < File > result;
 	vector < Node* >  partial_results; 
+	map <int, vector < Data >> numbers;
 	// Vector pointer chỉ vào Node
 	// dùng để tìm exact match
 	// “tallest building”, “tallest * in the world“, ...
@@ -67,6 +68,7 @@ struct Trie {
 	void insert(string& s, int index, int position);
 	void insertTitle(string& title, int index);
 	void insertExtension(string& extension, int index);
+	void insertNumber(int num, int index, int position);
 	Node* newNode(string& s);
 	Node* search(string& s);	// run loop
 

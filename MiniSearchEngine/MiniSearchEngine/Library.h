@@ -9,6 +9,7 @@
 #include <fstream>
 #include <string>
 #include <set>
+#include <map>
 using namespace std;
 const int c[13] = { '"',',','.','◼',')','(',':',';','“','”','—','_','\'' };
 const set <int> special_characters(c, c + sizeof(c) / sizeof(int));
