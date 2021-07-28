@@ -2,7 +2,14 @@
 
 void Poro::load_data(string indexfile)
 {
-
+	string synonyms = "Synonyms.txt", stopword = "Stopwords.txt";
+	load_file(indexfile);
+	load_synonyms(synonyms);
+	load_stopWord(stopword);
+	
+}
+void Poro::load_file(string indexfile)
+{
 	ifstream file;
 	file.open("source\\" + indexfile);
 	string tmp;
@@ -11,7 +18,6 @@ void Poro::load_data(string indexfile)
 	{
 		// load file
 		getline(file, tmp);
-		/*cout << "data: " + tmp << endl;*/
 		Poro::file_names.push_back(tmp);
 		ifstream fin;
 		fin.open("source\\" + tmp);
@@ -51,7 +57,6 @@ void Poro::load_data(string indexfile)
 		search_trie->insertExtension(extension, j);
 		while (!fin.eof())
 		{
-			// load word in file
 			string strtmp;
 			string str = "";
 			string num = "";
@@ -73,12 +78,13 @@ void Poro::load_data(string indexfile)
 		}
 		j++;
 		fin.close();
-		/*cout << endl;*/
 	}
 	file.close();
+}
+void Poro::load_synonyms(string indexfile)
+{
 	ifstream fin;
-	// load synonyms
-	fin.open("source\\Synonyms.txt");
+	fin.open("source\\" + indexfile);
 	string str;
 	int i = 0;
 	while (!fin.eof())
@@ -90,7 +96,7 @@ void Poro::load_data(string indexfile)
 		{
 			if (str[j] == ',' || str[j] == '\n')
 			{
-				Node* searchTmp = Poro::search_trie->search(strtmp);
+				Node* searchTmp = search_trie->search(strtmp);
 				if (searchTmp != nullptr)
 				{
 					searchTmp->synonym_root = i;
@@ -114,8 +120,12 @@ void Poro::load_data(string indexfile)
 		i++;
 	}
 	fin.close();
-	//load stopword
-	fin.open("source\\Stopwords.txt");
+}
+
+void Poro::load_stopWord(string indexfile)
+{
+	ifstream fin;
+	fin.open("source\\" + indexfile);
 	string strtmp;
 	while (!fin.eof())
 	{
@@ -135,6 +145,4 @@ void Poro::load_data(string indexfile)
 		}
 	}
 	fin.close();
-	/*cout << "success" << endl;*/
 }
-
