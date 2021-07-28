@@ -253,29 +253,22 @@ vector < vector < Data > > Poro::processString(string s) {
 
 vector <Data> Poro::searchSingleNumber(int number) {
 	vector<Data> result;
-	for (auto A : search_trie->numbers) {
-		if (A.first == number){
-			result = A.second;
-		}
-		if (A.first >= number) break;
-	}
+	if (search_trie->numbers.find(number) != search_trie->numbers.end())
+		result = search_trie->numbers[number];
 	return result;
 }
 
 vector <Data> Poro::searchRangeNumber(int number1, int number2) {
 	vector<Data> result;
-	for (auto A : search_trie->numbers) {
-		if (A.first >= number1 && A.first <= number2) {
-			if (result.empty())
-				result = A.second;
-			else {
-				while (!A.second.empty()) {
-					result.push_back(A.second.back());
-					A.second.pop_back();
-				}
+	for (auto A = search_trie->numbers.lower_bound(number1); A != search_trie->numbers.lower_bound(number2); A++) {
+		if (result.empty())
+			result = A->second;
+		else {
+			while (!A->second.empty()) {
+				result.push_back(A->second.back());
+				A->second.pop_back();
 			}
 		}
-		if (A.first > number2) break;
 	}
 	return result;
 }
