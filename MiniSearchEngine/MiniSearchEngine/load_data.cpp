@@ -73,7 +73,7 @@ void Poro::load_file(string indexfile)
 				str += tolower(strtmp[i]);
 			}
 			if (num != "") search_trie->insertNumber(stoi(num), j, index);
-			search_trie->insert(str, j, index);
+			if (str != "") search_trie->insert(str, j, index);
 			index++;
 		}
 		j++;
