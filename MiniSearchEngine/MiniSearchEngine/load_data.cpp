@@ -1,4 +1,4 @@
-﻿#include "Functions.h"
+﻿#include "Struct.h"
 
 void Poro::load_data(string indexfile)
 {

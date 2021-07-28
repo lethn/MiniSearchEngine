@@ -1,4 +1,4 @@
-﻿#include "Functions.h"
+﻿#include "Struct.h"
 
 bool CompareFiles(File A, File B) {
 	if (A.noExacts != B.noExacts)

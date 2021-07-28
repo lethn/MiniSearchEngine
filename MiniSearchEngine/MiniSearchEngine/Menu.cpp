@@ -1,4 +1,4 @@
-#include "Functions.h"
+#include "Struct.h"
 
 void UserInterface::resizeConsole(int width, int height)
 {

@@ -1,4 +1,4 @@
-#include "Functions.h"
+#include "Struct.h"
 
 void Trie::deallocate(Node*& root) {
 	for (auto A : root->children) {
