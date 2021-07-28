@@ -11,8 +11,9 @@
 #include <set>
 #include <stack>
 #include <sstream>
+#include <map>
 using namespace std;
-const int c[14] = { '"',',','.','◼',')','(',':',';','“','”','—','-','_','\'' };
+const int c[13] = { '"',',','.','◼',')','(',':',';','“','”','—','_','\'' };
 const set <int> special_characters(c, c + sizeof(c) / sizeof(int));
 const string INTITLE = "intitle:";
 const string FILETYPE = "filetype:";

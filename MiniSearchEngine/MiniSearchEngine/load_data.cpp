@@ -9,8 +9,9 @@ void Poro::load_data(string indexfile)
 	int j = 0;
 	while (!file.eof())
 	{
+		// load file
 		getline(file, tmp);
-		cout << "data: " + tmp << endl;
+		/*cout << "data: " + tmp << endl;*/
 		Poro::file_names.push_back(tmp);
 		ifstream fin;
 		fin.open("source\\" + tmp);
@@ -20,11 +21,40 @@ void Poro::load_data(string indexfile)
 			continue;
 		}
 		int index = 0;
+		// load titles and extension
+		string title = "", extension = "", tmptitle;
+		getline(fin, tmptitle);
+		for (int i = 0; i < tmptitle.size(); i++)
+		{
+			if (tmptitle[i] == SPACE || i == tmptitle.size() - 1)
+			{
+				search_trie->insertTitle(title, j);
+				title = "";
+				continue;
+			}
+			if (special_characters.find(tmptitle[i]) != special_characters.end() || (tmptitle[i] < 0 && tmptitle[i] != -44))
+			{
+				continue;
+			}
+			title += tolower(tmptitle[i]);
+		}
+		for (int i = tmp.size() - 1; i > -1; i--)
+		{
+			if (tmp[i] == '.')
+				break;
+			extension += tolower(tmp[i]);
+		}
+		for (int i = 0; i < extension.size() / 2; i++)
+		{
+			swap(extension[i], extension[extension.size() - 1 - i]);
+		}
+		search_trie->insertExtension(extension, j);
 		while (!fin.eof())
 		{
-
+			// load word in file
 			string strtmp;
 			string str = "";
+			string num = "";
 			fin >> strtmp;
 			for (int i = 0; i < strtmp.size(); i++)
 			{
@@ -32,18 +62,23 @@ void Poro::load_data(string indexfile)
 				{
 					continue;
 				}
+				if (strtmp[i] >= '0' && strtmp[i] <= '9')
+					num += strtmp[i];
 				str += tolower(strtmp[i]);
 			}
-			Poro::search_trie->insert(str, j, index);
+
+			if (num != "") search_trie->insertNumber(stoi(num), j, index);
+			search_trie->insert(str, j, index);
 			index++;
 		}
 		j++;
 		fin.close();
-		cout << endl;
+		/*cout << endl;*/
 	}
 	file.close();
 	ifstream fin;
-	fin.open("Synonyms.txt");
+	// load synonyms
+	fin.open("source\\Synonyms.txt");
 	string str;
 	int i = 1;
 	while (!fin.eof())
@@ -77,7 +112,8 @@ void Poro::load_data(string indexfile)
 		i++;
 	}
 	fin.close();
-	fin.open("Stopwords.txt");
+	//load stopword
+	fin.open("source\\Stopwords.txt");
 	string strtmp;
 	while (!fin.eof())
 	{
@@ -97,5 +133,6 @@ void Poro::load_data(string indexfile)
 		}
 	}
 	fin.close();
+	/*cout << "success" << endl;*/
 }
 

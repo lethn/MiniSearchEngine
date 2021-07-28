@@ -1,4 +1,4 @@
-﻿#include "Struct.h"
+#include "Struct.h"
 /*
 Normal Search Ranking:
 	Exact Match

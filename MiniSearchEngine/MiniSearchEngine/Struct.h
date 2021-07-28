@@ -53,6 +53,7 @@ struct Trie {
 	Node* root;
 	vector < File > result;
 	vector < Node* >  partial_results;
+	map <int, vector < Data >> numbers;
 	// Vector pointer chỉ vào Node
 	// dùng để tìm exact match
 	// “tallest building”, “tallest * in the world“, ...
@@ -71,6 +72,9 @@ struct Trie {
 
 	void deallocate(Node*& root);
 	void insert(string& s, int index, int position);
+	void insertTitle(string& title, int index);
+	void insertExtension(string& extension, int index);
+	void insertNumber(int num, int index, int position);
 	Node* newNode(string& s);
 	Node* search(string& s);	// run loop
 
@@ -112,6 +116,9 @@ struct Poro {	// save global variables
 	vector < Data > combineData(vector < vector < Data > >& V);
 	vector < File > updateResult(vector < vector < Data > > V);
 	Poro();
+
+	vector <Data> searchSingleNumber(int number);
+	vector <Data> searchRangeNumber(int number1, int number2);
 };
 
 struct UserInterface {
@@ -146,3 +153,5 @@ vector < ii > findParenthesis(string& s);
 vector < ii > findQuotation(string& s);
 void lowerString(string& s);
 bool isOperation(vector < Data >& V);
+void loadData(Poro& PoroPoro);
+};

@@ -24,6 +24,47 @@ void Trie::insert(string& s, int index, int position) {
 	}
 }
 
+void Trie::insertTitle(string& title, int index) {
+	Node* cur = root;
+	for (int i = 0; i < title.size(); i++) {
+		if (cur->children.find(title[i]) == cur->children.end()) {
+			cur->children[title[i]] = new Node(title[i], cur);
+		}
+		cur = cur->children[title[i]];
+	}
+	cur->inTitle.push_back(index);
+}
+
+void Trie::insertExtension(string& extension, int index) {
+	Node* cur = root;
+	for (int i = 0; i < extension.size(); i++) {
+		if (cur->children.find(extension[i]) == cur->children.end()) {
+			cur->children[extension[i]] = new Node(extension[i], cur);
+		}
+		cur = cur->children[extension[i]];
+	}
+	cur->fileType.push_back(index);
+}
+
+void Trie::insertNumber(int num, int index, int position)
+{
+	if (numbers.find(num) == numbers.end())
+	{
+		vector<Data> newData;
+		newData.push_back(Data(index, position));
+		numbers[num] = newData;
+		return;
+	}
+	if (!numbers[num].empty() && numbers[num].back().index == index)
+	{
+		numbers[num].back().positions.push_back(position);
+	}
+	else
+	{
+		numbers[num].push_back(Data(index, position));
+	}
+}
+
 Node* Trie::newNode(string& s) {
 	Node* cur = root;
 	for (int i = 0; i < s.size(); i++) {
