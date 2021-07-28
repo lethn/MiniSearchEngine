@@ -96,6 +96,8 @@ void Poro::load_data(string indexfile)
 					searchTmp->synonym_root = i;
 					newVec = OR_Data(newVec, searchTmp->files);
 				}
+				else
+					searchTmp->synonym_root = -1;
 				j++;
 				strtmp = "";
 			}
