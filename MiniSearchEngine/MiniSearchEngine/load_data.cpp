@@ -11,7 +11,7 @@ void Poro::load_data(string indexfile)
 void Poro::load_file(string indexfile)
 {
 	ifstream file;
-	file.open("source\\" + indexfile);
+	file.open(SOURCE + indexfile);
 	string tmp;
 	int j = 0;
 	while (!file.eof())
@@ -20,7 +20,7 @@ void Poro::load_file(string indexfile)
 		getline(file, tmp);
 		Poro::file_names.push_back(tmp);
 		ifstream fin;
-		fin.open("source\\" + tmp);
+		fin.open(SOURCE + tmp);
 		if (fin.fail())
 		{
 			fin.close();
@@ -84,7 +84,7 @@ void Poro::load_file(string indexfile)
 void Poro::load_synonyms(string indexfile)
 {
 	ifstream fin;
-	fin.open("source\\" + indexfile);
+	fin.open(SOURCE + indexfile);
 	string str;
 	int i = 0;
 	while (!fin.eof())
@@ -123,7 +123,7 @@ void Poro::load_synonyms(string indexfile)
 void Poro::load_stopWord(string indexfile)
 {
 	ifstream fin;
-	fin.open("source\\" + indexfile);
+	fin.open(SOURCE + indexfile);
 	string strtmp;
 	while (!fin.eof())
 	{
