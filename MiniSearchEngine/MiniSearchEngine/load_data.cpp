@@ -21,6 +21,34 @@ void Poro::load_data(string indexfile)
 			continue;
 		}
 		int index = 0;
+		// load titles and extension
+		string title = "", extension = "", tmptitle;
+		getline(fin, tmptitle);
+		for (int i = 0; i < tmptitle.size(); i++)
+		{
+			if (tmp[i] == SPACE || i == tmptitle.size() - 1)
+			{
+				search_trie->insertTitle(title, j);
+				title = "";
+				continue;
+			}
+			if (special_characters.find(tmp[i]) != special_characters.end() || (tmp[i] < 0 && tmp[i] != -44))
+			{
+				continue;
+			}
+			title += tolower(tmp[i]);
+		}
+		for (int i = tmp.size() - 1; i > -1; i--)
+		{
+			if (tmp[i] == '.')
+				break;
+			extension += tolower(tmp[i]);
+		}
+		for (int i = 0; i < extension.size() / 2; i++)
+		{
+			swap(extension[i], extension[extension.size() - 1 - i]);
+		}
+		search_trie->insertExtension(extension, j);
 		while (!fin.eof())
 		{
 			// load word in file
@@ -43,38 +71,6 @@ void Poro::load_data(string indexfile)
 			search_trie->insert(str, j, index);
 			index++;
 		}
-		// load titles and extension
-		string title = "", extension = "";
-		for (int i = 0; i < tmp.size(); i++)
-		{
-			if (tmp[i] == '.')
-			{
-				search_trie->insertTitle(title,j);
-				break;
-			}
-			if (tmp[i] == SPACE)
-			{
-				search_trie->insertTitle(title,j);
-				title = "";
-				continue;
-			}
-			if (special_characters.find(tmp[i]) != special_characters.end() || (tmp[i] < 0 && tmp[i] != -44))
-			{
-				continue;
-			}
-			title += tolower(tmp[i]);
-		}
-		for (int i = tmp.size() - 1; i > -1; i--)
-		{
-			if (tmp[i] == '.')
-				break;
-			extension += tolower(tmp[i]);
-		}
-		for (int i = 0; i < extension.size() / 2; i++)
-		{
-			swap(extension[i], extension[extension.size() - 1 - i]);
-		}
-		search_trie->insertExtension(extension,j);
 		j++;
 		fin.close();
 		cout << endl;
