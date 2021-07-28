@@ -142,24 +142,33 @@ void UserInterface::inputBoard() {
 void UserInterface::input(Poro& PoroPoro) {
 	char ch;
 	const int X = 45, Y = 19;
-	// PoroPoro.reset();
+	PoroPoro.resetData();
+	PoroPoro.search_trie->root->value = 'R';
 	string* search_words = &PoroPoro.search_words;
 	vector < string >* recommendations = &PoroPoro.recommendations;
 	gotoxy(X, Y);
 	int i = 0;
 	while (true) {
+		i = 1;
 		gotoxy(X + search_words->size(), Y);
 		ch = _getch();
 		if (ch == ESC){
-			// PoroPoro.reset();
+			PoroPoro.resetData();
 			return;
 		}
 		int tmp = search_words->size();
 		PoroPoro.processInput(ch);
+		
 		if (tmp == (int) search_words->size()) continue;
 		PoroPoro.recommend();
+		for(int inv: PoroPoro.invalids){
+			gotoxy(X, Y + ++i), cout << "  ";
+			gotoxy(X, Y + i), cout << inv;
+		}
 		for (int j = 0; j < (int) recommendations->size(); ++j) {
 			gotoxy(X, Y+1+j);
+			cout << "                ";
+			cout << search_words;
 			cout << (*recommendations)[j];
 		}
 	}
@@ -333,5 +342,5 @@ void UserInterface::mainMenu(Poro& PoroPoro) {
 	logo();
 	inputBoard();
 	input(PoroPoro);
-	subMenu(PoroPoro);
+	// subMenu(PoroPoro);
 }

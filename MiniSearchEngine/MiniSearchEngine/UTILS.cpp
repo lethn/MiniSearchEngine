@@ -8,8 +8,15 @@ bool CompareFiles(File A, File B) {
 	return A.index < B.index;
 }
 
-vector <Data> AND(vector <Data>& A, vector <Data>& B, int d = 0) {
-	// spaghetti
+vector < Data > EXACT(vector < Data >& A, vector < Data >& B, int d) {
+	return vector < Data > ();
+}
+
+vector < File > CombineDatatoFile(vector < Data >& A, vector < Data >& B) {
+
+}
+
+vector < Data > AND_Data(vector < Data >& A, vector < Data >& B) {
 	vector <Data> result;
 	int n = A.size(), m = B.size(), i = 0, j = 0;
 	while (i < n && j < m) {
@@ -17,7 +24,7 @@ vector <Data> AND(vector <Data>& A, vector <Data>& B, int d = 0) {
 		else if (A[i].index > B[j].index) ++j;	
 		else {
 			result.push_back(
-				Data(A[i].index, AND(A[i].positions, B[i].positions, d))
+				Data(A[i].index, OR_int(A[i].positions, B[i].positions))
 			);
 			++i, ++j;
 		}
@@ -25,7 +32,7 @@ vector <Data> AND(vector <Data>& A, vector <Data>& B, int d = 0) {
 	return result;
 }
 
-vector < int >& AND(vector < int >& A, vector < int >& B, int d = 0) {
+vector < int >& AND_int(vector < int >& A, vector < int >& B, int d) {
 	vector < int > result;
 	int n = A.size(),
 		m = B.size(),
@@ -38,8 +45,7 @@ vector < int >& AND(vector < int >& A, vector < int >& B, int d = 0) {
 	return result;
 }
 
-vector <Data> OR(vector <Data>& A, vector <Data>& B) {
-	// spaghetti
+vector < Data > OR_Data(vector < Data >& A, vector < Data >& B) {
 	vector <Data> result;
 	int n = A.size(), m = B.size(), i = 0, j = 0;
 	while (i < n && j < m) {
@@ -53,7 +59,7 @@ vector <Data> OR(vector <Data>& A, vector <Data>& B) {
 		}
 		else {
 			result.push_back(
-				Data(A[i].index, OR(A[i].positions, B[j].positions))
+				Data(A[i].index, OR_int(A[i].positions, B[j].positions))
 			);
 			++i, ++j;
 		}
@@ -63,7 +69,7 @@ vector <Data> OR(vector <Data>& A, vector <Data>& B) {
 	return result;
 }
 
-vector < int >& OR(vector < int >& A, vector < int >& B) {
+vector < int >& OR_int(vector < int >& A, vector < int >& B) {
 	vector < int > result;
 	int n = A.size(),
 		m = B.size(),
@@ -84,6 +90,30 @@ vector < int >& OR(vector < int >& A, vector < int >& B) {
 	return result;
 }
 
+vector < File > OR_File(vector < File >& A, vector < int >& B) {
+	vector < File > result;
+	int n = A.size(),
+		m = B.size(),
+		i = 0, j = 0;
+	while (i < n && j < m) {
+		if (A[i] < B[j]){
+			result.push_back(A[i]);
+			++i;
+		}
+		else if (A[i] > B[j]){
+			result.push_back(B[j]);
+			++j;
+		}
+		else{
+			result.push_back(File(A[i].index, A[i].noExacts+1, A[i].noMatches+1));
+			++i, ++j;
+		}
+	}
+	while (i < n) result.push_back(A[i]), ++i;
+	while (j < m) result.push_back(B[j]), ++j;
+	return result;
+}
+
 string convertToString(char* a, int size) {
 	int i;
 	string s = "";
@@ -98,4 +128,14 @@ void gotoxy(int x, int y) {
 		h = GetStdHandle(STD_OUTPUT_HANDLE);
 	COORD c = { x, y };
 	SetConsoleCursorPosition(h, c);
+}
+
+void lowerString(string& s) {
+	for (int i = 0; i < (int)s.size(); ++i) {
+		s[i] = tolower(s[i]);
+	}
+}
+
+bool isOperation(vector < Data >& V) {
+	return (!V.empty() && V.back().index < 0);
 }

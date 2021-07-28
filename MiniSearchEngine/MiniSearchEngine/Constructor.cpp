@@ -12,10 +12,33 @@ File::File() {
 	index = noExacts = noMatches = 0;
 }
 
+File::File(int _index) {
+	index = _index;
+	noExacts = 0;
+	noMatches = 0;
+}
+
 File::File(int _index, int _noExacts, int _noMatches) {
 	index = _index;
 	noExacts = _noExacts;
 	noMatches = _noMatches;
+}
+
+File::File(Data& A, bool exact) {
+	index = A.index;
+	noExacts = 0;
+	noMatches = A.positions.size();
+	if (exact) noExacts = A.positions.size();
+}
+
+bool File::operator<(int& _index) {
+	return index < _index;
+}
+bool File::operator> (int& _index) {
+	return index > _index;
+}
+bool File::operator==(int& _index) {
+	return index == _index;
 }
 
 Data::Data() {

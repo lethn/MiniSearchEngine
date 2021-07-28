@@ -1,14 +1,5 @@
 ﻿#include "Library.h"
 
-struct File{
-	int index;
-	int noExacts; 	// number of exact matches
-	int noMatches;	// number of matches
-
-	File();
-	File(int _index, int _noExacts, int _noMatches);
-};
-
 struct Data {
 	int index;
 	vector <int> positions;
@@ -17,6 +8,21 @@ struct Data {
 	Data(int _index);
 	Data(int _index, int _pos);
 	Data(int _index, vector < int >& _positions);
+};
+
+struct File{
+	int index;
+	int noExacts; 	// number of exact matches
+	int noMatches;	// number of matches
+
+	File();
+	File(int _index);
+	File(int _index, int _noExacts, int _noMatches);
+	File(Data& A, bool exact);
+
+	bool operator< (int& _index);
+	bool operator> (int& _index);
+	bool operator==(int& _index);
 };
 
 struct Node{
@@ -46,7 +52,7 @@ struct Node{
 struct Trie {
 	Node* root;
 	vector < File > result;
-	vector < Node* >  partial_results; 
+	vector < Node* >  partial_results;
 	// Vector pointer chỉ vào Node
 	// dùng để tìm exact match
 	// “tallest building”, “tallest * in the world“, ...
@@ -75,7 +81,7 @@ struct Poro {	// save global variables
 	Trie* search_trie;
 	Trie* history_trie;
 
-	vector < vector < Node* > > synonyms;
+	vector < vector < Data > > synonyms;
 	vector < string > file_names;
 	vector < string > recommendations;
 
@@ -94,6 +100,17 @@ struct Poro {	// save global variables
 	// search history
 	// called == 10^5 || found == 5 => return hết;
 
+	vector < File > operatorIntitle(string s);
+	vector < File > operatorFiletype(string s);
+	vector < vector < Data > > processString(string s);
+	vector < Data > StringtoData(string& s);
+	vector < Data > processParenthesis(string s);
+	vector < Data > processExactmatch(string s);
+	vector < vector < Data > > processOperations(vector < vector < Data > >& V);
+	vector < Data > searchSingleNumber(int number);
+	vector < Data > searchRangeNumber(int number1, int number2);
+	vector < Data > combineData(vector < vector < Data > >& V);
+	vector < File > updateResult(vector < vector < Data > > V);
 	Poro();
 };
 
@@ -111,3 +128,21 @@ struct UserInterface {
 	void subMenu(Poro& PoroPoro);
 	void mainMenu(Poro& PoroPoro);
 };
+
+bool CompareFiles(File& A, File& B);		// dùng cho hàm sort();
+vector < File > CombineDatatoFile(vector < Data >& A, vector < Data >& B);
+vector < Data > AND_Data(vector < Data >& A, vector < Data >& B);
+vector < Data > OR_Data(vector < Data >& A, vector < Data >& B);
+vector < int >& AND_int(vector < int >& A, vector < int >& B, int d);
+vector < int >& OR_int(vector < int >& A, vector < int >& B);
+vector < Data > EXACT(vector < Data >& A, vector < Data >& B, int d);
+vector < Data > SUBTRACT(vector < Data >& A, vector < Data >& B);
+vector < File > OR_File(vector < File >& A, vector < int >& B);
+void search_recommendations(vector < string >& recommendations, Node* pCur, string& s, int& called, int& found);
+void gotoxy(int x, int y);
+string convertToString(char* a, int size);
+int getDistance(ii& A);
+vector < ii > findParenthesis(string& s);
+vector < ii > findQuotation(string& s);
+void lowerString(string& s);
+bool isOperation(vector < Data >& V);
