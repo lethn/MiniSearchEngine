@@ -78,13 +78,30 @@ Node* Trie::search(string& s) {
 	return cur;
 }
 
-void Node::getString(string& s, Node* root) {
+void Trie::printData() {
+	for(auto &child: root->children){
+		dfs(child.second, root);
+	}
+}
+
+void dfs(Node* u, Node* root) {
+	if (u->isWord()) {
+		cout << u->getString(root) << ' ' << u->files.size() << '\n';
+	}
+	for (auto& child : u->children) {
+		dfs(child.second, root);
+	}
+}
+
+string Node::getString(Node* root) {
+	string s;
 	Node* pCur = this;
 	while (pCur != root) {
 		s.push_back(pCur->value);
 		pCur = pCur->parent;
 	}
 	for(int l=0, r=s.size()-1; l<r; ++l, --r) swap(s[l], s[r]);
+	return s;
 }
 
 bool Node::isWord() {

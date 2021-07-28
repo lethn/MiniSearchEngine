@@ -40,7 +40,7 @@ struct Node{
 	int operator_type;
 	bool isStopword;
 
-	void getString(string& s, Node* root);
+	string getString(Node* root);
 
 	Node();
 	Node(char _value, Node* _parent);
@@ -79,6 +79,8 @@ struct Trie {
 	void insertNumber(int num, int index, int position);
 	Node* newNode(string& s);
 	Node* search(string& s);	// run loop
+	void printData();
+	// debugging purposes
 
 	Trie();
 };
@@ -156,3 +158,4 @@ vector < ii > findParenthesis(string& s);
 vector < ii > findQuotation(string& s);
 void lowerString(string& s);
 bool isOperation(vector < Data >& V);
+void dfs(Node* u, Node* root);
