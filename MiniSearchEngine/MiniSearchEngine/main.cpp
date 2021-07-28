@@ -1,4 +1,4 @@
-#include "Functions.h"
+#include "Struct.h"
 
 
 int main() {
