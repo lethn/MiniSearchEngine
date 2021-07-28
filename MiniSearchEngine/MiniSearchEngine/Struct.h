@@ -134,6 +134,7 @@ struct UserInterface {
 	void backBorder();
 	void subMenu(Poro& PoroPoro);
 	void mainMenu(Poro& PoroPoro);
+	void loadData(Poro& PoroPoro);
 };
 
 bool CompareFiles(File& A, File& B);		// dùng cho hàm sort();
@@ -142,8 +143,8 @@ vector < Data > AND_Data(vector < Data >& A, vector < Data >& B);
 vector < Data > OR_Data(vector < Data >& A, vector < Data >& B);
 vector < int >& AND_int(vector < int >& A, vector < int >& B, int d);
 vector < int >& OR_int(vector < int >& A, vector < int >& B);
-vector < Data > EXACT(vector < Data >& A, vector < Data >& B, int d);
-vector < Data > SUBTRACT(vector < Data >& A, vector < Data >& B);
+vector < Data > EXACT_MATCHES(vector < Data >& A, vector < Data >& B, int d);
+vector < Data > EXCEPT(vector < Data >& A, vector < Data >& B);
 vector < File > OR_File(vector < File >& A, vector < int >& B);
 void search_recommendations(vector < string >& recommendations, Node* pCur, string& s, int& called, int& found);
 void gotoxy(int x, int y);
@@ -153,5 +154,3 @@ vector < ii > findParenthesis(string& s);
 vector < ii > findQuotation(string& s);
 void lowerString(string& s);
 bool isOperation(vector < Data >& V);
-void loadData(Poro& PoroPoro);
-};

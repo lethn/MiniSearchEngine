@@ -114,7 +114,7 @@ vector < File > Poro::updateResult(vector < vector < Data > > V) {
 	vector < Data > matches = preProcess[0];
 	int d = 0;
 	for(int i = 1; i < n; ++i){
-		exact_match = EXACT(exact_match, preProcess[i], ++d);
+		exact_match = EXACT_MATCHES(exact_match, preProcess[i], ++d);
 	}
 	unordered_map < int, File > Map;
 	for (auto& files : exact_match) {
@@ -304,7 +304,7 @@ vector < Data > Poro::processExactmatch(string s) {
 				}
 				else {
 					vector < Data > thisData = StringtoData(word);
-					result = EXACT(result, thisData, d);
+					result = EXACT_MATCHES(result, thisData, d);
 					++d;
 				}
 				word.clear();
@@ -346,7 +346,7 @@ vector < vector < Data > > Poro::processOperations(vector < vector < Data > >& V
 				}
 				else if (operation == 3) {
 					if (!isOperation(V[i + 1]))
-					tmp = SUBTRACT(tmp, V[i + 1]);
+					tmp = EXCEPT(tmp, V[i + 1]);
 				}
 				else break;
 			}

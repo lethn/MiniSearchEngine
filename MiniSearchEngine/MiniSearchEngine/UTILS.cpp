@@ -8,14 +8,6 @@ bool CompareFiles(File A, File B) {
 	return A.index < B.index;
 }
 
-vector < Data > EXACT(vector < Data >& A, vector < Data >& B, int d) {
-	return vector < Data > ();
-}
-
-vector < File > CombineDatatoFile(vector < Data >& A, vector < Data >& B) {
-
-}
-
 vector < Data > AND_Data(vector < Data >& A, vector < Data >& B) {
 	vector <Data> result;
 	int n = A.size(), m = B.size(), i = 0, j = 0;
@@ -165,7 +157,7 @@ vector <Data> EXACT_MATCHES(vector <Data>& A, vector <Data>& B, int d) {
 		if (A[i].index < B[j].index) ++i;
 		else if (A[i].index > B[j].index) ++j;
 		else {
-			result.push_back(Data(A[i].index, AND_INT(A[i].positions, B[i].positions, d + 1)));
+			result.push_back(Data(A[i].index, AND_int(A[i].positions, B[i].positions, d + 1)));
 			++i;
 			++j;
 		}
