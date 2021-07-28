@@ -26,17 +26,17 @@ void Poro::load_data(string indexfile)
 		getline(fin, tmptitle);
 		for (int i = 0; i < tmptitle.size(); i++)
 		{
-			if (tmp[i] == SPACE || i == tmptitle.size() - 1)
+			if (tmptitle[i] == SPACE || i == tmptitle.size() - 1)
 			{
 				search_trie->insertTitle(title, j);
 				title = "";
 				continue;
 			}
-			if (special_characters.find(tmp[i]) != special_characters.end() || (tmp[i] < 0 && tmp[i] != -44))
+			if (special_characters.find(tmptitle[i]) != special_characters.end() || (tmptitle[i] < 0 && tmptitle[i] != -44))
 			{
 				continue;
 			}
-			title += tolower(tmp[i]);
+			title += tolower(tmptitle[i]);
 		}
 		for (int i = tmp.size() - 1; i > -1; i--)
 		{
