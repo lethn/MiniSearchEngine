@@ -8,39 +8,6 @@ bool CompareFiles(File A, File B) {
 	return A.index < B.index;
 }
 
-vector <Data> EXCEPT(vector <Data>& A, vector <Data>& B) { // A: lấy   B: bỏ
-	vector <Data> result;
-	int n = A.size(), m = B.size(), i = 0, j = 0;
-	while (i < n && j < m) {
-		if (A[i].index != B[j].index) 
-			result.push_back(Data(A[i].index, A[i].positions));
-		else {
-			i++;
-			j++;
-		}
-	}
-	while (i < n) {
-		result.push_back(Data(A[i].index, A[i].positions));
-		++i;
-	}
-	return result;
-}
-
-vector <Data> EXACT_MATCHES(vector <Data>& A, vector <Data>& B, int d) {
-	vector <Data> result;
-	int n = A.size(), m = B.size(), i = 0, j = 0;
-	while (i < n && j < m) {
-		if (A[i].index < B[j].index) ++i;
-		else if (A[i].index > B[j].index) ++j;
-		else {
-			result.push_back(Data(A[i].index, AND_INT(A[i].positions, B[i].positions, d + 1)));
-			++i;
-			++j;
-		}
-	}
-	return result;
-}
-
 vector <Data> AND_DATA(vector <Data>& A, vector <Data>& B) {
 	vector <Data> result;
 	int n = A.size(), m = B.size(), i = 0, j = 0;
@@ -56,7 +23,7 @@ vector <Data> AND_DATA(vector <Data>& A, vector <Data>& B) {
 	return result;
 }
 
-vector <int>& AND_INT(vector <int>& A, vector <int>& B, int d = 0) {
+vector <int>& AND_INT(vector <int>& A, vector <int>& B, int d) { // d = 0;
 	vector <int> result;
 	int n = A.size(),
 		m = B.size(),
@@ -128,4 +95,37 @@ void gotoxy(int x, int y) {
 		h = GetStdHandle(STD_OUTPUT_HANDLE);
 	COORD c = { x, y };
 	SetConsoleCursorPosition(h, c);
+}
+
+vector <Data> EXCEPT(vector <Data>& A, vector <Data>& B) { // A: lấy   B: bỏ
+	vector <Data> result;
+	int n = A.size(), m = B.size(), i = 0, j = 0;
+	while (i < n && j < m) {
+		if (A[i].index != B[j].index)
+			result.push_back(Data(A[i].index, A[i].positions));
+		else {
+			i++;
+			j++;
+		}
+	}
+	while (i < n) {
+		result.push_back(Data(A[i].index, A[i].positions));
+		++i;
+	}
+	return result;
+}
+
+vector <Data> EXACT_MATCHES(vector <Data>& A, vector <Data>& B, int d) {
+	vector <Data> result;
+	int n = A.size(), m = B.size(), i = 0, j = 0;
+	while (i < n && j < m) {
+		if (A[i].index < B[j].index) ++i;
+		else if (A[i].index > B[j].index) ++j;
+		else {
+			result.push_back(Data(A[i].index, AND_INT(A[i].positions, B[i].positions, d + 1)));
+			++i;
+			++j;
+		}
+	}
+	return result;
 }
