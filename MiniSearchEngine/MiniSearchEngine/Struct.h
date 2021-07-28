@@ -34,6 +34,7 @@ struct Node{
 	vector < int > inTitle; //  chứa index của file;
 	vector < int > fileType;//	chứa index của file;
 	unordered_map <char, Node*> children;
+
 	// History ko có cái này
 	int synonym_root;	// 0, 1, 2 … = hàng của từ đó -1;
 	int operator_type;
@@ -72,6 +73,7 @@ struct Trie {
 
 	void deallocate(Node*& root);
 	void insert(string& s, int index, int position);
+	void insertData(string& s, vector < File >& V);
 	void insertTitle(string& title, int index);
 	void insertExtension(string& extension, int index);
 	void insertNumber(int num, int index, int position);
@@ -98,6 +100,9 @@ struct Poro {	// save global variables
 
 	void resetData();
 	void load_data(string indexfile);
+	void load_file(string indexfile);
+	void load_synonyms(string indexfile);
+	void load_stopWord(string indexfile);
 	void processInput(char input);
 	void processOutput();
 	void recommend();
@@ -116,9 +121,6 @@ struct Poro {	// save global variables
 	vector < Data > combineData(vector < vector < Data > >& V);
 	vector < File > updateResult(vector < vector < Data > > V);
 	Poro();
-
-	vector <Data> searchSingleNumber(int number);
-	vector <Data> searchRangeNumber(int number1, int number2);
 };
 
 struct UserInterface {
