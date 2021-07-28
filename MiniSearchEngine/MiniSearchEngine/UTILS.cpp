@@ -157,7 +157,7 @@ vector <Data> EXACT_MATCHES(vector <Data>& A, vector <Data>& B, int d) {
 		if (A[i].index < B[j].index) ++i;
 		else if (A[i].index > B[j].index) ++j;
 		else {
-			result.push_back(Data(A[i].index, AND_int(A[i].positions, B[i].positions, d + 1)));
+			result.push_back(Data(A[i].index, AND_int(A[i].positions, B[i].positions, d)));
 			++i;
 			++j;
 		}

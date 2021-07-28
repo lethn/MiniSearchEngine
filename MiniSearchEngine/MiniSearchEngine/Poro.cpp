@@ -113,9 +113,9 @@ vector < File > Poro::updateResult(vector < vector < Data > > V) {
 	int n = preProcess.size();
 	vector < Data > exact_match = preProcess[0];
 	vector < Data > matches = preProcess[0];
-	int d = 0;
-	for(int i = 1; i < n; ++i){
-		exact_match = EXACT_MATCHES(exact_match, preProcess[i], ++d);
+	int d = 1;
+	for(int i = 1; i < n; ++i, ++d){
+		exact_match = EXACT_MATCHES(exact_match, preProcess[i], d);
 	}
 	unordered_map < int, File > Map;
 	for (auto& files : exact_match) {
@@ -253,21 +253,18 @@ vector < vector < Data > > Poro::processString(string s) {
 
 vector <Data> Poro::searchSingleNumber(int number) {
 	vector<Data> result;
-	if (search_trie->numbers.find(number) != search_trie->numbers.end())
+	if (search_trie->numbers.count(number))
 		result = search_trie->numbers[number];
 	return result;
 }
 
 vector <Data> Poro::searchRangeNumber(int number1, int number2) {
 	vector<Data> result;
-	for (auto A = search_trie->numbers.lower_bound(number1); A != search_trie->numbers.lower_bound(number2); A++) {
+	for (auto A = search_trie->numbers.lower_bound(number1); A != search_trie->numbers.upper_bound(number2); A++) {
 		if (result.empty())
 			result = A->second;
 		else {
-			while (!A->second.empty()) {
-				result.push_back(A->second.back());
-				A->second.pop_back();
-			}
+			result = OR_Data(result, A->second);
 		}
 	}
 	return result;
@@ -306,27 +303,21 @@ vector < Data > Poro::processExactmatch(string s) {
 	bool init = false;
 	string word;
 	int d = 1;
-	for (int i = 0; i < n; ++i) {
-		if (s[i] == SPACE) {
-			if (!word.empty()){
-				if (word.size() == 1 && word[0] == ASTERISK && init) {
-					++d;
-					continue;
-				}
-				if (!init) {
-					result = StringtoData(word);
-					init = true;
-				}
-				else {
-					vector < Data > thisData = StringtoData(word);
-					result = EXACT_MATCHES(result, thisData, d);
-					++d;
-				}
-				word.clear();
-			}
+	stringstream ss(s);
+	while (ss >> word) {
+		if (word.empty()) continue;
+		if (word.size() == 1 && word[0] == ASTERISK && init) {
+			++d;
+			continue;
+		}
+		if (!init) {
+			result = StringtoData(word);
+			init = true;
 		}
 		else {
-			word.push_back(s[i]);
+			vector < Data > thisData = StringtoData(word);
+			result = EXACT_MATCHES(result, thisData, d);
+			++d;
 		}
 	}
 	return result;
@@ -361,7 +352,7 @@ vector < vector < Data > > Poro::processOperations(vector < vector < Data > >& V
 				}
 				else if (operation == 3) {
 					if (!isOperation(V[i + 1]))
-					tmp = EXCEPT(tmp, V[i + 1]);
+						tmp = EXCEPT(tmp, V[i + 1]);
 				}
 				else break;
 			}
@@ -369,6 +360,7 @@ vector < vector < Data > > Poro::processOperations(vector < vector < Data > >& V
 			--i;
 		}
 	}
+	return result;
 }
 
 vector < Data > Poro::combineData(vector < vector < Data > >& V) {
