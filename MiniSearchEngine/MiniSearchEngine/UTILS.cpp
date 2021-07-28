@@ -164,30 +164,3 @@ vector <Data> EXACT_MATCHES(vector <Data>& A, vector <Data>& B, int d) {
 	}
 	return result;
 }
-
-
-vector <Data> Poro::searchSingleNumber(int number) {
-	vector<Data> result;
-	for (auto A : search_trie->numbers) {
-		if (A.first == number)
-			result = A.second;
-	}
-	return result;
-}
-
-vector <Data> Poro::searchRangeNumber(int number1, int number2) {
-	vector<Data> result;
-	for (auto A : search_trie->numbers) {
-		if (A.first >= number1 && A.first <= number2) {
-			if (result.empty())
-				result = A.second;
-			else {
-				while (!A.second.empty()) {
-					result.push_back(A.second.back());
-					A.second.pop_back();
-				}
-			}
-		}
-	}
-	return result;
-}

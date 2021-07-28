@@ -31,6 +31,7 @@ void Poro::processInput(char input) {
 	switch (input) {
 	case ENTER: {
 		processOutput();
+		history_trie->insertData(search_words, search_trie->result);
 		break;
 	}
 	case BACKSPACE: {
@@ -191,7 +192,7 @@ vector < vector < Data > > Poro::processString(string s) {
 				word.clear();
 			}
 			result.push_back(processParenthesis(
-				s.substr(i, getDistance(parenthesis[k])))
+				s.substr(i+1, getDistance(parenthesis[k])-1))
 			);
 			i = parenthesis[k].second; // jump to the close
 			++k;
@@ -202,7 +203,7 @@ vector < vector < Data > > Poro::processString(string s) {
 				word.clear();
 			}
 			result.push_back(processExactmatch(
-				s.substr(i, getDistance(quotations[h])))
+				s.substr(i+1, getDistance(quotations[h])-1))
 			);
 			i = quotations[h].second; // jump to the close
 			++h;
@@ -250,12 +251,33 @@ vector < vector < Data > > Poro::processString(string s) {
 	return result;
 }
 
-vector < Data > Poro::searchSingleNumber(int number) {
-	
+vector <Data> Poro::searchSingleNumber(int number) {
+	vector<Data> result;
+	for (auto A : search_trie->numbers) {
+		if (A.first == number){
+			result = A.second;
+		}
+		if (A.first >= number) break;
+	}
+	return result;
 }
 
-vector < Data > Poro::searchRangeNumber(int number1, int number2) {
-
+vector <Data> Poro::searchRangeNumber(int number1, int number2) {
+	vector<Data> result;
+	for (auto A : search_trie->numbers) {
+		if (A.first >= number1 && A.first <= number2) {
+			if (result.empty())
+				result = A.second;
+			else {
+				while (!A.second.empty()) {
+					result.push_back(A.second.back());
+					A.second.pop_back();
+				}
+			}
+		}
+		if (A.first > number2) break;
+	}
+	return result;
 }
 
 vector < Data > Poro::StringtoData(string& s) {

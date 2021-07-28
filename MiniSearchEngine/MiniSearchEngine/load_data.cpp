@@ -108,7 +108,7 @@ void Poro::load_data(string indexfile)
 				strtmp += str[j];
 			}
 		}
-		Poro::synonyms.push_back(newVec);
+		synonyms.push_back(newVec);
 		i++;
 	}
 	fin.close();
