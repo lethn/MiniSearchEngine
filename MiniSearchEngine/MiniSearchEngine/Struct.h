@@ -100,6 +100,9 @@ struct Poro {	// save global variables
 
 	void resetData();
 	void load_data(string indexfile);
+	void load_file(string indexfile);
+	void load_synonyms(string indexfile);
+	void load_stopWord(string indexfile);
 	void processInput(char input);
 	void processOutput();
 	void recommend();
