@@ -364,7 +364,6 @@ vector < vector < Data > > Poro::processOperations(vector < vector < Data > >& V
 }
 
 vector < Data > Poro::combineData(vector < vector < Data > >& V) {
-	// spaghetti
 	vector < Data > result;
 	vector < vector < Data > > preProcess = processOperations(V);
 	if (preProcess.empty()) return result;

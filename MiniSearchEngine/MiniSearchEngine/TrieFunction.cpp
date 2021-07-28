@@ -86,7 +86,11 @@ void Trie::printData() {
 
 void dfs(Node* u, Node* root) {
 	if (u->isWord()) {
-		cout << u->getString(root) << ' ' << u->files.size() << '\n';
+		cout << u->getString(root) << ' ';
+		for (Data& data : u->files) {
+			cout << data.index << ' ';
+		}
+		cout << '\n';
 	}
 	for (auto& child : u->children) {
 		dfs(child.second, root);

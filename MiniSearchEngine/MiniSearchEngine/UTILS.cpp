@@ -1,6 +1,6 @@
 ﻿#include "Struct.h"
 
-bool CompareFiles(File A, File B) {
+bool CompareFiles(File& A, File& B) {
 	if (A.noExacts != B.noExacts)
 		return A.noExacts < B.noExacts;
 	if (A.noMatches != B.noMatches)

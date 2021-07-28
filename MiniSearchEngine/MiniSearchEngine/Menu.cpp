@@ -143,7 +143,6 @@ void UserInterface::input(Poro& PoroPoro) {
 	char ch;
 	const int X = 45, Y = 19;
 	PoroPoro.resetData();
-	PoroPoro.search_trie->root->value = 'R';
 	string* search_words = &PoroPoro.search_words;
 	vector < string >* recommendations = &PoroPoro.recommendations;
 	gotoxy(X, Y);
@@ -342,7 +341,6 @@ void UserInterface::mainMenu(Poro& PoroPoro) {
 	logo();
 	inputBoard();
 	input(PoroPoro);
-	// subMenu(PoroPoro);
 	subMenu(PoroPoro);
 }
 

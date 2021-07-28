@@ -13,7 +13,7 @@
 #include <sstream>
 #include <map>
 using namespace std;
-const int c[13] = { '"',',','.','◼',')','(',':',';','“','”','—','_','\'' };
+const int c[] = { '"',',','.','◼',')','(',':',';','“','”','—','_','\'','[',']','{','}'};
 const set <int> special_characters(c, c + sizeof(c) / sizeof(int));
 const string SOURCE = "source\\";
 const string INTITLE = "intitle:";
