@@ -114,4 +114,5 @@ struct UserInterface {
 	void backBorder();
 	void subMenu(Poro& PoroPoro);
 	void mainMenu(Poro& PoroPoro);
+	void loadData(Poro& PoroPoro);
 };

@@ -11,7 +11,7 @@ void Poro::load_data(string indexfile)
 	{
 		// load file
 		getline(file, tmp);
-		cout << "data: " + tmp << endl;
+		/*cout << "data: " + tmp << endl;*/
 		Poro::file_names.push_back(tmp);
 		ifstream fin;
 		fin.open("source\\" + tmp);
@@ -73,7 +73,7 @@ void Poro::load_data(string indexfile)
 		}
 		j++;
 		fin.close();
-		cout << endl;
+		/*cout << endl;*/
 	}
 	file.close();
 	ifstream fin;
@@ -133,6 +133,6 @@ void Poro::load_data(string indexfile)
 		}
 	}
 	fin.close();
-	cout << "success" << endl;
+	/*cout << "success" << endl;*/
 }
 

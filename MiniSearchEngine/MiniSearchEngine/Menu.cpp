@@ -335,3 +335,50 @@ void UserInterface::mainMenu(Poro& PoroPoro) {
 	input(PoroPoro);
 	subMenu(PoroPoro);
 }
+
+void UserInterface::loadData(Poro& PoroPoro) {
+	Nocursortype();
+	txtColor(15);
+	gotoxy(43, 11);
+	for (int i = 0; i < 47; ++i)
+		cout << char(205);
+
+	gotoxy(43, 19);
+	for (int i = 0; i < 47; ++i)
+		cout << char(205);
+
+	gotoxy(42, 11);
+	cout << char(201);
+	gotoxy(42, 19);
+	cout << char(200);
+
+	gotoxy(90, 11);
+	cout << char(187);
+	gotoxy(90, 19);
+	cout << char(188);
+
+	for (int i = 12; i < 19; ++i) {
+		gotoxy(42, i);
+		cout << char(186);
+		gotoxy(90, i);
+		cout << char(186);
+	}
+
+	gotoxy(51, 13);
+	cout << ">>  L O A D I N G   D A T A  <<";
+	gotoxy(60, 15);
+	cout << char(254) << "  " << char(254) << "  " << char(254) << "  " << char(254) << "  " << char(254);
+
+	clock_t begin, end;
+	begin = clock();
+	PoroPoro.load_data("index.txt");
+	end = clock();
+
+	gotoxy(58, 15);
+	cout << "Loading time: ";
+	gotoxy(72, 15);
+	cout << (float)(end - begin) / CLOCKS_PER_SEC << "s" << endl;
+	gotoxy(53, 17);
+	cout << "Press any key to continue ...";
+	_getch();
+}
