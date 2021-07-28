@@ -39,7 +39,7 @@ void Poro::load_data(string indexfile)
 				str += tolower(strtmp[i]);
 			}
 
-			search_trie->insertNumber(stoi(num), j, index);
+			if (num != "") search_trie->insertNumber(stoi(num), j, index);
 			search_trie->insert(str, j, index);
 			index++;
 		}
@@ -82,7 +82,7 @@ void Poro::load_data(string indexfile)
 	file.close();
 	ifstream fin;
 	// load synonyms
-	fin.open("Synonyms.txt");
+	fin.open("source\\Synonyms.txt");
 	string str;
 	int i = 1;
 	while (!fin.eof())
@@ -117,7 +117,7 @@ void Poro::load_data(string indexfile)
 	}
 	fin.close();
 	//load stopword
-	fin.open("Stopwords.txt");
+	fin.open("source\\Stopwords.txt");
 	string strtmp;
 	while (!fin.eof())
 	{
@@ -137,5 +137,6 @@ void Poro::load_data(string indexfile)
 		}
 	}
 	fin.close();
+	cout << "success" << endl;
 }
 
