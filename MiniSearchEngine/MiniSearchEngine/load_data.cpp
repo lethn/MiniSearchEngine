@@ -80,12 +80,12 @@ void Poro::load_data(string indexfile)
 	// load synonyms
 	fin.open("source\\Synonyms.txt");
 	string str;
-	int i = 1;
+	int i = 0;
 	while (!fin.eof())
 	{
 		getline(fin, str, '\n');
 		string strtmp = "";
-		vector<Node*> newVec;
+		vector<Data> newVec;
 		for (int j = 0; j < str.size(); j++)
 		{
 			if (str[j] == ',' || str[j] == '\n')
@@ -94,7 +94,7 @@ void Poro::load_data(string indexfile)
 				if (searchTmp != nullptr)
 				{
 					searchTmp->synonym_root = i;
-					newVec.push_back(searchTmp);
+					newVec = OR_Data(newVec, searchTmp->files);
 				}
 				j++;
 				strtmp = "";
@@ -108,7 +108,7 @@ void Poro::load_data(string indexfile)
 				strtmp += str[j];
 			}
 		}
-		Poro::synonyms.push_back(newVec);
+		synonyms.push_back(newVec);
 		i++;
 	}
 	fin.close();
