@@ -99,6 +99,9 @@ struct Poro {	// save global variables
 	// called == 10^5 || found == 5 => return hết;
 
 	Poro();
+
+	vector <Data> searchSingleNumber(int number);
+	vector <Data> searchRangeNumber(int number1, int number2);
 };
 
 struct UserInterface {
