@@ -99,6 +99,7 @@ void Poro::resetData(){
 	invalids.push_back(0);
 	search_trie->pNode = search_trie->root;
 	history_trie->pNode = history_trie->root;
+	search_trie->partial_results.clear();
 }
 
 void Poro::processOutput() {
@@ -346,7 +347,6 @@ vector < Data > Poro::StringtoData(string& s) {
 
 vector < Data > Poro::processExactmatch(string s) {
 	int n = s.size();
-	vector < vector < Data > > V;
 	vector < Data > result;
 	bool init = false;
 	string word;
