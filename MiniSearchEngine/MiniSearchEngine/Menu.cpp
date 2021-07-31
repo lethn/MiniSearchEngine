@@ -263,7 +263,7 @@ void UserInterface::subMenu(Poro& PoroPoro) {
 	backBorder();
 
 	txtColor(15);
-	gotoxy(22, 6); cout << " Data 1 ";
+	gotoxy(22, 06); cout << " Data 1 ";
 	gotoxy(22, 11); cout << " Data 2 ";
 	gotoxy(22, 16); cout << " Data 3 ";
 	gotoxy(22, 21); cout << " Data 4 ";
@@ -274,7 +274,7 @@ void UserInterface::subMenu(Poro& PoroPoro) {
 	while (true) {
 		char choice = _getch();
 		txtColor(15);
-		gotoxy(22, 6); cout << " Data 1 ";
+		gotoxy(22, 06); cout << " Data 1 ";
 		gotoxy(22, 11); cout << " Data 2 ";
 		gotoxy(22, 16); cout << " Data 3 ";
 		gotoxy(22, 21); cout << " Data 4 ";

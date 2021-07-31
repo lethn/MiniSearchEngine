@@ -15,8 +15,9 @@ vector < Data > AND_Data(vector < Data >& A, vector < Data >& B) {
 		if (A[i].index < B[j].index) ++i;
 		else if (A[i].index > B[j].index) ++j;
 		else {
+			vector < int > C = OR_int(A[i].positions, B[i].positions);
 			result.push_back(
-				Data(A[i].index, OR_int(A[i].positions, B[i].positions))
+				Data(A[i].index, C)
 			);
 			++i, ++j;
 		}
@@ -24,7 +25,7 @@ vector < Data > AND_Data(vector < Data >& A, vector < Data >& B) {
 	return result;
 }
 
-vector < int >& AND_int(vector < int >& A, vector < int >& B, int d) {
+vector < int > AND_int(vector < int >& A, vector < int >& B, int d) {
 	vector < int > result;
 	int n = A.size(),
 		m = B.size(),
@@ -50,8 +51,9 @@ vector < Data > OR_Data(vector < Data >& A, vector < Data >& B) {
 			++j;
 		}
 		else {
+			vector < int > C = OR_int(A[i].positions, B[j].positions);
 			result.push_back(
-				Data(A[i].index, OR_int(A[i].positions, B[j].positions))
+				Data(A[i].index, C)
 			);
 			++i, ++j;
 		}
@@ -61,7 +63,7 @@ vector < Data > OR_Data(vector < Data >& A, vector < Data >& B) {
 	return result;
 }
 
-vector < int >& OR_int(vector < int >& A, vector < int >& B) {
+vector < int > OR_int(vector < int >& A, vector < int >& B) {
 	vector < int > result;
 	int n = A.size(),
 		m = B.size(),
@@ -157,7 +159,8 @@ vector <Data> EXACT_MATCHES(vector <Data>& A, vector <Data>& B, int d) {
 		if (A[i].index < B[j].index) ++i;
 		else if (A[i].index > B[j].index) ++j;
 		else {
-			result.push_back(Data(A[i].index, AND_int(A[i].positions, B[i].positions, d)));
+			vector < int > C = AND_int(A[i].positions, B[i].positions, d);
+			result.push_back(Data(A[i].index, C));
 			++i;
 			++j;
 		}

@@ -49,9 +49,8 @@ void Trie::insertNumber(int num, int index, int position)
 
 void Trie::insertData(string& s, vector < File >& V) {
 	Node* cur = newNode(s);
-	vector < Data > result;
 	for (auto& files : V) {
-		result.push_back(files.index);
+		cur->files.push_back(files.index);
 	}
 }
 

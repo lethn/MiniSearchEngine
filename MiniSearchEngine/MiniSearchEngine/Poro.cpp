@@ -95,7 +95,10 @@ void Poro::resetData(){
 	invalids.clear();
 	history_invalids = 0;
 	openQuotation = false;
+	search_words.clear();
 	invalids.push_back(0);
+	search_trie->pNode = search_trie->root;
+	history_trie->pNode = history_trie->root;
 }
 
 void Poro::processOutput() {

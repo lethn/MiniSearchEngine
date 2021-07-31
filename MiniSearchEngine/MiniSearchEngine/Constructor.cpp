@@ -8,6 +8,11 @@ Poro::Poro() {
 	invalids.push_back(0);
 }
 
+Poro::~Poro() {
+	search_trie->deallocate(search_trie->root);
+	history_trie->deallocate(history_trie->root);
+}
+
 File::File() {
 	index = noExacts = noMatches = 0;
 }

@@ -133,6 +133,7 @@ struct Poro {	// save global variables
 	vector < Data > combineData(vector < vector < Data > >& V);
 	vector < File > updateResult(vector < vector < Data > > V);
 	Poro();
+	~Poro();
 };
 
 struct UserInterface {
@@ -155,8 +156,8 @@ bool CompareFiles(File& A, File& B);		// dùng cho hàm sort();
 vector < File > CombineDatatoFile(vector < Data >& A, vector < Data >& B);
 vector < Data > AND_Data(vector < Data >& A, vector < Data >& B);
 vector < Data > OR_Data(vector < Data >& A, vector < Data >& B);
-vector < int >& AND_int(vector < int >& A, vector < int >& B, int d);
-vector < int >& OR_int(vector < int >& A, vector < int >& B);
+vector < int > AND_int(vector < int >& A, vector < int >& B, int d);
+vector < int > OR_int(vector < int >& A, vector < int >& B);
 vector < Data > EXACT_MATCHES(vector < Data >& A, vector < Data >& B, int d);
 vector < Data > EXCEPT(vector < Data >& A, vector < Data >& B);
 vector < File > OR_File(vector < File >& A, vector < int >& B);
