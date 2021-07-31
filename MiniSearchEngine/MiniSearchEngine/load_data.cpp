@@ -24,6 +24,7 @@ void Poro::load_file(string indexfile)
 		if (fin.fail())
 		{
 			fin.close();
+			j++;
 			continue;
 		}
 		int index = 0;
@@ -32,7 +33,7 @@ void Poro::load_file(string indexfile)
 		getline(fin, tmptitle);
 		for (int i = 0; i < tmptitle.size(); i++)
 		{
-			if (tmptitle[i] == SPACE || i == tmptitle.size() - 1)
+			if (tmptitle[i] == SPACE)
 			{
 				search_trie->insertTitle(title, j);
 				title = "";
@@ -44,6 +45,7 @@ void Poro::load_file(string indexfile)
 			}
 			title += tolower(tmptitle[i]);
 		}
+		search_trie->insertTitle(title, j);
 		for (int i = tmp.size() - 1; i > -1; i--)
 		{
 			if (tmp[i] == '.')
@@ -72,7 +74,7 @@ void Poro::load_file(string indexfile)
 				str += tolower(strtmp[i]);
 			}
 			if (num != "") search_trie->insertNumber(stoi(num), j, index);
-			search_trie->insert(str, j, index);
+			if (str != "") search_trie->insert(str, j, index);
 			index++;
 		}
 		j++;

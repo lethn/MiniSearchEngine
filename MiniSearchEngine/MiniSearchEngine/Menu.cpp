@@ -389,11 +389,11 @@ void UserInterface::loadData(Poro& PoroPoro) {
 	PoroPoro.load_data("index.txt");
 	end = clock();
 
-	gotoxy(58, 15);
+	gotoxy(57, 15);
 	cout << "Loading time: ";
-	gotoxy(72, 15);
+	gotoxy(71, 15);
 	cout << (float)(end - begin) / CLOCKS_PER_SEC << "s" << endl;
-	gotoxy(53, 17);
+	gotoxy(52, 17);
 	cout << "Press any key to continue ...";
 	_getch();
 }
