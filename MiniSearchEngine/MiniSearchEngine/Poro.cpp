@@ -432,7 +432,7 @@ vector < ii > findParenthesis(string& s) {
 	vector < ii > result;
 	for (int i = 0; i < (int) s.size(); ++i) {
 		if (s[i] == OPEN_PARENTHESIS) {
-			S.push(s[i]);
+			S.push(i);
 		}
 		else if (s[i] == CLOSE_PARENTHESIS && !S.empty()) {
 			result.push_back(make_pair(S.top(), i));
