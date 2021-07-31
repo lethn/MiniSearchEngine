@@ -160,8 +160,8 @@ void UserInterface::input(Poro& PoroPoro) {
 		if (ch == ENTER) { 
 			gotoxy(X, Y+2);
 			cout << "                                    ";
+			gotoxy(X, Y + 2);
 			for (auto file : PoroPoro.search_trie->result) {
-				gotoxy(X, Y+2);
 				cout << file.index << ' ';
 			}
 			system("pause");
