@@ -163,7 +163,7 @@ vector < File > Poro::operatorIntitle(string s) {
 	string word;
 	while (ss >> word) {
 		lowerString(word);
-		Node* node = search_trie->search(word);
+		Node* node = search_trie->protected_search(word);
 		if (!node) continue;
 		result = OR_File(result, node->inTitle);
 	}
@@ -177,7 +177,7 @@ vector < File > Poro::operatorFiletype(string s) {
 	while (ss >> word) {
 		if (word.empty()) continue;
 		lowerString(word);
-		Node* node = search_trie->search(word);
+		Node* node = search_trie->protected_search(word);
 		if (!node) continue;
 		result = OR_File(result, node->fileType);
 	}

@@ -89,6 +89,7 @@ struct Trie {
 	void insertNumber(int num, int index, int position);
 	Node* newNode(string& s);
 	Node* search(string& s);	// run loop
+	Node* protected_search(string& s);
 	void printData();
 	// debugging purposes
 

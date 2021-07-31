@@ -77,6 +77,16 @@ Node* Trie::search(string& s) {
 	return cur;
 }
 
+Node* Trie::protected_search(string& s) {
+	Node* cur = root;
+	for (int i = 0; i < s.size(); i++) {
+		if (cur->children.find(s[i]) == cur->children.end())
+			return nullptr;
+		cur = cur->children[s[i]];
+	}
+	return cur;
+}
+
 void Trie::printData() {
 	for(auto &child: root->children){
 		dfs(child.second, root);
@@ -86,7 +96,7 @@ void Trie::printData() {
 void dfs(Node* u, Node* root) {
 	if (u->isWord()) {
 		cout << u->getString(root) << ' ';
-		for (Data& A : u->files) {
+		for (auto A : u->files) {
 			cout << A.index << ' ';
 		}
 		cout << '\n';
