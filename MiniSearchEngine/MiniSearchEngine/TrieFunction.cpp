@@ -73,7 +73,7 @@ Node* Trie::search(string& s) {
 			return nullptr;
 		cur = cur->children[s[i]];
 	}
-	if (!cur->isWord());
+	if (!cur->isWord())
 		return nullptr;
 	return cur;
 }
