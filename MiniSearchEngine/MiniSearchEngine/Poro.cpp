@@ -32,6 +32,7 @@ void Poro::recommend() {
 void Poro::processInput(char input) {
 	switch (input) {
 	case ENTER: {
+		if (search_words.empty()) return;
 		processOutput();
 		history_trie->insertData(search_words, search_trie->result);
 		recent_search.push_front(search_words);

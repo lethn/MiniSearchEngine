@@ -2,10 +2,10 @@
 
 bool CompareFiles(File& A, File& B) {
 	if (A.noExacts != B.noExacts)
-		return A.noExacts < B.noExacts;
+		return A.noExacts > B.noExacts;
 	if (A.noMatches != B.noMatches)
-		return A.noMatches < B.noMatches;
-	return A.index < B.index;
+		return A.noMatches > B.noMatches;
+	return A.index > B.index;
 }
 
 vector < Data > AND_Data(vector < Data >& A, vector < Data >& B) {
@@ -160,7 +160,7 @@ vector <Data> EXACT_MATCHES(vector <Data>& A, vector <Data>& B, int d) {
 		else if (A[i].index > B[j].index) ++j;
 		else {
 			vector < int > C = AND_int(A[i].positions, B[j].positions, d);
-			result.push_back(Data(A[i].index, C));
+			if (!C.empty()) result.push_back(Data(A[i].index, C));
 			++i;
 			++j;
 		}
