@@ -158,7 +158,7 @@ void UserInterface::input(Poro& PoroPoro) {
 		int tmp = search_words->size();
 		PoroPoro.processInput(ch);
 		if (ch == ENTER && !search_words->empty()) { 
-			gotoxy(X, Y+2);
+			gotoxy(X, Y + 2);
 			cout << "                                    ";
 			gotoxy(X, Y + 2);
 			for (auto file : PoroPoro.search_trie->result) {

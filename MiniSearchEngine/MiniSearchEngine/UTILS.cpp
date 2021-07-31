@@ -59,7 +59,7 @@ vector < Data > OR_Data(vector < Data >& A, vector < Data >& B) {
 		}
 	}
 	while(i < n) result.push_back(A[i]), ++i;
-	while(j < n) result.push_back(B[i]), ++j;
+	while(j < m) result.push_back(B[j]), ++j;
 	return result;
 }
 
