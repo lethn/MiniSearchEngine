@@ -190,37 +190,37 @@ vector < vector < Data > > Poro::processString(string s) {
 	int N = s.size();
 	int n = parenthesis.size();
 	int m = quotations.size();
-	bool prevStopword = false;
+	bool prevStopword = true;
 	for (int i = 0; i < N; ++i) {
 		if (s[i] == SPACE) {
 			if (!word.empty()) {
 				vector < Data > A = StringtoData(word);
-				if (prevStopword) {
-					result.pop_back();
-					if (!isOperation(A)) {
-						result.push_back(A);
+				bool curStopword = isStopword(word, (*search_trie));
+				if (curStopword) {
+					if (!prevStopword && !result.empty() && isOperation(result.back())) {
+						result.pop_back();
 					}
 				}
-				prevStopword = false;
-				if (!isStopword(word, (*search_trie))){
-					prevStopword = true;
+				else if (!(prevStopword && isOperation(A))) {
+					result.push_back(A);
 				}
+				prevStopword = curStopword;
 				word.clear();
 			}
 		}
 		else if (s[i] == OPEN_PARENTHESIS &&  k < n && parenthesis[k].first == i) {
 			if (!word.empty()) {
 				vector < Data > A = StringtoData(word);
-				if (prevStopword) {
-					result.pop_back();
-					if (!isOperation(A)) {
-						result.push_back(A);
+				bool curStopword = isStopword(word, (*search_trie));
+				if (curStopword) {
+					if (!prevStopword && !result.empty() && isOperation(result.back())) {
+						result.pop_back();
 					}
 				}
-				prevStopword = false;
-				if (!isStopword(word, (*search_trie))){
-					prevStopword = true;
+				else if (!(prevStopword && isOperation(A))) {
+					result.push_back(A);
 				}
+				prevStopword = curStopword;
 				word.clear();
 			}
 			if (getDistance(parenthesis[k])) {
@@ -234,16 +234,16 @@ vector < vector < Data > > Poro::processString(string s) {
 		else if (s[i] == QUOTATION && h < m && quotations[h].first == i){
 			if (!word.empty()) {
 				vector < Data > A = StringtoData(word);
-				if (prevStopword) {
-					result.pop_back();
-					if (!isOperation(A)) {
-						result.push_back(A);
+				bool curStopword = isStopword(word, (*search_trie));
+				if (curStopword) {
+					if (!prevStopword && !result.empty() && isOperation(result.back())) {
+						result.pop_back();
 					}
 				}
-				prevStopword = false;
-				if (!isStopword(word, (*search_trie))){
-					prevStopword = true;
+				else if (!(prevStopword && isOperation(A))) {
+					result.push_back(A);
 				}
+				prevStopword = curStopword;
 				word.clear();
 			}
 			if (getDistance(quotations[h])) {
@@ -375,6 +375,9 @@ vector < Data > Poro::processParenthesis(string s) {
 
 vector < vector < Data > > Poro::processOperations(vector < vector < Data > >& V) {
 	vector < vector < Data > > result;
+	if (!result.empty() && isOperation(result.back())) {
+		result.pop_back();
+	}
 	int n = V.size();
 	for (int i = 0; i < n; ++i) {
 		if (i + 1 >= n || !isOperation(V[i + 1])){
@@ -382,24 +385,21 @@ vector < vector < Data > > Poro::processOperations(vector < vector < Data > >& V
 		}
 		else {
 			vector < Data > tmp = V[i];
-			bool thisbreak = false;
 			for(++i; i + 1 < n; i += 2) {
 				if (!isOperation(V[i])) {
 					break;
 				}
 				int operation = -V[i].back().index;
+				if (isOperation(V[i + 1])) continue;
 				if (operation == 1) {
 					tmp = AND_Data(tmp, V[i + 1]);
 				}
 				else if (operation == 2) {
-					if (!isOperation(V[i + 1]))
-						tmp = OR_Data(tmp, V[i + 1]);
+					tmp = OR_Data(tmp, V[i + 1]);
 				}
 				else if (operation == 3) {
-					if (!isOperation(V[i + 1]))
-						tmp = EXCEPT(tmp, V[i + 1]);
+					tmp = EXCEPT(tmp, V[i + 1]);
 				}
-				else break;
 			}
 			result.push_back(tmp);
 			--i;

@@ -157,7 +157,9 @@ void UserInterface::input(Poro& PoroPoro) {
 		}
 		int tmp = search_words->size();
 		PoroPoro.processInput(ch);
-		if (ch == ENTER) {
+		if (ch == ENTER) { 
+			gotoxy(X, Y+2);
+			cout << "                                    ";
 			for (auto file : PoroPoro.search_trie->result) {
 				gotoxy(X, Y+2);
 				cout << file.index << ' ';
@@ -280,11 +282,11 @@ void UserInterface::subMenu(Poro& PoroPoro) {
 		gotoxy(13, 32); cout << " BACK ";
 
 		if (choice == DOWN) {
-			((++cnt)%=6)+=1;
+
 		}
 
 		if (choice == UP) {
-			((--cnt)%=6)+=1;
+
 		}
 
 		if (choice == ESC) {
