@@ -282,11 +282,15 @@ void UserInterface::subMenu(Poro& PoroPoro) {
 		gotoxy(13, 32); cout << " BACK ";
 
 		if (choice == DOWN) {
-
+			cnt++;
+			if (cnt > 6)
+				cnt = 1;
 		}
 
 		if (choice == UP) {
-
+			cnt--;
+			if (cnt < 1)
+				cnt = 6;
 		}
 
 		if (choice == ESC) {
