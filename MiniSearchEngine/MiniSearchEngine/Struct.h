@@ -169,3 +169,4 @@ vector < ii > findQuotation(string& s);
 void lowerString(string& s);
 bool isOperation(vector < Data >& V);
 void dfs(Node* u, Node* root);
+bool isStopword(string& s, Trie& trie) {

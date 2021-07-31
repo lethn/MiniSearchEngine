@@ -30,6 +30,7 @@ typedef pair < int, int > ii;
 #define CALL_LIMIT 100000
 #define NUM_OF_RECOMMENDATIONS 5
 #define SEARCH_SIZE_LIMIT 55
+#define RECENT_SEARCH_SIZE 5
 
 #define BACKSPACE 8
 #define ENTER 13

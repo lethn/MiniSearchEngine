@@ -87,7 +87,8 @@ void UserInterface::inputBoard() {
 	// Search Board
 	gotoxy(34, 19);
 	cout << "Type here: ";
-
+	gotoxy(34, 21);
+	cout << "Recommend: ";
 	gotoxy(33, 18);
 	for (int i = 0; i < 68; ++i)
 		cout << char(205);
@@ -114,7 +115,6 @@ void UserInterface::inputBoard() {
 	// Poro Search Board
 	gotoxy(61, 16);
 	cout << "PORO SEARCH";
-
 	gotoxy(60, 15);
 	for (int i = 0; i < 13; ++i)
 		cout << char(205);
@@ -143,6 +143,7 @@ void UserInterface::input(Poro& PoroPoro) {
 	char ch;
 	const int X = 45, Y = 19;
 	PoroPoro.resetData();
+	PoroPoro.search_trie->root->value = 'R';
 	string* search_words = &PoroPoro.search_words;
 	vector < string >* recommendations = &PoroPoro.recommendations;
 	gotoxy(X, Y);
@@ -152,22 +153,32 @@ void UserInterface::input(Poro& PoroPoro) {
 		gotoxy(X + search_words->size(), Y);
 		ch = _getch();
 		if (ch == ESC){
-			PoroPoro.resetData();
-			return;
+			exit(0);
 		}
 		int tmp = search_words->size();
 		PoroPoro.processInput(ch);
+		if (ch == ENTER) {
+			for (auto file : PoroPoro.search_trie->result) {
+				gotoxy(X, Y+2);
+				cout << file.index << ' ';
+			}
+			system("pause");
+			return;
+		}
 		
 		if (tmp == (int) search_words->size()) continue;
-		PoroPoro.recommend();
-		for(int inv: PoroPoro.invalids){
-			gotoxy(X, Y + ++i), cout << "  ";
-			gotoxy(X, Y + i), cout << inv;
+		for (int j = 0; j < (int)recommendations->size(); ++j) {
+			gotoxy(X, Y+2+j);
+			cout << "                                        ";
 		}
-		for (int j = 0; j < (int) recommendations->size(); ++j) {
-			gotoxy(X, Y+1+j);
-			cout << "                ";
-			cout << search_words;
+		PoroPoro.recommend();
+		if (recommendations->empty()) {
+			gotoxy(X, Y+2);
+			cout << (*search_words);
+		}
+		for (int j = 0; j < (int) recommendations->size(); ++j) {			
+			gotoxy(X, Y+2+j);
+			cout << (*search_words);
 			cout << (*recommendations)[j];
 		}
 	}
@@ -269,15 +280,11 @@ void UserInterface::subMenu(Poro& PoroPoro) {
 		gotoxy(13, 32); cout << " BACK ";
 
 		if (choice == DOWN) {
-			cnt++;
-			if (cnt > 6)
-				cnt = 1;
+			((++cnt)%=6)+=1;
 		}
 
 		if (choice == UP) {
-			cnt--;
-			if (cnt < 1)
-				cnt = 6;
+			((--cnt)%=6)+=1;
 		}
 
 		if (choice == ESC) {

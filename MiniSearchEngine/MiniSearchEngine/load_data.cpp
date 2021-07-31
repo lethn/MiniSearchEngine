@@ -18,7 +18,7 @@ void Poro::load_file(string indexfile)
 	{
 		// load file
 		getline(file, tmp);
-		Poro::file_names.push_back(tmp);
+		file_names.push_back(tmp);
 		ifstream fin;
 		fin.open(SOURCE + tmp);
 		if (fin.fail())
@@ -71,7 +71,6 @@ void Poro::load_file(string indexfile)
 					num += strtmp[i];
 				str += tolower(strtmp[i]);
 			}
-
 			if (num != "") search_trie->insertNumber(stoi(num), j, index);
 			search_trie->insert(str, j, index);
 			index++;

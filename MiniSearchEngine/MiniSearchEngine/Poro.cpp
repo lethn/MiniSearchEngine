@@ -19,12 +19,14 @@ void search_recommendations(vector < string >& recommendations,
 void Poro::recommend() {
 	int called = 0, found = 0;
 	string s = "";
-	recommendations.empty();
+	recommendations.clear();
 	if (!history_invalids)
 		search_recommendations(recommendations, history_trie->pNode, s, called, found);
 	if (called > CALL_LIMIT || found > NUM_OF_RECOMMENDATIONS) return;
-	if (!invalids.back())
+	if (!invalids.back()){
+		if (search_trie->pNode == search_trie->root) return;
 		search_recommendations(recommendations, search_trie->pNode, s, called, found);
+	}
 }
 
 void Poro::processInput(char input) {
@@ -32,6 +34,10 @@ void Poro::processInput(char input) {
 	case ENTER: {
 		processOutput();
 		history_trie->insertData(search_words, search_trie->result);
+		recent_search.push_front(search_words);
+		if (recent_search.size() > RECENT_SEARCH_SIZE) {
+			recent_search.pop_back();
+		}
 		break;
 	}
 	case BACKSPACE: {
@@ -44,10 +50,12 @@ void Poro::processInput(char input) {
 		else if (search_trie->pNode == search_trie->root){
 			if (invalids.size() > 1)
 				invalids.pop_back();
-			search_trie->partial_results.pop_back();
 			if (search_trie->partial_results.empty())
 				search_trie->pNode = search_trie->root;
-			else search_trie->pNode = search_trie->partial_results.back();
+			else{
+				search_trie->pNode = search_trie->partial_results.back();
+				search_trie->partial_results.pop_back();
+			}
 		}
 		else search_trie->pNode = search_trie->pNode->parent;
 
@@ -59,6 +67,7 @@ void Poro::processInput(char input) {
 		if (search_words.size() >= SEARCH_SIZE_LIMIT) return;
 		search_words.push_back(input);
 		cout << input;
+		input = tolower(input);
 		if	(input == SPACE || input == OPEN_PARENTHESIS || 
 			input == QUOTATION){
 			if (input == QUOTATION) openQuotation ^= 1;
@@ -86,6 +95,7 @@ void Poro::resetData(){
 	invalids.clear();
 	history_invalids = 0;
 	openQuotation = false;
+	invalids.push_back(0);
 }
 
 void Poro::processOutput() {
@@ -175,43 +185,77 @@ vector < vector < Data > > Poro::processString(string s) {
 	vector < ii > quotations = findQuotation(s);
 	vector < vector < Data > > result;
 	string word;
+	s.push_back(SPACE);
 	int k = 0, h = 0;
 	int N = s.size();
 	int n = parenthesis.size();
 	int m = quotations.size();
+	bool prevStopword = false;
 	for (int i = 0; i < N; ++i) {
-		if (s[i] == SPACE || s[i] == FULL_STOP) {
-			if (!word.empty()){
-				result.push_back(StringtoData(word));
+		if (s[i] == SPACE) {
+			if (!word.empty()) {
+				vector < Data > A = StringtoData(word);
+				if (prevStopword) {
+					result.pop_back();
+					if (!isOperation(A)) {
+						result.push_back(A);
+					}
+				}
+				prevStopword = false;
+				if (!isStopword(word, (*search_trie))){
+					prevStopword = true;
+				}
 				word.clear();
 			}
 		}
 		else if (s[i] == OPEN_PARENTHESIS &&  k < n && parenthesis[k].first == i) {
-			if (!word.empty()){
-				result.push_back(StringtoData(word));
+			if (!word.empty()) {
+				vector < Data > A = StringtoData(word);
+				if (prevStopword) {
+					result.pop_back();
+					if (!isOperation(A)) {
+						result.push_back(A);
+					}
+				}
+				prevStopword = false;
+				if (!isStopword(word, (*search_trie))){
+					prevStopword = true;
+				}
 				word.clear();
 			}
-			result.push_back(processParenthesis(
-				s.substr(i+1, getDistance(parenthesis[k])-1))
-			);
+			if (getDistance(parenthesis[k])) {
+				result.push_back(processParenthesis(
+					s.substr(i+1, getDistance(parenthesis[k])))
+				);
+			}
 			i = parenthesis[k].second; // jump to the close
-			++k;
+			while(k < n && parenthesis[k].first < i) ++k;
 		}
 		else if (s[i] == QUOTATION && h < m && quotations[h].first == i){
-			if (!word.empty()){
-				result.push_back(StringtoData(word));
+			if (!word.empty()) {
+				vector < Data > A = StringtoData(word);
+				if (prevStopword) {
+					result.pop_back();
+					if (!isOperation(A)) {
+						result.push_back(A);
+					}
+				}
+				prevStopword = false;
+				if (!isStopword(word, (*search_trie))){
+					prevStopword = true;
+				}
 				word.clear();
 			}
-			result.push_back(processExactmatch(
-				s.substr(i+1, getDistance(quotations[h])-1))
-			);
-			i = quotations[h].second; // jump to the close
-			++h;
-		}
-		else if (s[i] == MINUS && word.empty() && i + 1 < N && s[i + 1] != SPACE) {
-			if (!result.empty() && (result.back().empty() || result.back().back().index >= 0)){
-				result.push_back(vector < Data > (1, Data(-3)));
+			if (getDistance(quotations[h])) {
+				result.push_back(processExactmatch(
+					s.substr(i+1, getDistance(quotations[h])))
+				);
 			}
+			i = quotations[h].second; // jump to the close
+			while(h < m && quotations[h].first < i) ++h;
+		}
+		else if (s[i] == MINUS && word.empty() && i + 1 < N && s[i + 1] != SPACE && !result.empty() && !isOperation(result.back())){
+			result.push_back(vector < Data > (1, Data(-3)));
 		}
 		else if (s[i] == DOLLAR && word.empty()) {
 			string number_string;
@@ -271,7 +315,6 @@ vector <Data> Poro::searchRangeNumber(int number1, int number2) {
 }
 
 vector < Data > Poro::StringtoData(string& s) {
-	lowerString(s);
 	if (s == AND) {
 		return vector < Data > (1, Data(-1));
 	}
@@ -285,14 +328,16 @@ vector < Data > Poro::StringtoData(string& s) {
 		return node->files;
 	}
 	if (s[0] == SWUNG_DASH) {
+		lowerString(s);
 		string thisString = s.substr(1,s.size()-1);
 		Node* node = search_trie->search(thisString);
 		if (!node) return vector < Data > ();
 		if (node->synonym_root == -1) return node->files;
 		else return synonyms[node->synonym_root];
 	}
+	lowerString(s);
 	Node* node = search_trie->search(s);
-	if (!node || node->isStopword) return vector < Data > ();
+	if (!node) return vector < Data > ();
 	return node->files;
 }
 
@@ -375,7 +420,7 @@ vector < Data > Poro::combineData(vector < vector < Data > >& V) {
 }
 
 int getDistance(ii& A) {
-	return A.second - A.first;
+	return A.second - A.first - 1;
 }
 
 vector < ii > findParenthesis(string& s) {

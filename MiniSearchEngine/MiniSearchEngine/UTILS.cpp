@@ -164,3 +164,10 @@ vector <Data> EXACT_MATCHES(vector <Data>& A, vector <Data>& B, int d) {
 	}
 	return result;
 }
+
+bool isStopword(string& s, Trie& trie) {
+	if (s[0] == PLUS) return false;
+	Node* cur = trie.search(s);
+	if (!cur) return false;
+	return cur->isStopword;
+}

@@ -73,7 +73,7 @@ Node* Trie::search(string& s) {
 			return nullptr;
 		cur = cur->children[s[i]];
 	}
-	if (!cur->isWord());
+	if (!cur->isWord())
 		return nullptr;
 	return cur;
 }
@@ -85,11 +85,9 @@ void Trie::printData() {
 }
 
 void dfs(Node* u, Node* root) {
-	if (u->isWord()) {
+	if (!u->inTitle.empty()) {
 		cout << u->getString(root) << ' ';
-		for (Data& data : u->files) {
-			cout << data.index << ' ';
-		}
+		for(int v: u->inTitle) cout << v << ' ';
 		cout << '\n';
 	}
 	for (auto& child : u->children) {
