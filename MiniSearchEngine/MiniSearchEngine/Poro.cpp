@@ -136,6 +136,8 @@ vector < File > Poro::updateResult(vector < vector < Data > > V) {
 	for (auto& files : exact_match) {
 		File A(files, true);
 		Map.insert(make_pair(files.index, A));
+		if (files.positions.size())
+			posData[files.index] = files.positions;
 	}
 	for (int i = 1; i < n; ++i) {
 		matches = AND_Data(matches, preProcess[i]);
@@ -145,6 +147,8 @@ vector < File > Poro::updateResult(vector < vector < Data > > V) {
 		if (itr == Map.end()) {
 			File A(files, false);
 			Map.insert(make_pair(files.index, A));
+			if (files.positions.size())
+				posData[files.index] = files.positions;
 		}
 		else {
 			itr->second.noMatches = files.positions.size();

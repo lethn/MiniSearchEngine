@@ -12,6 +12,7 @@
 #include <stack>
 #include <sstream>
 #include <map>
+
 using namespace std;
 const int c[] = { '"',',','.','◼',')','(',':',';','“','”','—','_','\'','[',']','{','}'};
 const set <int> special_characters(c, c + sizeof(c) / sizeof(int));

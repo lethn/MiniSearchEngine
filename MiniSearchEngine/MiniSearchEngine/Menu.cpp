@@ -269,6 +269,7 @@ void UserInterface::subMenu(Poro& PoroPoro) {
 	gotoxy(22, 21); cout << " Data 4 ";
 	gotoxy(22, 26); cout << " Data 5 ";
 	gotoxy(13, 32); cout << " BACK ";
+	output(PoroPoro, keyword);
 
 	int cnt = 0;
 	while (true) {
@@ -402,4 +403,74 @@ void UserInterface::loadData(Poro& PoroPoro) {
 	gotoxy(52, 17);
 	cout << "Press any key to continue ...";
 	_getch();
+}
+//gotoxy(22, 06); cout << " Data 1 ";
+void UserInterface::output(Poro& PoroPoro, string& keyword)
+{
+	UINT oldcp = GetConsoleOutputCP();
+	// Set console code page to UTF-8 so console known how to interpret string data
+	SetConsoleOutputCP(65001);
+	vector<File> result = PoroPoro.search_trie->result;
+	vector<string> fileName = PoroPoro.file_names;
+	int index = 0;
+	int n = result.size();
+	if (n > 5)
+		n = 5;
+	while (index < n)
+	{
+		int i = 0, pos = 0, posWord = PoroPoro.posData[result[index].index][i], count = 0;
+		gotoxy(32, 06 + 5 * index);
+		txtColor(3);
+		cout << fileName[result[index].index];
+		txtColor(15);
+		gotoxy(23, 06 + 5 * index + 1); cout << "...";
+		string str;
+		fstream fout;
+		fout.open((SOURCE + fileName[result[index].index]));
+		getline(fout, str);
+		while (!fout.eof())
+		{
+			fout >> str;			
+			if (count / 15 == 3)
+			{
+				cout << "...";
+				break;
+			}
+			if (count % 15 == 0 && count != 0)
+			{
+				gotoxy(23, 06 + 5 * index + count / 15 + 1);		
+			}
+			if (posWord - pos < 4 || pos >= posWord)
+			{
+				if (posWord == pos) 
+				{
+					i++;
+					txtColor(4);
+				}
+				cout << str << " ";
+				if (posWord == pos) 
+				{
+					txtColor(15);
+					if (i < PoroPoro.posData[result[index].index].size())
+					{
+						posWord = PoroPoro.posData[result[index].index][i];
+						cout << "...";
+					}
+				}
+				count++;
+			}		
+			pos++;
+		}
+		fout.close();
+		index++;
+	}
+	SetConsoleOutputCP(oldcp);
+	txtColor(3);
+	while (index < 5)
+	{
+		gotoxy(32, 06 + 5 * index);
+		cout << "CANNOT FIND " << keyword;
+		index++;
+	}
+	txtColor(15);
 }

@@ -103,7 +103,7 @@ struct Poro {	// save global variables
 	vector < vector < Data > > synonyms;
 	vector < string > file_names;
 	vector < string > recommendations;
-
+	unordered_map<int, vector<int>> posData;
 	list < string > recent_search;
 	string search_words;
 	vector < int > invalids;
@@ -145,6 +145,7 @@ struct UserInterface {
 	void logo();
 	void inputBoard();
 	void input(Poro& PoroPoro);	// real-time input, mỗi ký tự input vào gọi hàm recommend()
+	void output(Poro& PoroPoro, string& keyword);
 	void keywordBoard();
 	void straightLine();
 	void backBorder();
