@@ -150,6 +150,7 @@ struct UserInterface {
 	void keywordBoard();
 	void straightLine();
 	void backBorder();
+	void historyBorder();
 	void subMenu(Poro& PoroPoro);
 	void mainMenu(Poro& PoroPoro);
 	void loadData(Poro& PoroPoro);

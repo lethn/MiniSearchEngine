@@ -221,7 +221,7 @@ void UserInterface::straightLine() {
 		gotoxy(15, i);
 		cout << char(219);
 	}
-	for (int i = 23; i < 112; ++i) {
+	for (int i = 23; i < 119; ++i) {
 		gotoxy(i, 32);
 		cout << char(220);
 	}
@@ -251,6 +251,39 @@ void UserInterface::backBorder() {
 	cout << char(186);
 	gotoxy(19, 32);
 	cout << char(186);
+}
+
+void UserInterface::historyBorder() {
+	txtColor(15);
+	gotoxy(5, 4);
+	cout << "HISTORY";
+
+	gotoxy(4, 3);
+	cout << char(205) << char(205) << char(205) << char(205) << char(205) << char(205) << char(205) << char(205) << char(205);
+	gotoxy(4, 5);
+	cout << char(205) << char(205) << char(205) << char(205) << char(205) << char(205) << char(205) << char(205) << char(205);
+
+	gotoxy(3, 3);
+	cout << char(201);
+	gotoxy(3, 5);
+	cout << char(200);
+
+	gotoxy(13, 3);
+	cout << char(187);
+	gotoxy(13, 5);
+	cout << char(188);
+
+	gotoxy(3, 4);
+	cout << char(186);
+	gotoxy(13, 4);
+	cout << char(186);
+
+	int num = 1;
+	for (int i = 6; i < 11; ++i) {
+		gotoxy(7, i);
+		cout << num << ".";
+		num++;
+	}
 }
 
 void UserInterface::subMenu(Poro& PoroPoro) {
@@ -349,6 +382,7 @@ void UserInterface::mainMenu(Poro& PoroPoro) {
 	system("cls");
 	UnNocursortype();
 	logo();
+	historyBorder();
 	inputBoard();
 	input(PoroPoro);
 	subMenu(PoroPoro);
@@ -437,7 +471,7 @@ void UserInterface::output(Poro& PoroPoro, string& keyword)
 			{
 				gotoxy(23, 06 + 5 * index + size/100 + 1);		
 			}
-			if (posWord - pos < 4 || pos >= posWord)
+			if (posWord - pos < 5 || pos >= posWord)
 			{
 				if (posWord == pos) 
 				{
