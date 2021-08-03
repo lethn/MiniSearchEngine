@@ -151,6 +151,7 @@ struct UserInterface {
 	void straightLine();
 	void backBorder();
 	void historyBorder();
+	void showHistory(Poro& PoroPoro);
 	void subMenu(Poro& PoroPoro);
 	void mainMenu(Poro& PoroPoro);
 	void loadData(Poro& PoroPoro);

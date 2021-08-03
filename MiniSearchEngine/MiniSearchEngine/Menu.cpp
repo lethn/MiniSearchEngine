@@ -286,6 +286,15 @@ void UserInterface::historyBorder() {
 	}
 }
 
+void UserInterface::showHistory(Poro& PoroPoro) {
+	int x = 10, y = 6;
+	for (auto itr : PoroPoro.recent_search) {
+		gotoxy(x, y);
+		cout << itr;
+		y++;
+	}
+}
+
 void UserInterface::subMenu(Poro& PoroPoro) {
 	system("cls");
 	Nocursortype();
@@ -384,6 +393,7 @@ void UserInterface::mainMenu(Poro& PoroPoro) {
 	logo();
 	historyBorder();
 	inputBoard();
+	showHistory(PoroPoro);
 	input(PoroPoro);
 	subMenu(PoroPoro);
 }
