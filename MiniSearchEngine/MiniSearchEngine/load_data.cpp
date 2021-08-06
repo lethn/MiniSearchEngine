@@ -29,7 +29,24 @@ void Poro::load_file(string indexfile)
 		}
 		int index = 0;
 		// load titles and extension
-		string title = "", extension = "", tmptitle;
+		string title = "", extension = "";
+		for (int i = 0; i < tmp.size(); i++)
+		{
+			if (tmp[i] == SPACE || tmp[i] == '.')
+			{
+				search_trie->insertTitle(title, j);
+				title = "";
+				if (tmp[i] == '.')
+					break;
+				continue;
+			}
+			if (special_characters.find(tmp[i]) != special_characters.end() || (tmp[i] < 0 && tmp[i] != -44))
+			{
+				continue;
+			}
+			title += tolower(tmp[i]);
+		}
+		/*string tmptitle;
 		getline(fin, tmptitle);
 		for (int i = 0; i < tmptitle.size(); i++)
 		{
@@ -44,7 +61,7 @@ void Poro::load_file(string indexfile)
 				continue;
 			}
 			title += tolower(tmptitle[i]);
-		}
+		}*/
 		search_trie->insertTitle(title, j);
 		for (int i = tmp.size() - 1; i > -1; i--)
 		{

@@ -472,7 +472,7 @@ void UserInterface::output(Poro& PoroPoro, string& keyword)
 		string str;
 		fstream fout;
 		fout.open((SOURCE + fileName[result[index].index]));
-		getline(fout, str);
+		//getline(fout, str);
 		
 		while (!fout.eof())
 		{
@@ -543,15 +543,15 @@ void UserInterface::outputDetail(Poro& PoroPoro, int index, string keyword)
 	{
 		SetConsoleOutputCP(65001);
 		int i = 0, pos = 0, posWord = PoroPoro.posData[result[index - 1].index][i], size = 0;
-		gotoxy(15, 1);
+		gotoxy(13, 1);
 		txtColor(3);
 		cout << "DATA " << index << " : " << fileName[result[index - 1].index] << "   |   SEARCH: " << keyword << endl;
 		txtColor(15);
 		string str;
 		fstream fout;
 		fout.open((SOURCE + fileName[result[index - 1].index]));
-		getline(fout, str);
-		gotoxy(15, 04 + size / 110);
+		//getline(fout, str);
+		gotoxy(13, 04 + size / 110);
 		while (!fout.eof())
 		{
 			str.clear();
@@ -559,7 +559,7 @@ void UserInterface::outputDetail(Poro& PoroPoro, int index, string keyword)
 		
 			if (size % 110 <= 20 && size > 20)
 			{
-				gotoxy(15, 04 + size / 110);
+				gotoxy(13, 04 + size / 110);
 			}
 			if (pos == posWord)
 			{
@@ -599,9 +599,10 @@ void UserInterface::outputDetail(Poro& PoroPoro, int index, string keyword)
 }
 void UserInterface::borderOutput(int size)
 {
+	int left = 8,right = 129;
 	for (int i = 0; i <= size / 110 + 7; i++)
 	{
-		gotoxy(12, i);
+		gotoxy(left, i);
 		if (i == 3)
 		{
 			cout << char(204);
@@ -610,7 +611,7 @@ void UserInterface::borderOutput(int size)
 		{
 			cout << char(186);
 		}
-		gotoxy(125, i);
+		gotoxy(right, i);
 		if (i == 3)
 		{
 			cout << char(185);
@@ -620,14 +621,14 @@ void UserInterface::borderOutput(int size)
 			cout << char(186);
 		}
 	}
-	gotoxy(13, 03);
-	for (int i = 0; i < 112; i++)
+	gotoxy(left + 1, 03);
+	for (int i = 0; i < right - left - 1; i++)
 		cout << char(205);
-	gotoxy(12, 3);
-	gotoxy(12, 07 + size / 110);
+	gotoxy(left, 3);
+	gotoxy(left, 07 + size / 110);
 	cout << char(200);
-	gotoxy(13, 07 + size / 110);
-	for (int i = 0; i < 112; i++)
+	gotoxy(left + 1, 07 + size / 110);
+	for (int i = 0; i < right - left - 1; i++)
 		cout << char(205);
 	cout << char(188);
 
