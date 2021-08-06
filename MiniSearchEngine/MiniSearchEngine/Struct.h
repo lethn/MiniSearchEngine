@@ -146,10 +146,13 @@ struct UserInterface {
 	void inputBoard();
 	void input(Poro& PoroPoro);	// real-time input, mỗi ký tự input vào gọi hàm recommend()
 	void output(Poro& PoroPoro, string& keyword);
-	void outputDetail(Poro& PoroPoro, int index);
+	void outputDetail(Poro& PoroPoro, int index, string keyword);
+	void borderOutput(int size);
 	void keywordBoard();
 	void straightLine();
 	void backBorder();
+	void historyBorder();
+	void showHistory(Poro& PoroPoro);
 	void subMenu(Poro& PoroPoro);
 	void mainMenu(Poro& PoroPoro);
 	void loadData(Poro& PoroPoro);

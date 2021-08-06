@@ -221,7 +221,7 @@ void UserInterface::straightLine() {
 		gotoxy(15, i);
 		cout << char(219);
 	}
-	for (int i = 23; i < 112; ++i) {
+	for (int i = 23; i < 119; ++i) {
 		gotoxy(i, 32);
 		cout << char(220);
 	}
@@ -251,6 +251,48 @@ void UserInterface::backBorder() {
 	cout << char(186);
 	gotoxy(19, 32);
 	cout << char(186);
+}
+
+void UserInterface::historyBorder() {
+	txtColor(15);
+	gotoxy(5, 4);
+	cout << "HISTORY";
+
+	gotoxy(4, 3);
+	cout << char(205) << char(205) << char(205) << char(205) << char(205) << char(205) << char(205) << char(205) << char(205);
+	gotoxy(4, 5);
+	cout << char(205) << char(205) << char(205) << char(205) << char(205) << char(205) << char(205) << char(205) << char(205);
+
+	gotoxy(3, 3);
+	cout << char(201);
+	gotoxy(3, 5);
+	cout << char(200);
+
+	gotoxy(13, 3);
+	cout << char(187);
+	gotoxy(13, 5);
+	cout << char(188);
+
+	gotoxy(3, 4);
+	cout << char(186);
+	gotoxy(13, 4);
+	cout << char(186);
+
+	int num = 1;
+	for (int i = 6; i < 11; ++i) {
+		gotoxy(2, i);
+		cout << num << ".";
+		num++;
+	}
+}
+
+void UserInterface::showHistory(Poro& PoroPoro) {
+	int x = 5, y = 6;
+	for (auto itr : PoroPoro.recent_search) {
+		gotoxy(x, y);
+		cout << itr;
+		y++;
+	}
 }
 
 void UserInterface::subMenu(Poro& PoroPoro) {
@@ -304,6 +346,7 @@ void UserInterface::subMenu(Poro& PoroPoro) {
 			gotoxy(22, 6); cout << " Data 1 ";
 			if (choice == ENTER)
 			{
+				outputDetail(PoroPoro, cnt, keyword);
 			}
 		}
 		if (cnt == 2) {
@@ -311,6 +354,7 @@ void UserInterface::subMenu(Poro& PoroPoro) {
 			gotoxy(22, 11); cout << " Data 2 ";
 			if (choice == ENTER)
 			{
+				outputDetail(PoroPoro, cnt, keyword);
 			}
 		}
 		if (cnt == 3) {
@@ -318,6 +362,7 @@ void UserInterface::subMenu(Poro& PoroPoro) {
 			gotoxy(22, 16); cout << " Data 3 ";
 			if (choice == ENTER)
 			{
+				outputDetail(PoroPoro, cnt, keyword);
 			}
 		}
 		if (cnt == 4) {
@@ -325,12 +370,14 @@ void UserInterface::subMenu(Poro& PoroPoro) {
 			gotoxy(22, 21); cout << " Data 4 ";
 			if (choice == ENTER)
 			{
+				outputDetail(PoroPoro, cnt, keyword);
 			}
 		}
 		if (cnt == 5) {
 			txtColor(240);
 			gotoxy(22, 26); cout << " Data 5 ";
 			if (choice == ENTER) {
+				outputDetail(PoroPoro, cnt, keyword);
 			}
 		}
 		if (cnt == 6) {
@@ -349,7 +396,9 @@ void UserInterface::mainMenu(Poro& PoroPoro) {
 	system("cls");
 	UnNocursortype();
 	logo();
+	historyBorder();
 	inputBoard();
+	showHistory(PoroPoro);
 	input(PoroPoro);
 	subMenu(PoroPoro);
 }
@@ -437,7 +486,7 @@ void UserInterface::output(Poro& PoroPoro, string& keyword)
 			{
 				gotoxy(23, 06 + 5 * index + size/100 + 1);		
 			}
-			if (posWord - pos < 4 || pos >= posWord)
+			if (posWord - pos < 5 || pos >= posWord)
 			{
 				if (posWord == pos) 
 				{
@@ -476,13 +525,15 @@ void UserInterface::output(Poro& PoroPoro, string& keyword)
 		index++;
 	}
 	txtColor(15);
+
 }
 
-void UserInterface::outputDetail(Poro& PoroPoro, int index)
+void UserInterface::outputDetail(Poro& PoroPoro, int index, string keyword)
 {
+	txtColor(0);
+	system("cls");
 	UINT oldcp = GetConsoleOutputCP();
-	// Set console code page to UTF-8 so console known how to interpret string data
-	
+	// Set console code page to UTF-8 so console known how to interpret string data	
 	vector<File> result = PoroPoro.search_trie->result;
 	vector<string> fileName = PoroPoro.file_names;
 	int n = result.size();
@@ -491,41 +542,117 @@ void UserInterface::outputDetail(Poro& PoroPoro, int index)
 	if (index <= n)
 	{
 		SetConsoleOutputCP(65001);
-		int i = 0, pos = 0, posWord = PoroPoro.posData[result[index - 1].index][i];
-		gotoxy(22, 1);
+		int i = 0, pos = 0, posWord = PoroPoro.posData[result[index - 1].index][i], size = 0;
+		gotoxy(15, 1);
 		txtColor(3);
-		cout << " DATA " + index << " " << fileName[result[index - 1].index] << endl;
+		cout << "DATA " << index << " : " << fileName[result[index - 1].index] << "   |   SEARCH: " << keyword << endl;
 		txtColor(15);
 		string str;
 		fstream fout;
 		fout.open((SOURCE + fileName[result[index - 1].index]));
 		getline(fout, str);
+		gotoxy(15, 04 + size / 110);
 		while (!fout.eof())
 		{
+			str.clear();
 			fout >> str;
-			if (pos == posWord) 
+		
+			if (size % 110 <= 20 && size > 20)
 			{
-				txtColor(4);
+				gotoxy(15, 04 + size / 110);
+			}
+			if (pos == posWord)
+			{
+				txtColor(240);
 				i++;
 			}
-			cout << str << " ";
+			cout << str;
+			size += str.size();
 			if (pos == posWord)
 			{
 				txtColor(15);
-				if (i < PoroPoro.posData[result[index-1].index].size())
+				if (i < PoroPoro.posData[result[index - 1].index].size())
 				{
-					posWord = PoroPoro.posData[result[index-1].index][i];
+					posWord = PoroPoro.posData[result[index - 1].index][i];
 				}
 			}
-			pos++;
+			cout << " ";
+			size++;
+			pos++;	
 		}
 		fout.close();
 		SetConsoleOutputCP(oldcp);
+		borderOutput(size);
+		
 	}
 	else
 	{
+		txtColor(3);
+		gotoxy(15, 1);
 		cout << "DATA NOT EXIST";
-	}	
-	if (_getch() == ENTER)
-		return;
+		txtColor(15);
+		borderOutput(3);
+		cout << endl;
+	}
+	_getch();
+	subMenu(PoroPoro);
+}
+void UserInterface::borderOutput(int size)
+{
+	for (int i = 0; i <= size / 110 + 7; i++)
+	{
+		gotoxy(12, i);
+		if (i == 3)
+		{
+			cout << char(204);
+		}
+		else
+		{
+			cout << char(186);
+		}
+		gotoxy(125, i);
+		if (i == 3)
+		{
+			cout << char(185);
+		}
+		else
+		{
+			cout << char(186);
+		}
+	}
+	gotoxy(13, 03);
+	for (int i = 0; i < 112; i++)
+		cout << char(205);
+	gotoxy(12, 3);
+	gotoxy(12, 07 + size / 110);
+	cout << char(200);
+	gotoxy(13, 07 + size / 110);
+	for (int i = 0; i < 112; i++)
+		cout << char(205);
+	cout << char(188);
+
+
+	gotoxy(13, 8 + size / 110);
+	cout << char(205) << char(205) << char(205) << char(205) << char(205) << char(205);
+	gotoxy(13, 10 + size / 110);
+	cout << char(205) << char(205) << char(205) << char(205) << char(205) << char(205);
+
+	gotoxy(12, 8 + size / 110);
+	cout << char(201);
+	gotoxy(12, 10 + size / 110);
+	cout << char(200);
+
+	gotoxy(19, 8 + size / 110);
+	cout << char(187);
+	gotoxy(19, 10 + size / 110);
+	cout << char(188);
+
+	gotoxy(12, 9 + size / 110);
+	cout << char(186);
+	gotoxy(19, 9 + size / 110);
+	cout << char(186);
+	txtColor(240);
+	gotoxy(14, 9 + size / 110);
+	cout << "BACK";
+	txtColor(15);
 }
