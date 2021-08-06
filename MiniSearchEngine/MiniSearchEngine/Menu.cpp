@@ -542,7 +542,7 @@ void UserInterface::outputDetail(Poro& PoroPoro, int index, string keyword)
 	if (index <= n)
 	{
 		SetConsoleOutputCP(65001);
-		int i = 0, pos = 0, posWord = PoroPoro.posData[result[index - 1].index][i],size = 0;
+		int i = 0, pos = 0, posWord = PoroPoro.posData[result[index - 1].index][i], size = 0;
 		gotoxy(15, 1);
 		txtColor(3);
 		cout << "DATA " << index << " : " << fileName[result[index - 1].index] << "   |   SEARCH: " << keyword << endl;
@@ -581,12 +581,17 @@ void UserInterface::outputDetail(Poro& PoroPoro, int index, string keyword)
 		fout.close();
 		SetConsoleOutputCP(oldcp);
 		borderOutput(size);
+		
 	}
 	else
 	{
+		txtColor(3);
+		gotoxy(15, 1);
 		cout << "DATA NOT EXIST";
+		txtColor(15);
+		borderOutput(3);
+		cout << endl;
 	}
-	cout << endl;
 	_getch();
 	subMenu(PoroPoro);
 }
