@@ -280,14 +280,14 @@ void UserInterface::historyBorder() {
 
 	int num = 1;
 	for (int i = 6; i < 11; ++i) {
-		gotoxy(7, i);
+		gotoxy(2, i);
 		cout << num << ".";
 		num++;
 	}
 }
 
 void UserInterface::showHistory(Poro& PoroPoro) {
-	int x = 10, y = 6;
+	int x = 5, y = 6;
 	for (auto itr : PoroPoro.recent_search) {
 		gotoxy(x, y);
 		cout << itr;
