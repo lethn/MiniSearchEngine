@@ -545,7 +545,7 @@ void UserInterface::outputDetail(Poro& PoroPoro, int index, string keyword)
 		int i = 0, pos = 0, posWord = PoroPoro.posData[result[index - 1].index][i],size = 0;
 		gotoxy(15, 1);
 		txtColor(3);
-		cout << "DATA " << index << " : " << fileName[result[index - 1].index] << endl;
+		cout << "DATA " << index << " : " << fileName[result[index - 1].index] << "   |   SEARCH: " << keyword << endl;
 		txtColor(15);
 		string str;
 		fstream fout;
@@ -562,10 +562,10 @@ void UserInterface::outputDetail(Poro& PoroPoro, int index, string keyword)
 			}
 			if (pos == posWord)
 			{
-				txtColor(4);
+				txtColor(240);
 				i++;
 			}
-			cout << str << " ";
+			cout << str;
 			if (pos == posWord)
 			{
 				txtColor(15);
@@ -574,6 +574,7 @@ void UserInterface::outputDetail(Poro& PoroPoro, int index, string keyword)
 					posWord = PoroPoro.posData[result[index - 1].index][i];
 				}
 			}
+			cout << " ";
 			size++;
 			pos++;
 		}
