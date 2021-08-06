@@ -551,14 +551,15 @@ void UserInterface::outputDetail(Poro& PoroPoro, int index, string keyword)
 		fstream fout;
 		fout.open((SOURCE + fileName[result[index - 1].index]));
 		getline(fout, str);
-		gotoxy(15, 03 + size / 110);
+		gotoxy(15, 04 + size / 110);
 		while (!fout.eof())
 		{
+			str.clear();
 			fout >> str;
-			size += str.size();
+		
 			if (size % 110 <= 20 && size > 20)
 			{
-				gotoxy(15, 03 + size / 110);
+				gotoxy(15, 04 + size / 110);
 			}
 			if (pos == posWord)
 			{
@@ -566,6 +567,7 @@ void UserInterface::outputDetail(Poro& PoroPoro, int index, string keyword)
 				i++;
 			}
 			cout << str;
+			size += str.size();
 			if (pos == posWord)
 			{
 				txtColor(15);
@@ -576,7 +578,7 @@ void UserInterface::outputDetail(Poro& PoroPoro, int index, string keyword)
 			}
 			cout << " ";
 			size++;
-			pos++;
+			pos++;	
 		}
 		fout.close();
 		SetConsoleOutputCP(oldcp);
@@ -595,9 +597,9 @@ void UserInterface::outputDetail(Poro& PoroPoro, int index, string keyword)
 	_getch();
 	subMenu(PoroPoro);
 }
-void UserInterface::borderOutput(int size) 
+void UserInterface::borderOutput(int size)
 {
-	for (int i = 0; i <= size / 110 + 4; i++)
+	for (int i = 0; i <= size / 110 + 7; i++)
 	{
 		gotoxy(12, i);
 		if (i == 3)
@@ -622,35 +624,35 @@ void UserInterface::borderOutput(int size)
 	for (int i = 0; i < 112; i++)
 		cout << char(205);
 	gotoxy(12, 3);
-	gotoxy(12, 04 + size / 110);
+	gotoxy(12, 07 + size / 110);
 	cout << char(200);
-	gotoxy(13, 04 + size / 110);
+	gotoxy(13, 07 + size / 110);
 	for (int i = 0; i < 112; i++)
 		cout << char(205);
 	cout << char(188);
 
 
-	gotoxy(13, 05 + size / 110);
+	gotoxy(13, 8 + size / 110);
 	cout << char(205) << char(205) << char(205) << char(205) << char(205) << char(205);
-	gotoxy(13, 07 + size / 110);
+	gotoxy(13, 10 + size / 110);
 	cout << char(205) << char(205) << char(205) << char(205) << char(205) << char(205);
 
-	gotoxy(12, 05 + size / 110);
+	gotoxy(12, 8 + size / 110);
 	cout << char(201);
-	gotoxy(12, 07 + size / 110);
+	gotoxy(12, 10 + size / 110);
 	cout << char(200);
 
-	gotoxy(19, 05 + size / 110);
+	gotoxy(19, 8 + size / 110);
 	cout << char(187);
-	gotoxy(19, 07 + size / 110);
+	gotoxy(19, 10 + size / 110);
 	cout << char(188);
 
-	gotoxy(12, 06 + size / 110);
+	gotoxy(12, 9 + size / 110);
 	cout << char(186);
-	gotoxy(19, 06 + size / 110);
+	gotoxy(19, 9 + size / 110);
 	cout << char(186);
 	txtColor(240);
-	gotoxy(14, 06 + size / 110);
+	gotoxy(14, 9 + size / 110);
 	cout << "BACK";
 	txtColor(15);
 }
