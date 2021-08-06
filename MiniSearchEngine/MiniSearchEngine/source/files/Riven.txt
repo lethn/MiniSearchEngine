@@ -1,3 +1,10 @@
+Name: Riven
+Title: the Exile
+Role: Slayer
+Class: Skirmisher
+Blue Essence: $4800
+Riot Point: $880
+
 Built on perpetual conflict, Noxus has never had a shortage of war orphans. Her father lost to an unnamed battle and her mother to the girl’s own stubborn birth, Riven was raised on a farm run by the empire on the rocky hillsides of Trevale.
 
 Physical strength and ferocious will kept the children alive and working on the hard scrap of land, but Riven hungered for more than simply bread on the table. She watched conscriptors from regional warbands visiting the farms, year after year, and in them, she saw a chance at the life she dreamed of. When she finally pledged the empire her strength, she knew Noxus would embrace her as the daughter she longed to be.
@@ -23,3 +30,5 @@ Stripped of the faith and conviction that had bolstered her entire life, Riven c
 Noxus was not nearly so merciful. Although the empire had long since withdrawn from the First Lands, it had not forgotten about Riven, or her runic blade. After fighting fiercely against those sent to bring her to justice, she refused to let any more Ionian blood be shed on her account, and surrendered herself to the charges of desertion leveled against her.
 
 As she returns to Noxus in chains, Riven remains haunted. Though Darkwill is no more, and the empire is rumored to have evolved, she is uncertain what will become of her, or whether she will ever be made whole again.
+
+#Riven #the_Exile #Riven_the_Exile

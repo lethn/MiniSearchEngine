@@ -1,3 +1,10 @@
+Name: Ryze
+Title: the Rune Mage
+Role: Mage
+Class: Battlemage
+Blue Essence: $450
+Riot Point: $260
+
 Ryze was just a young apprentice when he first learned of the arcane powers that had shaped the world.
 
 His master, a sorcerer named Tyrus of Helia, was a member of an ancient order whose mission had been to gather and protect the most dangerous artifacts in Runeterra. Ryze overheard Tyrus speaking in hushed tones with another mage, discussing something called “World Runes.
@@ -25,3 +32,5 @@ In an instant, he unleashed all the magic he could muster. A moment later, Tyrus
 Ryze trembled as his mind struggled to process what he had done. If these deadly artifacts could corrupt a mage with the strength and integrity of Tyrus, how was Ryze to handle them? At the same time, he knew he could not entrust them to any other living soul...Soon, the greatest civilizations all but destroyed one another, ending the war. Ryze now understood the task he had inherited—as long as any World Rune remained unsecured, Runeterra was surely doomed. This knowledge was to become a lonely burden indeed, for ever since that day he has scoured the world in search of the last remaining Runes. He continues to reject the promise of power within each one, choosing instead to bind them in secret locations, far from prying and greedy eyes.
 
 Even with his life abnormally prolonged by the magic he is exposed to, Ryze cannot afford to rest, for rumors of the World Runes have begun to emerge once more, and the peoples of Runeterra seem to have forgotten the price of wielding them.
+
+#Ryze #the_Rune_Mage #Ryze_the_Rune_Mage

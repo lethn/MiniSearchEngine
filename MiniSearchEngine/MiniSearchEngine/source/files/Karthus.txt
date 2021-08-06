@@ -1,3 +1,10 @@
+Name: Karthus
+Title: the Deathsinger
+Role: Mage
+Class: Battlemage
+Blue Essence: $3150
+Riot Point: $790
+
 The harbinger of oblivion, Karthus is an undying spirit whose haunting songs are a prelude to the horror of his nightmarish appearance. The living fear the eternity of undeath, but Karthus sees only beauty and purity in its embrace, a perfect union of life and death. When Karthus emerges from the Shadow Isles, it is to bring the joy of death to mortals, an apostle of the unliving.
 
 Karthus was born into abject poverty in the sprawl of dwellings built beyond the walls of the Noxian capital. His mother died at the moment of his birth, leaving his father to raise him and his three sisters alone. They shared a crumbling, rat-infested almshouse with scores of other families, subsisting on a diet of rainwater and vermin. Of all the children, Karthus was the best ratter, and regularly brought gnawed corpses for the cook-pot.
@@ -17,3 +24,5 @@ Revelation filled Karthus as he became what he always believed he should have be
 Karthus turned and the Black Mist bore him over the waves to the fisherman’s boat. The man fell to his knees before Karthus, begging for his life, and Karthus granted him the blessing of death, ending his mortal suffering and raising him up as an immortal spirit as he sang his lament for passing souls. The fisherman was the first of many such souls Karthus would free, and soon the Deathsinger would command a legion of unliving wraiths. To Karthus’s awakened senses, the Shadow Isles was in a state of apathetic limbo, where the blessings of death were squandered. He would galvanize the dead in a crusade to bring the beauty of oblivion to the living, to end the suffering of mortality and usher in a glorious age of undeath.
 
 Karthus has become the emissary of the Shadow Isles, the herald of oblivion whose laments are paeans to the glory of death. His legions of unbound souls join with his funereal dirges, their haunting song reaching beyond the Black Mist to be heard on cold nights over graveyards and charnel houses all across Valoran.
+
+#Karthus #the_Deathsinger #Karthus_the_Deathsinger

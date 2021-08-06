@@ -1,3 +1,10 @@
+Name: Xayah
+Title: the Rebel
+Role: Marksman
+Class: Marksman
+Blue Essence: $6300
+Riot Point: $975
+
 As a child of the Lhotlan tribe, Xayah loved listening to her father sing folk-hymns about ancient vastayan heroes. The haunting melodies transported her to a long-forgotten time, when magic danced freely through the island of Qaelin, imbuing the Lhotlan with immense power.
 
 Yet with each new generation, humans encroached farther into all the vastaya’s ancestral tribelands, disrupting their raw essence. The tribes began to fade, losing vitality as they were gradually cut off from the spirit of the First Lands, and were forced to negotiate with their mortal rivals.
@@ -31,3 +38,5 @@ Eventually, Xayah realized her feelings for Rakan were changing. There was a lig
 In all the years since, the two of them have become formidable champions of the vastaya, and word of their deeds is spreading. In the wake of the Noxian invasion, Ionians are undeniably more aggressive and dangerous—especially the peoples of Navori, and the hated “Order of Shadow”. Even so, this has enabled Xayah and Rakan to rally countless more vastaya to their side, and their dream of rebellion is coming to fruition.
 
 Together, they will fight to reclaim the First Lands, so that the tribes may thrive once again.
+
+#Xayah #the_Rebel #Xayah_the_Rebel

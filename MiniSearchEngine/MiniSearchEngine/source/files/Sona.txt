@@ -1,3 +1,10 @@
+Name: Sona
+Title: Maven of the Strings
+Role: Controller
+Class: Enchanter
+Blue Essence: $3150
+Riot Point: $790
+
 Sona’s earliest memories are of the Ionian monastery where she was raised, in the province of Galrin. The monks, along with kindhearted volunteers from the local villages, took in any orphans or foundlings left at the front gates, and made sure that they would want for nothing.
 
 As a young girl, Sona was considered shy and quiet, until it became apparent that she couldn’t speak at all. But she was unusually thoughtful and attentive, and the other children tended to seek her out whenever they needed comfort, their playful smiles quickly restored.
@@ -27,3 +34,5 @@ In the war’s aftermath, a great “restoration” was underway across the Firs
 Even so, her chosen homeland is not without its own problems. In the wake of King Jarvan III’s assassination, the mageseekers have gained significant power, and many innocent citizens are persecuted for any supposed connection to magic.
 
 As a child of two wildly different cultures, Sona increasingly finds herself at odds with her family’s political allegiances. With etwahl in hand, her melodies now serve not only to provide comfort, but also to defend what she knows is right and just.
+
+#Sona #Maven_of_the_Strings #Sona_Maven_of_the_Strings

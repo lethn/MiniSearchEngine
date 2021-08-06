@@ -1,3 +1,10 @@
+Name: Blitzcrank
+Title: the Great Steam Golem
+Role: Controller
+Class: Catcher
+Blue Essence: $3150
+Riot Point: $790
+
 Zaun is a place of wondrous experimentation and vibrant, colorful life where anything can be achieved—but not without a cost. For all its boundless creativity, there is also waste, destruction, and suffering in the undercity, so pervasive that even the tools created to alleviate it cannot escape its corrosive grasp.
 
 Designed to remove the toxic waste claiming whole neighborhoods of Zaun, lumbering mechanical golems toiled in violently hazardous locations. One such golem worked alongside its fellows, fulfilling its programming to reclaim Zaun for the people. But the caustic reality of their mission soon wore away at its robust form, and before long it was rendered inoperative and discarded as useless.
@@ -23,3 +30,5 @@ Enraged, the chem-baron who owned the ruined factory descended upon Viktor, dema
 Blitzcrank’s evolution beyond the constraints of their original programming had yet to cease. Having grown into full self-sufficiency, they resolved to take up their mission independent from their creator. Rumors abound that the golem has even begun to upgrade their own form as they labor tirelessly to assist and protect Zaunites without pausing for instruction.
 
 They now patrol the undercity, deciding for themselves how best to shepherd Zaun down the path to becoming the greatest city Valoran has ever seen.
+
+#Blitzcrank #the_Great_Steam_Golem #Blitzcrank_the_Great_Steam_Golem

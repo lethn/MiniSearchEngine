@@ -1,3 +1,10 @@
+Name: Warwick
+Title: the Uncaged Wrath of Zaun
+Role: Fighter
+Class: Diver
+Blue Essence: $450
+Riot Point: $260
+
 Warwick is a monster who hunts the gray alleys of Zaun. Transformed by agonizing experiments, his body is fused with an intricate system of chambers and pumps, machinery filling his veins with alchemical rage. Bursting out of the shadows, he preys upon those criminals who terrorize the city’s depths. Warwick is drawn to blood, and driven mad by its scent. None who spill it can escape him.
 
 Though many think of Warwick as no more than a beast, buried beneath the fury lies the mind of a man—a gangster who put down his blade and took up a new name to live a better life. But no matter how hard he tried to move on, he could never escape the sins of his past.
@@ -43,3 +50,5 @@ He still wonders if he’d truly wanted this. He can’t remember details, but h
 He is Warwick. He is a killer.
 
 And there are so many killers to hunt.
+
+#Warwick #the_Uncaged_Wrath_of_Zaun #Warwick_the_Uncaged_Wrath_of_Zaun

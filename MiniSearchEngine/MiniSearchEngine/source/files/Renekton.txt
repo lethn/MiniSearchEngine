@@ -1,3 +1,10 @@
+Name: Renekton
+Title: the Butcher of the Sands
+Role: Fighter
+Class: Diver
+Blue Essence: $4800
+Riot Point: $880
+
 Renekton was born to fight. From a young age, it was obvious he had no fear, regularly brawling with much older children. It was usually his pride that led to these confrontations—Renekton was unable to back down, or let any insult pass. While his older brother, Nasus, disapproved of his street-fighting, Renekton relished it.
 
 Nasus eventually left to join the prestigious Collegium of the Sun, and Renekton’s skirmishes became more serious. Fearing his brother’s violent nature would see him imprisoned or in an early grave, Nasus helped him enlist in the Shuriman army. Officially, Renekton was too young, but Nasus made sure this was conveniently overlooked.
@@ -35,3 +42,5 @@ Piece by piece, Renekton’s sanity cracked. Xerath drove a wedge into these cra
 But Shurima has changed much in his absence. The Ascended Host is no more, leaving the people scattered and leaderless, for the most part. Though he cares little for such things, Renekton has attracted followers among the most fierce and bloodthirsty of the desert raiders... even if he cannot always tell friend from foe in his frequent, deranged frenzies.
 
 And while there are moments when he resembles the proud, honorable hero of the past, most often Renekton is little more than a devolved, hate-maddened beast, driven on by the thirst for blood and vengeance.
+
+#Renekton #the_Butcher_of_the_Sands #Renekton_the_Butcher_of_the_Sands

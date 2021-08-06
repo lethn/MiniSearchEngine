@@ -1,3 +1,10 @@
+Name: Miss Fortune
+Title: the Bounty Hunter
+Role: Marksman
+Class: Marksman
+Blue Essence: $3150
+Riot Point: $790
+
 Like most who rise to notoriety in the twisting, salt-crusted labyrinth of Bilgewater, Sarah Fortune has no shortage of blood on her hands…Beloved daughter of the renowned gun-dame Abigale Fortune, Sarah spent much of her happy childhood in the forge of their island settlement just off the coast—learning to file wheel locks, set trigger pulls, and even cast batches of custom pistol shot. Her mother’s skill in crafting firearms was legendary, and her bespoke handguns were to be found in the collections of many a wealthy merchant captain.
 
 But oft-times, they were coveted by those with more meager means, and darker hearts.
@@ -29,3 +36,5 @@ With Gangplank gone, the other rival captains quickly descended into fighting am
 But little is ever really permanent in the port city, and Captain Fortune still finds herself having to impose her own brand of order on every reaver, ganglord, and distant threat that comes her way.
 
 The real battle for Bilgewater has only just begun.
+
+#Miss_Fortune #the_Bounty_Hunter #Miss_Fortune_the_Bounty_Hunter

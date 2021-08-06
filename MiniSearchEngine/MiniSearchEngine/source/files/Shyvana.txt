@@ -1,3 +1,10 @@
+Name: Shyvana
+Title: the
+Role: Fighter
+Class: Juggernaut
+Blue Essence: $3150
+Riot Point: $790
+
 Though they are rare creatures now indeed, there exist a handful of places across Runeterra where the great elemental dragons still nest.
 
 Long after the fall of the Shuriman empire, in the chambers beneath a lost volcano, the elder beast known as Yvva guarded her clutch of eggs. Beyond the depredations of rival drakes, dragon eggs were priceless almost beyond a mortal’s comprehension, and so many were daring or foolish enough to try their luck. Yvva feasted upon the charred remains of a score or more would-be thieves over the years… before one succeeded in his attempt.
@@ -29,3 +36,5 @@ And finally, bleeding from a dozen wounds, Shyvana grappled Yvva to the ground, 
 The prince himself honored Shyvana’s bravery, and promised that she would always have a place at his side, if she would return with him to his father’s halls. With Yvva’s skull as proof of their triumph, they set out for the Great City of Demacia together.
 
 Shyvana has learned that King Jarvan III’s realm is somewhat divided—with the people’s distrust of mages and magic putting them at odds with the noble ideals upon which it was founded. While she has found a measure of acceptance as one of the prince’s most trusted guardians, she is left to wonder whether that would still be the case if her true nature were more widely known…
+
+#Shyvana #the #Shyvana_the

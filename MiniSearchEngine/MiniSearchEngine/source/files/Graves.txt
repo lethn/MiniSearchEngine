@@ -1,3 +1,10 @@
+Name: Graves
+Title: the Outlaw
+Role: Specialist
+Class: Specialist
+Blue Essence: $4800
+Riot Point: $880
+
 Raised in the wharf alleys of Bilgewater, Malcolm Graves quickly learned how to fight and how to steal, skills that would serve him very well in all the years ahead. He could always find work hauling contraband up from the smugglers’ skiffs that came into the bay each night—with a tidy side-gig as hired muscle for various other unsavory local characters, as they went about their business in the port.
 
 But the alleys were small-time, and he craved more excitement than they could offer. Still little more than a youth, Graves stole a blunderbuss and smuggled himself aboard a ship headed out of Bilgewater to the Shuriman mainland, where he stole, lied, and gambled his way from place to place along the coast.
@@ -23,3 +30,5 @@ The search led him back home to Bilgewater, where he found that the wily old car
 Once again, Graves found himself escaping his hometown… only this time, he had his old friend in tow. While both of them might have liked to pick up their partnership where they left off all those years ago, such resentment couldn't simply be forgotten overnight, and it would be a while before Graves could bring himself to trust Twisted Fate again.
 
 Still, he feels Bilgewater calling to him once more. Maybe this time around, the pair of them will find their stride and be able to pull off the ultimate heist…
+
+#Graves #the_Outlaw #Graves_the_Outlaw

@@ -1,3 +1,10 @@
+Name: Azir
+Title: the Emperor of the Sands
+Role: Specialist
+Class: Specialist
+Blue Essence: $4800
+Riot Point: $880
+
 Azir was a mortal emperor of Shurima in a far distant age, a proud man who stood at the cusp of immortality. His hubris saw him betrayed and murdered at the moment of his greatest triumph, but now, millennia later, he has been reborn as an Ascended being of immense power. With his buried city risen from the sand, Azir seeks to restore Shurima to its former glory.
 
 Thousands of years ago, the Shuriman empire was a sprawling realm of vassal states conquered by powerful armies led by all but invincible warriors known as the Ascended. Ruled by an ambitious and power hungry emperor, Shurima was the greatest realm of its day; a fertile land blessed by the power of the sun that shone from a great golden disc floating atop the temple at the heart of its capital.
@@ -41,3 +48,5 @@ And with that act of selflessness, Azir was lifted up in a column of fire as the
 Azir climbed the steps of the newly-risen sun temple, weaving the desert winds to recreate the city’s last moments. Ghosts formed of sand relived his city’s last moments from long ago, and Azir watched in horror as Xerath’s treachery unfolded. He wept as he saw his family murdered, his empire fall and his power stolen. Only now, millennia too late, did he finally understand the depths of hatred harbored by his former friend and ally. With the power and prescience of an Ascended being, Azir sensed Xerath somewhere abroad in the world and summoned an army of sand warriors to march alongside their reborn emperor. As the sun blazed from the golden disc above him, Azir swore a mighty oath.
 
 I will reclaim my lands and take back what was mine!
+
+#Azir #the_Emperor_of_the_Sands #Azir_the_Emperor_of_the_Sands

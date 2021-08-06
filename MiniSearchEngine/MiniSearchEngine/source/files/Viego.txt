@@ -1,3 +1,10 @@
+Name: Viego
+Title: The Ruined King
+Role: Slayer
+Class: Skirmisher
+Blue Essence: $6300
+Riot Point: $975
+
 Few know of the kingdom to the east, far across the seas, whose name lies all but forgotten among the ruins that dot its shores. Fewer still know of its foolish young ruler, whose lovestruck heart was doomed to destroy it.
 
 Now a grave threat to all, that man’s name was—and is—Viego.
@@ -35,3 +42,5 @@ His reign is terror.
 His love is eternal.
 
 And until Isolde returns to him, all will fall before the Ruined King.
+
+#Viego #The_Ruined_King #Viego_The_Ruined_King

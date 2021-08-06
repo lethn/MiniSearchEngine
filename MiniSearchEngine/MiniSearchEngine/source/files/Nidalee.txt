@@ -1,3 +1,10 @@
+Name: Nidalee
+Title: the Bestial Huntress
+Role: Specialist
+Class: Specialist
+Blue Essence: $3150
+Riot Point: $790
+
 Far, far from the harsh deserts of the Great Sai, over savanna plains and mountain steppes, lie the great eastern jungles of Shurima. Swathed in mystery, they are home to wild, fantastical beasts, and dense forests blooming with life. But while there is overwhelming beauty to be found there, danger and death lurk nearby in equal measure.
 
 No one knows how Nidalee came to be alone in the heart of the jungle. Dressed in little more than rags, the infant child sat alone on the leafy soil, her cries echoing between the trees.
@@ -23,3 +30,5 @@ Hurling the spear aside, Nidalee held the dying cougar close. Her siblings appro
 Over time, she learned to better control her powers, eventually shifting between both forms with ease. Perhaps it was a yearning to find others of her kind that led her to the chameleon-like wanderer Neeko, but the two became inseparable for a time. Nidalee delighted in mentoring her inquisitive new companion, and they reveled in exploring the jungle's numerous wonders together, before Neeko eventually departed to follow her own destiny beyond Shurima's shores.
 
 Even now, the dense forests remain the last truly untamed wilderness in the known world, and something of an enigma even to Nidalee. Still, in rare, quiet moments, the huntress finds herself dwelling on her own origins—and her encounter with the Kiilash—and whether she will learn the truth behind any of it…
+
+#Nidalee #the_Bestial_Huntress #Nidalee_the_Bestial_Huntress

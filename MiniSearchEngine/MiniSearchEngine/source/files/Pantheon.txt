@@ -1,3 +1,10 @@
+Name: Pantheon
+Title: the Unbreakable Spear
+Role: Fighter
+Class: Diver
+Blue Essence: $3150
+Riot Point: $790
+
 Atreus was born on the hostile slopes of Targon, and named after a star in the constellation of War, known as the Pantheon.
 
 From an early age, he knew he was destined for battle. Like many in his tribe, he trained to join the Rakkor’s militant order, the Ra’Horak. Never the strongest or the most skilled warrior, Atreus somehow persevered, standing up, bloodied and bruised, after each bout. In time, he developed a fierce rivalry with a fellow recruit, Pylas—but no matter how often Atreus was cast onto the stones, he stood back up. Pylas was impressed by his unrelenting endurance, and through the blood they spilled in the training circle, a true brotherhood was born.
@@ -31,3 +38,5 @@ Both blade and Darkin fell to the ground. Only Atreus still stood, and watched h
 Though he often yearns to return to Iula’s farm, Atreus vowed that day to stand against Aspects, Ascended, demons, and any who wield power so great, it can only destroy. Forsaking his own name, he has become a new Pantheon—the Aspect’s weapons fueled by the will to fight that can only exist in the face of death.
 
 For with the divine Pantheon gone, War must be reborn in man.
+
+#Pantheon #the_Unbreakable_Spear #Pantheon_the_Unbreakable_Spear

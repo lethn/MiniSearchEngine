@@ -1,3 +1,10 @@
+Name: Gwen
+Title: The Hallowed Seamstress
+Role: Slayer
+Class: Skirmisher
+Blue Essence: $6300
+Riot Point: $975
+
 Within the long-lost kingdom of Camavor, there once lived a village of people far from the throne. It was here, in the rural colonies, where a humble seamstress made her beloved doll, Gwen.
 
 What Gwen can remember of her past, she remembers with love. The seamstress and the doll spent their days crafting, scissors resting in Gwen’s still hands as her maker stitched nearby with needle and thread. At night, the two could be found crouched under the dinner table, the seamstress challenging Gwen to makeshift duels, the clash of silverware against scissors echoing in their candlelit kitchen.
@@ -23,3 +30,5 @@ But the wraiths were relentless. They swelled in number, fueled by the ever-grow
 Viego.
 
 Remembering his name brought Gwen to her knees. Wistfully, she reflected on the bygone moments spent with her maker—a happier, simpler time—and stole one final glance at her scissors...8
+
+#Gwen #The_Hallowed_Seamstress #Gwen_The_Hallowed_Seamstress

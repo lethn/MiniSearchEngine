@@ -1,3 +1,10 @@
+Name: Orianna
+Title: the Lady of Clockwork
+Role: Mage
+Class: Burst
+Blue Essence: $4800
+Riot Point: $880
+
 Nestled among the eclectic storefronts of Piltover sat the workshop of the renowned artificer Corin Reveck. Famous for his masterful craft in artificial limbs, Corin’s intricate brass designs made the prosthetics both breathtakingly beautiful and often superior to the originals. His daughter, Orianna, served as his apprentice—friendly and inquisitive, she was a natural fit to run the shop, and blossomed into a capable artisan in her own right.
 
 Orianna had an adventurous spirit, but her father, fearing for her safety, never allowed her to venture beyond their neighborhood. Instead, he took her to the theater, where dancers, through leaps and pirouettes, told stories of distant lands. Orianna dreamed of visiting these strange and marvelous places, and would scurry home to build clockwork dancers of her own.
@@ -29,3 +36,5 @@ Corin became one with the last remnant of the daughter he had known and loved. S
 At dawn, she collected the key that wound her lungs, a single pulse from her ball welding it firmly to her back. Then she left for good.
 
 Corin woke to find his workshop filled with hundreds of figurines. But among them was one he vowed never to sell: pirouetting to an endless ballet, a golden dancer that needed no key.
+
+#Orianna #the_Lady_of_Clockwork #Orianna_the_Lady_of_Clockwork

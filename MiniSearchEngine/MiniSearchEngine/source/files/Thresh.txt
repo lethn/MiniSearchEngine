@@ -1,3 +1,10 @@
+Name: Thresh
+Title: the Chain Warden
+Role: Controller
+Class: Catcher
+Blue Essence: $4800
+Riot Point: $880
+
 The horrifying specter now known as Thresh was once a simple, if troubled, man. In an age history has all but forgotten, he was a lowly warden of an order devoted to the gathering and protection of arcane knowledge. This order was established on the Blessed Isles, which were hidden and protected from the outside world by magical pale mists.
 
 The masters of the order acknowledged Thresh’s long years of service, and tasked him with the custodianship of certain hidden vaults beneath the city of Helia. It was there that a vast, secret collection of dangerous artifacts was kept under lock and key. Incredibly strong-willed and methodical, Thresh was well suited to such work… but even then, his penchant for cruelty had been noted by his brethren. While it had not yet manifested in murderous ways—at least, none that could be proven—he was shunned by many.
@@ -29,3 +36,5 @@ Senna, one of the hated “Sentinels of Light”, died a futile death after faci
 However, before he could finally claim Lucian’s soul, a vengeful blow split Thresh’s lantern open, and freed Senna from it.
 
 Intrigued by the obvious strength of their mortal bond, he has decided to allow them this small and insignificant victory, knowing all too well that the game of light and shadow they all play is still far from over…
+
+#Thresh #the_Chain_Warden #Thresh_the_Chain_Warden

@@ -1,3 +1,10 @@
+Name: Sivir
+Title: the Battle Mistress
+Role: Marksman
+Class: Marksman
+Blue Essence: $450
+Riot Point: $260
+
 From an early age, Sivir learned firsthand the harsh lessons of Shuriman desert life. With her entire family slain by marauding Kthaons—one of the Great Sai’s most infamous raider tribes—the young girl and other orphans like her could only hope to survive by stealing food from local markets, and delving into half-buried ancient ruins in search of trinkets to sell. They would brave cramped tunnels and forgotten crypts, hunting for anything of value, often scrapping viciously with one another over the best finds.
 
 Sivir would lead others into the depths, but could rarely hold on to what few treasures she managed to unearth. After being robbed by her supposed friend Mhyra, she swore she would never allow herself to be betrayed again, and in time she joined a group of mercenaries led by the renowned Iha Ziharo, serving as their guide and general lackey.
@@ -25,3 +32,5 @@ The earth split, and great plumes of dust whirled into the air as the ancient ci
 While she would have liked nothing more than to return to her former life, she instead found herself caught up in the struggles of powers greater than most mortals could comprehend. At the city of Vekaura, she crossed paths with another Ascended being—the freed magus Xerath, now seeking to end Azir’s bloodline for good—but with the help of the scholar Nasus and a young stoneweaver named Taliyah, Sivir survived once more.
 
 The time has now come when she must choose a path, either embracing the destiny she has been given, or forging her own amid the shifting sands of Shurima.
+
+#Sivir #the_Battle_Mistress #Sivir_the_Battle_Mistress

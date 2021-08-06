@@ -1,3 +1,10 @@
+Name: Evelynn
+Title: Agony's Embrace
+Role: Slayer
+Class: Assassin
+Blue Essence: $1350
+Riot Point: $585
+
 Within the dark seams of Runeterra, the demon Evelynn searches for her next victim. She lures in prey with the voluptuous façade of a human female, but once a person succumbs to her charms, Evelynn’s true form is unleashed. She then subjects her victim to unspeakable torment, gratifying herself with their pain. To the demon, these liaisons are innocent flings. To the rest of Runeterra, they are ghoulish tales of lust gone awry and horrific reminders of the cost of wanton desire.
 
 Evelynn was not always a skilled huntress. She began eons ago, as something primordial, shapeless, and barely sentient. This nascent wisp of shadow existed, numb and unroused by any stimulation, for centuries. It might have remained so, had the world not been upended by conflict. The Rune Wars, as they would come to be known, brought an era of mass suffering the world had never known.
@@ -19,3 +26,5 @@ From the shadows, it began to study those it sought to prey upon. It tailored it
 In a matter of weeks, the demon had perfected her physique, leading dozens of enamored victims to be tortured to death at her hands. Though she relishes the exquisite pain of each of her victims, she always finds herself wanting more. Each human’s desires are so small, and they always expire too soon. Their pain, too fleeting to give her anything more than tiny morsels of pleasure, is just enough to tide her over to the next feeding.
 
 She yearns for the day she can plunge the world into utter chaos, and she can return to an existence of pure, rapturous ecstasy.
+
+#Evelynn #Agony's_Embrace #Evelynn_Agony's_Embrace

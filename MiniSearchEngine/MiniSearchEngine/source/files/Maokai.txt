@@ -1,3 +1,10 @@
+Name: Maokai
+Title: the Twisted Treant
+Role: Tank
+Class: Vanguard
+Blue Essence: $4800
+Riot Point: $880
+
 Maokai is a rageful, towering treant who fights the unnatural horrors of the Shadow Isles. He was twisted into a force of vengeance after a magical cataclysm destroyed his home, surviving undeath only through the waters of life infused within his heartwood. Once a peaceful nature spirit, Maokai now furiously battles to banish the scourge of unlife from the Shadow Isles and restore his home to its former beauty.
 
 Long before living memory, a chain of islands erupted from deep beneath the ocean tides as blank slates of rock and clay. With its creation, the nature spirit Maokai was born. He took the form of a treant, with his tall body covered in bark and long limbs resembling branches. Maokai felt the profound loneliness of the land and its potential for teeming growth. He wandered from island to island in search of signs of life, growing ever more forlorn in his solitude.
@@ -27,3 +34,5 @@ Though surrounded by endless hosts of malicious foes and darkening mist, Maokai 
 Some days, Maokai subdues the mist and its deathless spirits, breaking their hold on a grove of trees or a small thicket. Though new life has not bloomed in such cursed soil for an age, Maokai strives to carve havens, however temporary, free from regret and decay.
 
 So long as Maokai continues to fight, hope remains, for steeped within his heartwood are the uncorrupted waters of life, the last remaining chance of restoring the isles. If the land returns to its joyous state, Maokai, too, will shed his twisted form. The nature spirit brought life to these isles long ago, and he refuses to rest until the isles bloom once more.
+
+#Maokai #the_Twisted_Treant #Maokai_the_Twisted_Treant

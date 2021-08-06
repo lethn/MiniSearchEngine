@@ -1,3 +1,10 @@
+Name: Caitlyn
+Title: the Sheriff of Piltover
+Role: Marksman
+Class: Marksman
+Blue Essence: $4800
+Riot Point: $880
+
 Born to a wealthy and influential family of hextech artificers, Caitlyn swiftly learned the social graces of life in Piltover, but preferred to spend her time in the wilder lands outside it. Equally adept at mingling with the moneyed citizens of the City of Progress or stalking a deer through the mud of the forest, she could confidently track a bird on the wing over the merchant districts, or put a shot through the eye of a hare at a hundred paces with her father’s repeater musket.
 
 Caitlyn’s greatest assets, however, were her intelligence and willingness to learn from her parents, who reinforced her understanding of right and wrong. Though the family’s engineering skills had made them wealthy, her mother always warned of Piltover’s seductions, and its gilded promises that could harden the kindest heart. At first, Caitlyn paid little heed—to her, Piltover was a place of beauty and order that she cherished after each trip into the wild.
@@ -17,3 +24,5 @@ She turned a tidy profit in a profession that taught her, first-hand, both the a
 She had been recommended by one of their number who had also developed something of an affinity for stranger cases—and their battle with a host of rogue chimerics in the employ of a lunatic chem-researcher driven mad by his own concoctions led to her being offered a formal position as a sheriff. At first, Caitlyn refused, but eventually came to realize that the Wardens’ resources could potentially get her closer to discovering the true identity of “C”, the only person still unaccounted for following the attack on her family home.
 
 Caitlyn has since become a highly respected officer within the ranks of the Piltover Wardens, maintaining order in the City of Progress. She recently partnered with a new recruit from Zaun, the brash and reckless Vi. How such an unlikely pairing came about—and been proven so effective—is the subject of wild rumor and tavern speculation among their fellow Wardens, as well as those they haul away to jail.
+
+#Caitlyn #the_Sheriff_of_Piltover #Caitlyn_the_Sheriff_of_Piltover

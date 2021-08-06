@@ -1,3 +1,10 @@
+Name: Singed
+Title: the Mad Chemist
+Role: Specialist
+Class: Specialist
+Blue Essence: $450
+Riot Point: $260
+
 The twisted, unfathomable madman known across Runeterra as Singed began his life as an ordinary man in Piltover. As a child, he displayed a prodigious intellect and a boundless sense of curiosity. The principles and interactions of the natural world fascinated him, eventually leading him to pursue a scholarship at the prestigious University of Piltover.
 
 It did not take long for his brilliance to be recognized.
@@ -17,3 +24,5 @@ Putting aside all other concerns, Singed poured all of his intellect, knowledge,
 Now, without any restraint for capital, materials, or even subjects to experiment upon, Singed nonetheless feels the weight of years upon him. His most recent work has taken a decidedly more biological angle, and of a far more dramatic scope. A recent exercise in the melding of animal, man, and machine left his laboratories in ruins, his face held together with filthy bandages, and his subject freely prowling the streets of Zaun, yet Singed remains undeterred.
 
 He has already mastered the destruction of flesh, and thus now has turned to the preservation and transformation of it… and perhaps even the possibility that life need not end with an inescapable death.
+
+#Singed #the_Mad_Chemist #Singed_the_Mad_Chemist

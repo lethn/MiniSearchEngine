@@ -1,3 +1,10 @@
+Name: Taric
+Title: the Shield of Valoran Controller Enchanter
+Role: Tank
+Class: Warden
+Blue Essence: $1350
+Riot Point: $585
+
 For the noble defenders of Demacia, daily life is the very model of focused, selfless dedication to the ideals of king and country. Called upon to continue his family’s long tradition of military service, Taric never dreamed of shirking that responsibility—though he would not limit or define exactly whom and what he would protect.
 
 The young warrior trained hard, and possessed great martial skill. Even so, in his scant hours of free time, he would find other ways to serve his homeland. He volunteered with the Illuminators, tending the sick or helping rebuild homes damaged by flooding. He lent his creative talents, such as they were, to the stonemasons and craftsmen who raised monuments to the glory of the Winged Protector and the lofty ideals it embodied.
@@ -29,3 +36,5 @@ It spoke truths he had somehow always known. It spoke of the mantle for which he
 And he would stand as the Shield of Valoran in great wars yet to come.
 
 Reborn as the Aspect of the Protector, gifted with power and purpose unimaginable to most mortals, Taric has gladly accepted this new calling—as the steadfast guardian of an entire world.
+
+#Taric #the_Shield_of_Valoran_Controller_Enchanter #Taric_the_Shield_of_Valoran_Controller_Enchanter

@@ -1,3 +1,10 @@
+Name: Rakan
+Title: The Charmer
+Role: Controller
+Class: Catcher
+Blue Essence: $6300
+Riot Point: $975
+
 The Lhotlan vastaya once lived on the ancient, mystical borders of Ionia’s deep forests, on the eastern island of Qaelin. It was a place where magic was breathed like air, and time had little meaning. To these chimeric creatures, the lands of mortals were an unforgiving desert, virtually devoid of magic—and over the centuries, that desert only grew, encroaching on the vastaya’s territories.
 
 Rakan was born into a tribe in decline, yet he never gave up hope.
@@ -27,3 +34,5 @@ Soon enough, Rakan couldn’t imagine life without Xayah, and it was clear that 
 Yet they did not see eye to eye in all things. Where she viewed the world as black and white, with mortals always the enemy, he had more compassion, and believed some of them were redeemable. Despite this difference, Rakan was certain that his and Xayah’s love for each other would bear them through the storms that lay ahead.
 
 Through Xayah, Rakan has found purpose. Inspired by his partner’s singular drive, Rakan has made her crusade his own, and together they will fight to reclaim the First Lands for the vastaya.
+
+#Rakan #The_Charmer #Rakan_The_Charmer

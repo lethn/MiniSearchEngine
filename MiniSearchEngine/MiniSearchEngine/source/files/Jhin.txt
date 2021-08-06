@@ -1,3 +1,10 @@
+Name: Jhin
+Title: the Virtuoso Marksman Marksman
+Role: Controller
+Class: Catcher
+Blue Essence: $6300
+Riot Point: $975
+
 One can travel to nearly any village across Ionia and hear the tale of the Capture of the Golden Demon. Depicted in a variety of plays and epic poems, the cruel spirit’s banishment is still celebrated to this day.
 
 But at the heart of every myth there lies a kernel of truth, and the truth of the Golden Demon is one far different than the fiction.
@@ -25,3 +32,5 @@ Jhin was freed from Tuula sometime after the war with Noxus, possibly put to use
 Whoever his shadowy patrons might be, they have endowed Jhin with nearly unlimited funds, and seem unconcerned by the growing scale of his “performances”. Recently, he attacked members of Zed’s Yanlei order, and mass murders and assassinations bearing his signature “flair” have occurred not only across Ionia’s many regions, but also in distant Piltover and Zaun.
 
 It seems that all of Runeterra might be but a canvas for the atrocity that is Khada Jhin’s art, and only he knows where the next brushstroke will fall.
+
+#Jhin #the_Virtuoso_Marksman_Marksman #Jhin_the_Virtuoso_Marksman_Marksman

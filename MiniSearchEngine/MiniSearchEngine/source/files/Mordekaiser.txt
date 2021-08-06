@@ -1,3 +1,10 @@
+Name: Mordekaiser
+Title: the Iron Revenant
+Role: Fighter
+Class: Juggernaut
+Blue Essence: $1350
+Riot Point: $585
+
 In a previous epoch, the fierce warlord Sahn-Uzal rampaged across the northern wildlands. Driven by dark faith, he crushed every tribe and settlement in his path, forging an empire in blood and death. As his mortal life neared its end, he took great satisfaction in knowing he had doubtless earned a seat at the gods’ table, in the glorious Hall of Bones, for all eternity.
 
 Yet, when he died, he found no halls or glory awaiting him. Instead, Sahn-Uzal stood in an empty, gray wasteland, shrouded by ethereal fog and plagued by discordant whispers. Occasionally, other lost souls drifted nearby—little more than ghostly shapes, wandering their own personal oblivion.
@@ -33,3 +40,5 @@ From the subtle matter of their souls, Mordekaiser would forge a new empire. The
 Centuries have passed on Runeterra, and another empire has arisen around the Immortal Bastion. Mordekaiser’s name is still whispered in fear and awe by those who study the old histories, and remembered unkindly by the few ancient souls who knew him. For them, the greatest terror would be for Mordekaiser to find his own way to return permanently.
 
 It is something they pray will not come to pass, for they know of no way to stop him.
+
+#Mordekaiser #the_Iron_Revenant #Mordekaiser_the_Iron_Revenant

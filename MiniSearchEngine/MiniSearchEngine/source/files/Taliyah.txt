@@ -1,3 +1,10 @@
+Name: Taliyah
+Title: the Stoneweaver
+Role: Mage
+Class: Battlemage
+Blue Essence: $6300
+Riot Point: $975
+
 Taliyah is a nomadic mage from Shurima who weaves stone with energetic enthusiasm and raw determination. Torn between teenage wonder and adult responsibility, she has crossed nearly all of Valoran on a journey to learn the true nature of her growing powers. Compelled by rumors of the rise of a long-dead emperor, she returns to protect her tribe from dangers uncovered by Shurima’s shifting sands. Some have mistaken her tender heart for weakness and paid the price for their error, for beneath Taliyah’s youthful demeanor is a will strong enough to move mountains, and a spirit fierce enough to make the earth tremble.
 
 Born in the rocky foothills bordering Icathia’s corrupted shadow, Taliyah spent her childhood herding goats with her tribe of nomadic weavers. Where most outsiders see Shurima as a beige and barren waste, her family raised her to be a true daughter of the desert and to see beauty in the rich hues of the land. Taliyah was always fascinated by the stone beneath the dunes. When she was a toddler, she collected colorful rocks as her people followed the seasonal waters. As she grew older, the earth itself seemed drawn to her, arcing and twisting to follow her tracks through the sand.
@@ -39,3 +46,5 @@ She escaped the tide and the fighting on the beach and found herself wandering, 
 While resting at an isolated inn, Taliyah heard that the Ascended Emperor of Shurima had returned to his desert kingdom. Rumor had it this emperor turned god sought to gather his people, the disparate tribes, back to him as slaves. Even with her training unfinished, there was no other choice; she knew she must return to her family to protect them. Sadly, she and her mentor parted ways.
 
 Taliyah returned home to the sand-swept dunes of Shurima. As the punishing rays of the sun beat down on her, Taliyah pushed farther into the desert, determined to find her people. Hers was a will of stone, and she would do whatever was necessary to protect her family and her tribe from the danger that loomed on the horizon.
+
+#Taliyah #the_Stoneweaver #Taliyah_the_Stoneweaver

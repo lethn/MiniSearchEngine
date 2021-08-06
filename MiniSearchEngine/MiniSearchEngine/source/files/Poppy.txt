@@ -1,3 +1,10 @@
+Name: Poppy
+Title: Keeper of the Hammer
+Role: Tank
+Class: Warden
+Blue Essence: $450
+Riot Point: $260
+
 Runeterra has no shortage of valiant champions, but few are as tenacious as Poppy. Bearing a hammer twice the length of her body, this determined yordle has spent untold years searching for the “Hero of Demacia,” a fabled warrior said to be the rightful wielder of her weapon.
 
 As legend describes it, this hero is the only person who can unlock the full power of the hammer and lead Demacia to true greatness. Though Poppy has searched the furthest corners of the kingdom for this legendary fighter, her quest has proven fruitless. Each time she has attempted to pass the hammer on to a potential hero, the results have been disastrous, often ending in the warrior&#x2019;s death. Most people would have abandoned the task long ago, but most people do not possess the pluck and resolve of this indomitable heroine.
@@ -21,3 +28,5 @@ Orlon became a beloved figure throughout the kingdom. Though few had actually se
 Orlon passed the hammer to Poppy on his deathbed, and with it, his hope of an enduring kingdom. It was only then that Orlon told her the story of his weapon&#x2019;s creation, and how it was never truly intended for his hands. He explained to Poppy that the hammer was meant to go to the Hero of Demacia&#x2013;the only one who could keep Demacia whole. As her friend drew his last breath, Poppy swore to him that she would find this hero and place the weapon in his hands.
 
 But what Poppy possesses in resolve, she lacks in ego, as it never even occurred to her that she might be the hero Orlon described.
+
+#Poppy #Keeper_of_the_Hammer #Poppy_Keeper_of_the_Hammer

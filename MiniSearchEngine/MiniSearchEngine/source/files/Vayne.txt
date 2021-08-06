@@ -1,3 +1,10 @@
+Name: Vayne
+Title: the Night Hunter
+Role: Marksman
+Class: Marksman
+Blue Essence: $4800
+Riot Point: $880
+
 Shauna Vayne is a deadly, remorseless monster hunter who has pledged her life to finding and killing the demon who murdered her family. Armed with her wrist-mounted crossbows and a heart full of vengeance, Vayne is only truly happy when she’s slaying practitioners or creations of the dark arts.
 
 As the only child to a wealthy Demacian couple, Vayne enjoyed an upbringing of privilege. She spent most of her childhood indulged in solitary pursuits – reading, learning music, and avidly collecting the various insects found on their manor’s grounds. Her parents had traveled across Runeterra in their youth, but settled in Demacia after Shauna’s birth because more than any place they’d found, Demacians looked out for one another.
@@ -41,3 +48,5 @@ With the priest’s body laid strewn at Vayne’s feet, Frey retook her human fo
 There were still hours left before dawn, which meant hours left to continue the hunt. Vayne thought only of the demon. The kill that would be hers to savor. And all the kills to come. Runeterra’s underworld would come to fear her, just as she had once feared them.
 
 For the first time since her parents’ death, Vayne smiled.
+
+#Vayne #the_Night_Hunter #Vayne_the_Night_Hunter

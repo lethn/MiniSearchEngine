@@ -1,3 +1,10 @@
+Name: Janna
+Title: the Storm's Fury
+Role: Controller
+Class: Enchanter
+Blue Essence: $1350
+Riot Point: $585
+
 Since ancient times, there have been those who prayed to the winds. From sailors seeking good weather to the downtrodden calling on winds of change, mortals have placed their hope in the tempests and gales that sweep across Runeterra.
 
 Surprisingly, the wind sometimes would seem to answer. Seafarers might spot a bright blue bird just before a healthy tailwind billowed their sails. Others could swear they’d heard a whistling in the air right before a storm, as if to warn them of its approach. As word of these omens spread, sightings of the bird grew more common. Some even swore they had seen the bird transform into a woman. With tapered ears and flowing hair, this mysterious maiden was said to float above the water and direct the wind with a flick of her staff.
@@ -21,3 +28,5 @@ As these unfortunate souls faced their doom, they prayed for salvation. They cal
 Though these mortals had seemingly forgotten her until now, Janna did not hesitate to help them. An immense gale swept over the city as she took corporeal form. Impossible walls of air held flooding waters at bay as people fled the drowned ruins of their homes. Ferocious gusts of wind cut through the suffocating smoke from fires caused by the destruction. Yet while she saved many, thousands still perished that day—but all who survived witnessed Janna’s benevolence. Never again would the city’s people forget their savior.
 
 To this day, through the rise of Piltover and the ongoing struggles of modern Zaun, Janna’s faithful wear bluebird medallions and show reverence to the winds. And through it all, Janna stands steadfast by the humble and the meek. Zaunites all know that whether they fight for breath amid the toxic clouds of the Zaun Gray, stand against the brutality of violent chem-barons, or fend off other threats, Janna will not abandon them.
+
+#Janna #the_Storm's_Fury #Janna_the_Storm's_Fury

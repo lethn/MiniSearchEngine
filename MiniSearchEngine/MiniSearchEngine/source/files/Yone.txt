@@ -1,3 +1,10 @@
+Name: Yone
+Title: the Unforgotten Slayer Assassin
+Role: Slayer
+Class: Skirmisher
+Blue Essence: $6300
+Riot Point: $975
+
 In life, Yone adhered to a strict code of honor and duty. Even as a child, his love for his family led him to assume the mantle of protector, motivated in no small way by the loss of his father. This was in stark contrast to his half-brother, Yasuo, who was brash and reckless where Yone was patient and disciplined.
 
 Still, the two were inseparable—and when Yone began his studies at the renowned sword school near their village, Yasuo followed.
@@ -37,3 +44,5 @@ Even so, he could not tell if—or when—the azakana he wore would reawaken to 
 Yone hunts these insidious creatures in an attempt to understand what he has become—with each name bringing him a step closer to uncovering that of the one whose laughter still haunts him.
 
 Nothing else matters. There is only the chase of truth.
+
+#Yone #the_Unforgotten_Slayer_Assassin #Yone_the_Unforgotten_Slayer_Assassin

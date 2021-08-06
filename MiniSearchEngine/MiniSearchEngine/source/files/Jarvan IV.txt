@@ -1,3 +1,10 @@
+Name: Jarvan IV
+Title: the Exemplar of Demacia
+Role: Fighter
+Class: Diver
+Blue Essence: $4800
+Riot Point: $880
+
 Soon after King Jarvan III’s coronation, he addressed the people of Demacia. Even though there were still many foes beyond the borders of their proud kingdom, several of the noble families had begun to feud with one another, some even raising private militias to seek the favor of their new king.
 
 This would not stand. Jarvan would not allow such dangerous rivalries to develop, and declared his intention to end the feuding by marriage. His bride, the Lady Catherine, was much beloved by the people—and courtly gossip had long held that the two shared some secret fondness for one another. The bells of the Great City rang for a day and a night in celebration, and by year’s end came the announcement that the royal couple were expecting their first son.
@@ -37,3 +44,5 @@ The Mageseeker order had gained support among the noble families, leading to wid
 Although the prince’s political stance toward mages has hardened significantly since then, he has yet to fully allay concerns over his suitability to rule. As such, he has taken the counsel of many prominent nobles—including Garen’s aunt, High Marshal Tianna Crownguard—and pledged to heed their wisdom and experience in the days ahead.
 
 For he must examine his own conscience and allegiances carefully if he is ever to come into his inheritance, and be crowned King Jarvan IV of Demacia.
+
+#Jarvan_IV #the_Exemplar_of_Demacia #Jarvan_IV_the_Exemplar_of_Demacia

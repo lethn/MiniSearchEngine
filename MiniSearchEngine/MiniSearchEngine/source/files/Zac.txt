@@ -1,3 +1,10 @@
+Name: Zac
+Title: the Secret Weapon
+Role: Tank
+Class: Vanguard
+Blue Essence: $4800
+Riot Point: $880
+
 Zac is the product of a toxic spill that ran through a chemtech seam and pooled in an isolated cavern deep in Zaun’s Sump. Despite such humble origins, Zac has grown from primordial ooze into a thinking being who dwells in the city’s pipes, occasionally emerging to help those who cannot help themselves or to rebuild the broken infrastructure of Zaun.
 
 A group of Zaunite children first encountered Zac when they were out skimming rocks over a sump pool and some of the stones were thrown back. The “Returning Pool” became well-known to Zaun’s Sump dwellers, and eventually drew the attention of a shadowy cabal of chemtech alchymists. Over the protests of the local residents, the alchymists pumped the contents of the pool into vats and carried the substance back to their laboratories for experimentation.
@@ -21,3 +28,5 @@ Zac had been exploring subterranean seams far below Zaun, but sensed his parents
 When the heightened emotions of battle drained from Zac’s consciousness, he was overcome with remorse for the homes he had destroyed, and vowed to continue the good work done by his parents. He helped rebuild what he had destroyed, but as soon as the work was done, he vanished into Zaun’s vast network of pipes.
 
 Now Zac lives alone, dwelling in the tunnels and caverns threading Zaun, and bathing in the emotions of the city’s inhabitants. Sometimes this enriches him, but other times it saddens him as he takes on both the good and bad of the city. He has become something of an urban legend among the people of Zaun, a mysterious creature that sometimes emerges from cracks in the rock or a section of damaged pipework. Most times this is to help those in need, but in times of trouble, when the city’s moods turn grim, his appearance can be cause for trepidation.
+
+#Zac #the_Secret_Weapon #Zac_the_Secret_Weapon

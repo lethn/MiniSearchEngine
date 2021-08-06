@@ -1,3 +1,10 @@
+Name: Master Yi
+Title: the Wuju Bladesman
+Role: Slayer
+Class: Skirmisher
+Blue Essence: $450
+Riot Point: $260
+
 In Ionia’s central province of Bahrl, a mountain settlement once stood, hidden away in its serene beauty. Here, in the village of Wuju, the boy Yi grew up learning the ways of the sword, chasing a dream that later turned to tragedy.
 
 Like most children, he admired those who wore silk robes and carried blades with poems to their name. His parents being swordsmiths, Yi made a strong impression on the local warriors who frequented their workshop. He spent his mornings in the garden, sparring with his mother, and his nights reciting poetry to his father by candlelight. When it came time for Yi to study under Wuju’s masters, his parents could not have been prouder.
@@ -19,3 +26,5 @@ A curious, monkey-like vastaya challenged him to a duel. Reluctantly, Master Yi 
 The two clashed for weeks, until the bruised stranger finally knelt on the ground and introduced himself as Kong, of the Shimon tribe. He begged to learn from Yi, who saw in this reckless but determined fighter the makings of a new disciple. Through teaching, Yi found his purpose restored. He would pass on the ways of Wuju, and gifted his pupil an enchanted staff and an honorific as a sign of this vow—from that day onward, Kong was known as Wukong.
 
 Together, they now travel the First Lands, as Yi seeks to honor the legacy of his lost home, allowing him to fully embody the “master” in his name.
+
+#Master_Yi #the_Wuju_Bladesman #Master_Yi_the_Wuju_Bladesman

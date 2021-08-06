@@ -1,3 +1,10 @@
+Name: Zilean
+Title: the Chronokeeper
+Role: Specialist
+Class: Specialist
+Blue Essence: $1350
+Riot Point: $585
+
 Icathia, most desolate and cursed of lands, was not always so. Theirs was a rich and diverse civilization, ruled by benevolent Axamuk, last of the Mage Kings of old. As the Shuriman empire expanded across the continent, Axamuk’s calls for peaceful coexistence were ignored, and his armies destroyed by the god-warriors of the Ascended Host.
 
 Though humbled by this defeat, many Icathians saw an opportunity for mutual advancement. Accepting an offer of autonomous satrapy, they installed a governing council of distinguished mages, philosophers, and lawmakers to oversee the transition of power.
@@ -35,3 +42,5 @@ Zilean had spent decades trying to comprehend the mysteries of time and causalit
 Effectively, Zilean now exists everywhere, and always has. Even so, he is only too aware of the consequences of trying to bring about change in the world and sparking other unexpected destinies—often conflicting, and almost always more dangerous. Perhaps if he can find a way to save his own people, then the greater disaster might also be averted.
 
 The only question is, what might he be willing to sacrifice along the way?
+
+#Zilean #the_Chronokeeper #Zilean_the_Chronokeeper

@@ -1,3 +1,10 @@
+Name: Kled
+Title: the Cantankerous Cavalier
+Role: Slayer
+Class: Skirmisher
+Blue Essence: $6300
+Riot Point: $975
+
 Legends of the popular folk hero Kled can be traced back to the founding of Noxus, and perhaps even further still. He is an icon revered by the common soldiery, which is increasingly a cause of concern to their commanders—for there are some among the warhosts who claim to have literally served beside him.
 
 Tall tales such as “The Great Hussar’s Victory”, “The Return of the High General Marshal-Sergeant”, and “The Mountain Admiral” abound, which strongly imply Kled has fought in every campaign ever waged, acquired every military title, and never once backed down from a fight. Though the details are often outlandish and contradictory, the essence of the tale remains: charging into battle on his un-trusty steed, Skaarl, Kled fights to protect what’s his… and takes whatever else he can get.
@@ -21,3 +28,5 @@ Though too few of the Noxian soldiers survived that day for it to be considered 
 The body of General Zaavan—and his fine armor—was never found.
 
 In time, countless other warhosts of the empire acquired similar stories of Kled. It has long been said that he rides wherever Noxians march, claiming the spoils of war for himself. Indeed, in their wake, good-humored signs can often be found proclaiming each new territory “Property of Kled”.
+
+#Kled #the_Cantankerous_Cavalier #Kled_the_Cantankerous_Cavalier

@@ -1,3 +1,10 @@
+Name: Twisted Fate
+Title: the Card Master
+Role: Mage
+Class: Burst
+Blue Essence: $1350
+Riot Point: $585
+
 Born to the nomadic river folk of the Serpentine Delta, the boy Tobias Felix quickly learned what it was to be an outsider. Tolerated for the exotic goods they peddled, but shunned for their strange traditions, his people found only short welcomes wherever they berthed their colorful river barques. His elders would shrug, and say this was just the way of the world… but the obvious prejudice always stuck in Tobias’ craw.
 
 He found his true calling in the gambling tents, between games of chance and skill like Mortwheel and Stabberscotch, when he first picked up a deck of playing cards. Many years earlier, his superstitious grandfather had shown him how to read omens in the shuffle and cut, while his aunt had later taught him how to read all an opponent’s tells. Between the two, Tobias took to the high-stakes game of Krakenhand like an old master. He could almost feel each card’s place in the deck, and follow their movements through each successive hand. He was often accused of cheating, but it was difficult for anyone to explain exactly how.
@@ -23,3 +30,5 @@ After that, Twisted Fate continued to ply his criminal trade in the high parlors
 In the port of Bilgewater, Twisted Fate and Graves finally had their day of reckoning. They were forced to put aside their differences after being caught up in a power struggle between the ship captains who ran the place—but following the death of the reaver king Gangplank, the pair managed a swift reconciliation before shoving off and making for distant Piltover.
 
 All in all, Twisted Fate is glad to have his old friend back, even if it might take another job or two—or ten—to restore their once easy partnership.
+
+#Twisted_Fate #the_Card_Master #Twisted_Fate_the_Card_Master

@@ -1,3 +1,10 @@
+Name: Gnar
+Title: the Missing Link
+Role: Specialist
+Class: Specialist
+Blue Essence: $4800
+Riot Point: $880
+
 Before the ice had given the Freljord its name, there existed a land brimming with wonder—that is, if one could see the world through the eyes of Gnar.
 
 A young yordle with boundless energy, Gnar and others like him lived openly among the hardy tribes of the northlands. Though barely big enough to leave footprints in the snow, his temper rivaled that of beasts ten times his size, and he would erupt with a babble of curses the moment anything went amiss. For this reason, he felt more kinship with the greater and wiser creatures, who kept their distance from mortals. To Gnar, they looked like overgrown, white-furred yordles… and that was good enough for him.
@@ -27,3 +34,5 @@ Gnar napped for a long time. When he finally awoke, he shook the frost from his 
 The land was very different, too. There was snow everywhere, blanketing everything as far as his wide eyes could see. Still, he let out a happy yelp when he saw his beloved boomerang lying beside him, and scurried away to find something to hunt.
 
 Even now, Gnar has no grasp of what took place that fateful day, nor how he escaped. He simply marvels at the world before him, with so many oddities to collect and places to explore.
+
+#Gnar #the_Missing_Link #Gnar_the_Missing_Link

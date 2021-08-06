@@ -1,3 +1,10 @@
+Name: Yuumi
+Title: the Magical Cat
+Role: Controller
+Class: Enchanter
+Blue Essence: $6300
+Riot Point: $975
+
 In the outlands of Bandle City, there was once a wooded glen where the moon-moths glimmered and the riverbanks overflowed with rainbowfish. In a cottage nestled between the verdant trees lived a yordle enchantress named Norra, with her cat, Yuumi.
 
 Born with magical powers of protection, Yuumi enjoyed a life of leisure for many years, pouncing on sunbeams and napping beneath the mouse-trees. Whenever adventure sparked her interest, she joined Norra on explorations across the material and spirit realms. Norra spent her time collecting strange objects like broken cups, shards of colored glass, and fabric with funny stitching. She examined each artifact with deep reverence, though Yuumi never understood their purpose. Nevertheless, Yuumi would use her magic to protect Norra from harm, and would warm her feet when they returned home.
@@ -15,3 +22,5 @@ When Yuumi especially missed Norra, she often sought out other companions. One o
 Eventually, Yuumi uncovered the scent of her master lingering in a vast Shuriman ruin. Digging deep into the sand, she unearthed a broken shard of blue pottery that looked like a piece from one of Norra’s teapots. Before she could burrow further, a ferocious beast surfaced from the sand, and Yuumi and Book barely escaped. She could only imagine the chaos if a creature like that ripped its claws into Book’s pages.
 
 Though unlikely companions, Yuumi and Book have become fast friends, united by their love for Norra. Yuumi continues to search everywhere for signs of her master, so she can someday return to her life of napping in the sun by Norra’s side.
+
+#Yuumi #the_Magical_Cat #Yuumi_the_Magical_Cat

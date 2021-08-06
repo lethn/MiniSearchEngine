@@ -1,3 +1,10 @@
+Name: Malphite
+Title: Shard of the Monolith
+Role: Tank
+Class: Vanguard
+Blue Essence: $1350
+Riot Point: $585
+
 For more than two millennia, Shurima dominated the known world—an empire that reigned over countless peoples without challenge, and without threat.
 
 Until the day Icathia fell.
@@ -25,3 +32,5 @@ Buried deep beneath the surface, forgotten even by those that dwelt in the abyss
 In all the centuries since that dark day, Malphite, the last shard of the Monolith, has become something of a legend in Runeterra. It has reputedly been sighted everywhere, from Targon to Zaun; heard sometimes as a tectonic roar in the deepest caverns, and sometimes as a quiet voice, humming to itself, that it might still remember the sounds of the world it once knew.
 
 Despite the enormous span of its existence, the overwhelming drive enkindled by Ne’Zuk’s creation of the Monolith has not wavered. Now, Malphite knows it must soon rise to meet the resurgent darkness it once battled, as the Void awakens to threaten all of Runeterra once more.
+
+#Malphite #Shard_of_the_Monolith #Malphite_Shard_of_the_Monolith

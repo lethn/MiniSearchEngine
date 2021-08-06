@@ -1,3 +1,10 @@
+Name: Qiyana
+Title: Empress of the Elements
+Role: Slayer
+Class: Assassin
+Blue Essence: $6300
+Riot Point: $975
+
 The youngest child in a ruling family, Qiyana grew up believing she would never inherit the high seat of the Yun Tal. As her parents governed Ixaocan, a city-state hidden deep in the jungles of Ixtal, they raised their children to succeed them, schooling them in the proud traditions of their isolated nation. Primed to rule before her, Qiyana’s nine older sisters received most of the attention, and she often longed to find her own meaningful place in the family.
 
 That place became clear the day young Qiyana began to learn the ancient elemental magic of Ixtal. Soon after she took up lessons, she realized she was blessed with extraordinary talent. Though Qiyana was only seven years old, she mastered advanced techniques within weeks, while some of her older sisters had yet to grasp the basics after years of study.
@@ -21,3 +28,5 @@ Just as she was detained, several elementalists of the court came to Qiyana’s 
 As a growing number of admirers throw their support behind Qiyana, she has finally realized her true place in the world. She holds a power stronger than tradition, and she will climb the ladder of succession by any means necessary.
 
 She is the greatest elementalist the world has ever seen. She is the inevitable ruler of Ixaocan, and the future empress of all Ixtal.
+
+#Qiyana #Empress_of_the_Elements #Qiyana_Empress_of_the_Elements

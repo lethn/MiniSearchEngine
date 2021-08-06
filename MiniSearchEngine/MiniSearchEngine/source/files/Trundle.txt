@@ -1,3 +1,10 @@
+Name: Trundle
+Title: the Troll King
+Role: Fighter
+Class: Juggernaut
+Blue Essence: $3150
+Riot Point: $790
+
 Trolls are, for the most part, hulking and brutish creatures, found in many of Runeterra’s least hospitable environments. Though not invulnerable, they are blessed with a hardy constitution and the ability to heal more quickly than other mortal races—especially the feeble humans. This means they can endure extremes of climate and scarce resources merely by out-surviving their rivals, and this is the most likely reason some of the largest known tribes still call the mountains of the Freljord home.
 
 Trundle was whelped in a filthy cave, along with a brood of fifteen brothers and sisters. Times were particularly hard, so that only seven of them grew strong enough to join the ranks of their chieftain’s warband… and only three remained after their first winter of raiding.
@@ -27,3 +34,5 @@ When Trundle arrived, the chieftain laughed in his face… until Trundle bashed 
 Awed by Trundle’s newfound strength, the rest of the warband listened to his tale of the Ice Witch, and the alliance she had promised. Trundle was smart. Trundle had been chosen to wield great power. Trundle would be their king.
 
 And with Trundle leading the charge, the time of the trolls is surely coming.
+
+#Trundle #the_Troll_King #Trundle_the_Troll_King

@@ -1,3 +1,10 @@
+Name: Morgana
+Title: the Fallen
+Role: Controller
+Class: Catcher
+Blue Essence: $1350
+Riot Point: $585
+
 Whether through destiny or circumstance, Morgana and her sister were born to a world in conflict. The cataclysmic Rune Wars had ripped through most of Valoran and Shurima, and seemed poised to engulf even the peaks of Targon. Morgana’s parents, Mihira and Kilam, knew the legends of the great mountain granting divine power—they saw no other choice than to attempt the long and perilous journey, if their tribe was to be saved.
 
 Even when they learned Mihira was with child, they could not turn back. Finally, where Runeterra touches the stars, Kilam watched in wonder and fear as Mihira was chosen to embody the Aspect of Justice.
@@ -29,3 +36,5 @@ Over the centuries, her tale fell into myth, and the name Morgana was all but fo
 ”Through all of this, she still refuses to abandon those who would seek her aid. Bitter, betrayed, she bides her time in the kingdom’s shadows, knowing with certainty that Kayle’s light will someday return to Runeterra, and all will face her judgment.
 
 As magic begins to rise again, Morgana sees that dawn is nearly upon them.
+
+#Morgana #the_Fallen #Morgana_the_Fallen

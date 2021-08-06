@@ -1,3 +1,10 @@
+Name: Kennen
+Title: the Heart of the Tempest
+Role: Specialist
+Class: Specialist
+Blue Essence: $4800
+Riot Point: $880
+
 A riotous domain of constant transformation, Bandle City was no place for a yordle like Kennen. Searching for harmony and balance, he ventured out from the spirit realm millennia ago. He explored the material realm with boundless curiosity, traveling great distances in a heartbeat. But he was drawn in particular to Ionia.
 
 In the First Lands, he witnessed ancient wars that none now remember, and a land struggling to rebuild afterward. Kennen grew fascinated by a people seeking balance for themselves and their home. Over time, he returned to Bandle City less and less, choosing to remain in Ionia, where yordles were respected as creatures of the spirit realm. Though he did not age as beings of the material realm did, Kennen embraced mortals, studying them for generations. He admired how, despite their fragile lives, they were diligent protectors of the sacred balance.
@@ -21,3 +28,5 @@ There have been many threats to the Kinkou over the centuries, but none as grave
 But even he couldn’t find the words to stop Akali from eventually leaving the Kinkou, frustrated at the order’s failure to act against Ionia’s enemies.
 
 Recent events have tested Kennen, a new age of disruption and violence that has thrown Ionia into chaos. Come what may, he will protect the fractured Kinkou Order, fighting alongside Shen to defend the balance of the First Lands. Do not let Kennen’s diminutive appearance fool you—for the heart of the tempest is its calmest part, but when it turns its eye upon you, its force is never more than a moment behind.
+
+#Kennen #the_Heart_of_the_Tempest #Kennen_the_Heart_of_the_Tempest

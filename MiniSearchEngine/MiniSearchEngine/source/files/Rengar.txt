@@ -1,3 +1,10 @@
+Name: Rengar
+Title: the Pridestalker Slayer Assassin
+Role: Fighter
+Class: Diver
+Blue Essence: $4800
+Riot Point: $880
+
 Rengar hails from a tribe of Shuriman vastaya known as the Kiilash, whose society venerated the honor and glory of the hunt. Rengar was born the runt of the litter to the tribe's chieftain, Ponjaf. Ponjaf believed Rengar's diminutive size would make him a worthless hunter. He ignored his child, assuming the runt would starve to death.
 
 Eventually, the young Rengar fled the camp, ashamed that he had disappointed his father. He subsisted on grubs and plants for weeks until, one day, he was nearly killed by a legendary human hunter named Markon. Upon seeing Rengar's state, he took pity on the creature and let it live. Besides, this was no mighty vastayan warrior worthy of Markon's blade.
@@ -23,3 +30,5 @@ Rengar leapt onto his father and gutted him from neck to belly. The fiercest hun
 But Rengar didn't need his village's acceptance. All he needed was adrenaline pumping through his veins as he chased down his prey. He left the village, without even pausing to take a trophy from what was left of Ponjaf—his father was not a kill worthy of remembering. Instead, he set off determined to find and slay the Void creature that had tried to blind him.
 
 Not to satisfy the Kiilash, but to satisfy himself.
+
+#Rengar #the_Pridestalker_Slayer_Assassin #Rengar_the_Pridestalker_Slayer_Assassin

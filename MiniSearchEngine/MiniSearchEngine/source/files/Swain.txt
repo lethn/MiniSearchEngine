@@ -1,3 +1,10 @@
+Name: Swain
+Title: the Noxian Grand General
+Role: Mage
+Class: Battlemage
+Blue Essence: $4800
+Riot Point: $880
+
 Born into a patrician family, one of many to exist since the first walls were raised around Noxus, Jericho Swain seemed destined for a life of privilege. The noble houses had played a key role in Boram Darkwill’s rise to power, stoking rhetoric that their proud heritage was the nation’s greatest strength.
 
 However, many hungered for greater influence, plotting against Darkwill in a secret cabal united by nothing more than the symbol of a black rose. Uncovering their intrigue, Swain personally executed the most prominent conspirators. Among them were his own parents, whose whispers of a “pale woman” had first alerted him of the danger to Noxus, which he valued more than house or kin. They sought a power, a shapeless voice cackling in the darkness of the Immortal Bastion. Something like a raven’s caw…For exposing the cabal, Swain was granted a commission in the Noxian army, far from anything he had ever known. There, he learned firsthand that the empire was not strong because of Noxians, as he had believed, but because of the way it could unite all men in spite of their origins. On the front lines, a foreign slave could be the equal of a highborn noble. But still, Swain found only darkness in the wake of each battle. Clouds of carrion crows…After securing the western borders, Swain’s own reputation was secured in Shurima, where his forces raised countless noxtoraa above the desert sands. Yet, in time, it became clear that greed was the sole purpose driving the empire forward. Fighting wars on too many fronts, lusting over magical relics, the aging Boram Darkwill was clearly growing unhinged.
@@ -11,3 +18,5 @@ All this was glimpsed, not in the mind of a raven, but something more. The power
 Though his meticulous preparations took many years, Swain and his remaining allies seized control of Noxus in a single night. Physically restored by the demon, he crushed Darkwill in full view of his followers, leaving the throne shattered and empty. Swain’s vision for the future of Noxus is one of strength through unity. He has pulled back the warhosts from Darkwill’s unwinnable campaigns and, with the establishment of the Trifarix, ensured that no individual can rule unopposed. He embraces any who will pledge themselves to the empire—even the Black Rose, though he knows, in secret, they still plot against him.
 
 Gathering knowledge as the demon did before him, Swain has foreseen far greater dangers lurking just beyond. However, many Noxians secretly wonder if the darkness they face will pale in comparison to the dark things Swain has done…The sacrifices are only beginning, for the good of Noxus.
+
+#Swain #the_Noxian_Grand_General #Swain_the_Noxian_Grand_General

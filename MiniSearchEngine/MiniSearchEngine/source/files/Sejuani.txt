@@ -1,3 +1,10 @@
+Name: Sejuani
+Title: Fury of the North
+Role: Tank
+Class: Vanguard
+Blue Essence: $4800
+Riot Point: $880
+
 Sejuani was the child of a Freljordian political marriage that ended as coldly as it began. Her mother, the Iceborn warrior Kalkia of the Winter’s Claw, abandoned her new family to pursue the man who had captured her heart years before, and the tribe fell into decline and chaos without a young Warmother to lead it.
 
 Sejuani was instead raised by her grandmother, Hejian. Though Sejuani tried her best to earn Hejian’s love, she was never able to meet her arduous expectations. As the tribe’s troubles grew in the years that followed, Hejian had even less time for the girl.
@@ -25,3 +32,5 @@ Where once they had been weak, disgraced, and preyed upon by their neighbors, in
 Now, as the seasons turn, Sejuani marches on the southern tribes, Noxian interlopers, and even the borderlands of Demacia—raiding, pillaging, and conquering any who stand against her. Ultimately, she seeks to cast down and destroy the burgeoning coalition of tribes formed by her childhood friend, Ashe. As far as Sejuani is concerned, the Avarosan Warmother has betrayed not only their friendship but, far worse, she has also betrayed Grena’s legacy.
 
 And so, Sejuani will prove that only she is worthy of ruling the Freljord.
+
+#Sejuani #Fury_of_the_North #Sejuani_Fury_of_the_North

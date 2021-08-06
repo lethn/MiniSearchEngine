@@ -1,3 +1,10 @@
+Name: Urgot
+Title: the Dreadnought
+Role: Fighter
+Class: Juggernaut
+Blue Essence: $3150
+Riot Point: $790
+
 Urgot always believed he was worthy.
 
 As a headsman, an executioner of the weak, he was a living embodiment of the Noxian ideal that strength should rule, making it a reality with every swing of his axe. His pride swelled as the bodies piled ever higher behind him, and his intimidating presence kept countless warbands in line.
@@ -25,3 +32,5 @@ However, his actions did not make such distinctions, as Urgot tested the worthin
 When Urgot finally struck at representatives of the Piltovan merchant clans, the Wardens were forced to intervene, hauling him in chains to a fortified prison cell—though this merely seemed to confirm “the Dreadnought” as a legend among the gangers, the sump-snipes, and the forgotten.
 
 For Piltover is not the first to shackle Urgot, and one must wonder if any cage can ever hope to hold him for long…
+
+#Urgot #the_Dreadnought #Urgot_the_Dreadnought

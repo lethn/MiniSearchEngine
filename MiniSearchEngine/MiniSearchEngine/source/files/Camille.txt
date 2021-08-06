@@ -1,3 +1,10 @@
+Name: Camille
+Title: the Steel Shadow
+Role: Fighter
+Class: Diver
+Blue Essence: $6300
+Riot Point: $975
+
 Clan Ferros understands sacrifice.
 
 Most of the family’s wealth came through harvesting a rare crystal from the brackern, a creature native to Shurima. These hex-crystals—or “first crystals”—contained power normally only wielded by those born with innate magical ability. After Camille’s great-great aunt lost an arm during an early expedition, her sacrifice inspired the Ferros family motto: “For family, will I give.
@@ -33,3 +40,5 @@ Eventually, Camille uncovered the depth of Stevan's betrayal, and realized his m
 After installing her favorite grand-niece as clan master, Camille now runs the family's public affairs as well as its more shady operations. As a solver of… difficult problems, she embraces her more-than-human transformation and the cutting judgment it affords her—but a strange, mournful keening in her hextech heart may yet prove a troubling portent.
 
 Regardless, Camille refuses to sit idle, and gains invigoration from well-executed industrial espionage, a fresh-brewed cup of tea, and long walks in the Gray.
+
+#Camille #the_Steel_Shadow #Camille_the_Steel_Shadow

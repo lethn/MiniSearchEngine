@@ -1,3 +1,10 @@
+Name: Lissandra
+Title: the Ice Witch
+Role: Mage
+Class: Burst
+Blue Essence: $4800
+Riot Point: $880
+
 In a time long forgotten, before the sands birthed and then swallowed Shurima, beings of old magic freely walked Runeterra. The borders between the mortal realm and what lay beyond it were hotly contested.
 
 Into this dangerous and volatile age, Lissandra and her sisters, Serylda and Avarosa, were born. Each sought to harness the powers at war, and each paid a terrible price. Attempting to command the heavens above them, Serylda lost her voice to the first twilight. Avarosa faced the twisting dark beneath the world, and was deafened by its emptiness, waiting to consume all creation.
@@ -25,3 +32,5 @@ Like the threat that lies trapped beneath the ice, Lissandra has never been able
 Lissandra watches them carefully, seeking any opportunity to pit them against one another, all the while redoubling her own efforts to lock away the terrible secrets she has buried deep under her citadel.
 
 And she must hurry, for the ice is beginning to melt.
+
+#Lissandra #the_Ice_Witch #Lissandra_the_Ice_Witch

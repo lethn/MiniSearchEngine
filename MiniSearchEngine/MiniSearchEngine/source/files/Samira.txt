@@ -1,3 +1,10 @@
+Name: Samira
+Title: the Desert Rose
+Role: Marksman
+Class: Marksman
+Blue Essence: $6300
+Riot Point: $975
+
 In the city of Amakra, on the eastern edge of the Great Sai, Samira and her parents made a living as street performers. They dazzled, beguiled, and awed onlookers, which thrilled Samira, but worried her parents. Despite the fun their daughter had, they wished she could enjoy a more stable life.
 
 But wishes are as fickle as the desert rain.
@@ -27,3 +34,5 @@ Reluctantly, Indari agreed, but it left her former protégé alone with no field
 Her daredevil reputation spread far and wide. From beating a chem-baron in hand-to-hand combat, to being the lone survivor of a Bilgewater raid, Samira completed every job no matter the odds. With Indari’s support, even the Noxian high command accepted her, recognizing there was no one better suited to take on their most perilous missions.
 
 Now, Samira shows no signs of slowing down. She can be found scaling mountain cliffs one day, and arm-wrestling outlaws in crowded taverns the next. But wherever she may be, one thing is certain: Samira never fails to find her next big thrill.
+
+#Samira #the_Desert_Rose #Samira_the_Desert_Rose

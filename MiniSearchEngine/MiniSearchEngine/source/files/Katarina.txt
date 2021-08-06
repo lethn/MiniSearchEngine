@@ -1,3 +1,10 @@
+Name: Katarina
+Title: the Sinister Blade
+Role: Slayer
+Class: Assassin
+Blue Essence: $3150
+Riot Point: $790
+
 Born to one of the most respected noble families of Noxus, Katarina Du Couteau found herself elevated above others from an early age. While her younger sister Cassiopeia took after their politically brilliant mother, Katarina was very much her father’s daughter, and the wily General Du Couteau pushed her to learn the way of the blade; to cut away the empire’s enemies not with reckless brutality, but deadly precision. He was a harsh teacher with many pupils, and notoriously difficult to impress.
 
 So it was that Katarina’s childhood—if it can be called such—had little room for kindness or rest. She spent every waking moment honing herself into the ultimate weapon, testing her endurance, her dexterity, her tolerance for pain. She stole poisons from the city’s least reputable apothecaries, testing their efficacy in tiny increments upon herself, gradually building her resistance even as she catalogued their effects. She scaled the tallest towers in the dead of night, unseen by anyone.
@@ -21,3 +28,5 @@ Six hours later, she tossed Demetrius’s severed head at her father’s feet.
 She told the general she had considered taking his head instead, but eventually decided—as much as she hated to admit it—that he had done the right thing in ordering her death. She had failed. Not just as an assassin, or as a daughter, but as a Noxian. And failure must have its consequences. She ran her fingers along the raw, deep gash over her left eye, and thought of the price others had paid for her arrogance.
 
 She knew she had lost her father’s favor, and could never regain it. He would raise others in her place, simply to spite her. Still, she vowed to redeem herself, no matter the cost—to rededicate her talents to the empire, and to become the sinister weapon she always intended to be.
+
+#Katarina #the_Sinister_Blade #Katarina_the_Sinister_Blade

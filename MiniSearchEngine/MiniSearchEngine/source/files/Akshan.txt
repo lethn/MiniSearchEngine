@@ -1,3 +1,10 @@
+Name: Akshan
+Title: the Rogue Sentinel
+Role: Marksman
+Class: Marksman
+Blue Essence: $6300
+Riot Point: $975
+
 Dashing through the shadows of eastern Shurima, a righteous avenger stalks those who have harmed others. His punishment is swift, certain, and exacted by a curious weapon that rights the wrongs of his foes.
 
 Raised on the streets of the city of Marwi, Akshan was introduced to injustice at birth. In a place where local warlords took what they wanted, most people survived by keeping their heads down and minding their own affairs. Try as he might, young Akshan could never manage to let bad deeds go unnoticed and was often quick to intervene when he saw someone being mistreated. This approach made the boy many powerful enemies, and on one fateful occasion, left him beaten within an inch of his life.
@@ -23,3 +30,5 @@ As his interest in the weapon deepened, Akshan continued to pry its history from
 While Akshan questioned the antiquated rules of his order, his mentor continued to press the warlords to turn over their stolen weapons. Tensions between the two parties built until one tragic day Akshan returned home to find Shadya murdered in the street, almost exactly where he had fallen all those years ago.
 
 Akshan knew what he had to do. He made some key alterations to the Absolver and set out into the scorching desert with the forbidden weapon, hungry for vengeance. Though he could not determine which of the warlords had killed his mentor, he knew one way to be certain: he would pick them off one by one until Shadya was returned to Runeterra.
+
+#Akshan #the_Rogue_Sentinel #Akshan_the_Rogue_Sentinel

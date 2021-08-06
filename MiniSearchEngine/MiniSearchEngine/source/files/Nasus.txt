@@ -1,3 +1,10 @@
+Name: Nasus
+Title: the Curator of the Sands
+Role: Fighter
+Class: Juggernaut
+Blue Essence: $1350
+Riot Point: $585
+
 Nasus’ brilliance was recognized long before he was chosen to join the ranks of the Ascended. A voracious student, he memorized and critiqued the greatest works of Shuriman history and philosophy before he was ten.
 
 However, his passion was not shared by his younger brother Renekton, who tended to bore quickly, and fight with other local children instead. Nonetheless, the brothers were close, and Nasus kept an eye on Renekton, ensuring he didn’t get into too much trouble.
@@ -37,3 +44,5 @@ Centuries passed, and Nasus all but forgot his former life and purpose... until 
 Ancient vigor reawakened in Nasus, and yet even he was stunned to see Azir reborn, and the Sun Disc raised once more from the sands. Though Xerath was still a grave threat, Nasus knew the new god-emperor would have great need of guidance and counsel in the years ahead.
 
 And hope stirred within him for the first time in millennia. Did he dare believe he might also be reunited with his beloved brother, Renekton?
+
+#Nasus #the_Curator_of_the_Sands #Nasus_the_Curator_of_the_Sands

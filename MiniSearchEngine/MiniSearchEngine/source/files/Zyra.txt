@@ -1,3 +1,10 @@
+Name: Zyra
+Title: Rise of the Thorns
+Role: Controller
+Class: Catcher
+Blue Essence: $4800
+Riot Point: $880
+
 Zyra’s memory is long, and runs as deep as the roots of the earth. Her kind was young when the Rune Wars raged, when mortal armies fought one another for the very keys of creation.
 
 Hidden in the jungles south of Kumungu, somewhere between the great rivers that divide eastern Shurima, lay the fabled Gardens of Zyr. Elemental magics had turned the soil there in strange and unpredictable ways, giving rise to fierce, carnivorous plants that preyed upon any creature that strayed within reach. They infested and they devoured, caring nothing for the squabbles of mortals, content merely to coil their vines through the forests and swamplands. In their own way, they were all Zyra… and nourishment was plentiful, even in the midst of war.
@@ -19,3 +26,5 @@ As she ventured out into the wildlands beyond her birthplace, Zyra knew she was 
 Unrooted and free to wander, Zyra and her deadly progeny feed, and grow, strangling all other life from the world. She has blighted farmland, overrun entire settlements, and crushed those warriors brave or foolish enough to confront her, always leaving a menagerie of botanical horrors in her wake.
 
 As the rivers of Shurima begin to run anew, strange flora has been sighted on their banks, spreading slowly westward with each passing season. Whether pulled from the earth or purged by fire, the growth does not seem to be slowing…
+
+#Zyra #Rise_of_the_Thorns #Zyra_Rise_of_the_Thorns

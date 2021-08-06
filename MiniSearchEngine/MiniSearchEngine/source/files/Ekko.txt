@@ -1,3 +1,10 @@
+Name: Ekko
+Title: the Boy Who Shattered Time
+Role: Slayer
+Class: Assassin
+Blue Essence: $6300
+Riot Point: $975
+
 Born with genius-level intellect, Ekko constructed simple machines before he could crawl. His parents, Inna and Wyeth, vowed to provide a good future for their son—Zaun, with all its pollution and crime, would only stifle Ekko, whom they felt deserved the wealth and opportunities of Piltover. Throughout his youth he watched his parents age beyond their years, toiling for too many hours under dangerous conditions in suffocating factories. They earned meager wages while greedy factory owners, and sneering Piltovan buyers, profited immensely from their labor.
 
 It would all be worth it, they reasoned, if it meant their son could one day rise to the city above.
@@ -27,3 +34,5 @@ With each trial, and so much error, the time-warping device—which Ekko dubbed 
 Ekko’s time-bending antics have made him a person of interest to some of Zaun and Piltover’s most inventive, most powerful, and most dangerous individuals. But his only interest is in his friends, his family, and his city. He dreams of the day when his hometown rises up to dwarf the so-called City of Progress, when Piltover’s golden veneer will be overshadowed by the towering ingenuity and relentless spunk of a Zaun born not from generations of privilege, but from sheer daring. He may not have a plan yet, but he’s got all the time in the world.
 
 After all, if Ekko’s Z-Drive can change the past, how hard can it be to change the future?
+
+#Ekko #the_Boy_Who_Shattered_Time #Ekko_the_Boy_Who_Shattered_Time

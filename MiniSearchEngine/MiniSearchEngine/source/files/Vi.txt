@@ -1,3 +1,10 @@
+Name: Vi
+Title: the Piltover Enforcer
+Role: Fighter
+Class: Diver
+Blue Essence: $4800
+Riot Point: $880
+
 Vi remembers little of her childhood in Zaun, and what she does remember, she wishes she didn’t. Running with the sump-snipe gangs, she quickly learned to use her wits, as well as her fists, to survive. Everyone who encountered Vi knew she could talk—or punch—her way out of trouble. More often than not, she chose the latter.
 
 None of the old-timers from her youth could tell her anything of her parents. Most assumed they had died in one of the industrial accidents that were, sadly, all too common in the undercity. Though she had ended up in the crumbling Hope House orphanage, a notoriously mad sump-scrapper claimed to have found her adrift in a bassinet large enough for two in the ruins of a collapsed chem-lab. In the end, Vi figured some things were best left unknown.
@@ -21,3 +28,5 @@ Vi eventually disappeared from Zaun during a time of great upheaval, when tensio
 The former gang leader was now in the employ of the Wardens, and she had replaced the chem-powered pulverizer gauntlets with a pair of brand new hextech Atlas prototypes.
 
 No one yet knows the exact reason why or how Vi came to be working alongside Caitlyn—but given the anarchic nature of the crime wave now sweeping Piltover, speculation runs rife that it might involve a certain blue-haired hellion from Zaun…
+
+#Vi #the_Piltover_Enforcer #Vi_the_Piltover_Enforcer

@@ -1,3 +1,10 @@
+Name: Zed
+Title: the Master of Shadows
+Role: Slayer
+Class: Assassin
+Blue Essence: $4800
+Riot Point: $880
+
 Beneath Ionia’s veil of harmony lie the tales of those left behind. For Zed, his story began as a boy on the cold steps of the home of the Kinkou Order.
 
 Taken in by Great Master Kusho himself, Zed found his place within the temple’s ancient walls. He dedicated himself to understanding the Kinkou’s spiritual tenets, quickly outpacing his peers both in combat and study. Even so, he felt overshadowed by another—his master’s son, Shen. Though Zed’s passion shone through in every technique he perfected, he lacked Shen’s emotional balance. In spite of this, the two pupils became like brothers.
@@ -25,3 +32,5 @@ Zed took advantage of the ongoing war with Noxus, and the suffering it brought t
 Though he did not reconcile with Shen and the remaining Kinkou, now scattered throughout the provinces, they reached an uneasy accord in the aftermath of the war. Zed knew what he had done could not be undone.
 
 In recent years, it has become clear that the balance of the First Lands has been disrupted, perhaps forever. For Zed, spiritual harmony holds little consequence—he will do what needs to be done to see Ionia triumph.
+
+#Zed #the_Master_of_Shadows #Zed_the_Master_of_Shadows

@@ -1,3 +1,10 @@
+Name: Soraka
+Title: the Starchild
+Role: Controller
+Class: Enchanter
+Blue Essence: $450
+Riot Point: $260
+
 An age ago, when time itself was young, the inhabitants of the celestial realm regarded the fledgling races of Runeterra with growing concern.
 
 These creatures deviated wildly, unpredictably, and dangerously from the great designs intended for them by those above. The guidance and fates that had been woven into the night sky often went unseen—or worse, were misinterpreted by their simple mortal minds, leading to chaos, uncertainty, and suffering.
@@ -25,3 +32,5 @@ Currently, Soraka calls the westernmost peaks of Targon her home. She watches ov
 Many times, she has watched entire civilizations dance close to the brink of destruction, and she has learned that she cannot save those who do not wish it, nor force them to see what they will not.
 
 All the same, Soraka is determined never to stop trying.
+
+#Soraka #the_Starchild #Soraka_the_Starchild

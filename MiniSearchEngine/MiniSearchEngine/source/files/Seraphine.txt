@@ -1,3 +1,10 @@
+Name: Seraphine
+Title: the Songstress Mage Burst
+Role: Controller
+Class: Enchanter
+Blue Essence: $6300
+Riot Point: $975
+
 In Piltover, where anyone’s dream can become everyone’s progress, a star is born.
 
 As a child, Seraphine always loved music, especially her father’s lullabies. The songs were beautiful, but sad. He’d brought them up to Piltover as he and Seraphine’s mother—two lifelong Zaunites—sought a better life in the City of Progress.
@@ -25,3 +32,5 @@ This was a new song. Not just understanding—unity.
 It wasn’t perfect. It might never be. But her voice mattered. And so, Seraphine realized, maybe she could help others find their voice, too.
 
 Seraphine has become the premier star in both Piltover and Zaun. Empowered by her gifts and her hextech, she amplifies the voices of all with a fresh force of optimism, because to her, everyone deserves to be heard—especially those who are struggling. They inspire her, and she will do her best to inspire them in return.
+
+#Seraphine #the_Songstress_Mage_Burst #Seraphine_the_Songstress_Mage_Burst

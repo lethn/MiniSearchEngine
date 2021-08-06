@@ -1,3 +1,10 @@
+Name: Amumu
+Title: the Sad Mummy
+Role: Tank
+Class: Vanguard
+Blue Essence: $450
+Riot Point: $260
+
 A lonely and melancholy soul from ancient Shurima, Amumu roams the world in search of a friend. Cursed by an ancient spell, he is doomed to remain alone forever, as his touch is death and his affection ruin. Those who claim to have seen him describe Amumu as a living cadaver, small in stature and covered in bandages the color of lichen. Amumu has inspired myths, folklore, and legends told and retold for generations – such that it is impossible to separate truth from fiction.
 
 The hardy folk of Shurima agree upon certain things: the wind always blows from the west in the morning; a full belly on a new moon is an ill omen; buried treasure hides under the heaviest of rocks. They do not agree, however, about the tale of Amumu.
@@ -23,3 +30,5 @@ Though thousands walked by the disheveled Yordle, not one stopped to offer a hel
 These stories, despite their differences, are woven with parallels. Whatever the circumstances, Amumu is doomed to exist in a broken state of emptiness, eternally alone and friendless. Fated to forever search for a companion, his presence is cursed and his touch is death. On long winter nights when the fire is never allowed to burn low, the sad mummy can sometimes be heard weeping in the desert, despairing that he’ll never know the solace of friendship.
 
 Whatever Amumu searches for – atonement, kinship, or a single act of kindness – one thing is as certain as the western wind at dawn: he has yet to find it.
+
+#Amumu #the_Sad_Mummy #Amumu_the_Sad_Mummy

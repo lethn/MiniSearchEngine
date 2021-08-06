@@ -1,3 +1,10 @@
+Name: Jax
+Title: Grandmaster at Arms
+Role: Slayer
+Class: Skirmisher
+Blue Essence: $1350
+Riot Point: $585
+
 Saijax Cail-Rynx Icath’un grew up in Icathia, a satrapy of the Shuriman empire. Ever since he was a boy, his father told him of when their home was a proud, independent nation, before it was ground under the heel of Shuriman oppression. He told him of the Kohari, heroes who protected Icathia and its Mage King. The Mage King had resisted Shurima’s conquest, but when he died in battle, his Kohari protectors followed him, committing ritual suicide. The Shuriman emperor displayed the Kohari’s decaying bodies for all to see, and the Mage King himself was impaled above the city gates, his bones left to molder.
 
 Saijax’s father had witnessed this cruel act, and over time he passed down to his son the burning resentment that was growing in every Icathian heart. Even so, Saijax committed himself to the study of arms, learning from Shurima’s weapons masters as well as his own clan’s elders.
@@ -25,3 +32,5 @@ He became a wanderer, traveling across the known world and to places beyond any 
 For centuries since, Jax has roamed, a vagabond warrior searching for those strong enough to rebuild the Kohari. Though he has fought countless times against beings of great skill, courage, and power, none have yet convinced him that they can march against the coming darkness. The fall of Icathia has plagued Jax with doubt, but one thing remains certain: when the final battle comes, Jax will stand against the Void.
 
 Even if he has to face it alone.
+
+#Jax #Grandmaster_at_Arms #Jax_Grandmaster_at_Arms

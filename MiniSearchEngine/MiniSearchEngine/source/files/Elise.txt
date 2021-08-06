@@ -1,3 +1,10 @@
+Name: Elise
+Title: the Spider Queen
+Role: Fighter
+Class: Diver
+Blue Essence: $4800
+Riot Point: $880
+
 The Lady Elise was born centuries ago to House Kythera, one of the oldest bloodlines of Noxus, and swiftly learned the power of beauty to influence the weak.
 
 When she came of age, she entertained the courtship of Berholdt, heir to House Zaavan. Their union was opposed by many, since it would strengthen Kythera at Zaavan’s expense—but Elise worked hard to beguile her intended husband, and manipulated her detractors to secure a betrothal.
@@ -29,3 +36,5 @@ Elise once again took up residence in the neglected halls of House Zaavan, caref
 Though centuries have passed, whenever Elise feels the summons of her god, she returns to the land of the Black Mist with a hapless suitor in tow, or some other easily swayed soul.
 
 And none who accompany her ever return.
+
+#Elise #the_Spider_Queen #Elise_the_Spider_Queen

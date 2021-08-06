@@ -1,3 +1,10 @@
+Name: Sylas
+Title: the Unshackled Mage Burst
+Role: Slayer
+Class: Skirmisher
+Blue Essence: $6300
+Riot Point: $975
+
 As a mage born to a poor Demacian family, Sylas of Dregbourne was perhaps doomed from the start. Despite their low social standing, his parents were firm believers in their country’s ideals. So, when they discovered their son was “afflicted” with magical abilities, they convinced him to turn himself in to the kingdom’s mageseekers.
 
 Noting the boy’s curious ability to sense magic, they used Sylas to identify other mages living among the citizenry. For the first time in his life he felt he had a future, a life in service to his country, and he performed these duties faithfully. He was proud, but lonely—forbidden from associating with anyone but his handlers.
@@ -29,3 +36,5 @@ He left the mageseeker compound not as an outcast, but as a new, defiant symbol 
 Which is why, with a band of his closest followers and several hardy oxen, Sylas eventually journeyed over the northern mountains to the frozen tundra of the Freljord.
 
 There he seeks new allies, and the great elemental magic of ancient legend, so that he might return to Demacia and demolish the oppressive system that has made him and his fellow mages suffer for so long.
+
+#Sylas #the_Unshackled_Mage_Burst #Sylas_the_Unshackled_Mage_Burst

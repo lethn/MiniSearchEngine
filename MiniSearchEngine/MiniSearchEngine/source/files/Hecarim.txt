@@ -1,3 +1,10 @@
+Name: Hecarim
+Title: the Shadow of War
+Role: Fighter
+Class: Diver
+Blue Essence: $4800
+Riot Point: $880
+
 Born into an empire long since gone to dust and forgotten, Hecarim was a lieutenant of the Iron Order—a brotherhood sworn to defend their king’s lands.
 
 As Hecarim won victory after victory from the back of his mighty warhorse, the commander of the Iron Order saw in him a potential successor… but also a growing darkness. His obsessive hunger for glory was eroding his honor, and over time the knight-commander came to realize this young lieutenant must never lead them.
@@ -25,3 +32,5 @@ A blastwave of magical force tore across Helia, shattering every last building a
 Alone, and defiant to the end, the knight-commander was taken by the shadows. He and his mighty steed were fused into a monstrous, spectral abomination that reflected the darkness in Hecarim’s heart—a brazen creature of fury and spite, at one with the Black Mist and yet utterly enslaved by it.
 
 Bound forevermore to these Shadow Isles, Hecarim has spent centuries in a sinister mockery of his former life, cursed to patrol the nightmarish lands he once intended to conquer. Whenever the Black Mist reaches out beyond their shores, he and the otherworldly host of the Iron Order ride out to slaughter the living, in memory of glories long passed.
+
+#Hecarim #the_Shadow_of_War #Hecarim_the_Shadow_of_War

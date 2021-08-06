@@ -1,3 +1,10 @@
+Name: Ornn
+Title: The Fire below the Mountain
+Role: Tank
+Class: Vanguard
+Blue Essence: $6300
+Riot Point: $975
+
 Ornn’s name was once spoken throughout the lands that would one day become known as the Freljord. It was widely held that he was the firstborn of the old demi-gods, who had shaped the land itself, and brought forth the first snows.
 
 More than any other of his kind, Ornn was said to value privacy, solitude, and focus. Beneath a dormant volcano that bore scars from some ancient eruption, he labored day and night, forging whatever his heart desired. The results were priceless tools destined for feats of legend—the lucky few who have stumbled upon these relics note their bewilderingly high quality. Some even claim that Braum’s shield was made by Ornn thousands of years ago, and remains as sturdy as the day it was finished.
@@ -15,3 +22,5 @@ When the dust settled, Hearth-Home was a smoldering caldera, and the Hearthblood
 Though he would never admit it, Ornn was devastated. Through the Hearthblood he had glimpsed the sweeping potential of mortal life, only to see it all lost beneath the indiscriminate wrath of his immortal struggle. Wracked with guilt, he retreated to the isolation of his foundry, and buried himself in his work for an age.
 
 Now, perhaps he senses that the world is on the cusp of a new era. Some of his siblings appear to have taken physical form once more, their cults of followers growing restless and aggressive. The Freljord itself is fractured and leaderless, and ancient horrors are lurking in the shadows, waiting for any opportunity to strike…In the wars to come, and in their aftermath, Ornn knows that the Freljord—and the rest of Runeterra—will have need of a good blacksmith.
+
+#Ornn #The_Fire_below_the_Mountain #Ornn_The_Fire_below_the_Mountain

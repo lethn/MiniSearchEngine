@@ -1,3 +1,10 @@
+Name: Volibear
+Title: the Relentless Storm
+Role: Fighter
+Class: Juggernaut
+Blue Essence: $3150
+Riot Point: $790
+
 To some, he is the Thunder’s Roar, the Greatstorm, or Valhir. To others, he is Ruin, the Thousand-Pierced Bear, or He Who Stands. But to most of the tribes who still hold to the old ways, he is known as the Volibear.
 
 Destruction, strength, and the storm made manifest, the Volibear represents the unstoppable power and fury of the Freljord itself. It was the Volibear and his demi-god kin who formed the land they called Vorrijaard long before the arrival of the mortal races. The sagas tell how he created the Five Fjords with one mighty swipe of his claws, and how his epic battle with the savage magma-serpent, Rhond, formed countless valleys and ravines. When the Volibear finally felled the beast, its blood became the first river in the Freljord, and its colossal corpse formed the Wyrmback Mountains.
@@ -23,3 +30,5 @@ Anger and determination rumbled within him. He vowed to tear down all evidence o
 As the call of the Volibear reverberates across the mountains and plains of the north, more and more Freljordians are responding. Slowly, the old ways are being remembered and re-embraced, and his strength grows with each new follower.
 
 A reckoning of blood awaits… and the Volibear is rushing toward it.
+
+#Volibear #the_Relentless_Storm #Volibear_the_Relentless_Storm

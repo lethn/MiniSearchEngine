@@ -1,3 +1,10 @@
+Name: Neeko
+Title: the Curious Chameleon Mage Burst
+Role: Controller
+Class: Catcher
+Blue Essence: $6300
+Riot Point: $975
+
 Neeko was born on a remote and largely unknown island, far to the east, where the last members of an ancient vastayan tribe remained isolated from the rest of the world. They were called the Oovi-Kat, and could trace their lineage generation by generation back to the legendary Vastayashai’rei—the ancestors of all vastaya.
 
 The Oovi-Kat were peaceful beings, of unrivaled potential. Their harmonious society blended seamlessly with the spirit realm, so that their sho’ma—their spiritual essence—could intermingle with other beings through mere proximity, and even help them mimic other physical forms. No secrets existed between the Oovi-Kat, but few were as curious, resilient, or energetic as young Neeko.
@@ -25,3 +32,5 @@ Crestfallen, but determined, Neeko set out alone.
 Her old life among the Oovi-Kat may be lost forever, but Neeko envisions a magical future—a larger tribe of like-hearted vastaya, yordles, humans, and whatever other creatures might share her dream. As far as she is concerned, everyone has the potential to find a place in her new tribe. She has pledged to seek these souls out, to befriend them, and defend their sho’ma with her life.
 
 To know Neeko is to love Neeko, and to love Neeko is to be Neeko.
+
+#Neeko #the_Curious_Chameleon_Mage_Burst #Neeko_the_Curious_Chameleon_Mage_Burst

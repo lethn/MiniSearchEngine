@@ -1,3 +1,10 @@
+Name: Brand
+Title: the Burning Vengeance
+Role: Mage
+Class: Burst
+Blue Essence: $4800
+Riot Point: $880
+
 The son of a Freljordian healer, Kegan Rodhe was born an outsider. The little magic and herbcraft his mother possessed allowed them both to survive on the fringes of a small coastal community named Rygann’s Reach. Friends were few and far between. Even as a young boy, he knew his father was an enemy reaver, and that he—and Kegan by extension—was the reason his mother was shunned. The villagers called him “the reaver-bastard”. Kegan allowed his loneliness and resentment to smolder, often turning violent.
 
 After enduring years of seemingly endless winter, his mother’s frail body finally gave in. As Kegan spread her funeral ashes, he thought of the people she had spent her life healing. None had come to pay their respects. He knew they wished him to disappear into the cold air as well.
@@ -19,3 +26,5 @@ Rather, this vengeful being of fire and fury that now walked the mortal realm wo
 Cursing his former master, and every other living thing that would ever come between him and the Runes, Brand lashed out with magical flames, and Ryze barely escaped with his life.
 
 Over the centuries since that day, Brand has lived an anarchic, wildfire existence, taking and never giving anything back to the world. At times, he blazes across the heavens like a comet. At others, he sinks into the cold earth and slumbers, waiting for the unmistakable scent of magic that will lead him to another World Rune… and should he find one, there are precious few in Runeterra with the power to stop him.
+
+#Brand #the_Burning_Vengeance #Brand_the_Burning_Vengeance

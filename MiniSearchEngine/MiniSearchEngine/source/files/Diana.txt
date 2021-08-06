@@ -1,3 +1,10 @@
+Name: Diana
+Title: Scorn of the Moon Slayer Assassin
+Role: Fighter
+Class: Diver
+Blue Essence: $4800
+Riot Point: $880
+
 Diana did not belong on Mount Targon. A group of Solari hunters discovered her swaddled between her frost-claimed parents—strangers to this land, who had clearly traveled a long way. The hunters brought her to their temple, dedicated her, and raised her as a member of the Tribes of the Last Sun, known to many as the Rakkor.
 
 Like all of the Solari faith, she underwent rigorous physical and religious training. However, unlike others, Diana was determined to understand why the Solari act the way they do, and the reasoning behind their beliefs. She spent her evenings digging through the libraries, devouring texts with only pale moonlight to read by. Paradoxically, this pursuit provided more questions than answers, and her teachers’ aphoristic replies did little to sate her inquisitive mind.
@@ -27,3 +34,5 @@ Pushing past their Ra’Horak guardians, Diana burst into the chambers of the hi
 Now, driven by half-remembered visions and glimpses of ancient knowledge, Diana clings to the only truths she knows for certain—that the Lunari and the Solari need not be foes, and that there is a greater purpose for her than to be a Solari acolyte of Mount Targon.
 
 And though that destiny remains unclear, Diana will seek it out, whatever the cost.
+
+#Diana #Scorn_of_the_Moon_Slayer_Assassin #Diana_Scorn_of_the_Moon_Slayer_Assassin

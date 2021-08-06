@@ -1,3 +1,10 @@
+Name: Lillia
+Title: the Bashful Bloom
+Role: Slayer
+Class: Skirmisher
+Blue Essence: $6300
+Riot Point: $975
+
 In Ionia, magic is woven into the land. Forests spread vibrantly, and trees often boast nearly as many colors as leaves, touched by the wonders of the spirit realm.
 
 But there is one forest, hidden away, that draws on a different kind of magic—a garden with a tree at its heart that gathers humanity’s dreams in its blooms.
@@ -31,3 +38,5 @@ Taking up her branch, Lillia left the garden and entered the world of humans—a
 Hiding just out of sight, Lillia now helps people’s dreams be born, drawn forward by glimpses of who they could be, and by what may be trapped beneath their tangles. By helping humans realize their deepest wishes, Lillia realizes her own, the bud on her head blooming as she is filled with joy.
 
 Though darkness may be encroaching on Ionia once more, it is but a mask, and beneath it lies the familiar sparkle of hope. Only by braving the world, and braving herself, can Lillia hope to untangle its burls.
+
+#Lillia #the_Bashful_Bloom #Lillia_the_Bashful_Bloom

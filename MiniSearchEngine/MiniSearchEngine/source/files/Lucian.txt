@@ -1,3 +1,10 @@
+Name: Lucian
+Title: the Purifier
+Role: Marksman
+Class: Marksman
+Blue Essence: $4800
+Riot Point: $880
+
 From an early age, Lucian wanted nothing more than to be like his father, Urias, who was a member of the ancient order of the Sentinels of Light. While Lucian remained home in Demacia, Urias ranged far and wide, protecting the living from the wraiths of the Black Mist. Urias would regale Lucian with tales of his adventures, where courage and ingenuity carried the day. Lucian hung on every word, picturing himself saving the people of Runeterra at his father’s side. But Urias did not want his son to follow in his footsteps, hoping to keep his family safe from the dangerous life he had chosen.
 
 Lucian waited for the day he would become Urias’ apprentice, but it never came.
@@ -25,3 +32,5 @@ Senna’s sacrifice was nearly Lucian’s undoing. For years, he stalked Runeter
 Lucian and Senna’s love is a bond even death could not sever. As Lucian struggles to grasp Senna’s altered form, he is forced to confront his own. Lucian now fights to return to his former self, while grappling with the reality that the dark forces he hates are all that keep Senna with him.
 
 While Senna has returned with knowledge of a new mission, Lucian remains obsessed with exacting vengeance from Thresh, as he is certain the Chain Warden’s machinations have only begun.
+
+#Lucian #the_Purifier #Lucian_the_Purifier

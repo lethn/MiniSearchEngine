@@ -1,3 +1,10 @@
+Name: Ivern
+Title: the Green Father
+Role: Controller
+Class: Catcher
+Blue Essence: $6300
+Riot Point: $975
+
 Ivern the Cruel was renowned as a fierce warrior, in the latter days of the ancient Vorrijaard. His clan followed the most warlike of the old gods, and would not kneel before the upstart “Three Sisters” like so many others had.
 
 However, the dark sorcery that strengthened their armies was undeniable. Ivern and his kin plotted long and hard to overthrow these hated Iceborn, eventually setting sail into the east—in search of the land where the sun first rose, from where it was said that all magic flowed into the world. If Ivern could seize such power for his own, then he could surely break any foe.
@@ -27,3 +34,5 @@ Sometimes, Ivern encountered mortals, and many of them were at least somewhat pe
 If he bore the God-Willow’s legacy, he needed to cultivate humanity—help them watch, listen, and grow. Being mortal once himself, Ivern knew this would be difficult, so he smiled and challenged himself to complete this task before the final sunset.
 
 He knew he would have time.
+
+#Ivern #the_Green_Father #Ivern_the_Green_Father

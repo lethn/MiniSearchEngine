@@ -1,3 +1,10 @@
+Name: Tahm Kench
+Title: Kench The River King
+Role: Tank
+Class: Warden
+Blue Essence: $6300
+Riot Point: $975
+
 The waterways of Valoran are old, but far older still is the demon Tahm Kench. From muddy gambling tents along the Serpentine River, through the salt-crusted dice halls of Bilgewater, to the gilded wagering tables of Piltover and Zaun—all those who have given a covetous glance to another’s wealth know the unending hunger that comes from an encounter with the River King.
 
 The first tales of the creature were told by a traveling people who plied the Serpentine. They warned of a giant fish with a cavernous mouth, who would lure in the dissatisfied with the promise of more. One such story was that of a young man renowned for his honesty. Though born to the ways of a raftsman, he desired a life beyond the poor banks he knew so well, and the River King promised him an unforgettable experience if only he would tell one little lie. It seemed harmless enough, so the raftsman bent the truth in conversation with his own brother. That night the demon appeared, revealing a fork in the river the raftsman had never noticed before. He followed it to a camp of foreign folk who offered him food and drink, and fresh companionship. As dawn neared, and the raftsman was full and ready to return to his people, the demon appeared again, promising an even greater experience for another lie. His interested piqued, the man accepted the bargain, telling falsehoods to his hosts. The river parted again and he followed it to an evening of even greater luxury. This continued, night after night, until the once-honest raftsman’s deceits came as easily as breathing.
@@ -11,3 +18,5 @@ Once the Sun Gates opened easy trade from Bilgewater to Piltover, tales of Tahm 
 He laughed as he opened his jaws wide, telling her he would protect her from herself, and promptly swallowed her whole.
 
 The River King. The Great Waddler. Old Yawn-Belly. Two-Coats. The demon Tahm Kench is known by many names, but all who speak them have learned a singular truth: no matter how alluring his words may be, in his mouth you will be lost.
+
+#Tahm_Kench #Kench_The_River_King #Tahm_Kench_Kench_The_River_King

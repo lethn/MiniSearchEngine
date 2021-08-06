@@ -1,3 +1,10 @@
+Name: Tristana
+Title: the Yordle Gunner
+Role: Marksman
+Class: Marksman
+Blue Essence: $1350
+Riot Point: $585
+
 Like most yordles, Tristana was always fascinated by the world beyond Bandle City. She traveled far and wide, full of wonder and enthusiasm for the varied places, people, and creatures she encountered. Using the hidden pathways that only yordles know, she explored the length and breadth of the material realm, remaining mostly unseen.
 
 She witnessed such breathtaking sights as ice trolls migrating across the floes of the far north beneath kaleidoscopic auroras. She marveled as warships blasted each other to pieces in naval battles that churned the seas. She watched, awestruck, as great armies marched with unity and precision—incredibly strange concepts to a yordle!—across the endless sands to the south.
@@ -19,3 +26,5 @@ Since then,Tristana has defended the bandlewoods from innumerable threats. In th
 Tristana has become something of a legend in Bandle City, and recently, a number of yordles have started to imitate her, trying—and mostly failing—to copy her disciplined ways. Some have even had weapons mimicking Boomer constructed for them by the scrappy inventor Rumble, who is always seeking to win Tristana’s approval. While Tristana finds this all rather embarrassing, she has come to the conclusion that if they are going to defend the pathways to Bandle City, they had better do it properly. As such, she has started training these new recruits, and they have adopted a new moniker—the Bandle Gunners.
 
 Nevertheless, Tristana can often be found out in the wilds on patrol by herself—simultaneously protecting the bandlewoods and also getting away from her new, and rather annoying, trainees.
+
+#Tristana #the_Yordle_Gunner #Tristana_the_Yordle_Gunner

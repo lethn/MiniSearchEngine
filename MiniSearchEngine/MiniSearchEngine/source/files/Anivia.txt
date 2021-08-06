@@ -1,3 +1,10 @@
+Name: Anivia
+Title: the Cryophoenix
+Role: Mage
+Class: Battlemage
+Blue Essence: $3150
+Riot Point: $790
+
 Anivia is an ancient Freljordian demi-god who represents the eternal cycle of life, death, and rebirth, intrinsically associated with the changing seasons. To those who venerate her, she is the elemental soul of the Freljord—a symbol of hope, and a sacred catalyst of change.
 
 Stories passed down through the ages often tell of how she rewards those who are kind and humble. On the rare occasion a mortal glimpses her—or at least claims to—she is described as a noble spirit-bird of ice, with glittering wings that span the heavens, and a piercing cry that can be heard over even the fiercest storm.
@@ -23,3 +30,5 @@ Once, it is said, she sacrificed herself against a march of towering Balestrider
 Recently, some claim Anivia has hatched from the egg once more, and that she has appeared before the new leader of the Avarosans—the Warmother Ashe. In her, perhaps Anivia sees one who may be able to finally reunite the Freljord.
 
 Yet if the Cryophoenix has indeed returned, as more and more shamans and spirit walkers proclaim, then it must be asked: what great threat has she come to face?
+
+#Anivia #the_Cryophoenix #Anivia_the_Cryophoenix

@@ -1,3 +1,10 @@
+Name: Nunu & Willump
+Title: the Boy and His Yeti
+Role: Tank
+Class: Vanguard
+Blue Essence: $450
+Riot Point: $260
+
 One of the Notai, a nomadic tribe that long traveled the Freljord, Nunu learned from his mother, Layka, that behind every thing is a story. Together, they gathered tales that Layka turned into songs. For Nunu, nothing was better than journeying from village to village, hearing his mother sing of ancient heroes. With music and dance, the Notai brought one last celebration to everyone they met, as each winter’s chill set in.
 
 Riding the wave of frost spilling from Anivia’s wings, his heart beating the rhythm of a jubilant song, Nunu’s world was full of possibility.
@@ -39,3 +46,5 @@ In that moment, the guardian knew the Freljord’s only hope lay in the power al
 ”Escaping into the Freljordian plains, Nunu’s heart and Willump’s strength now enable the pair to do what they never could alone: to have an adventure! Following the songs of Nunu’s mother, they snowball wildly from one place to the next, holding onto the hope that she is still out there, somewhere.
 
 But Willump knows that with magic and dreams come responsibility. One day the games will end, as the dark ice at the heart of the Freljord thaws, and thaws…
+
+#Nunu_&_Willump #the_Boy_and_His_Yeti #Nunu_&_Willump_the_Boy_and_His_Yeti

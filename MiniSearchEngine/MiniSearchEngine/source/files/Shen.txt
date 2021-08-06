@@ -1,3 +1,10 @@
+Name: Shen
+Title: the Eye of Twilight
+Role: Tank
+Class: Warden
+Blue Essence: $3150
+Riot Point: $790
+
 An enigma to the spirit realm, as well as the mortal world, Shen belongs to neither. Although born to one of the most revered families of northern Navori, it was his father’s role as the Eye of Twilight that set his destiny in the Kinkou Order.
 
 As the son of Great Master Kusho, he was immersed in the order’s culture, and its core tenets were as familiar to him as the Ionian sunset. He knew the necessity of Pruning the Tree, the determination of Coursing the Sun, but above all, he learned the wisdom of Watching the Stars. He meditated and studied throughout his childhood, and was considered exemplary by all his teachers.
@@ -25,3 +32,5 @@ Indeed, even as Akali became the new Fist of Shadow, he felt her beginning to dr
 Shen meditated, watching the stars, and understood that Akali would need to find her own way… and so would the Kinkou.
 
 Sometimes, between unseen struggles in the spirit realm, Shen still contemplates the value of his beliefs. He has never let his emotions stop him from preserving tradition, but the question remains: how long can one man walk two worlds, before the acts of one destroy the other?
+
+#Shen #the_Eye_of_Twilight #Shen_the_Eye_of_Twilight

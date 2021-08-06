@@ -1,3 +1,10 @@
+Name: Varus
+Title: the Arrow of Retribution Marksman Marksman
+Role: Mage
+Class: Artillery
+Blue Essence: $4800
+Riot Point: $880
+
 Regardless of what he would later become, Varus was once a paragon of loyalty and honor. A skilled archer of the ancient Shuriman empire, he was appointed as a temple warden in the eastern states, and he held this duty sacred above all else.
 
 During the earliest stages of the war with Icathia, even though it lay far from that cursed place, Varus’ homeland was attacked. While other wardens abandoned their posts to join the defense of the outlying villages, he alone remained, screaming in anguish with every arrow he loosed—for he had chosen to uphold his oaths rather than return home to protect his own family.
@@ -25,3 +32,5 @@ But the temple held only damnation, and both hunters were consumed by the unleas
 Even so, the human and darkin elements of this imperfect form are in constant flux, with each managing to wrest control for a short time before being reined in by the other. Varus fights to silence the two mortal souls once and for all, and wreak vengeance for the destruction of his race. Still, Kai and Val struggle against his malevolent influence, hoping against hope that their love can overcome the darkin’s hatred.
 
 How long they can keep Varus conflicted is anyone’s guess—but should this sadistic and egotistical killer come to fully dominate his new host, it is certain he will seek to reunite with others of his kind, and reduce all of Runeterra to an ashen wasteland.
+
+#Varus #the_Arrow_of_Retribution_Marksman_Marksman #Varus_the_Arrow_of_Retribution_Marksman_Marksman

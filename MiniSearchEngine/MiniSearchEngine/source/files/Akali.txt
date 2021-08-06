@@ -1,3 +1,10 @@
+Name: Akali
+Title: the Rogue Assassin
+Role: Slayer
+Class: Assassin
+Blue Essence: $3150
+Riot Point: $790
+
 Ionia has always been a land of wild magic, its vibrant people and powerful spirits seeking to live in harmony… but sometimes this peaceful equilibrium does not come easily. Sometimes it needs to be kept in check.
 
 The Kinkou are the self-appointed keepers of Ionia’s sacred balance. The order’s loyal acolytes walk the spirit and material realms, mediating conflicts between them and, when necessary, intervening by force. Born among their ranks was Akali, daughter of Mayym Jhomen Tethi, the renowned Fist of Shadow. Mayym and her partner Tahno raised their daughter within the Kinkou Order, under the watchful leadership of Great Master Kusho, the Eye of Twilight.
@@ -21,3 +28,5 @@ He was holding her back. All the mantras and meditations could quiet her spirit,
 In front of the whole order, she declared the impotence of the Kinkou, all its talk of spiritual balance and patience accomplishing little. Ionians were dying in the material realm, and that was the realm Akali would defend. She was trained as an assassin. She was going to be an assassin. She did not need the order anymore.
 
 Shen let her go without a fight, knowing this was a path that Akali must walk alone. Perhaps that path would bring her back one day, but that would be for her to decide.
+
+#Akali #the_Rogue_Assassin #Akali_the_Rogue_Assassin

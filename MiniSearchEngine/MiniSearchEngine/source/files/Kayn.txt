@@ -1,3 +1,10 @@
+Name: Kayn
+Title: the Shadow Reaper
+Role: Slayer
+Class: Skirmisher
+Blue Essence: $6300
+Riot Point: $975
+
 Noxian by birth, Shieda Kayn and others like him were conscripted as child soldiers, a cruel practice employed by only the most devious commanders in Boram Darkwill’s empire. Following the disastrous battle at the Placidium of Navori, the invasion was deliberately reformulated into a protracted war of attrition. Ionian compassion was a weakness to be exploited—their warriors would hesitate before striking down a supposed innocent. Thus, barely able to lift the blade he had been given, Kayn’s first day in battle was also expected to be his last.
 
 Striking against the province of Bahrl, Noxian forces landed at the mouth of the Epool River. Kayn and the others were a reluctant vanguard, facing disorganized bands of locals defending their home from these returning invaders. While his young comrades were cut down or fled the battlefield, Kayn showed no fear. He dropped his heavy sword and snatched up a fallen sickle, turning to face the shocked Ionians just as the Noxian regulars swept in from the flank.
@@ -15,3 +22,5 @@ And as Kayn’s legend grew, so did his arrogance. He truly believed that one da
 This hubris led Kayn to embrace his final test: to seek out a darkin weapon recently unearthed in Noxus, and prevent it from ever being used against the weary defenders of Ionia. He accepted without hesitation, never questioning why he had been chosen for this task. Indeed, where any other acolyte would have destroyed the living scythe known as Rhaast, Kayn took it for himself.
 
 The corruption took hold the moment his fingers closed around the weapon, locking them both in a fateful struggle. Rhaast has long awaited the perfect host in order to rejoin its darkin brethren and lay waste to the world, but Kayn will not be easily dominated. He returns to Ionia in triumph, convinced that Zed will name him the new leader of the Order of Shadow.
+
+#Kayn #the_Shadow_Reaper #Kayn_the_Shadow_Reaper

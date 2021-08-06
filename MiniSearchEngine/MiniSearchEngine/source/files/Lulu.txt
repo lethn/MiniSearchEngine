@@ -1,3 +1,10 @@
+Name: Lulu
+Title: the Fae Sorceress
+Role: Controller
+Class: Enchanter
+Blue Essence: $4800
+Riot Point: $880
+
 Lulu was always a caring and deeply empathetic yordle, who lived as much in her whimsical daydreams as in reality. One day, while wandering the material realm, she came upon what appeared to be a bird with a broken wing. She ran to help, at which point the bird turned into a tiny, mischievous fae spirit. Before she could react, the faerie grabbed her walking stick and took off. Giggling, Lulu gave chase.
 
 The spirit led her far into the forest. They went over boulders, under logs, and around ancient, overgrown stone circles. The faerie darted into a cave hidden behind a waterfall, and Lulu went after it. It flittered ahead, always just out of reach.
@@ -21,3 +28,5 @@ In Demacia, she freed a group of children from their boring history lessons, and
 In the borderlands of the Freljord, Lulu thought it would be hilarious to change the weapons of two rival tribes into flowers just as they clashed, which resulted in absolute chaos and confusion. More recently, she has found herself happily lost in Ionia, playing in the glowing everblooms of Qaelin, and playing pranks on bewildered acolytes of the Order of Shadow, who she thinks are far too serious for their own good.
 
 While Lulu seeks to return to the Glade, and misses it, she is happy, for every day brings more opportunity for adventure and fun. And besides, she has come to realize that she carries a part of the Glade in her heart, wherever she goes.
+
+#Lulu #the_Fae_Sorceress #Lulu_the_Fae_Sorceress

@@ -1,3 +1,10 @@
+Name: Dr. Mundo
+Title: the Madman of Zaun
+Role: Fighter
+Class: Juggernaut
+Blue Essence: $450
+Riot Point: $260
+
 In the wards of Zaun’s infamous asylum, a single monstrous figure roams the halls. His methods are bold, his bonesaw is sharp, and his patients are terrified. For this man is no doctor at all, except in the fancy of his own mind.
 
 Though his true name has been lost to both time and memory, Dr. Mundo was once an enforcer for one of Zaun's most powerful chem-barons. Known for his boisterous affability, he was remarkably good-natured for a man who made his living off physical intimidation. He was always quick with a familiar nickname and a friendly clap on the back, and often blissfully unaware of the toes he was stepping on. It wasn’t long before he had stepped firmly on the toes of his boss.
@@ -19,3 +26,5 @@ The enforcer, who recalled nothing of his old boss, saw only another patient in 
 The hole in the creature's flesh quickly closed as new slabs of muscle rapidly regrew over the wound. The monster paused, eyed the baron quizzically, and uttered, “You sick. Need help!”Mimicking what he had seen performed countless times by the asylum's former practitioners, the enforcer threw the man on a nearby gurney, strapped his arms into the restraints, and prepared his instruments for surgery. The chem-baron turned pale as he realized the grim fate that awaited him.
 
 The ensuing surgery—like so many before and after it—was not successful. The burgeoning doctor added the remains of his latest patient to the pile on the floor. Though he was saddened he could not save them, he knew he had done all he could. Besides, he would have other chances. Zaun was full of sick people just waiting to be cured. With a smile returning to his face, he left the hospital and set out into the streets to find more patients.
+
+#Dr._Mundo #the_Madman_of_Zaun #Dr._Mundo_the_Madman_of_Zaun

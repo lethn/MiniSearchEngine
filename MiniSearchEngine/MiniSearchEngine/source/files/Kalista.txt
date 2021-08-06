@@ -1,3 +1,10 @@
+Name: Kalista
+Title: the Spear of Vengeance
+Role: Marksman
+Class: Marksman
+Blue Essence: $4800
+Riot Point: $880
+
 In life, Kalista was a proud general, niece to the king of an empire that none now recall. She lived by a strict code of honor, serving the throne with utmost loyalty. The king had many enemies, and when they sent an assassin to slay him, it was Kalista’s vigilance that averted disaster.
 
 But in saving the king, she damned the one he loved most—the assassin’s deflected blade was envenomed, and sliced the arm of the queen. The greatest priests and surgeons were summoned, but none could draw the poison from her body. Wracked with grief, the king dispatched Kalista in search of a cure, with Hecarim of the Iron Order taking her place at his side.
@@ -21,3 +28,5 @@ The Iron Order joined him in this treachery, piercing Kalista’s body a dozen t
 Though she tried to cling to those fragmented memories of Hecarim’s monstrous betrayal, they have slowly faded in all the centuries since, and all that now remains is a thirst for revenge burning in Kalista’s ruined chest. She has become a specter, a figure of macabre folklore, often invoked by those who have suffered similar treacheries.
 
 These wretched spirits are subsumed into hers, to pay the ultimate price—becoming one with the Spear of Vengeance.
+
+#Kalista #the_Spear_of_Vengeance #Kalista_the_Spear_of_Vengeance

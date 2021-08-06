@@ -1,3 +1,10 @@
+Name: Rell
+Title: the Iron Maiden
+Role: Tank
+Class: Vanguard
+Blue Essence: $6300
+Riot Point: $975
+
 Posters across Noxus warn of a dangerous criminal, armed with a massive, blunted spear and borne atop a magical fiend, whose mere existence poses a threat to the safety and security of the entire nation. Even some within the steeled ranks of the Trifarian Legion have begun to worry that they will be sent after her to their almost certain deaths.
 
 What kind of monster could be behind such heinous, unchecked destruction?The simple answer is a sixteen-year-old girl.
@@ -33,3 +40,5 @@ Rell is now a threat to Noxus, but not in the way the handbills proclaim. She is
 Riding atop her iron steed, Rell’s eyes are set on nothing less than the complete destruction of Noxus and saving any children who, like her, survived the Black Rose academy.
 
 And there is nothing in this world that can stop her.
+
+#Rell #the_Iron_Maiden #Rell_the_Iron_Maiden

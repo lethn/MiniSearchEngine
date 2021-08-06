@@ -1,3 +1,10 @@
+Name: Alistar
+Title: the Minotaur
+Role: Tank
+Class: Vanguard
+Blue Essence: $1350
+Riot Point: $585
+
 Many civilizations have resisted Noxus, but none as long as the clans of the Great Barrier mountains. Though these fierce minotaurs had protected the overland trade routes to the ancient city of Zaun for centuries, they preferred to avoid Valoran’s wider conflicts.
 
 The noble warrior Alistar was respected among all the clans. Out on the mountain peaks, his roar could scatter even the bravest trespassers, leaving only the foolhardy to face him in combat. Even so, in the moot halls he would always urge his kin to forge greater bonds with other mortal races. Many saw minotaurs as little more than beasts, which soured any interaction and kept them firmly as outsiders.
@@ -31,3 +38,5 @@ Weeks later, a political coup shook the empire to its dark foundations, and the 
 Alistar now travels alone, as quietly and anonymously as he can, encouraging resistance in Noxian-held territories and fighting on behalf of the downtrodden and the abused. Only when he has cleared the shame from his heart, repaying every cruelty and every kindness, will Alistar return to the mountains and leave his rage behind.
 
 And in every city he passes through, he asks after Ayelia.
+
+#Alistar #the_Minotaur #Alistar_the_Minotaur

@@ -1,3 +1,10 @@
+Name: Wukong
+Title: the Monkey King
+Role: Fighter
+Class: Diver
+Blue Essence: $4800
+Riot Point: $880
+
 Within Ionia’s magical forests dwells a tribe of vastaya known as the Shimon. A cautious people, they see life as an evolutionary climb to wisdom—upon death, they believe they become stones, returning to the soil to begin the climb of life anew.
 
 Impulsive, clever, and easily bored, young Kong never had much in common with other Shimon. For countless years, they endured his pranks… until the day he arrived in a panic, insisting that a great elemental dragon was coming to burn their woodland home.
@@ -31,3 +38,5 @@ From that day forward, he was known as Wukong.
 Though the war is long over, Noxus’ influence continues to defile Ionia. Roads have been carved through the ancient forests, self-styled “tax collectors” hound peaceful folk who have nothing left to give, and the great festivals of renewal have been slowly declining, year after year.
 
 But the great warriors Wukong and Master Yi are ready. Side by side, they roam the First Lands, resolved to combat injustice and hatred wherever they find it.
+
+#Wukong #the_Monkey_King #Wukong_the_Monkey_King

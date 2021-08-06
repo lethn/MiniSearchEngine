@@ -1,3 +1,10 @@
+Name: Illaoi
+Title: the Kraken Priestess
+Role: Fighter
+Class: Juggernaut
+Blue Essence: $6300
+Riot Point: $975
+
 Illaoi&#x2019;s powerful physique is dwarfed only by her indomitable faith. As the prophet of the Great Kraken, she uses a huge, golden idol to rip her foes&#x2019; spirits from their bodies and shatter their perception of reality. All who challenge the “Truth Bearer of Nagakabouros” soon discover&#xA0;Illaoi&#xA0;never battles alone - the god of the Serpent Isles fights by her side.
 
 All who encounter Illaoi are struck by her presence. An intense woman, the priestess is fully committed to the experience of living. She takes what she wants, destroys what she hates, and revels in everything she loves.
@@ -23,3 +30,5 @@ Many seek Illaoi&#x2019;s favor and welcome her to Bilgewater... yet everyone fe
 “There can be no rest. We are the motion.
 
 ”&#x2014;From The Twenty Wisdoms of Nagakabouros
+
+#Illaoi #the_Kraken_Priestess #Illaoi_the_Kraken_Priestess

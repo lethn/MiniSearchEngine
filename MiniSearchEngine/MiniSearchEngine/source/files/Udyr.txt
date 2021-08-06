@@ -1,3 +1,10 @@
+Name: Udyr
+Title: the Spirit Walker
+Role: Fighter
+Class: Juggernaut
+Blue Essence: $1350
+Riot Point: $585
+
 In the harsh lands of the Freljord, there are those gifted with a deep connection to spiritual magic. These warrior-shamans, known as “spirit walkers”, serve among the many different tribes, offering their abilities in exchange for a community where they may live and train.
 
 Born under a blood-red moon, Udyr displayed an awareness for the intangible at an early age. He could feel the raw emotions of nearby creatures, understanding the mournful howls of tundra wolves before he even uttered his first words. Destined to become a great spirit walker, he was taken in by the Winter’s Claw, and set on a path to mastering his innate talents.
@@ -25,3 +32,5 @@ Encouraged by the Ionians’ understanding of the spirit realm, Udyr chose to st
 But still, Udyr could not deny the call of his homeland.
 
 He heard the anxious cries of Freljordian spirits carried by the westerly winds, and sensed great danger stirring beyond the horizon. Bidding farewell to Ionia and Lee Sin, he set out to rejoin the Winter’s Claw, knowing not how he would be received…
+
+#Udyr #the_Spirit_Walker #Udyr_the_Spirit_Walker

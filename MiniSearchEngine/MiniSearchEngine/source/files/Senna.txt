@@ -1,3 +1,10 @@
+Name: Senna
+Title: the Redeemer Marksman Marksman
+Role: Controller
+Class: Enchanter
+Blue Essence: $6300
+Riot Point: $975
+
 Senna’s journey to become a Sentinel of Light started with darkness. It started with the Black Mist…Senna first encountered the Mist at an early age, when wreckage from a distant Harrowing washed onto the shores of her home island. The Black Mist within the wreckage awakened upon contact with life. She and her village survived the ensuing storm of souls, thanks to the intervention of a nearby Sentinel… but in the wake of the attack, the Mist was still mysteriously drawn to Senna.
 
 She was cursed, marked by the Mist so its horrors pursued her endlessly, the darkness drawn to her like dying moth to living flame. She could never know when it would strike next—but worse was when it didn’t come, and Senna had to imagine what awaited in every shadow. The Sentinel who saved Senna, a brusque veteran named Urias, did not understand why the Mist was drawn to a solitary girl—but he knew if she was going to survive, she had to learn to fight back. And so, Senna joined Urias in the Sentinels of Light, a sacred order that could be traced back to the Blessed Isles, where the Black Mist originated. She proved to be a deadly enemy of darkness, mastering the relic-stone pistol Urias gave her, learning to channel her soul into light.
@@ -17,3 +24,5 @@ She could use this force to pull the Mist into herself, empowering her to sever 
 When Lucian drove his broken pistol into the lantern, intending to end the torture of the souls within, Senna was waiting. She escaped, shrouded in Mist she’d drawn from other souls. She was dead, but also alive, thanks to her curse, wielding a relic-stone cannon that could channel darkness along with light, forged from the weapons of fallen Sentinels.
 
 No longer running from the Mist, Senna now understands the suffering of the souls within. Though it is painful, she draws their Mist into herself, liberating them, and blasting darkness with darkness. Embracing her death every time she transforms into a wraith, she becomes like those she fought, only to be reborn again thanks to the life infecting her. Though Senna and Lucian’s love survived even death, now they face the consequences of her rebirth. Senna knows what they have to do next, a secret gleaned within the lantern. Find the Ruined King, and stop him at any cost…
+
+#Senna #the_Redeemer_Marksman_Marksman #Senna_the_Redeemer_Marksman_Marksman

@@ -1,3 +1,10 @@
+Name: Yasuo
+Title: the Unforgiven
+Role: Slayer
+Class: Skirmisher
+Blue Essence: $4800
+Riot Point: $880
+
 As a child, Yasuo often believed what the others in his village said of him: on the best days, his very existence was an error in judgement; on the worst, he was a mistake that could never be undone.
 
 Like most pain, there was some truth to it. His mother was a widow already raising a young son, when the man who would be Yasuo’s father blew into her life like an autumn wind. And, just like that lonely season, he was gone again before the blanket of Ionian winter settled over the small family.
@@ -33,3 +40,5 @@ Yet a masked intruder intervened, striking down the creature with righteous fury
 Fully expecting his brother to take vengeance, Yasuo was surprised when Yone let him go with little more than a bitter blessing.
 
 With nothing left for him in the First Lands, Yasuo has embarked on a new adventure, though he knows not where it will lead, his sense of guilt the only thing weighing down the free wind.
+
+#Yasuo #the_Unforgiven #Yasuo_the_Unforgiven

@@ -1,3 +1,10 @@
+Name: Skarner
+Title: the Crystal Vanguard
+Role: Fighter
+Class: Diver
+Blue Essence: $4800
+Riot Point: $880
+
 Long before the rise of Shurima’s great empire, the remote northwestern valleys were home to an age-old race known as the brackern.
 
 These noble creatures were quite unlike any other. While individually they may have seemed primitive and aggressive, their arachnoid bodies held a wondrous secret—they existed as custodians of a truly ancient gestalt consciousness, perhaps one of the very oldest in Runeterra. Each brackern was host to a single magical crystal, which retained their memories, their hopes and dreams, and everything that made them who they were.
@@ -23,3 +30,5 @@ He stumbled through the valleys in mourning, He was certain that, even if the ma
 Yet, as the sun broke over the horizon many weeks later, Skarner heard the faintest of echoes calling out in his mind. These were not the soaring harmonies he had known before, but a terrified, urgent keening, imploring him to act. He hesitated for just a moment, knowing that if he went in search of his stolen kin, then those who still lay beneath the sands would be defenseless…But as the cries died away, he knew he had no other choice, and strode out eastward into the desert.
 
 Though Skarner’s search is lonely, he sometimes hears the cold, disembodied song of a lost crystal drawing nearer, only to fade once more. It is a feeling that brings hope and anguish in equal measure, and he focuses his sorrow into unshakable determination, knowing that the survival of the brackern race is all that matters.
+
+#Skarner #the_Crystal_Vanguard #Skarner_the_Crystal_Vanguard

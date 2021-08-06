@@ -1,3 +1,10 @@
+Name: Ashe
+Title: the Frost Archer
+Role: Marksman
+Class: Marksman
+Blue Essence: $450
+Riot Point: $260
+
 Ashe hails from the northern Freljord, where brutal tribal raids and inter-clan warfare are as much a part of the landscape as the scream of the frozen winds, and the unyielding cold of the tundra.
 
 The only child of Grena, the matriarchal chieftain of the tiny Avarosan tribe, Ashe was Iceborn: a member of the warrior caste, gifted with an ancestral connection to the magic of her lands, and the rare ability to wield the power of True Ice. Everyone assumed that Ashe would follow her mother as the tribe's next leader. However, this was never a glory Ashe desired. The grim responsibility of her warlike lineage and extraordinary gifts instead left Ashe feeling isolated, burdened, and alone.
@@ -21,3 +28,5 @@ Her answer was an impoverished vagabond from a mountain clan that had been nearl
 Tryndamere accepted reluctantly. Though a political marriage, the attraction they felt for each other was palpable, and slowly a true affection blossomed.
 
 Now, Ashe stands at the head of the largest coalition of Freljordian tribes in many generations. Even so, the unity she would bring rests upon an uneasy peace threatened by internal intrigues, foreign powers, the growing violent horde of the Winter's Claw, and a supposed destiny that Ashe must at least pretend to believe…
+
+#Ashe #the_Frost_Archer #Ashe_the_Frost_Archer

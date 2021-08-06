@@ -1,3 +1,10 @@
+Name: Kayle
+Title: the Righteous
+Role: Specialist
+Class: Specialist
+Blue Essence: $450
+Riot Point: $260
+
 As the Rune Wars raged, Mount Targon stood as a beacon against the oncoming darkness—Kayle and her twin sister Morgana were born beneath that light. Their parents, Mihira and Kilam, began the perilous climb in search of the power to save their tribe from destruction.
 
 Even when Mihira learned she was with child, she pushed onward. At the mountain’s summit, she was chosen as a divine vessel for the Aspect of Justice, wielding a sword that blazed with a fire brighter than the sun.
@@ -29,3 +36,5 @@ There she would seek perfect, celestial clarity. There she would stand at her mo
 Though she has been absent from Demacia for many centuries, Kayle’s legend has inspired much of the kingdom’s culture and law. Grand statues and icons of the Winged Protector give strength to the heart of every warrior who marches to illuminate the night, and banish all shadows from their land.
 
 In times of strife and chaos, there are many who cling to the hope that Kayle might eventually return… and others who pray that such a day will never come.
+
+#Kayle #the_Righteous #Kayle_the_Righteous

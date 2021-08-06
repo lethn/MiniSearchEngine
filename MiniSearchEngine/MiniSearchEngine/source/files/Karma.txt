@@ -1,3 +1,10 @@
+Name: Karma
+Title: the Enlightened One Mage Burst
+Role: Controller
+Class: Enchanter
+Blue Essence: $3150
+Riot Point: $790
+
 Karma is the living embodiment of an ancient Ionian soul, who serves as a spiritual beacon to each generation of her people. Her most recent incarnation came in the form of a 12-year-old girl named Darha. Raised in the northern highlands of Shon-Xan, she was headstrong and independent, always dreaming of a life beyond her provincial village.
 
 But Darha began to suffer strange, fitful visions. The images were curious—they felt like memories, yet the girl was certain they had not happened to her. At first, the problem was easy enough to conceal, but the visions grew in intensity until Darha was convinced she was descending into madness.
@@ -19,3 +26,5 @@ Though many Ionians rejoiced at this apparent victory, the monks believed she ha
 Karma silenced them with a raised hand. Though she could still hear the voices in her head, it was the Spirit of Ionia in her heart that guided her… and the First Lands were stirring to defend themselves. She did not know if she had been chosen for her courage and strength of will, but Karma knew that sometimes harmony came only at a great cost. Their world was changing, and true wisdom lay not in resisting that fact, but accepting it.
 
 Though the war with Noxus is now long over, there are still many in Ionia who have become only too glad to meet violence with violence, even against their own neighbors. Karma has pledged to guide as many of them as she can to a more enlightened path—to peace when possible, to action when necessary.
+
+#Karma #the_Enlightened_One_Mage_Burst #Karma_the_Enlightened_One_Mage_Burst

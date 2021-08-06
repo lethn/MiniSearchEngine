@@ -1,3 +1,10 @@
+Name: Sion
+Title: The Undead Juggernaut
+Role: Tank
+Class: Vanguard
+Blue Essence: $1350
+Riot Point: $585
+
 Over a century past, the brutal warlord Sion rose to prominence, slaughtering all who dared stand in his way. Greatly feared by friend and foe alike, he was the last of a proud warrior culture that had been part of Noxus since its founding. Sion had sworn oaths to his ancestors to never take a backward step in battle, and to die a proud warrior’s death when his time came.
 
 While not noted for his subtlety or strategic acumen, Sion’s methods were ruthlessly effective, and he won many vicious triumphs for Noxus. The empire’s might was at a peak not seen for hundreds of years, and so it took the generals of high command by surprise when a nation from the west first resisted, then began pushing back their steady advance. These Demacians drove the Noxian warbands eastward, harrying them back behind the walls of Hvardis. Sion, who had been campaigning in the Argent Mountains, now turned south, filled with fury.
@@ -31,3 +38,5 @@ He butchered the defenders of Hvardis and leveled the city, laughing as he rippe
 When harsh daylight floods his opening tomb, Sion now welcomes it… for with it comes the chance to shed his chains and sate his hunger for bloodshed, to briefly silence the screaming madness drowning out all thought of rest.
 
 Sion remembers only fragments of his life, and less of the times since, but one truth has remained as stark as on the day of his death—now, as then, the world trembles before him.
+
+#Sion #The_Undead_Juggernaut #Sion_The_Undead_Juggernaut

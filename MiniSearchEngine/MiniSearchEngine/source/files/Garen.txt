@@ -1,3 +1,10 @@
+Name: Garen
+Title: The Might of Demacia
+Role: Fighter
+Class: Juggernaut
+Blue Essence: $450
+Riot Point: $260
+
 Born into the noble Crownguard family, along with his younger sister Lux, Garen knew from an early age that he would be expected to defend the throne of Demacia with his life. His father, Pieter, was a decorated military officer, while his aunt Tianna was Sword-Captain of the elite Dauntless Vanguard—and both were recognized and greatly respected by King Jarvan III. It was assumed that Garen would eventually come to serve the king’s son in the same manner.
 
 The kingdom of Demacia had risen from the ashes of the Rune Wars, and the centuries afterward were plagued with further conflict and strife. One of Garen’s uncles, a ranger-knight in the Demacian military, told young Garen and Lux his tales of venturing outside the kingdom’s walls to protect its people from the dangers of the world beyond.
@@ -21,3 +28,5 @@ Lux and her mother spent much more time in the capital, in service to the king a
 When the new Sword-Captain of the Dauntless Vanguard fell in battle, Garen found himself put forward for command by his fellow warriors, and the nomination was unopposed.
 
 To this day, he stands resolute in the defense of his homeland, against all foes. Far more than Demacia's most formidable soldier, he is the very embodiment of all the greatest and most noble ideals upon which it was founded.
+
+#Garen #The_Might_of_Demacia #Garen_The_Might_of_Demacia

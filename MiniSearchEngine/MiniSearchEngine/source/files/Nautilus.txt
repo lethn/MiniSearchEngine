@@ -1,3 +1,10 @@
+Name: Nautilus
+Title: the Titan of the Depths
+Role: Tank
+Class: Vanguard
+Blue Essence: $4800
+Riot Point: $880
+
 To understand the legend of Nautilus, one must first know the man—for even the tallest of tavern tales agree, he was indeed a man.
 
 Though the waves have washed away the name he was born with, most remember Nautilus as no mere sailor, but as a salvage diver. Just beyond the southernmost reach of the Blue Flame Isles lies a graveyard of ships, rumored lost while searching for a blessed land, looking to trade wealth for immortality. On a fair day, their glittering holds beckon from beneath the surface. Many crews sought divers to collect the lost fortune, and none could match the skill of the quick-sinking hulk of solid muscle that was Nautilus.
@@ -17,3 +24,5 @@ When Nautilus awoke on the ocean floor, he was something… different. The darkn
 Nautilus vowed, there and then, that all would pay the ocean’s tithe. He would see to it himself.
 
 Driven ever forward by this thought, he trudged toward the shore. But by the time he reached Bilgewater, years had passed, and he could find no traces of his captain or crew. There was no life to which he could return, no revenge he could take. Instead he returned to the sea, allowing his anger to surface on the greedy, gutting their ships with his mighty anchor. Sometimes, in the tumble of waves, distant memories of who he was push up above the waterline… but always the man who is Nautilus stays drowned just below the surface.
+
+#Nautilus #the_Titan_of_the_Depths #Nautilus_the_Titan_of_the_Depths

@@ -1,3 +1,10 @@
+Name: Aatrox
+Title: the Darkin Blade
+Role: Fighter
+Class: Juggernaut
+Blue Essence: $4800
+Riot Point: $880
+
 Whether mistaken for a demon or god, many tales have been told of the Darkin Blade... but few know his real name, or the story of his fall.
 
 In ancient times, long before desert sands swallowed the empire, a mighty champion of Shurima was brought before the Sun Disc to become the avatar for a now forgotten celestial ideal. Remade as one of the Ascended, his wings were the golden light of dawn, and his armor sparkled like a constellation of hope from beyond the great veil.
@@ -23,3 +30,5 @@ Aatrox traveled the land, searching desperately, endlessly, for a way return to 
 Raging against this injustice, he arrived at a solution that could only be born of a prisoner’s desperation. If he could not destroy the blade or free himself, then he would embrace oblivion instead.
 
 Now, Aatrox marches toward this merciless goal, bringing war and death wherever he goes. He clings to a blind hope: if he can drive all of creation into a final, apocalyptic battle—where everything, everything else is destroyed—then maybe he and the blade will also cease to exist.
+
+#Aatrox #the_Darkin_Blade #Aatrox_the_Darkin_Blade

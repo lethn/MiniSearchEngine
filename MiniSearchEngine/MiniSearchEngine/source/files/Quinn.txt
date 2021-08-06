@@ -1,3 +1,10 @@
+Name: Quinn
+Title: Demacia's Wings
+Role: Specialist
+Class: Specialist
+Blue Essence: $4800
+Riot Point: $880
+
 Quinn and her twin brother, Caleb, were born in Uwendale, a remote mountain hamlet in northeastern Demacia. It was a thriving village of hunters and farmers, protected by rangers who patrolled the wilderness and drove off any dangerous creatures wandering down from the high peaks.
 
 When the twins were still young, King Jarvan III visited Uwendale on a tour of his kingdom. Quinn and Caleb thrilled at the pageantry of the knights in his entourage, resplendent in their gleaming armor. Their father, a weaponsmith in the village, later saw them pretending to bravely defend the land themselves, and fashioned simple weapons for them to play with.
@@ -31,3 +38,5 @@ Lestara Buvelle gladly vouched for Quinn, even paying a personal visit to High M
 Now, having brought renown to the rangers of Uwendale, she prefers to remain out in the hinterlands, never staying within the walls of the outlying towns for long. Quinn rarely pulls rank with the rangers who report to her, instead deferring to their specialized skills and experience in the field—a stark departure from the rigid hierarchy of the rest of the military.
 
 Quinn and Valor have ventured far and wide in service of Demacia, risking journeys into the icy Freljord and deep within Noxian-held territory. And with each mission, their unique bond has helped ensure the security of the kingdom’s borders for generations to come.
+
+#Quinn #Demacia's_Wings #Quinn_Demacia's_Wings

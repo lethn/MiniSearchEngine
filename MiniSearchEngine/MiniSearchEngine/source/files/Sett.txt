@@ -1,3 +1,10 @@
+Name: Sett
+Title: the Boss
+Role: Fighter
+Class: Juggernaut
+Blue Essence: $6300
+Riot Point: $975
+
 Though now a powerful player in Ionia’s flourishing criminal underworld, Sett had humble origins. Born from an Ionian vastaya and a Noxian human, the “half-beast” child was an outcast from the start. His birth appalled his mother’s vastayan community, which expelled the family for violating its tribal norms. The humans of Ionia were no more accepting of the taboo union, though Sett’s father’s infamy as a local pitfighter usually kept them from voicing their disapproval.
 
 What little security the family enjoyed vanished the day Sett’s father disappeared. All of a sudden, those who had bitten their tongues at the sight of young Sett felt free to express their contempt. The boy was bewildered, wondering where his father had gone, and why trouble suddenly seemed to be following him.
@@ -21,3 +28,5 @@ Late one night, after defending his title in front of a record-breaking crowd, S
 With the promoters out of the picture, Sett took control of the pit he once fought in. Ionians, who had only recently been conditioned for war, flocked to the arena, paying to satisfy an urge they only now knew they possessed. Sett took full advantage of their newfound bloodlust, accumulating wealth and power beyond his wildest boyhood dreams, as he transformed the pit into the hub of an underground empire of gambling and vice.
 
 The half-beast who reigned supreme in the pit now runs his illicit enterprises with the same iron fist. Any time someone challenges his authority, he personally reminds them where they stand. Every punch Sett throws is a blow to his old life of poverty and ostracism, and he intends to make sure that old life stays down.
+
+#Sett #the_Boss #Sett_the_Boss

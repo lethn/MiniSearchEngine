@@ -1,3 +1,10 @@
+Name: Braum
+Title: the Heart of the Freljord
+Role: Tank
+Class: Warden
+Blue Essence: $4800
+Riot Point: $880
+
 Even as a child, Braum was much larger than other Freljordian youngsters, but his mother taught him never to use his size to intimidate or bully. She came from a proud line of herders, and believed true courage lay in using one’s power not to dominate, but to protect those in need.
 
 When Braum was still a boy, ice giants devastated a neighboring tribe. That tribe had long preyed upon the herds of Braum’s people, but his mother didn’t hesitate to head out across the tundra to help the survivors, bearing furs, foodstuffs, and healing supplies. At first, Braum didn’t understand why she would aid their rivals—but after her actions saved many lives, they became lifelong allies. He finally understood what his mother meant when she said all the Freljord’s people were a family, and from that day forth, he pledged to bring that family together.
@@ -17,3 +24,5 @@ As Braum watched, he saw that Tryndamere was growing increasingly unhinged. Duri
 Braum doesn’t hold any particular tribal allegiance, for he views all within the Freljord as brothers and sisters. Even so, he sees in Ashe someone who can end the centuries-old feuding among the Freljord’s tribes, and the Avarosans have informally adopted him into their number. Braum’s dream, as he often tells adoring children, is that someday the Freljord will be united in one big family… and then he can retire to become a humble poro herder.
 
 Though Braum counts no one as his enemy, he has had a few run-ins with the Frostguard since he started carrying his shield. He doesn’t understand why they have a grudge against him, nor why they seem so interested in what he now bears…
+
+#Braum #the_Heart_of_the_Freljord #Braum_the_Heart_of_the_Freljord

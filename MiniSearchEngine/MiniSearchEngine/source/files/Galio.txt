@@ -1,3 +1,10 @@
+Name: Galio
+Title: the Colossus
+Role: Tank
+Class: Warden
+Blue Essence: $3150
+Riot Point: $790
+
 Galio’s legend begins in the aftermath of the Rune Wars, when countless refugees fled from the destructive power of magic. In the west of Valoran, a band of these displaced people were hounded by a vicious band of dark mages—exhausted from days without rest, the refugees hid among the shadows of an ancient, petrified forest, and their pursuers suddenly found their magic to be ineffective.
 
 It seemed the fossilized trees were a natural magic-dampener, and any sorcery used within them would simply fail. No longer helpless, the refugees turned their swords on the dark mages and drove them from the land.
@@ -27,3 +34,5 @@ He watched mortals pass beneath him, paying him tribute year after year. It puzz
 Even so, Galio has been called to battle only a handful of times in all the centuries since. Demacia has begun to look inward, with magic becoming rarer in his world than it once was, and so the petricite colossus remains dormant, observing the world through the murk of his waking dreams. The statue’s greatest hope is to be blessed by a magic so powerful that he will never be forced to sleep again.
 
 Only then will Galio be able to truly serve his purpose: to stand and fight as Demacia’s protector, forevermore.
+
+#Galio #the_Colossus #Galio_the_Colossus

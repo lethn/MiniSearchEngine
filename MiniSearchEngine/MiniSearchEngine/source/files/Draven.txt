@@ -1,3 +1,10 @@
+Name: Draven
+Title: the Glorious Executioner
+Role: Marksman
+Class: Marksman
+Blue Essence: $4800
+Riot Point: $880
+
 Even as an orphan on the streets of Basilich, Draven was headstrong and full of bravado, frequently getting into vicious brawls with older street children and shady underworld thugs. While supremely confident in his own ability—some would say overconfident—it is unlikely he would have survived childhood had it not been for his older brother, Darius, who invariably finished the fights Draven started.
 
 When Basilich fell to the warhosts of Noxus, the brothers came to the attention of a captain named Cyrus, after Draven made an ill-considered attempt on his life. Impressed with their fighting spirit, Cyrus allowed them to join the Noxian ranks.
@@ -27,3 +34,5 @@ Soon enough, an enterprising (and diminutive) promoter, tired of paying to house
 For a time he lived the high life, receiving invitations to a never-ending stream of parties and banquets, mixing with the wealthy and influential of Swain’s new Noxus. He even reconciled with Darius, and would occasionally still march out with the warhosts, defeating enemy champions and generals in single combat.
 
 Nevertheless, Draven has started to grow restless once again. He has all that he could have ever imagined, and more, but now dreams of the day when the whole world knows his name.
+
+#Draven #the_Glorious_Executioner #Draven_the_Glorious_Executioner

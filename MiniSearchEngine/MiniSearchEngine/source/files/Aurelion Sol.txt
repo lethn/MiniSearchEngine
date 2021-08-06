@@ -1,3 +1,10 @@
+Name: Aurelion Sol
+Title: Sol The Star Forger
+Role: Mage
+Class: Battlemage
+Blue Essence: $6300
+Riot Point: $975
+
 The appearance of a comet in the night sky is often said to portend upheaval and unrest. Under the auspices of such fiery harbingers, new empires rise, old cultures fall, and even the stars themselves may vanish from the heavens…The truth is, perhaps, more unsettling.
 
 The almighty being known as Aurelion Sol was already ancient before the rise of the mortal races of Runeterra. Born in the first breath of creation, he and those like him roamed the vast nothingness of a pristine celestial realm, seeking to fill this canvas of incalculable breadth with marvels whose twinkling spectra would bring fulfillment and delight to all who witnessed them.
@@ -23,3 +30,5 @@ Outraged, Aurelion Sol could see other stars fading across the firmament for lac
 Then, in little more than the blink of a star dragon’s eye, the world was ravaged by a succession of sorcerous catastrophes, and Aurelion Sol finally knew that Targon and the hated Aspects were all but defenseless. As he cautiously circled back, he realized the magic that bound him was weakening. Flecks of gold began to fall from his crown, each one blazing across the skies like a comet.
 
 Driven by the tantalizing possibilities of freedom and revenge, Aurelion Sol now regards Runeterra with simmering, eternal fury. Surely, it is here, upon this world, that the cosmic balance will tip in his favor once more—and with it, the universe itself shall bear witness to the fate of those who dare steal the power of a star forger.
+
+#Aurelion_Sol #Sol_The_Star_Forger #Aurelion_Sol_Sol_The_Star_Forger

@@ -1,3 +1,10 @@
+Name: Cassiopeia
+Title: the Serpent's Embrace
+Role: Mage
+Class: Battlemage
+Blue Essence: $4800
+Riot Point: $880
+
 The youngest child of General Du Couteau, Cassiopeia was born to a life of possibility and privilege among the Noxian noble houses. From an early age, she displayed a keen mind and sharp wit, and while her sister Katarina flourished under their father’s tutelage, it was their mother Soreana in whose footsteps Cassiopeia would follow.
 
 A hero of Noxus’ expansion into Shurima, General Du Couteau eventually sent for his family, installing them close to the governor of the coastal city of Urzeris. Surrounded by strangers in an unfamiliar land, Cassiopeia remained close to her mother, learning much of politics, diplomacy, and subtle influence. As she grew, Cassiopeia could not help but glimpse other, hidden concerns within Soreana, beyond those of the empire…One day, quite unexpectedly, Soreana collapsed in the family residence—her hairbrush had been laced with caustic venoms by an unknown hand, leaving her close to death. General du Couteau was well versed in the ways of an assassin, and so he had all the household staff removed, leaving his wife and daughters alone in an empty house.
@@ -23,3 +30,5 @@ Overcome by its arcane toxins, she was carried back through the desert by her hi
 For weeks she wept and howled, grieving her lost life… until the day she could weep no more. She dragged herself up from the depths of despair, determined to accept—maybe even someday embrace?—her fate. It was not the Ascension she had hoped for, but Cassiopeia had unearthed the magic of dead Shuriman gods. She would turn it to the schemes of the Black Rose just as she and her mother had planned, and she could feel this power growing within her, day by day.
 
 Though into what, even she cannot guess.
+
+#Cassiopeia #the_Serpent's_Embrace #Cassiopeia_the_Serpent's_Embrace

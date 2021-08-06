@@ -1,3 +1,10 @@
+Name: Tryndamere
+Title: the Barbarian King
+Role: Slayer
+Class: Skirmisher
+Blue Essence: $1350
+Riot Point: $585
+
 Tryndamere came into the world knowing only the harshness of survival, for the frozen steppes where his clan made their home never truly thawed. Though they praised all the Freljord’s old gods, as well as the Cult of the Three, they prayed most often to a spirit-deity known to ravage the tundra—a hearty and unkillable tusklord. Since the raw materials required for armor were scarce, the clan instead put its resources toward the forging of great blades, inspired by their god’s ivory canines.
 
 The stamina and dueling prowess of Tryndamere’s people became legendary. They were able to fend off other raiding tribes, slay the great beasts of the mountains, and repel Noxians encroaching to the south. Tryndamere himself grew to be a brash and formidable warrior, but it wasn’t until a particularly cruel midwinter night that his strength was truly tested. An unusual storm swept in from the east, bringing with it an icy darkness, and a towering, horned figure silhouetted against the full moon.
@@ -23,3 +30,5 @@ But not all of the Avarosans had turned against him. Their warmother, Ashe, was 
 As he spent more time in Ashe’s company, he began to believe what others had whispered—that she was indeed the divine reincarnation of Avarosa herself. His rage found temperance in her thoughtful leadership, and a genuine affection grew between them.
 
 Even so, serving as Ashe’s champion, Tryndamere now looks to an uncertain future. The barbarian king can see war brewing all too clearly on the Freljord’s horizon, yet he still thirsts for his own, personal vengeance, and begins to wonder if his predestined fate might not be at his queen’s side after all…
+
+#Tryndamere #the_Barbarian_King #Tryndamere_the_Barbarian_King

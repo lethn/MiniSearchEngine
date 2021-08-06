@@ -1,3 +1,10 @@
+Name: Jinx
+Title: the Loose Cannon
+Role: Marksman
+Class: Marksman
+Blue Essence: $4800
+Riot Point: $880
+
 While most look at Jinx and see only a mad woman wielding an array of dangerous weapons, a few remember her as a relatively innocent girl from Zaun—a tinkerer with big ideas who never quite fit in. No one knows for certain what happened to turn that sweet young child into a wildcard, infamous for her wanton acts of destruction. But once Jinx exploded onto the scene in Piltover, her unique talent for sowing anarchy instantly became the stuff of legend.
 
 Jinx first gained notoriety through her anonymous “pranks” on the citizens of Piltover… particularly those with connections to the wealthy merchant clans. These pranks ranged from the moderately annoying to the criminally dangerous. She blocked streets on Progress Day, with a stampede of exotic animals freed from Count Mei’s menagerie. She disrupted trade for weeks when she lined the city’s iconic bridges with adorably destructive flame chompers. Once, she even managed to move every street sign in town to new and utterly confusing locations.
@@ -17,3 +24,5 @@ When the day arrived, Vi, Sheriff Caitlyn, and the wardens prepared a trap for J
 Jinx remains at large to this day, and is a constant thorn in Piltover’s side. Her schemes have inspired copycat crimes among the chem-punks, as well as numerous satirical plays lampooning the incompetence of the wardens, and even a smattering of new colloquialisms throughout both cities—though no one has yet had the courage to call Enforcer Vi “Pretty-in-Pink” to her face.
 
 Jinx’s ultimate endgame, and her obvious obsession with Vi, both remain a mystery, but one thing is certain: her crimes are continuing and growing in sheer audacity.
+
+#Jinx #the_Loose_Cannon #Jinx_the_Loose_Cannon

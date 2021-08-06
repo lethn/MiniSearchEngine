@@ -1,3 +1,10 @@
+Name: Viktor
+Title: the Machine Herald
+Role: Mage
+Class: Battlemage
+Blue Essence: $4800
+Riot Point: $880
+
 The herald of a new age of technology, Viktor has devoted his life to the advancement of humankind. An idealist who seeks to lift people to a new level of understanding, he believes that only by embracing a glorious evolution of technology can humanity’s full potential be realized. With a body augmented by steel and science, Viktor is zealous in his pursuit of this bright future.
 
 Viktor was born in Zaun on the borders of the Entresol level, and, encouraged by his artisan parents, discovered a passion for invention and building. He devoted every waking minute to his studies, hating to interrupt his work even to eat or sleep. Even worse was having to rapidly relocate if there was a nearby chemical spill, accidental detonation or incoming chem-cloud. Abandoning his work, even for a short time, was anathema to Viktor.
@@ -39,3 +46,5 @@ Before the process could complete, a vengeful Jayce burst in and started smashin
 Viktor escaped the destruction of the laboratory, and returned to his mission of bettering humanity by ridding it of its destructive emotional impulses. In Viktor’s mind, Jayce’s impetuous attack only proved the truth of his cause and strengthened his desire to unburden humanity of the failings of flesh. Viktor did send chem-augmented thugs to raid Jayce’s laboratory not long afterward. This was - Viktor told himself - not for revenge, but to learn if there were any more shards of the Shuriman crystal he could use for the advancement of mankind. The raid was unsuccessful, however, and Viktor thought no more of Jayce.
 
 Instead, he intensified his efforts to find ways in which humanity could be shepherded beyond their emotional weaknesses and brought into a new, more reasoned stage of their evolution. Such researches sometimes transgress the boundaries of what would be considered ethical in Piltover (and Zaun), but they are all necessary steps in bringing about Viktor’s Glorious Evolution.
+
+#Viktor #the_Machine_Herald #Viktor_the_Machine_Herald

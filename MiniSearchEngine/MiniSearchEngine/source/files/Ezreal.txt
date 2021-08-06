@@ -1,3 +1,10 @@
+Name: Ezreal
+Title: the Prodigal Explorer
+Role: Marksman
+Class: Marksman
+Blue Essence: $3150
+Riot Point: $790
+
 Born and raised in a wealthy neighborhood of Piltover, Ezreal was always a curious child. His parents were renowned archaeologists, so he became used to their long absences from the family home, often fantasizing about joining them on their travels. He loved hearing tales of high adventure, and shared their desire to fill in the blank spaces on every map.
 
 He was often left in the care of his uncle, the esteemed Professor Lymere. The professor did not enjoy having to wrangle such a rash and unruly child, and assigned the strictest tutors to teach him subjects including advanced cartography, hextech mechanics, and the ancient histories of Runeterra. But the boy had a knack for simply absorbing information, and found studying a waste of time. He passed assessments easily, with little or no preparation, infuriating his uncle and giving himself more time to roam the university grounds. Ezreal took great pleasure in evading the campus wardens, navigating the tunnels beneath the lecture halls as easily as the library rooftops. He even practiced lockpicking, sneaking into his teachers’ offices and rearranging their belongings for his own amusement.
@@ -19,3 +26,5 @@ Breathing hard, Ezreal looked down at the gauntlet as it hummed along with his h
 Soon after returning to Piltover, Ezreal found himself bounding from adventure to adventure. From lost cities to mystical temples, his nose for treasure-seeking led him to places most university professors could only read about on maps, and his reputation began to grow. Naturally, to Ezreal’s mind, these tales rarely conveyed the true scope and scale of his exploits… but they did give him an idea. If he could make a name for himself as the greatest adventurer in the world, then his parents would surely return, and seek him out in person. From the untamed borders of Noxus and Demacia, to the seedy depths of Zaun, and the frozen wilderness of the Freljord—Ezreal chases fame and glory, uncovering long-lost artifacts and solving the riddles of history. While some may dispute the details of his anecdotes, or call his methods into question, he never answers his critics.
 
 After all, they’re clearly just jealous.
+
+#Ezreal #the_Prodigal_Explorer #Ezreal_the_Prodigal_Explorer

@@ -1,3 +1,10 @@
+Name: Annie
+Title: the Dark Child
+Role: Mage
+Class: Burst
+Blue Essence: $450
+Riot Point: $260
+
 Boram Darkwill’s last years on the throne were a time of great uncertainty for Noxus, and many with an aptitude for magic left the capital for the relative peace of more distant provinces. Gregori the Gray and his wife, a witch by the name of Amoline, preferred to demonstrate their Noxian strength by taming the borderlands, rather than partaking in the political intrigue of the noble houses. The young couple claimed a piece of land beyond the Ironspike Mountains to the north, finishing their small home just before winter and the arrival of their first child. During their journey, other colonists’ tales of the great shadow bears that once roamed the territory had captivated Amoline—now heavily pregnant, she passed the time sitting near the fireplace, creating a toy version of the protective creatures. Just as she finished sewing the last button eye on the stuffed bear, the quickening of labor overcame her. Gregori remarked later that his daughter was eager to play with her new toy, for there, on an ember-warmed hearth, Amoline brought Annie into the world.
 
 When Annie was still a toddler, she and her father took ill. As night fell, Annie began to burn with fever, and soon she was so hot, she could no longer be held in her mother’s arms. Amoline grew desperate, deciding at last to fetch icy water from the nearby river. The next morning Gregori awoke, weak and groggy from his sickness. In the crib, a now-healthy Annie played with her stuffed bear, Tibbers, but Amoline was gone.
@@ -11,3 +18,5 @@ When the flames died down and the swirl of ash settled, Annie was left orphaned 
 Believing most city adults to be like her stepmother, Annie has kept to the wilder parts of her frontier homeland. On occasion, she will use her disarmingly adorable exterior to be taken in by some pioneer family long enough to be offered new clothes and a hot meal. However, fire and death awaits anyone foolish enough to try parting Annie from the stuffed bear at her side.
 
 Kept safe by Tibbers, she wanders the dark forests of Noxus, oblivious to danger—and the dangers posed to others by her own unchecked power—hoping, one day, to find someone like her to play with.
+
+#Annie #the_Dark_Child #Annie_the_Dark_Child

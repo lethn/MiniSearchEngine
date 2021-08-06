@@ -1,3 +1,10 @@
+Name: Lee Sin
+Title: the Blind Monk
+Role: Fighter
+Class: Diver
+Blue Essence: $4800
+Riot Point: $880
+
 Among the many spirits Ionians revere, none are as storied as that of the dragon. While some believe it embodies ruin, others view it as a symbol of rebirth. Few can say for certain, and fewer still have ever been able to channel the dragon’s spirit, and none so completely as Lee Sin.
 
 He arrived at the Shojin monastery as a boy, claiming the dragon had chosen him to wield its power. The elder monks saw flashes of its fire in the talented child, but also sensed his reckless pride, and the disaster it could bring. Warily, they nonetheless took him as a pupil—though, as others advanced, the elders kept him cleaning dishes and scrubbing floors.
@@ -23,3 +30,5 @@ But the surviving elders stopped him. In forsaking all desire for power, their d
 Gratefully, Lee Sin stayed with the monks to rebuild their monastery, and after the work was done and the Spirit Walker returned to the Freljord, Lee Sin devoted himself fully toward the pursuit of enlightenment.
 
 In the years since the war with Noxus ended, he has continued to meditate on his role in Ionia. Knowing his homeland has not faced the last of its trials, Lee Sin must master himself, and the dragon spirit within, to face whatever foe is yet to come.
+
+#Lee_Sin #the_Blind_Monk #Lee_Sin_the_Blind_Monk

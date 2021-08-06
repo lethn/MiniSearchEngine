@@ -1,3 +1,10 @@
+Name: Leona
+Title: the Radiant Dawn
+Role: Tank
+Class: Vanguard
+Blue Essence: $4800
+Riot Point: $880
+
 Among the Rakkor tribes that dwell upon Mount Targon, the sun is sacred, and none venerate it more than the Solari. Children are raised from birth to honor it, and even to shed blood for it, until its Aspect returns, heralding a grave threat they all must face.
 
 Leona was one such child. She took to the Solari faith as naturally as breathing, finding solace and warmth within its rigid structure. This manifested through her rapid achievement of excellence, her peers envious of her capability, willpower, and devotion. None doubted she would one day become one of the Ra’Horak, the holy warriors of the Solari.
@@ -31,3 +38,5 @@ Their combat was swift, a blistering clash between sun and moon, ending with Dia
 When she arrived, she found slaughter. Many Solari priests and their Ra’Horak guardians were dead, seemingly slain by Diana’s hand. The survivors were awed by the presence of two Aspects now in their midst, and Leona was committed to helping them navigate this new reality—the guiding light to her people, just as the sun had always been.
 
 She has sworn to find Diana, to preserve the dominance of the Solari... but also to help her old friend control the Moon Aspect’s power before it destroys her.
+
+#Leona #the_Radiant_Dawn #Leona_the_Radiant_Dawn

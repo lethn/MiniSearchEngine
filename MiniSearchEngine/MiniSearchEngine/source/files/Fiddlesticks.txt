@@ -1,3 +1,10 @@
+Name: Fiddlesticks
+Title: the Ancient Fear
+Role: Specialist
+Class: Specialist
+Blue Essence: $1350
+Riot Point: $585
+
 Long, long ago, in a tower by the edge of the sea, a foolish young mage summoned something into the world that he was not prepared to control. What stepped before the boy was something older than recorded history. Something darker than a yawning, starless night. Something the world had desperately tried to forget—and in an instant, the mage, the creature, and the tower itself were lost to all of time.
 
 At least, that’s what the stories say.
@@ -21,3 +28,5 @@ In the wake of this revival, another tale, nearly lost to memory, has seen a res
 At least, that’s what the stories say.
 
 But Fiddlesticks is real.
+
+#Fiddlesticks #the_Ancient_Fear #Fiddlesticks_the_Ancient_Fear

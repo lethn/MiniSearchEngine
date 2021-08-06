@@ -1,3 +1,10 @@
+Name: Yorick
+Title: Shepherd of Souls
+Role: Fighter
+Class: Juggernaut
+Blue Essence: $4800
+Riot Point: $880
+
 The last survivor of a long-forgotten religious order, Yorick is both blessed and cursed with power over the dead. Trapped on the Shadow Isles, his only companions are the rotting corpses and shrieking spirits that he gathers to him. Yorick’s monstrous actions belie his noble purpose: to free his home from the curse of the Ruination.
 
 Even as a child, Yorick’s life was never normal. Raised in a fishing village at the very edge of the Blessed Isles, he always struggled to find acceptance. While most children his age were playing hide-and-seek, young Yorick was making friends of a different kind—the spirits of the recently deceased.
@@ -37,3 +44,5 @@ Almost lost within his grief, Yorick began to speak to the spirits around him, a
 A glimmer of hope shone from the heart of his despair. To free the dead of the Shadow Isles, Yorick would wield their power and their strength.
 
 In order to end the curse, he would be forced to use it.
+
+#Yorick #Shepherd_of_Souls #Yorick_Shepherd_of_Souls

@@ -1,3 +1,10 @@
+Name: Lux
+Title: the Lady of Luminosity Mage Burst
+Role: Mage
+Class: Artillery
+Blue Essence: $3150
+Riot Point: $790
+
 Luxanna—or Lux, as she prefers to be called—grew up in the Demacian city of High Silvermere, along with her older brother Garen. They were born to the prestigious Crownguard family, which had served for generations as protectors of the kings of Demacia. Their grandfather saved the king’s life at the Battle of Storm’s Fang, and their aunt Tianna was named commander of the elite Dauntless Vanguard regiment before Lux was born.
 
 Garen took to his family’s role with fervor, joining the military when he was still little more than a boy. Lux, in his absence, was expected to help run the family’s many estates—a task she resented, even as a young child. She wanted to explore the world, to see what lay beyond the walls and borders of Demacia. She idolized Garen, but railed against his insistence that she put her own ambitions aside.
@@ -17,3 +24,5 @@ When she was sixteen, Lux traveled with her parents Pieter and Augatha to their 
 The city dazzled Lux. It was a monument to the noble ideals of the kingdom, with every citizen protected and cared for; and it was there that Lux learned of the Illuminators, a charitable religious order working to help the sick and the poor. Between her family’s courtly engagements, she became close with a knight of the order named Kahina, who also taught Lux more martial skills, sparring and training with her in the gardens of the Crownguard manor.
 
 Spending more time in the capital, Lux has finally begun to learn about the wider world—its diversity, and its history. She now understands that the Demacian way of life is not the only way, and with clear eyes she can see her love for her homeland standing alongside her desire to see it made more just… and perhaps a little more accepting of mages like her.
+
+#Lux #the_Lady_of_Luminosity_Mage_Burst #Lux_the_Lady_of_Luminosity_Mage_Burst

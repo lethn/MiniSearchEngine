@@ -1,3 +1,10 @@
+Name: Nocturne
+Title: the Eternal Nightmare
+Role: Slayer
+Class: Assassin
+Blue Essence: $4800
+Riot Point: $880
+
 While all magic can be dangerous and unpredictable, there are some forms or disciplines that even the most skilled mages and sorcerers will shun, and with good reason. For centuries, the practice of “shadow magic” was all but forbidden across Runeterra, for fear of reawakening the horrors it once unleashed upon the world.
 
 The greatest of those horrors has a name, and its name is Nocturne.
@@ -15,3 +22,5 @@ Would the outcome of the Rune Wars have been different if the demon had not play
 Trapped in the spirit realm, and with precious few intruders to sustain it, Nocturne began to starve. The only thing close to the delectable feasts of fear it had once tasted was when mortal minds unknowingly drifted through the ether in the hours of sleep. Drawn on currents of magic to where the two realms divide—and where peaceful dreams can easily become night terrors—Nocturne found a way to manifest itself into the waking world.
 
 Existing now as a shade, eyes burning with cold light, Nocturne has become a sinister reflection of the most primal fears of the many peoples of Runeterra. From the bustling cities to the desolate plains, from the mightiest king to the lowliest peasant, the demon is drawn to any weakness of spirit it can twist into mortal terror, and everlasting darkness.
+
+#Nocturne #the_Eternal_Nightmare #Nocturne_the_Eternal_Nightmare

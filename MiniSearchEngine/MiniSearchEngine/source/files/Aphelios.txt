@@ -1,3 +1,10 @@
+Name: Aphelios
+Title: the Weapon of the Faithful
+Role: Marksman
+Class: Marksman
+Blue Essence: $6300
+Riot Point: $975
+
 The moon looms over the towering slopes of Mount Targon, distant, yet impossibly close.
 
 Born during a rare lunar convergence, when the physical moon was eclipsed by its reflection in the spirit realm, Aphelios and his twin sister, Alune, were celebrated as children of destiny by those of Targon’s Lunari faith.
@@ -39,3 +46,5 @@ Together, they would be the weapon the Lunari needed, bound by pain and sacrific
 To protect the survivors of the attack who retreated back into the shadows of the mountain, Aphelios’ training as an assassin has been given reach by Alune’s magic—his blades now an arsenal of mystical weapons, perfected by Alune over the course of many missions together.
 
 Now that the power balance of Targon is shifting, and the Solari know the Lunari still endure, Aphelios and Alune are needed more than ever.
+
+#Aphelios #the_Weapon_of_the_Faithful #Aphelios_the_Weapon_of_the_Faithful

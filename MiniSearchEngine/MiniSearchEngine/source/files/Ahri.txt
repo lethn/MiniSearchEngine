@@ -1,3 +1,10 @@
+Name: Ahri
+Title: the Fox
+Role: Mage
+Class: Burst
+Blue Essence: $3150
+Riot Point: $790
+
 Ahri’s origins are a mystery, even to her.
 
 She has no clue as to the history of her vastayan tribe—or their place among the rest—save for the twin gemstones she has worn her entire life. In fact, her earliest memories are of running with icefoxes in the northern reaches of Shon-Xan. Though she knew she was not one of them, they clearly saw her as something of a kindred spirit, and came to accept her within the pack.
@@ -19,3 +26,5 @@ Through countless stolen visions, Ahri began to glimpse more about the vastaya. 
 This, perhaps, was the link to a past she could not remember.
 
 With the twin gemstones in hand, Ahri has set out in search of others like her. No more will she rely on borrowed memories and unfamiliar dreams—and if any trace of her tribe still exists in Runeterra, then she is determined to find it.
+
+#Ahri #the_Fox #Ahri_the_Fox

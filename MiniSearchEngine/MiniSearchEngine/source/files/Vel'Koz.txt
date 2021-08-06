@@ -1,3 +1,10 @@
+Name: Vel'Koz
+Title: the Eye of the Void
+Role: Mage
+Class: Artillery
+Blue Essence: $4800
+Riot Point: $880
+
 To truly understand the horror that is Vel’Koz, one must first know of the Watchers, and how they were blinded to the mortal realm.
 
 Beyond the material plane, outside and somehow below it, lies the unknowable abyss. It is the realm of the Void, where no mortal or immortal creature may ever walk. It is not necessary to know how such a place ever came to be, nor why—only that it did. The Void is eternal. The Void consumes all.
@@ -25,3 +32,5 @@ Among them, one stands apart. As perhaps the oldest surviving Voidborn, certainl
 He carries all of this knowledge back to the great rifts in the fabric of Runeterra—so that the Watchers might know what he knows—and will annihilate, without hesitation, any mortal who stands in his path.
 
 For the Void is eternal, and it will consume us all.
+
+#Vel'Koz #the_Eye_of_the_Void #Vel'Koz_the_Eye_of_the_Void

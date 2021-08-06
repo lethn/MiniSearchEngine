@@ -1,3 +1,10 @@
+Name: Zoe
+Title: the Aspect of Twilight
+Role: Mage
+Class: Burst
+Blue Essence: $6300
+Riot Point: $975
+
 As befits her Targonian Aspect’s nature, Zoe did not come to the attention of the celestial realm in any traditional way. She didn’t win a great victory against overwhelming odds, or sacrifice herself for a noble ideal, or overcome the existential trial of climbing Mount Targon. Instead, Zoe was a normal girl, seemingly chosen at random from among the Rakkor.
 
 Her teachers reported Zoe to be an imaginative child, but willful, lazy, mischievous, and easily distracted. One day, as she skipped away from her studies of the holy texts to pursue something “less boring,” she was noticed by the Aspect of Twilight.
@@ -23,3 +30,5 @@ Zoe felt sorry for this poor “space doggy,” and vowed to do what she could t
 Whether Zoe’s curious relationship with the Star Forger is due to a mere whim, possessiveness, or her function as a cosmic disrupter, no one can be certain.
 
 For the scholars and mystics of Mount Targon, the emergence of an Aspect is usually a joyous occasion... but Zoe’s unpredictability gives them pause, as not even she knows what her presence could portend. The only certainty is that Runeterra is on the brink of a profound transformation—one that may come at the cost of chaos, destruction, and blood.
+
+#Zoe #the_Aspect_of_Twilight #Zoe_the_Aspect_of_Twilight

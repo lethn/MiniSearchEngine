@@ -1,3 +1,10 @@
+Name: Bard
+Title: the Wandering Caretaker
+Role: Controller
+Class: Catcher
+Blue Essence: $4800
+Riot Point: $880
+
 It is said that most inhabitants of the celestial realm see their home as a wondrous and vivid tapestry, woven with prismatic threads of purest starlight. However, for one prodigious entity, the intangible and everlasting beauty of this dimension is not seen, but heard—for Bard, a troubadour as enigmatic as he is eternal, the wondrous firmament is a symphony of mystic, ambrosial music.
 
 In the beginning, Bard had drifted without purpose or perspective through a silent cosmos, but with a deep sense of anticipation that something miraculous would eventually come to fill it. Fate did not disappoint, and with the forging of the first stars, the silence was broken and the first rapturous notes of creation rang in Bard’s ear.
@@ -19,3 +26,5 @@ He walked the world for an age, confusing and delighting those he encountered al
 Regardless, he has taken to the role of caretaker, retrieving anything out of place and returning it to where it can do no further harm. Though this may be only the first step in bringing the universe back in tune, it may also be the only way this world can be saved from what lies beyond it.
 
 And Bard is not blind to the future. He can see a great conflict approaching—one fought not in any single realm, but in all—and awaits the time when he must finally pick a side.
+
+#Bard #the_Wandering_Caretaker #Bard_the_Wandering_Caretaker
