@@ -406,8 +406,8 @@ void UserInterface::output(Poro& PoroPoro, string& keyword)
 	UINT oldcp = GetConsoleOutputCP();
 	// Set console code page to UTF-8 so console known how to interpret string data
 	SetConsoleOutputCP(65001);
-	vector<File> result = PoroPoro.search_trie->result;
-	vector<string> fileName = PoroPoro.file_names;
+	vector< File > result = PoroPoro.search_trie->result;
+	vector< string > fileName = PoroPoro.file_names;
 	int index = 0;
 	int n = result.size();
 	if (n > 5)

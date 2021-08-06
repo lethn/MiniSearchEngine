@@ -124,34 +124,31 @@ void Poro::processOutput() {
 vector < File > Poro::updateResult(vector < vector < Data > > V) {
 	vector < File > result;
 	vector < vector < Data > > preProcess = processOperations(V);
-	if (preProcess.empty()) return result;
-	int n = preProcess.size();
-	vector < Data > exact_match = preProcess[0];
-	vector < Data > matches = preProcess[0];
-	int d = 1;
-	for(int i = 1; i < n; ++i, ++d){
-		exact_match = EXACT_MATCHES(exact_match, preProcess[i], d);
-	}
-	unordered_map < int, File > Map;
+	vector < Data > exact_match = processExactmatch(search_words);
+	map < int, File > Map;
 	for (auto& files : exact_match) {
-		File A(files, true);
-		Map.insert(make_pair(files.index, A));
-		if (files.positions.size())
+		Map.insert(make_pair(files.index, File(files, true)));
+		if (!files.positions.empty()) {
 			posData[files.index] = files.positions;
-	}
-	for (int i = 1; i < n; ++i) {
-		matches = AND_Data(matches, preProcess[i]);
-	}
-	for (auto& files : matches) {
-		auto itr = Map.find(files.index);
-		if (itr == Map.end()) {
-			File A(files, false);
-			Map.insert(make_pair(files.index, A));
-			if (files.positions.size())
-				posData[files.index] = files.positions;
 		}
-		else {
-			itr->second.noMatches = files.positions.size();
+	}
+	int n = preProcess.size();
+	if (n > 0){
+		vector < Data > matches = preProcess[0];
+		for (int i = 1; i < n; ++i) {
+			matches = AND_Data(matches, preProcess[i]);
+		}
+		for (auto& files : matches) {
+			auto itr = Map.find(files.index);
+			if (itr == Map.end()) {
+				Map.insert(make_pair(files.index, File(files, false)));
+				if (!files.positions.empty()) {
+					posData[files.index] = files.positions;
+				}
+			}
+			else {
+				itr->second.noMatches = files.positions.size();
+			}
 		}
 	}
 	for (auto& files : Map) {
