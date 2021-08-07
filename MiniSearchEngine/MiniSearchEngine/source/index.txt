@@ -1,100 +1,156 @@
-He created an app that put China's worst polluters on watch.txt
-Here is the ultimate hot springs road trip in Colorado.txt
-Horse.txt
-How archaeologists determine the date of ancient sites and artifacts.txt
-How sustainable plantations help save Uganda's decimated forests.txt
-How to celebrate summer in the world's coldest city.txt
-How to stay safe from tornadoes.txt
-How whales and dolphins may be harmed by new seismic airgun approval.txt
-Iceland's tallest church was inspired by volcanoes.txt
-INSIDER'S GUIDEs CRUISING THE GALAPAGOS.txt
-jaguar.txt
-Kids suing governments about climate It's a global trend.txt
-King Cobra.txt
-koala.txt
-KOALAS 101.txt
-Komodo Dragon.txt
-lion.txt
-owl.txt
-Pangolins.txt
-Photo of the Day.txt
-Photos show Hurricane Michael's historic strength.txt
-Physicists discover croissant-shaped twists of light.txt
-Pictures Capture the Invisible Glow of Flowers.txt
-Pilot's stunning aerial desert picture wins National Geographic's 2018 photo contest.txt
-Plant-eating crocodiles thrived in dinosaur times.txt
-PLASTIC CUTLERY.txt
-Plastic in the North Atlantic has tripled since the 1960s.txt
-polar bear.txt
-praying mantis.txt
-red fox.txt
-red panda.txt
-Sapa Trekking Vietnam's Emerald North.txt
-See the drastic toll climate change is taking on our oceans.txt
-She designs high-tech responses to human health problems.txt
-SNOW LEOPARDS.txt
-test.txt
-The brief (and bizarre) history of selfies in space.txt
-The last five years were the hottest ever recorded.txt
-The Surprising Origins of Hawaii's Feral Chickens.txt
-These are the most endangered U.S. rivers.txt
-These monkeys are 3,000 years into their own 'Stone Age'.txt
-This map shows millions of acres of lost Amazon rainforest.txt
-This Teenage Girl Made a Plastic Bag From Shrimp.txt
-This vanishing forest protects the coasts-and lives-of two countries.txt
-This young nuclear engineer has a new plan for clean energy.txt
-Time-lapse shows how 337 dead whales can reshape a landscape.txt
-Vietnam Travel Guide.txt
-Vietnam.txt
-Vintage Images of Yellowstone Show the Park's Wild Beauty.txt
-We visited the border wall. Here's what it looks like.txt
-What's really in Antarctica's mysterious blood falls.txt
-When dragons, unicorns and lions dance.txt
-Who were the Vikings.txt
-Why are we afraid of sharks.txt
-Why California's wildfires are so hard to fight.txt
-Why storm surges and flooding are the biggest hurricane hazards.txt
-wolf.txt
-You voted Here's our top photo of the year.txt
-5 Times People Used Trees to Change the World.txt
-6 Amazing Structures Built by Surprising Creatures.txt
-10 cool summer destinations in US .txt
-10 unforgettable animal-watching adventures'.txt
-12 travel books you won't be able to put down this summer.txt
-12-foot bird lived alongside early human relatives, fossils reveal.txt
-19 iconic trees around the world.txt
-50 dramatic photos of life on Earth.txt
-african elephant.txt
-Ancient DNA reveals new twists in Neanderthal migration.txt
-Apollo 8's commander reflects on the sights and sounds of the space age.txt
-arctic fox.txt
-Artificial islands older than Stonehenge stump scientists.txt
-Bald Eagle.txt
-Before plastic, rubber filled American homes.txt
-Bengal Tiger.txt
-Bizarre radio burst traced back to its origin in deep space.txt
-Blacktip Shark.txt
-burmese python.txt
-Caecilians.txt
-Celebrating 50 years of discovery.txt
-cheetar.txt
-Chinese Paddlefish.txt
-Chinese Sturgeon.txt
-Climate change creates a new migration crisis for Bangladesh.txt
-David Miti.txt
-Dear Vega The forgotten Soviet mission that flew around Venus.txt
-Deepest Dive Ever Under Antarctica Reveals a Shockingly Vibrant World.txt
-Dramatic pictures reveal Venice flooding.txt
-Eat like a god on this sun-soaked Greek island.txt
-Egypt's pharaohs welcomed summer with this fabulous festival.txt
-FEEL THE RHYTHM OF COLOMBIA IN THESE 12 VIBRANT LOCATIONS.txt
-FINDING CLOTILDA.txt
-First blue feathers found on a fossilized bird.txt
-First mammal species recognized as extinct due to climate change.txt
-Giant Panda.txt
-giraffe.txt
-Grasslands, explained.txt
-Group01News01.txt
-Group01News02.txt
-Group01News03.txt
-Group01News04.txt
+Aatrox.txt
+Ahri.txt
+Akali.txt
+Akshan.txt
+Alistar.txt
+Amumu.txt
+Anivia.txt
+Annie.txt
+Aphelios.txt
+Ashe.txt
+Aurelion Sol.txt
+Azir.txt
+Bard.txt
+Blitzcrank.txt
+Brand.txt
+Braum.txt
+Caitlyn.txt
+Camille.txt
+Cassiopeia.txt
+Cho'Gath.txt
+Corki.txt
+Darius.txt
+Diana.txt
+Dr. Mundo.txt
+Draven.txt
+Ekko.txt
+Elise.txt
+Evelynn.txt
+Ezreal.txt
+Fiddlesticks.txt
+Fiora.txt
+Fizz.txt
+Galio.txt
+Gangplank.txt
+Garen.txt
+Gnar.txt
+Gragas.txt
+Graves.txt
+Gwen.txt
+Hecarim.txt
+Heimerdinger.txt
+Illaoi.txt
+Irelia.txt
+Ivern.txt
+Janna.txt
+Jarvan IV.txt
+Jax.txt
+Jayce.txt
+Jhin.txt
+Jinx.txt
+Kai'Sa.txt
+Kalista.txt
+Karma.txt
+Karthus.txt
+Kassadin.txt
+Katarina.txt
+Kayle.txt
+Kayn.txt
+Kennen.txt
+Kha'Zix.txt
+Kindred.txt
+Kled.txt
+Kog'Maw.txt
+LeBlanc.txt
+Lee Sin.txt
+Leona.txt
+Lillia.txt
+Lissandra.txt
+Lucian.txt
+Lulu.txt
+Lux.txt
+Malphite.txt
+Malzahar.txt
+Maokai.txt
+Master Yi.txt
+Miss Fortune.txt
+Mordekaiser.txt
+Morgana.txt
+Nami.txt
+Nasus.txt
+Nautilus.txt
+Neeko.txt
+Nidalee.txt
+Nocturne.txt
+Nunu.txt
+Olaf.txt
+Orianna.txt
+Ornn.txt
+Pantheon.txt
+Poppy.txt
+Pyke.txt
+Qiyana.txt
+Quinn.txt
+Rakan.txt
+Rammus.txt
+Rek'Sai.txt
+Rell.txt
+Renekton.txt
+Rengar.txt
+Riven.txt
+Rumble.txt
+Ryze.txt
+Samira.txt
+Sejuani.txt
+Senna.txt
+Seraphine.txt
+Sett.txt
+Shaco.txt
+Shen.txt
+Shyvana.txt
+Singed.txt
+Sion.txt
+Sivir.txt
+Skarner.txt
+Sona.txt
+Soraka.txt
+Swain.txt
+Sylas.txt
+Syndra.txt
+Tahm Kench.txt
+Taliyah.txt
+Talon.txt
+Taric.txt
+Teemo.txt
+Thresh.txt
+Tristana.txt
+Trundle.txt
+Tryndamere.txt
+Twisted Fate.txt
+Twitch.txt
+Udyr.txt
+Urgot.txt
+Varus.txt
+Vayne.txt
+Veigar.txt
+Vel'Koz.txt
+Vi.txt
+Viego.txt
+Viktor.txt
+Vladimir.txt
+Volibear.txt
+Warwick.txt
+Wukong.txt
+Xayah.txt
+Xerath.txt
+Xin Zhao.txt
+Yasuo.txt
+Yone.txt
+Yorick.txt
+Yuumi.txt
+Zac.txt
+Zed.txt
+Ziggs.txt
+Zilean.txt
+Zoe.txt
+Zyra.txt
