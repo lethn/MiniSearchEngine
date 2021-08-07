@@ -290,7 +290,13 @@ void UserInterface::showHistory(Poro& PoroPoro) {
 	int x = 5, y = 6;
 	for (auto itr : PoroPoro.recent_search) {
 		gotoxy(x, y);
-		cout << itr;
+		if (itr.size() > 34) {
+			for (int i = 0; i < 31; ++i)
+				cout << itr[i];
+			cout << "...";
+		}
+		else
+			cout << itr;
 		y++;
 	}
 }
