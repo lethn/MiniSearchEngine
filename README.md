@@ -1,5 +1,5 @@
 # Mini-Search-Engine
-	Poro ( ͡° ͜ʖ ͡°)
+	Poro Search ( ͡° ͜ʖ ͡°)
 # Group 1
   + Lê Minh Hoàng
   + Hà Thiên Lộc
