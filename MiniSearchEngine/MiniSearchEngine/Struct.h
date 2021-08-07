@@ -177,3 +177,9 @@ void lowerString(string& s);
 bool isOperation(vector < Data >& V);
 void dfs(Node* u, Node* root);
 bool isStopword(string& s, Trie& trie);
+vector<string> words(string& keyWord);
+bool checkSameWord(vector<string> word, string& str);
+bool iequals(const string& a, const string& b);
+void cutWord(string& a);
+
+

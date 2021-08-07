@@ -174,4 +174,58 @@ bool isStopword(string& s, Trie& trie) {
 	if (!cur) return false;
 	return cur->isStopword;
 }
+void cutWord(string& a)
+{
+	string str = "";
+	for (int i = 0; i < a.size(); i++)
+	{
+		if (special_characters.find(a[i]) != special_characters.end() || (a[i] < 0 && a[i] != -44))
+		{
+			continue;
+		}
+		str += tolower(a[i]);
+	}
+	a = str;
+}
 
+vector<string> words(string& keyWord)
+{
+	vector<string> result;
+	int c1[] = { '"',',','.','◼',')','(',':',';','“','”','—','_','[',']','{','}',' ','(', ')','*','$','+','-', '~'};
+	const string op1 = "and", op2 = "or";
+	set <int> special_characters2(c1, c1 + sizeof(c1) / sizeof(int));
+	string tmp = "";
+	for(int i = 0; i < keyWord.size(); i++)
+	{
+		if (special_characters2.find(keyWord[i]) != special_characters2.end())
+		{
+			if (!tmp.empty() && tmp.compare(op1) != 0 && tmp.compare(op2) != 0) result.push_back(tmp);
+			tmp = "";
+			continue;
+		}
+		else if (keyWord[i] == '\'')
+			continue;
+
+		tmp += tolower(keyWord[i]);
+
+	}
+	if (!tmp.empty() && tmp.compare(op1) != 0 && tmp.compare(op2) != 0) result.push_back(tmp);
+	return result;
+}
+bool checkSameWord(vector<string> word, string& str)
+{
+	for (int i = 0; i < word.size(); i++)
+	{
+		if (iequals(word[i],str))
+			return true;
+	}
+	return false;
+}
+bool iequals(const string& a, const string& b)
+{
+	return std::equal(a.begin(), a.end(),
+		b.begin(), b.end(),
+		[](char a, char b) {
+			return tolower(a) == tolower(b);
+		});
+}

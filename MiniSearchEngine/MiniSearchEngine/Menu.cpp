@@ -296,7 +296,13 @@ void UserInterface::showHistory(Poro& PoroPoro) {
 	int x = 5, y = 6;
 	for (auto itr : PoroPoro.recent_search) {
 		gotoxy(x, y);
-		cout << itr;
+		if (itr.size() > 34) {
+			for (int i = 0; i < 31; ++i)
+				cout << itr[i];
+			cout << "...";
+		}
+		else
+			cout << itr;
 		y++;
 	}
 }
@@ -463,59 +469,51 @@ void UserInterface::output(Poro& PoroPoro, string& keyword)
 	SetConsoleOutputCP(65001);
 	vector< File > result = PoroPoro.search_trie->result;
 	vector< string > fileName = PoroPoro.file_names;
+	vector< string > word = words(keyword);
 	int index = 0;
 	int n = result.size();
 	if (n > 5)
 		n = 5;
 	while (index < n)
 	{
-		int i = 0, pos = 0, posWord = PoroPoro.posData[result[index].index][i], size = 0;
+		int pos = 0, posWord = PoroPoro.posData[result[index].index][0], size = 3;
 		gotoxy(32, 06 + 5 * index);
 		txtColor(3);
 		cout << fileName[result[index].index];
 		txtColor(15);
 		gotoxy(23, 06 + 5 * index + 1); cout << "...";
-		string str;
+		string str, tmpstr;
 		fstream fout;
 		fout.open((SOURCE + fileName[result[index].index]));
-		//getline(fout, str);
-		
+
 		while (!fout.eof())
 		{
-			fout >> str;			
+			fout >> str;		
+
 			if (size / 100 == 3)
 			{
 				cout << "...";
 				break;
 			}
-			if (size % 100 <= 20 && size != 0)
+			if (size % 100 <= 20 && size > 20)
 			{
 				gotoxy(23, 06 + 5 * index + size/100 + 1);		
 			}
 			if (posWord - pos < 5 || pos >= posWord)
 			{
-				if (posWord == pos) 
+				tmpstr = str;
+				cutWord(tmpstr);
+				if (checkSameWord(word,tmpstr))
 				{
-					i++;
 					txtColor(4);
 				}
 				cout << str;
-				if (posWord == pos)
+				if (checkSameWord(word, tmpstr))
 				{
 					txtColor(15);
-					if (i < PoroPoro.posData[result[index].index].size())
-					{
-						posWord = PoroPoro.posData[result[index].index][i];
-					}
-					cout << "...";
-					size += 3;
 				}
-				else
-				{
-					cout << " ";
-					size++;
-				}
-				size += str.size();
+				cout << " ";
+				size += str.size() + 1;
 			}		
 			pos++;
 		}
@@ -531,7 +529,7 @@ void UserInterface::output(Poro& PoroPoro, string& keyword)
 		index++;
 	}
 	txtColor(15);
-
+	PoroPoro.search_trie->result.clear();
 }
 
 void UserInterface::outputDetail(Poro& PoroPoro, int index, string keyword)
