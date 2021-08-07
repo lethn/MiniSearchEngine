@@ -4,15 +4,24 @@ void search_recommendations(vector < string >& recommendations,
 	Node* pCur, string& s, int& called, int& found){
 	if (pCur == nullptr) return;
 	if (pCur->isWord()) {
-		recommendations.push_back(s);
-		++found;
-		if (called > CALL_LIMIT || found > NUM_OF_RECOMMENDATIONS) return;
+		bool gud = true;
+		for (auto& str : recommendations) {
+			if (str == s) {
+				gud = false;
+				break;
+			}
+		}
+		if (gud){
+			recommendations.push_back(s);
+			++found;		
+		}
+		if (called > CALL_LIMIT || found == NUM_OF_RECOMMENDATIONS) return;
 	}
 	for (auto child : pCur->children) {
 		s.push_back(child.first);
 		search_recommendations(recommendations, child.second, s, ++called, found);
 		s.pop_back();
-		if (called > CALL_LIMIT || found > NUM_OF_RECOMMENDATIONS) return;
+		if (called > CALL_LIMIT || found == NUM_OF_RECOMMENDATIONS) return;
 	}
 }
 
@@ -20,9 +29,9 @@ void Poro::recommend() {
 	int called = 0, found = 0;
 	string s = "";
 	recommendations.clear();
-	if (!history_invalids)
+	if (!history_invalids && history_trie->pNode != history_trie->root)
 		search_recommendations(recommendations, history_trie->pNode, s, called, found);
-	if (called > CALL_LIMIT || found > NUM_OF_RECOMMENDATIONS) return;
+	if (called > CALL_LIMIT || found == NUM_OF_RECOMMENDATIONS) return;
 	if (!invalids.back()){
 		if (search_trie->pNode == search_trie->root) return;
 		search_recommendations(recommendations, search_trie->pNode, s, called, found);
@@ -33,8 +42,23 @@ void Poro::processInput(char input) {
 	switch (input) {
 	case ENTER: {
 		if (search_words.empty()) return;
-		processOutput();
-		history_trie->insertData(search_words, search_trie->result);
+		if (!history_invalids && history_trie->pNode->isWord()) {
+			search_trie->result.clear();
+			vector < Data >* files = &history_trie->pNode->files;
+			for (int i = 0; i < min(NUM_OF_RESULTS, files->size()); ++i) {
+				search_trie->result.push_back(File((*files)[i], false));
+			}
+		}
+		else{
+			processOutput();
+			history_trie->insertData(search_words, search_trie->result);
+		}
+		for (auto itr = recent_search.begin(); itr != recent_search.end(); ++itr) {
+			if ((*itr) == search_words) {
+				recent_search.erase(itr);
+				break;
+			}
+		}
 		recent_search.push_front(search_words);
 		if (recent_search.size() > RECENT_SEARCH_SIZE) {
 			recent_search.pop_back();
@@ -356,8 +380,8 @@ vector < Data > Poro::processExactmatch(string s) {
 	stringstream ss(s);
 	while (ss >> word) {
 		if (word.empty()) continue;
-		if (word.size() == 1 && word[0] == ASTERISK && init) {
-			++d;
+		if (word.size() == 1 && word[0] == ASTERISK) {
+			if (init) ++d;
 			continue;
 		}
 		if (!init) {
