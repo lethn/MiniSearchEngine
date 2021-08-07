@@ -390,6 +390,7 @@ void UserInterface::subMenu(Poro& PoroPoro) {
 			txtColor(240);
 			gotoxy(13, 32); cout << " BACK ";
 			if (choice == ENTER) {
+				PoroPoro.search_trie->result.clear();
 				mainMenu(PoroPoro);
 			}
 		}
@@ -523,7 +524,6 @@ void UserInterface::output(Poro& PoroPoro, string& keyword)
 		index++;
 	}
 	txtColor(15);
-	PoroPoro.search_trie->result.clear();
 }
 
 void UserInterface::outputDetail(Poro& PoroPoro, int index, string keyword)
