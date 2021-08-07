@@ -13,7 +13,7 @@ void search_recommendations(vector < string >& recommendations,
 		}
 		if (gud){
 			recommendations.push_back(s);
-			++found;		
+			++found;
 		}
 		if (called > CALL_LIMIT || found == NUM_OF_RECOMMENDATIONS) return;
 	}

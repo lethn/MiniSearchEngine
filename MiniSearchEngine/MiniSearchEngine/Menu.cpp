@@ -171,10 +171,16 @@ void UserInterface::input(Poro& PoroPoro) {
 		if (tmp == (int) search_words->size()) continue;
 		for (int j = 0; j < (int)recommendations->size(); ++j) {
 			gotoxy(X, Y+2+j);
-			cout << "                                        ";
+			for (int k = 0; k < SEARCH_SIZE_LIMIT; ++k) {
+				cout << ' ';
+			}
 		}
 		PoroPoro.recommend();
 		if (recommendations->empty()) {
+			gotoxy(X, Y+2);
+			for (int k = 0; k < SEARCH_SIZE_LIMIT; ++k) {
+				cout << ' ';
+			}
 			gotoxy(X, Y+2);
 			cout << (*search_words);
 		}
@@ -532,8 +538,8 @@ void UserInterface::outputDetail(Poro& PoroPoro, int index, string keyword)
 	system("cls");
 	UINT oldcp = GetConsoleOutputCP();
 	// Set console code page to UTF-8 so console known how to interpret string data	
-	vector<File> result = PoroPoro.search_trie->result;
-	vector<string> fileName = PoroPoro.file_names;
+	vector< File > result = PoroPoro.search_trie->result;
+	vector< string > fileName = PoroPoro.file_names;
 	int n = result.size();
 	if (n > 5)
 		n = 5;
