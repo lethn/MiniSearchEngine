@@ -174,3 +174,4 @@ bool isStopword(string& s, Trie& trie) {
 	if (!cur) return false;
 	return cur->isStopword;
 }
+
