@@ -158,13 +158,13 @@ void UserInterface::input(Poro& PoroPoro) {
 		int tmp = search_words->size();
 		PoroPoro.processInput(ch);
 		if (ch == ENTER && !search_words->empty()) { 
-			gotoxy(X, Y + 2);
+			/*gotoxy(X, Y + 2);
 			cout << "                                    ";
 			gotoxy(X, Y + 2);
 			for (auto file : PoroPoro.search_trie->result) {
 				cout << file.index << ' ';
 			}
-			system("pause");
+			system("pause");*/
 			return;
 		}
 		
@@ -542,7 +542,7 @@ void UserInterface::outputDetail(Poro& PoroPoro, int index, string keyword)
 	if (index <= n)
 	{
 		SetConsoleOutputCP(65001);
-		int i = 0, pos = 0, posWord = PoroPoro.posData[result[index - 1].index][i], size = 0;
+		int size = 0;
 		gotoxy(13, 1);
 		txtColor(3);
 		cout << "DATA " << index << " : " << fileName[result[index - 1].index] << "   |   SEARCH: " << keyword << endl;
@@ -550,35 +550,28 @@ void UserInterface::outputDetail(Poro& PoroPoro, int index, string keyword)
 		string str;
 		fstream fout;
 		fout.open((SOURCE + fileName[result[index - 1].index]));
-		//getline(fout, str);
 		gotoxy(13, 04 + size / 110);
 		while (!fout.eof())
 		{
-			str.clear();
-			fout >> str;
-		
-			if (size % 110 <= 20 && size > 20)
+			getline(fout, str);
+			if (str.size() <= 110)
 			{
+				cout << str;
+				size += 110;
 				gotoxy(13, 04 + size / 110);
 			}
-			if (pos == posWord)
+			else
 			{
-				txtColor(240);
-				i++;
-			}
-			cout << str;
-			size += str.size();
-			if (pos == posWord)
-			{
-				txtColor(15);
-				if (i < PoroPoro.posData[result[index - 1].index].size())
+				int i = 0, tmp = str.size();
+				while (i < str.size())
 				{
-					posWord = PoroPoro.posData[result[index - 1].index][i];
+					cout << str[i];
+					i++;
+					size++;
+					if (i % 110 == 0)
+						gotoxy(13, 04 + size / 110);
 				}
 			}
-			cout << " ";
-			size++;
-			pos++;	
 		}
 		fout.close();
 		SetConsoleOutputCP(oldcp);
