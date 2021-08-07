@@ -191,9 +191,7 @@ void cutWord(string& a)
 vector<string> words(string& keyWord)
 {
 	vector<string> result;
-	int c1[] = { '"',',','.','◼',')','(',':',';','“','”','—','_','[',']','{','}',' ','(', ')','*','$','+','-', '~'};
-	const string op1 = "and", op2 = "or";
-	set <int> special_characters2(c1, c1 + sizeof(c1) / sizeof(int));
+	
 	string tmp = "";
 	for(int i = 0; i < keyWord.size(); i++)
 	{
