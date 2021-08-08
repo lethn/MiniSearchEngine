@@ -147,7 +147,7 @@ struct UserInterface {
 	void input(Poro& PoroPoro);	// real-time input, mỗi ký tự input vào gọi hàm recommend()
 	void output(Poro& PoroPoro, string& keyword);
 	void outputDetail(Poro& PoroPoro, int index, string keyword);
-	void outputFileType(Poro& PoroPoro);
+	void outputFileType(Poro& PoroPoro, vector< string > word);
 	void borderOutput(int size);
 	void keywordBoard();
 	void straightLine();

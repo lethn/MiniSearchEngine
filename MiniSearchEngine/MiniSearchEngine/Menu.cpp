@@ -463,26 +463,24 @@ void UserInterface::loadData(Poro& PoroPoro) {
 	_getch();
 }
 //gotoxy(22, 06); cout << " Data 1 ";
-void UserInterface::outputFileType(Poro&PoroPoro)
+void UserInterface::outputFileType(Poro&PoroPoro, vector< string > word)
 {
 	int index = 0;
 	vector< string > fileName = PoroPoro.file_names;
-	while (index < 5)
+	vector< File > result = PoroPoro.search_trie->result;
+	int n = result.size();
+	if (n > 5)
+		n = 5;
+	while (index < n)
 	{
 		int size = 0;
 		gotoxy(32, 06 + 5 * index);
 		txtColor(3);
-		int tmpsize = fileName[index].size();
-		for (int i = 0; i < tmpsize; i++)
-		{
-			if (i == tmpsize - 3)
-				txtColor(4);
-			cout << fileName[index][i];
-		}
+		cout << fileName[result[index].index];
 		txtColor(15);
 		string str;
 		fstream fout;
-		fout.open((SOURCE + fileName[PoroPoro.search_trie->result[index].index]));
+		fout.open((SOURCE + fileName[result[index].index]));
 		gotoxy(23, 06 + 5 * index + 1);
 		while (!fout.eof())
 		{
@@ -503,6 +501,14 @@ void UserInterface::outputFileType(Poro&PoroPoro)
 		fout.close();
 		index++;
 	}
+	txtColor(3);
+	while (index < 5)
+	{
+		gotoxy(32, 06 + 5 * index);
+		cout << "CANNOT FIND " << word[0];
+		index++;
+	}
+	txtColor(15);
 }
 void UserInterface::output(Poro& PoroPoro, string& keyword)
 {
@@ -511,14 +517,14 @@ void UserInterface::output(Poro& PoroPoro, string& keyword)
 	SetConsoleOutputCP(65001);
 	int index = 0;
 	vector< string > word = words(keyword);
-	vector< File > result = PoroPoro.search_trie->result;
-	vector< string > fileName = PoroPoro.file_names;
-	if (!word.empty() && iequals(word[0], "filetype"))
+	if (!word.empty() && (iequals(word[0], "filetype") || iequals(word[0], "intitle")))
 	{
-		outputFileType(PoroPoro);
+		outputFileType(PoroPoro,word);
 	}
 	else
 	{
+		vector< File > result = PoroPoro.search_trie->result;
+		vector< string > fileName = PoroPoro.file_names;
 		int n = result.size();
 		if (n > 5)
 			n = 5;
