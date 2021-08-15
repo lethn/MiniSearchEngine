@@ -525,14 +525,14 @@ void UserInterface::output(Poro& PoroPoro, string& keyword)
 	{
 		vector< File > result = PoroPoro.search_trie->result;
 		vector< string > fileName = PoroPoro.file_names;
+		queue < string > q;
 		int n = result.size();
 		if (n > 5)
 			n = 5;
 		while (index < n)
 		{
-			int pos = 0, posWord = 0, size = 3;
-			if (!result.empty())
-				posWord = PoroPoro.posData[result[index].index][0];
+			int size = 3;
+			bool outputL = false;
 			gotoxy(32, 06 + 5 * index);
 			txtColor(3);
 			cout << fileName[result[index].index];
@@ -555,23 +555,41 @@ void UserInterface::output(Poro& PoroPoro, string& keyword)
 				{
 					gotoxy(23, 06 + 5 * index + size / 100 + 1);
 				}
-				if (posWord - pos < 5 || pos >= posWord)
+
+				tmpstr = str;
+				cutWord(tmpstr);
+				if (checkSameWord(word, tmpstr))
 				{
-					tmpstr = str;
-					cutWord(tmpstr);
-					if (checkSameWord(word, tmpstr))
+					if (!outputL)
 					{
-						txtColor(4);
+						outputL = true;
+						while (q.size() > 5)
+						{
+							q.pop();
+						}
+						while (!q.empty())
+						{
+							cout << q.front() << " ";
+							size += q.front().size();
+							q.pop();
+						}
 					}
+					txtColor(4);
+				}
+				if (!outputL)
+					q.push(str);
+				if (outputL)
 					cout << str;
-					if (checkSameWord(word, tmpstr))
-					{
-						txtColor(15);
-					}
+				if (checkSameWord(word, tmpstr))
+				{
+					txtColor(15);
+				}
+				if (outputL)
+				{
 					cout << " ";
 					size += str.size() + 1;
 				}
-				pos++;
+
 			}
 			fout.close();
 			index++;
