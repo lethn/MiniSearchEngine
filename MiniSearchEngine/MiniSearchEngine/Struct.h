@@ -110,6 +110,7 @@ struct Poro {	// save global variables
 	int history_invalids;
 
 	bool openQuotation;
+	bool checkSynonyms(string str, set<int> syno_index);
 
 	void resetData();
 	void load_data(string indexfile);
@@ -133,6 +134,7 @@ struct Poro {	// save global variables
 	vector < Data > searchRangeNumber(int number1, int number2);
 	vector < Data > combineData(vector < vector < Data > >& V);
 	vector < File > updateResult(vector < vector < Data > > V);
+	vector<string> words(string& keyWord, set<int>& syn);
 	Poro();
 	~Poro();
 };
@@ -178,7 +180,7 @@ void lowerString(string& s);
 bool isOperation(vector < Data >& V);
 void dfs(Node* u, Node* root);
 bool isStopword(string& s, Trie& trie);
-vector<string> words(string& keyWord);
+
 bool checkSameWord(vector<string> word, string& str);
 bool iequals(const string& a, const string& b);
 void cutWord(string& a);

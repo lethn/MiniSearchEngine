@@ -516,7 +516,8 @@ void UserInterface::output(Poro& PoroPoro, string& keyword)
 	// Set console code page to UTF-8 so console known how to interpret string data
 	SetConsoleOutputCP(65001);
 	int index = 0;
-	vector< string > word = words(keyword);
+	set<int> syno_index;
+	vector< string > word = PoroPoro.words(keyword, syno_index);
 	if (!word.empty() && (iequals(word[0], "filetype") || iequals(word[0], "intitle")))
 	{
 		outputFileType(PoroPoro,word);
@@ -558,7 +559,7 @@ void UserInterface::output(Poro& PoroPoro, string& keyword)
 
 				tmpstr = str;
 				cutWord(tmpstr);
-				if (checkSameWord(word, tmpstr))
+				if (checkSameWord(word, tmpstr) || PoroPoro.checkSynonyms(tmpstr,syno_index))
 				{
 					if (!outputL)
 					{
@@ -580,7 +581,7 @@ void UserInterface::output(Poro& PoroPoro, string& keyword)
 					q.push(str);
 				if (outputL)
 					cout << str;
-				if (checkSameWord(word, tmpstr))
+				if (checkSameWord(word, tmpstr) || PoroPoro.checkSynonyms(tmpstr, syno_index))
 				{
 					txtColor(15);
 				}

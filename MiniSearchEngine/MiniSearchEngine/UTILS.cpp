@@ -188,28 +188,6 @@ void cutWord(string& a)
 	a = str;
 }
 
-vector<string> words(string& keyWord)
-{
-	vector<string> result;
-	
-	string tmp = "";
-	for(int i = 0; i < keyWord.size(); i++)
-	{
-		if (special_characters2.find(keyWord[i]) != special_characters2.end())
-		{
-			if (!tmp.empty() && tmp.compare(op1) != 0 && tmp.compare(op2) != 0) result.push_back(tmp);
-			tmp = "";
-			continue;
-		}
-		else if (keyWord[i] == '\'')
-			continue;
-
-		tmp += tolower(keyWord[i]);
-
-	}
-	if (!tmp.empty() && tmp.compare(op1) != 0 && tmp.compare(op2) != 0) result.push_back(tmp);
-	return result;
-}
 bool checkSameWord(vector<string> word, string& str)
 {
 	for (int i = 0; i < word.size(); i++)
