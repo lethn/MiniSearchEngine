@@ -506,7 +506,7 @@ vector<string> Poro::words(string& keyWord, set<int>& syn)
 	{
 		if (special_characters2.find(keyWord[i]) != special_characters2.end())
 		{
-			if (!tmp.empty() && tmp.compare(op1) != 0 && tmp.compare(op2) != 0) result.push_back(tmp);
+			if (!tmp.empty()) result.push_back(tmp);
 			tmp = "";
 			continue;
 		}
@@ -533,7 +533,7 @@ vector<string> Poro::words(string& keyWord, set<int>& syn)
 		tmp += tolower(keyWord[i]);
 
 	}
-	if (!tmp.empty() && tmp.compare(op1) != 0 && tmp.compare(op2) != 0) result.push_back(tmp);
+	if (!tmp.empty()) result.push_back(tmp);
 	return result;
 }
 bool Poro::checkSynonyms(string str, set<int> syno_index)

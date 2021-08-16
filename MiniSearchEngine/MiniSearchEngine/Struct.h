@@ -100,7 +100,6 @@ struct Poro {	// save global variables
 	vector < vector < Data > > synonyms;
 	vector < string > file_names;
 	vector < string > recommendations;
-	unordered_map<int, vector<int>> posData;
 	list < string > recent_search;
 	string search_words;
 	vector < int > invalids;
