@@ -87,25 +87,6 @@ Node* Trie::protected_search(string& s) {
 	return cur;
 }
 
-void Trie::printData() {
-	for(auto &child: root->children){
-		dfs(child.second, root);
-	}
-}
-
-void dfs(Node* u, Node* root) {
-	if (u->isWord()) {
-		cout << u->getString(root) << ' ';
-		for (auto A : u->files) {
-			cout << A.index << ' ';
-		}
-		cout << '\n';
-	}
-	for (auto& child : u->children) {
-		dfs(child.second, root);
-	}
-}
-
 string Node::getString(Node* root) {
 	string s;
 	Node* pCur = this;

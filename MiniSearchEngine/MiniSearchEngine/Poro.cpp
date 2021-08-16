@@ -152,9 +152,6 @@ vector < File > Poro::updateResult(vector < vector < Data > > V) {
 	map < int, File > Map;
 	for (auto& files : exact_match) {
 		Map.insert(make_pair(files.index, File(files, true)));
-		if (!files.positions.empty()) {
-			posData[files.index] = files.positions;
-		}
 	}
 	int n = preProcess.size();
 	if (n > 0){
@@ -166,12 +163,25 @@ vector < File > Poro::updateResult(vector < vector < Data > > V) {
 			auto itr = Map.find(files.index);
 			if (itr == Map.end()) {
 				Map.insert(make_pair(files.index, File(files, false)));
-				if (!files.positions.empty()) {
-					posData[files.index] = files.positions;
-				}
+				Map[files.index].noMatches *= 2;
 			}
 			else {
-				itr->second.noMatches = files.positions.size();
+				itr->second.noMatches = files.positions.size() * 2;
+			}
+		}
+	}
+	if (Map.size() < 5 && n > 0) {
+		vector < Data > matches = preProcess[0];
+		for (int i = 1; i < n; ++i) {
+			matches = OR_Data(matches, preProcess[i]);
+		}
+		for (auto& files : matches) {
+			auto itr = Map.find(files.index);
+			if (itr == Map.end()) {
+				Map.insert(make_pair(files.index, File(files, false)));
+			}
+			else {
+				itr->second.noMatches = max(itr->second.noMatches, files.positions.size());
 			}
 		}
 	}
@@ -443,7 +453,7 @@ vector < Data > Poro::combineData(vector < vector < Data > >& V) {
 	if (preProcess.empty()) return result;
 	result = preProcess[0];
 	for (int i = 1; i < (int)preProcess.size(); ++i) {
-		result = AND_Data(result, preProcess[i]);
+		result = OR_Data(result, preProcess[i]);
 	}
 	return result;
 }
@@ -535,4 +545,44 @@ bool Poro::checkSynonyms(string str, set<int> syno_index)
 	if (searchTmp != nullptr)
 		index = searchTmp->synonym_root;
 	return syno_index.find(index) != syno_index.end();
+}
+
+void Poro::exportData(const char* output) {
+	ofstream fout(output);
+	fout << file_names.size() << '\n';
+	for (string& s : file_names) {
+		fout << s << '\n';
+	}
+	for(auto &child: search_trie->root->children){
+		dfs(child.second, search_trie->root, fout);
+	}
+	fout.close();
+}
+
+void dfs(Node* u, Node* root, ofstream& fout) {
+	if (u->isWord()) {
+		fout << u->getString(root) << '\n';
+		fout << u->synonym_root << ' ' << (u->isStopword ? 1 : 0) << '\n';
+		fout << u->files.size() << '\n';
+		for (auto& A : u->files) {
+			fout << A.index << ' ' << A.positions.size() << '\n';
+			for (auto& B : A.positions) {
+				fout << B << ' ';
+			}
+			fout << '\n';
+		}
+		fout << u->inTitle.size() << '\n';
+		for (auto& A : u->inTitle) {
+			fout << A << ' ';
+		}
+		fout << '\n';
+		fout << u->fileType.size() << '\n';
+		for (auto& A : u->fileType) {
+			fout << A << ' ';
+		}
+		fout << '\n';
+	}
+	for (auto& child : u->children) {
+		dfs(child.second, root, fout);
+	}
 }

@@ -47,16 +47,14 @@ struct Node{
 
 	// History ko có cái này
 	int synonym_root;	// 0, 1, 2 … = hàng của từ đó -1;
-	int operator_type;
 	bool isStopword;
 
 	string getString(Node* root);
+	bool isWord();
 
 	Node();
 	Node(char _value, Node* _parent);
-	Node(char _value, Node* _parent, int _synonym_root, int _operator_type, int _isStopword);
-
-	bool isWord();
+	Node(char _value, Node* _parent, int _synonym_root, int _isStopword);
 };
 
 
@@ -90,7 +88,6 @@ struct Trie {
 	Node* newNode(string& s);
 	Node* search(string& s);	// run loop
 	Node* protected_search(string& s);
-	void printData();
 	// debugging purposes
 
 	Trie();
@@ -113,6 +110,7 @@ struct Poro {	// save global variables
 	bool checkSynonyms(string str, set<int> syno_index);
 
 	void resetData();
+	void load_oldData(string filename);
 	void load_data(string indexfile);
 	void load_file(string indexfile);
 	void load_synonyms(string indexfile);
@@ -120,6 +118,7 @@ struct Poro {	// save global variables
 	void processInput(char input);
 	void processOutput();
 	void recommend();
+	void exportData(const char* output);
 	// search history
 	// called == 10^5 || found == 5 => return hết;
 
@@ -178,7 +177,7 @@ vector < ii > findParenthesis(string& s);
 vector < ii > findQuotation(string& s);
 void lowerString(string& s);
 bool isOperation(vector < Data >& V);
-void dfs(Node* u, Node* root);
+void dfs(Node* u, Node* root, ofstream& fout);
 bool isStopword(string& s, Trie& trie);
 
 bool checkSameWord(vector<string> word, string& str);

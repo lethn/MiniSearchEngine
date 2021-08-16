@@ -73,7 +73,6 @@ Node::Node(){
 	value = 0;
 	parent = nullptr;
 	synonym_root = -1;
-	operator_type = 0;
 	isStopword = false;
 }
 
@@ -81,14 +80,12 @@ Node::Node(char _value, Node* _parent) {
 	value = _value;
 	parent = _parent;
 	synonym_root = -1;
-	operator_type = 0;
 	isStopword = false;
 }
 
-Node::Node(char _value, Node* _parent, int _synonym_root, int _operator_type, int _isStopword) {
+Node::Node(char _value, Node* _parent, int _synonym_root, int _isStopword) {
 	value = _value;
 	parent = _parent;
 	synonym_root = _synonym_root;
-	operator_type = _operator_type;
 	isStopword = _isStopword;
 }
