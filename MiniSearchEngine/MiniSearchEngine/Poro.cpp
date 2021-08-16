@@ -152,9 +152,6 @@ vector < File > Poro::updateResult(vector < vector < Data > > V) {
 	map < int, File > Map;
 	for (auto& files : exact_match) {
 		Map.insert(make_pair(files.index, File(files, true)));
-		if (!files.positions.empty()) {
-			posData[files.index] = files.positions;
-		}
 	}
 	int n = preProcess.size();
 	if (n > 0){
@@ -166,9 +163,6 @@ vector < File > Poro::updateResult(vector < vector < Data > > V) {
 			auto itr = Map.find(files.index);
 			if (itr == Map.end()) {
 				Map.insert(make_pair(files.index, File(files, false)));
-				if (!files.positions.empty()) {
-					posData[files.index] = files.positions;
-				}
 			}
 			else {
 				itr->second.noMatches = files.positions.size();
