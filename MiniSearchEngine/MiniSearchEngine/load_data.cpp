@@ -3,21 +3,69 @@
 void Poro::load_data(string indexfile)
 {
 	string synonyms = "Synonyms.txt", stopword = "Stopwords.txt";
+	load_oldData("search_trie.txt");
 	load_file(indexfile);
 	load_synonyms(synonyms);
 	load_stopWord(stopword);
-	
 }
+
+void Poro::load_oldData(string filename) {
+	ifstream fin(filename);
+	int n; fin >> n;
+	string s;
+	for (int i = 0; i < n; ++i) {
+		do getline(fin, s);
+		while (s == "" && !fin.eof());
+		file_names.push_back(s);
+	}
+	while (!fin.eof()) {
+		do getline(fin, s);
+		while (s == "" && !fin.eof());
+		Node* node = search_trie->newNode(s);
+		fin >> node->synonym_root;
+		fin >> n;
+		node->isStopword = n;
+		fin >> n;
+		for (int i = 0; i < n; ++i) {
+			int index, num_occur;
+			fin >> index >> num_occur;
+			node->files.push_back(Data(index));
+			vector < int >* positions = &node->files.back().positions;
+			for (int j = 0; j < num_occur; ++j) {
+				int pos; fin >> pos;
+				positions->push_back(pos);
+			}
+		}
+		fin >> n;
+		for (int i = 0; i < n; ++i) {
+			int index; fin >> index;
+			node->inTitle.push_back(index);
+		}
+		fin >> n;
+		for (int i = 0; i < n; ++i) {
+			int index; fin >> index;
+			node->fileType.push_back(index);
+		}
+	}
+	fin.close();
+}
+
 void Poro::load_file(string indexfile)
 {
 	ifstream file;
 	file.open(SOURCE + indexfile);
 	string tmp;
 	int j = 0;
+	bool newfile = false;
 	while (!file.eof())
 	{
 		// load file
 		getline(file, tmp);
+		if (j < file_names.size()) {
+			++j;
+			continue;
+		}
+		newfile = true;
 		file_names.push_back(tmp);
 		ifstream fin;
 		fin.open(SOURCE + tmp);
@@ -97,6 +145,7 @@ void Poro::load_file(string indexfile)
 		j++;
 		fin.close();
 	}
+	if (newfile) exportData("search_trie.txt");
 	file.close();
 }
 void Poro::load_synonyms(string indexfile)

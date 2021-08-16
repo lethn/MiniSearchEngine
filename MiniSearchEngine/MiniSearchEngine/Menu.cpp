@@ -676,6 +676,7 @@ void UserInterface::outputDetail(Poro& PoroPoro, int index, string keyword)
 		borderOutput(3);
 		cout << endl;
 	}
+	gotoxy(0, 0);
 	_getch();
 	subMenu(PoroPoro);
 }

@@ -7,7 +7,7 @@ int main() {
 
 	UI.resizeConsole(1010, 600);
 	UI.loadData(PoroPoro);
-
+	
 	/*
 	system("cls");
 	PoroPoro.search_trie->printData();
@@ -15,6 +15,5 @@ int main() {
 	*/
 
 	UI.mainMenu(PoroPoro);
-
 	return 0;
 }
