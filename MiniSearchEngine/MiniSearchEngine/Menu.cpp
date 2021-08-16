@@ -532,7 +532,7 @@ void UserInterface::output(Poro& PoroPoro, string& keyword)
 			n = 5;
 		while (index < n)
 		{
-			int size = 3;
+			int size = 3, line = 1;
 			bool outputL = false;
 			gotoxy(32, 06 + 5 * index);
 			txtColor(3);
@@ -546,15 +546,15 @@ void UserInterface::output(Poro& PoroPoro, string& keyword)
 			while (!fout.eof())
 			{
 				fout >> str;
-
-				if (size / 100 == 3)
+				if ((str.size() + size ) >= line * 95)
 				{
-					cout << "...";
-					break;
-				}
-				if (size % 100 <= 20 && size > 20)
-				{
-					gotoxy(23, 06 + 5 * index + size / 100 + 1);
+					line++;
+					if (line == 4)
+					{
+						cout << "...";
+						break;
+					}
+					gotoxy(23, 06 + 5 * index + line);				
 				}
 
 				tmpstr = str;
