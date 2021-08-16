@@ -12,7 +12,6 @@ int main() {
 	PoroPoro.search_trie->printData();
 	system("pause");
 	*/
-
 	UI.mainMenu(PoroPoro);
 	return 0;
 }
