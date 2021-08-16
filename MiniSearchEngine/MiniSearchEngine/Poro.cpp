@@ -513,6 +513,7 @@ vector<string> Poro::words(string& keyWord, set<int>& syn)
 		else if (keyWord[i] == '~')
 		{
 			i++;
+			tmp = "";
 			while (i < keyWord.size() && keyWord[i] != SPACE)
 			{
 				tmp += tolower(keyWord[i]);
@@ -522,8 +523,9 @@ vector<string> Poro::words(string& keyWord, set<int>& syn)
 			if (searchTmp != nullptr)
 			{
 				int index = searchTmp->synonym_root;
-				if (index > -1) syn.insert(index);
+				if(index != -1) syn.insert(index);
 			}
+			result.push_back(tmp);
 			tmp = "";
 			continue;
 		}
