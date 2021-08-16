@@ -151,6 +151,9 @@
     <ClInclude Include="Struct.h" />
     <ClInclude Include="Library.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="search_trie.bin" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

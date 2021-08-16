@@ -13,4 +13,7 @@
     <ClInclude Include="Struct.h" />
     <ClInclude Include="Library.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="search_trie.bin" />
+  </ItemGroup>
 </Project>

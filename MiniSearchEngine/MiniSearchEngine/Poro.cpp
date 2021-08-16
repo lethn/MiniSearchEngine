@@ -548,10 +548,13 @@ bool Poro::checkSynonyms(string str, set<int> syno_index)
 }
 
 void Poro::exportData(const char* output) {
-	ofstream fout(output);
-	fout << file_names.size() << '\n';
+	ofstream fout(output, ios::binary);
+	int n = file_names.size();
+	fout.write((char *) &n, 4);
 	for (string& s : file_names) {
-		fout << s << '\n';
+		n =  s.size() + 1;
+		fout.write((char *) &n, 4);
+		if (!s.empty()) fout.write((char *) &s[0], n);
 	}
 	for(auto &child: search_trie->root->children){
 		dfs(child.second, search_trie->root, fout);
@@ -561,26 +564,26 @@ void Poro::exportData(const char* output) {
 
 void dfs(Node* u, Node* root, ofstream& fout) {
 	if (u->isWord()) {
-		fout << u->getString(root) << '\n';
-		fout << u->synonym_root << ' ' << (u->isStopword ? 1 : 0) << '\n';
-		fout << u->files.size() << '\n';
+		string s = u->getString(root);
+		int n = s.size() + 1;
+		fout.write((char *) &n, 4);
+		fout.write((char *) &s[0], n);
+		fout.write((char *) &u->synonym_root, 4);
+		fout.write((char *) &u->isStopword, sizeof(bool));
+		n = u->files.size();
+		fout.write((char *) &n, 4);
 		for (auto& A : u->files) {
-			fout << A.index << ' ' << A.positions.size() << '\n';
-			for (auto& B : A.positions) {
-				fout << B << ' ';
-			}
-			fout << '\n';
+			n = A.positions.size();
+			fout.write((char *) &A.index, 4);
+			fout.write((char *) &n, 4);
+			if (n) fout.write((char *) &A.positions[0], n<<2);
 		}
-		fout << u->inTitle.size() << '\n';
-		for (auto& A : u->inTitle) {
-			fout << A << ' ';
-		}
-		fout << '\n';
-		fout << u->fileType.size() << '\n';
-		for (auto& A : u->fileType) {
-			fout << A << ' ';
-		}
-		fout << '\n';
+		n = u->inTitle.size();
+		fout.write((char *) &n, 4);
+		if (n) fout.write((char *) &u->inTitle[0], n<<2);
+		n = u->fileType.size();
+		fout.write((char *) &n, 4);
+		if (n) fout.write((char *) &u->fileType[0], n<<2);
 	}
 	for (auto& child : u->children) {
 		dfs(child.second, root, fout);

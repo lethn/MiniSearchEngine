@@ -3,49 +3,52 @@
 void Poro::load_data(string indexfile)
 {
 	string synonyms = "Synonyms.txt", stopword = "Stopwords.txt";
-	load_oldData("search_trie.txt");
+	load_oldData("search_trie.bin");
 	load_file(indexfile);
 	load_synonyms(synonyms);
 	load_stopWord(stopword);
 }
 
 void Poro::load_oldData(string filename) {
-	ifstream fin(filename);
-	int n; fin >> n;
+	ifstream fin(filename, ios::binary);
+	if (!fin.is_open()) return;
+	system("cls");
+	int n;
+	fin.read((char *) &n, 4);
 	string s;
 	for (int i = 0; i < n; ++i) {
-		do getline(fin, s);
-		while (s == "" && !fin.eof());
+		int m;
+		fin.read((char *) &m, 4);
+		s.resize(m);
+		fin.read((char *) &s[0], m);
+		s.pop_back();
 		file_names.push_back(s);
 	}
-	while (!fin.eof()) {
-		do getline(fin, s);
-		while (s == "" && !fin.eof());
+	while (true) {
+		int m;
+		fin.read((char *) &m, 4);
+		if (fin.eof()) break;
+		s.resize(m);
+		fin.read((char *) &s[0], m);
+		s.pop_back();
 		Node* node = search_trie->newNode(s);
-		fin >> node->synonym_root;
-		fin >> n;
-		node->isStopword = n;
-		fin >> n;
+		fin.read((char *) &node->synonym_root, 4);
+		fin.read((char *) &node->isStopword, sizeof(bool));
+		fin.read((char *) &n, 4);
 		for (int i = 0; i < n; ++i) {
 			int index, num_occur;
-			fin >> index >> num_occur;
+			fin.read((char *) &index, 4);
+			fin.read((char *) &num_occur, 4);
 			node->files.push_back(Data(index));
-			vector < int >* positions = &node->files.back().positions;
-			for (int j = 0; j < num_occur; ++j) {
-				int pos; fin >> pos;
-				positions->push_back(pos);
-			}
+			node->files.back().positions.resize(num_occur);
+			if (num_occur) fin.read((char *) &node->files.back().positions[0], num_occur<<2);
 		}
-		fin >> n;
-		for (int i = 0; i < n; ++i) {
-			int index; fin >> index;
-			node->inTitle.push_back(index);
-		}
-		fin >> n;
-		for (int i = 0; i < n; ++i) {
-			int index; fin >> index;
-			node->fileType.push_back(index);
-		}
+		fin.read((char *) &n, 4);
+		node->inTitle.resize(n);
+		if (n) fin.read((char *) &node->inTitle[0], n<<2);
+		fin.read((char *) &n, 4);
+		node->fileType.resize(n);
+		if (n) fin.read((char *) &node->fileType[0], n<<2);
 	}
 	fin.close();
 }
@@ -145,7 +148,7 @@ void Poro::load_file(string indexfile)
 		j++;
 		fin.close();
 	}
-	if (newfile) exportData("search_trie.txt");
+	if (newfile) exportData("search_trie.bin");
 	file.close();
 }
 void Poro::load_synonyms(string indexfile)
