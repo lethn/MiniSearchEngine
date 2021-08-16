@@ -16,7 +16,7 @@
 
 using namespace std;
 const int c[] = { '"',',','.','◼',')','(',':',';','“','”','—','_','\'','[',']','{','}'};
-const int c1[] = { '"',',','.','◼',')','(',':',';','“','”','—','_','[',']','{','}',' ','(', ')','*','$','+','-'};
+const int c1[] = { '"',',','.','◼',')','(',':',';','“','”','—','_','[',']','{','}',' ','(', ')','*','+','-'};
 const string op1 = "and", op2 = "or";
 const set <int> special_characters2(c1, c1 + sizeof(c1) / sizeof(int));
 const set <int> special_characters(c, c + sizeof(c) / sizeof(int));
