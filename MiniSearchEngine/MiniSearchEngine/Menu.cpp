@@ -517,7 +517,8 @@ void UserInterface::output(Poro& PoroPoro, string& keyword)
 	SetConsoleOutputCP(65001);
 	int index = 0;
 	set<int> syno_index;
-	vector< string > word = PoroPoro.words(keyword, syno_index);
+	pair<int, int> num = { -1,-1 };
+	vector< string > word = PoroPoro.words(keyword, syno_index, num);
 	if (!word.empty() && (iequals(word[0], "filetype") || iequals(word[0], "intitle")))
 	{
 		outputFileType(PoroPoro,word);
@@ -559,7 +560,7 @@ void UserInterface::output(Poro& PoroPoro, string& keyword)
 
 				tmpstr = str;
 				cutWord(tmpstr);
-				if (checkSameWord(word, tmpstr) || PoroPoro.checkSynonyms(tmpstr,syno_index))
+				if (checkSameWord(word, tmpstr) || PoroPoro.checkSynonyms(tmpstr,syno_index) || checkRangeNum(num,tmpstr))
 				{
 					if (!outputL)
 					{
@@ -581,7 +582,7 @@ void UserInterface::output(Poro& PoroPoro, string& keyword)
 					q.push(str);
 				if (outputL)
 					cout << str;
-				if (checkSameWord(word, tmpstr) || PoroPoro.checkSynonyms(tmpstr, syno_index))
+				if (checkSameWord(word, tmpstr) || PoroPoro.checkSynonyms(tmpstr, syno_index) || checkRangeNum(num, tmpstr))
 				{
 					txtColor(15);
 				}
