@@ -222,6 +222,8 @@ bool checkRangeNum(pair<int, int>number, string& str)
 		minx = number.first;
 	if (number.second != -1)
 		maxx = number.second;
+	else
+		maxx = minx;
 	if (num <= maxx && num >= minx)
 		return true;
 	return false;
