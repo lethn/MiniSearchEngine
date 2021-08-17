@@ -208,3 +208,23 @@ bool iequals(const string& a, const string& b)
 			return tolower(a) == tolower(b);
 		});
 }
+bool checkRangeNum(pair<int, int>number, string& str)
+{
+	if (str[0] != '$')
+		return false;
+	string tmp = "";
+	for (int j = 1; j < str.size(); j++)
+	{
+		tmp += str[j];
+	}
+	int maxx = 1e8, minx = 0, num = stoi(tmp);
+	if (number.first != -1)
+		minx = number.first;
+	else
+		return false;
+	if (number.second != -1)
+		maxx = number.second;
+	else
+		maxx = minx;
+	return num >= minx && num <= maxx;
+}

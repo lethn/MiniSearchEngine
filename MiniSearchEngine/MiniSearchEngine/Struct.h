@@ -132,7 +132,7 @@ struct Poro {	// save global variables
 	vector < Data > searchRangeNumber(int number1, int number2);
 	vector < Data > combineData(vector < vector < Data > >& V);
 	vector < File > updateResult(vector < vector < Data > > V);
-	vector<string> words(string& keyWord, set<int>& syn);
+	vector<string> words(string& keyWord, set<int>& syn, pair<int,int>& number);
 	Poro();
 	~Poro();
 };
@@ -182,5 +182,4 @@ bool isStopword(string& s, Trie& trie);
 bool checkSameWord(vector<string> word, string& str);
 bool iequals(const string& a, const string& b);
 void cutWord(string& a);
-
-
+bool checkRangeNum(pair<int, int>number, string& str);
