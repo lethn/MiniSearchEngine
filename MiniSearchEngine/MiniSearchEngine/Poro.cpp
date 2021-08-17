@@ -558,6 +558,19 @@ void Poro::exportData(const char* output) {
 		fout.write((char *) &n, 4);
 		if (!s.empty()) fout.write((char *) &s[0], n);
 	}
+	n = search_trie->numbers.size();
+	fout.write((char *) &n, 4);
+	for (auto& A : search_trie->numbers) {
+		n = A.second.size();
+		fout.write((char *) &A.first, 4);
+		fout.write((char *) &n, 4);
+		for (auto& B : A.second) {
+			n = B.positions.size();
+			fout.write((char *) &B.index, 4);
+			fout.write((char *) &n, 4);
+			if (n) fout.write((char *) &B.positions[0], n<<2);
+		}
+	}
 	for(auto &child: search_trie->root->children){
 		dfs(child.second, search_trie->root, fout);
 	}
@@ -565,7 +578,7 @@ void Poro::exportData(const char* output) {
 }
 
 void dfs(Node* u, Node* root, ofstream& fout) {
-	if (u->isWord()) {
+	if (u->isWord() || !u->fileType.empty() || !u->inTitle.empty()) {
 		string s = u->getString(root);
 		int n = s.size() + 1;
 		fout.write((char *) &n, 4);

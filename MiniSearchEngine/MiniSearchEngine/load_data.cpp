@@ -12,7 +12,6 @@ void Poro::load_data(string indexfile)
 void Poro::load_oldData(string filename) {
 	ifstream fin(filename, ios::binary);
 	if (!fin.is_open()) return;
-	system("cls");
 	int n;
 	fin.read((char *) &n, 4);
 	string s;
@@ -23,6 +22,22 @@ void Poro::load_oldData(string filename) {
 		fin.read((char *) &s[0], m);
 		s.pop_back();
 		file_names.push_back(s);
+	}
+	fin.read((char *) &n, 4);
+	for (int i = 0; i < n; ++i) {
+		int m, k;
+		fin.read((char *) &m, 4);
+		fin.read((char *) &k, 4);
+		search_trie->numbers.insert(make_pair(m, vector <Data> ()));
+		vector<Data>* itr = &search_trie->numbers[m];
+		for (int j = 0; j < k; ++j) {
+			int index, num_occur;
+			fin.read((char *) &index, 4);
+			fin.read((char *) &num_occur, 4);
+			itr->push_back(Data(index));
+			itr->back().positions.resize(num_occur);
+			if (num_occur) fin.read((char *) &itr->back().positions[0], num_occur<<2);
+		}
 	}
 	while (true) {
 		int m;
