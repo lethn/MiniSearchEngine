@@ -12,7 +12,6 @@ void Poro::load_data(string indexfile)
 void Poro::load_oldData(string filename) {
 	ifstream fin(filename, ios::binary);
 	if (!fin.is_open()) return;
-	system("cls");
 	int n;
 	fin.read((char *) &n, 4);
 	string s;
