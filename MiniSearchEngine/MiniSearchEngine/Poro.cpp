@@ -497,10 +497,9 @@ vector < ii > findQuotation(string& s) {
 	return result;
 }
 
-vector<string> Poro::words(string& keyWord, set<int>& syn)
+vector<string> Poro::words(string& keyWord, set<int>& syn, pair<int,int>&number)
 {
 	vector<string> result;
-
 	string tmp = "";
 	for (int i = 0; i < keyWord.size(); i++)
 	{
@@ -528,6 +527,32 @@ vector<string> Poro::words(string& keyWord, set<int>& syn)
 			result.push_back(tmp);
 			tmp = "";
 			continue;
+		}
+		else if (keyWord[i] == '$')
+		{
+			string num = "";
+			int j = i + 1;
+			while (j < keyWord.size() &&  keyWord[j] <= '9' && keyWord[j] >= '0')
+			{
+				num += keyWord[j];
+				j++;
+			}
+			int num1 = stoi(num), num2 = -1;
+			j += 3;
+			num = "";
+			while (j < keyWord.size() && keyWord[j] <= '9' && keyWord[j] >= '0')
+			{
+				num += keyWord[j];
+				j++;
+			}
+			if (!num.empty()) num2 = stoi(num);
+			if (num2 == -1)
+			{
+				tmp += tolower(keyWord[i]);
+				continue;
+			}
+			number.first = num1;
+			number.second = num2;
 		}
 		else if (keyWord[i] == '\'')
 			continue;
