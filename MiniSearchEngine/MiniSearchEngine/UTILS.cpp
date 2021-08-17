@@ -217,14 +217,14 @@ bool checkRangeNum(pair<int, int>number, string& str)
 	{
 		tmp += str[j];
 	}
-	int maxx = 1e8, minx = -1, num = stoi(tmp);
+	int maxx = 1e8, minx = 0, num = stoi(tmp);
 	if (number.first != -1)
 		minx = number.first;
+	else
+		return false;
 	if (number.second != -1)
 		maxx = number.second;
 	else
 		maxx = minx;
-	if (num <= maxx && num >= minx)
-		return true;
-	return false;
+	return num >= minx && num <= maxx;
 }

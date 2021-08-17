@@ -531,20 +531,28 @@ vector<string> Poro::words(string& keyWord, set<int>& syn, pair<int,int>&number)
 		else if (keyWord[i] == '$')
 		{
 			string num = "";
-			i++;
-			while (i < keyWord.size() &&  keyWord[i] <= '9' && keyWord[i] >= '0')
+			int j = i + 1;
+			while (j < keyWord.size() &&  keyWord[j] <= '9' && keyWord[j] >= '0')
 			{
-				num += keyWord[i];
-				i++;
+				num += keyWord[j];
+				j++;
 			}
-			if (number.first != -1)
+			int num1 = stoi(num), num2 = -1;
+			j += 3;
+			num = "";
+			while (j < keyWord.size() && keyWord[j] <= '9' && keyWord[j] >= '0')
 			{
-				number.second = stoi(num);
+				num += keyWord[j];
+				j++;
 			}
-			else
+			if (!num.empty()) num2 = stoi(num);
+			if (num2 == -1)
 			{
-				number.first = stoi(num);
+				tmp += tolower(keyWord[i]);
+				continue;
 			}
+			number.first = num1;
+			number.second = num2;
 		}
 		else if (keyWord[i] == '\'')
 			continue;
